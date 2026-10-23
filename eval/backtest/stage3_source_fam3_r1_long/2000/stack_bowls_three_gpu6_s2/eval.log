@@ -1,0 +1,14 @@
+/data/szgx/xworld-gzh/envs/robotwin/bin/python -u /data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py --config policy/ACT/deploy_policy.yml --overrides --task_name stack_bowls_three --task_config demo_clean --train_config_name 0 --seed 0 --policy_name ACT --port 38895 --robo_name robotwin --eval_video_log False --output_dir /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1_long/2000/stack_bowls_three_gpu6_s2 --test_num 1 --seed_list [500102] --episodes_json /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1_long/2000/stack_bowls_three_gpu6_s2/episodes.json
+
+============= Config =============
+
+[95mMessy Table:[0m False
+[95mRandom Background:[0m False
+[95mRandom Light:[0m False
+[95mRandom Table Height:[0m 0
+[95mRandom Head Camera Distance:[0m 0
+[94mHead Camera Config:[0m D435, True
+[94mWrist Camera Config:[0m D435, True
+[94mEmbodiment Config:[0m aloha-agilex
+
+==================================

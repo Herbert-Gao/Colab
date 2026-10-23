@@ -132,3 +132,5 @@
 [2026-10-23T02:29:05+00:00] note: 2 trainers running at once (expected during co-training)
 [2026-10-23T02:34:06+00:00] driver is not running (49 pending jobs, phase=source) -> restarting it
 [2026-10-23T08:19:40+00:00] jobs marked running without a live trainer: stage3_source_fam3_r1_long -> releasing them
+[2026-10-23T10:31:20+00:00] jobs marked running without a live trainer: stage3_adapt_place_mouse_pad_r1_from_fam1 -> releasing them
+[2026-10-23T10:36:21+00:00] jobs marked running without a live trainer: stage3_adapt_place_mouse_pad_r1_from_fam2 -> releasing them

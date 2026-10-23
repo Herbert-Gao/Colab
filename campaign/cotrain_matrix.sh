@@ -55,6 +55,19 @@ while true; do
 done
 say "all source models are terminal"
 
+# The machine can carry another workload (an unrelated training job may hold
+# the cards).  The matrix waits for them instead of failing the pairs.
+wait_for_free_cards() {
+  local BUSY
+  while true; do
+    BUSY=$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits 2>/dev/null \
+           | awk '{s+=$1} END {print s+0}')
+    [[ -n "$BUSY" && "$BUSY" -lt 4000 ]] && break
+    say "waiting for the cards to be free (busy=${BUSY} MiB)"
+    sleep 15
+  done
+}
+
 # Every source model needs a delivered weight tree that the adaptation jobs
 # can start from.  S1 was stopped by the operator, so its 15,000-step
 # milestone is used as its delivered weights.
@@ -155,18 +168,21 @@ while [[ ${#QUEUE[@]} -gt 0 ]]; do
   fi
 
   $PY "$CAMPAIGN/jobctl.py" set "$JOB_A" \
-    "status=pending" "peak_lr=2.5e-05" "action_horizon=10" "max_steps=8001" \
-    "milestone_steps=[7500]" "save_interval=500" "final_backtest_step=8000" \
+    "status=pending" "peak_lr=2.5e-05" "action_horizon=10" "max_steps=2001" \
+    "milestone_steps=[]" "save_interval=500" "final_backtest_step=2000" \
+    "backtest_interval=500" \
     "train_gpus=$TRAIN_A" "fsdp_devices=4" "policy_gpus=$POLICY_A" "sim_gpus=$SIM_A" \
     "mem_fraction=$MEM_FRACTION" >> "$LOG" 2>&1
   if [[ -n "$JOB_B" ]]; then
     $PY "$CAMPAIGN/jobctl.py" set "$JOB_B" \
-      "status=pending" "peak_lr=2.5e-05" "action_horizon=10" "max_steps=8001" \
-      "milestone_steps=[7500]" "save_interval=500" "final_backtest_step=8000" \
+      "status=pending" "peak_lr=2.5e-05" "action_horizon=10" "max_steps=2001" \
+      "milestone_steps=[]" "save_interval=500" "final_backtest_step=2000" \
+      "backtest_interval=500" \
       "train_gpus=$TRAIN_B" "fsdp_devices=4" "policy_gpus=$POLICY_B" "sim_gpus=$SIM_B" \
       "mem_fraction=$MEM_FRACTION" >> "$LOG" 2>&1
   fi
   say "pair $((INDEX / 2 + 1)): $JOB_A (${TRAIN_A}) ${JOB_B:+and $JOB_B (${TRAIN_B})}"
+  wait_for_free_cards
 
   if [[ -n "$JOB_B" ]]; then
     PI05_COTRAIN_NOTIFY=0 bash "$CAMPAIGN/cotrain.sh" "$JOB_A" "$JOB_B" >> "$LOG" 2>&1

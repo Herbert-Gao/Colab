@@ -30,11 +30,14 @@ import final_eval as F  # noqa: E402
 # card - the rendering is the bottleneck, so one client per card is fastest);
 # with two models each of them gets three cards with two simulators.
 SERVER_GPU = {"stage3_source_fam1_r1": "0", "stage3_source_fam2_r1": "1",
-              "stage3_source_fam3_r1": "0"}
+              "stage3_source_fam3_r1": "0", "stage3_source_fam3_r1_long": "0"}
 SIM_POOL = {
     "stage3_source_fam1_r1": ["2", "2", "3", "3", "4", "4"],
     "stage3_source_fam2_r1": ["5", "5", "6", "6", "7", "7"],
     "stage3_source_fam3_r1": ["1", "2", "3", "4", "5", "6", "7"],
+    # A single model (the third family on its own) puts one simulator on every
+    # card but the policy server's.
+    "stage3_source_fam3_r1_long": ["1", "2", "3", "4", "5", "6", "7"],
 }
 
 

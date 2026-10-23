@@ -630,3 +630,72 @@
 {"count": 0, "notified_count": 0}
 {"count": 0, "notified_count": 0}
 {"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+[2026-10-23T10:31:20+00:00] jobs marked running without a live trainer: stage3_adapt_place_mouse_pad_r1_from_fam1 -> releasing them
+{
+  "ok": false,
+  "identity": "bot",
+  "error": {
+    "type": "validation",
+    "subtype": "invalid_argument",
+    "message": "invalid chat ID format, should start with 'oc_' (e.g., oc_abc123)",
+    "param": "--chat-id"
+  }
+}
+{"count": 0, "notified_count": 0}
+[2026-10-23T10:36:21+00:00] jobs marked running without a live trainer: stage3_adapt_place_mouse_pad_r1_from_fam2 -> releasing them
+{
+  "ok": false,
+  "identity": "bot",
+  "error": {
+    "type": "validation",
+    "subtype": "invalid_argument",
+    "message": "invalid chat ID format, should start with 'oc_' (e.g., oc_abc123)",
+    "param": "--chat-id"
+  }
+}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}

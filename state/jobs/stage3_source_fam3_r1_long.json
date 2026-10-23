@@ -1,7 +1,7 @@
 {
   "job_id": "stage3_source_fam3_r1_long",
-  "created": "2026-10-23T09:36:51+0000",
-  "status": "running",
+  "created": "2026-10-23T12:16:49+0000",
+  "status": "stopped",
   "peak_lr": 2.5e-05,
   "action_horizon": 10,
   "batch_size": 32,
@@ -15,7 +15,11 @@
   "save_interval": 500,
   "no_improve_count": 0,
   "best_success": null,
-  "processed_checkpoints": [],
+  "processed_checkpoints": [
+    500,
+    1000,
+    1500
+  ],
   "incidents": [],
   "stage": 3,
   "kind": "source",
@@ -46,7 +50,5 @@
   "sim_gpus": "1,3,5,7",
   "mem_fraction": 0.75,
   "started": "2026-10-23T09:53:31+00:00",
-  "attempts": 1,
-  "updated": "2026-10-23T09:59:33+0000",
-  "current_step": 400
+  "current_step": 2000
 }

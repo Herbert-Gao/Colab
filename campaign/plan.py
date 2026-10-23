@@ -191,6 +191,7 @@ def build_plan() -> list[dict]:
                 seed=r, max_steps=C.ADAPT_MAX_STEPS + 1,
                 backtest_tasks=[task],
                 backtest_seeds=C.periodic_backtest_seeds(),
+                backtest_interval=C.ADAPT_SAVE_INTERVAL,
                 milestone_steps=list(C.ADAPT_MILESTONE_STEPS),
                 save_interval=C.SAVE_INTERVAL_STAGE3,
                 peak_lr=C.OFFICIAL_PEAK_LR, action_horizon=C.OFFICIAL_ACTION_HORIZON,

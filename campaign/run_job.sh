@@ -47,7 +47,8 @@ BACKTEST_TASKS=$(field backtest_tasks)
 BACKTEST_SEEDS=$(field backtest_seeds)
 NUM_WORKERS=${PI05_NUM_WORKERS:-4}
 SAVE_INTERVAL=$(field save_interval)
-BACKTEST_INTERVAL=${PI05_BACKTEST_INTERVAL:-2000}
+BACKTEST_INTERVAL=$(field backtest_interval)
+[[ -z "$BACKTEST_INTERVAL" || "$BACKTEST_INTERVAL" == "None" ]] && BACKTEST_INTERVAL=${PI05_BACKTEST_INTERVAL:-2000}
 FINAL_STEP=$(field final_backtest_step)
 
 # --- GPU layout of this job ------------------------------------------------
@@ -119,7 +120,8 @@ export TRAIN_GPUS="$TRAIN_GPUS"
 # cards stay busy for an hour the job gives up and stays pending instead of
 # starting on top of another workload.
 GPUS_READY=0
-for _ in $(seq 1 180); do
+GPU_WAIT_ITER=${PI05_GPU_WAIT_ITER:-1800}
+for _ in $(seq 1 $GPU_WAIT_ITER); do
   BUSY=$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits \
          -i "$TRAIN_GPUS" 2>/dev/null | awk -F', ' '{s+=$1} END {print s+0}')
   if [[ -n "$BUSY" && "$BUSY" -lt 2000 ]]; then GPUS_READY=1; break; fi
@@ -127,7 +129,7 @@ for _ in $(seq 1 180); do
   sleep 20
 done
 if [[ "$GPUS_READY" != "1" ]]; then
-  say "ERROR: the GPUs are still busy after an hour - the job stays pending"
+  say "ERROR: the GPUs are still busy after the wait window - the job stays pending"
   exit 4
 fi
 

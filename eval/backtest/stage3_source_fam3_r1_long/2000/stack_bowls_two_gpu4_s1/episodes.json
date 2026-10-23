@@ -1,0 +1,22 @@
+{
+  "task": "stack_bowls_two",
+  "task_config": "demo_clean",
+  "requested_episodes": 1,
+  "seed_schedule": [
+    500101
+  ],
+  "attempted_seeds": [
+    500101
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 296,
+      "instruction": "Pick up the light blue bowl with darkened rim and stack the small smooth brown-rimmed bowl above."
+    }
+  ]
+}

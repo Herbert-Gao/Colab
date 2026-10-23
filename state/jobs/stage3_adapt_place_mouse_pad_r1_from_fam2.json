@@ -1,11 +1,11 @@
 {
   "job_id": "stage3_adapt_place_mouse_pad_r1_from_fam2",
-  "created": "2026-10-23T09:36:51+0000",
-  "status": "stopped",
+  "created": "2026-10-23T12:16:49+0000",
+  "status": "pending",
   "peak_lr": 2.5e-05,
   "action_horizon": 10,
   "batch_size": 32,
-  "max_steps": 15001,
+  "max_steps": 2001,
   "seed": 1,
   "history": [
     {
@@ -253,10 +253,7 @@
       "source_files": 36
     }
   },
-  "milestone_steps": [
-    7500,
-    15000
-  ],
+  "milestone_steps": [],
   "save_interval": 500,
   "no_improve_count": 0,
   "best_success": null,
@@ -299,7 +296,8 @@
     500103,
     500104
   ],
-  "final_backtest_step": 15000,
+  "backtest_interval": 500,
+  "final_backtest_step": 2000,
   "demo_ids": [
     9,
     24,
@@ -307,7 +305,7 @@
     40,
     49
   ],
-  "started": "2026-10-22T23:44:37+00:00",
+  "started": "2026-10-23T10:31:24+00:00",
   "current_step": 7675,
   "loss_windows": [
     {
@@ -333,5 +331,12 @@
       "verified": true,
       "source_files": 36
     }
-  }
+  },
+  "defer_reason": "本轮只训练源模型（官方参数、15000 步、co-train），预实验与微调作业延后",
+  "train_gpus": "4,5,6,7",
+  "fsdp_devices": 4,
+  "policy_gpus": "4,6",
+  "sim_gpus": "5,7",
+  "mem_fraction": 0.72,
+  "updated": "2026-10-23T12:17:00+0000"
 }

@@ -1,0 +1,40 @@
+{
+  "task": "stack_bowls_two",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500100,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500104,
+    500102
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500100,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 299,
+      "instruction": "Take the smooth bowl with glossy finish, set it down, and stack the small smooth brown-rimmed bowl on top."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 296,
+      "instruction": "Take the small smooth brown-rimmed bowl, set it down, and stack the smooth bowl with glossy finish on top."
+    }
+  ]
+}

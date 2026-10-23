@@ -144,11 +144,13 @@ OFFICIAL_ACTION_HORIZON = 10
 SOURCE_MAX_STEPS = 15000
 SOURCE_MILESTONE_STEPS = (7500, 15000)
 
-# The fine-tuning jobs run with an 8,000-step cap (operator decision).  The
-# early-stop rule of section 6 needs the 10,000-step baseline, so with this
-# cap it can never fire: every adaptation job trains its full 8,000 steps.
-ADAPT_MAX_STEPS = 8000
-ADAPT_MILESTONE_STEPS = (7500,)
+# The fine-tuning jobs run from step 500 to step 2,000 with a checkpoint every
+# 500 steps (operator decision).  The early-stop rule of section 6 needs the
+# 10,000-step baseline, so with this cap it can never fire: every adaptation
+# job trains its full 2,000 steps.
+ADAPT_MAX_STEPS = 2000
+ADAPT_SAVE_INTERVAL = 500
+ADAPT_MILESTONE_STEPS = ()
 
 # Two source models are trained side by side, four cards each: the trainer of
 # one job never shares a card with the other one, and every job runs its own

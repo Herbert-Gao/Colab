@@ -1,4 +1,4 @@
-更新时间（带时区）: 2026-10-22T23:07:28+0000
+更新时间（带时区）: 2026-10-23T10:57:18+0000
 
 # 模型清单（服务器 A，aloha-agilex）
 
@@ -7,16 +7,17 @@
 
 | 源模型ID | 族群 | 实际步数 | 是否早停 | 状态 | 保留的检查点路径 | 最近一次回测成功率 |
 |---|---|---:|---|---|---|---|
-| stage3_source_fam1_r1 | 1 | 15000 | 否 | stopped | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000（最终权重，step 15000）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step7500（里程碑 step 7500）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000（里程碑 step 15000） | 0.85 |
-| stage3_source_fam2_r1 | 2 | 15000 | 否 | completed | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_final_step15000（最终权重，step 15000）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_step15000（里程碑 step 15000） | 0.7 |
+| stage3_source_fam1_r1 | 1 | 15000 | 否 | stopped | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000（最终权重，step 15000）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step7500（里程碑 step 7500）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000（里程碑 step 15000） | 0.8 |
+| stage3_source_fam2_r1 | 2 | 15000 | 否 | completed | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_final_step15000（最终权重，step 15000）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_step15000（里程碑 step 15000） | 0.8 |
 | stage3_source_fam3_r1 | 3 | 15000 | 否 | completed | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_final_step15000（最终权重，step 15000）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_step7500（里程碑 step 7500）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_step15000（里程碑 step 15000） | 0.55 |
+| stage3_source_fam3_r1_long | 3 | 2000 | 否 | stopped | （无） | - |
 
-## 微调模型（目标适应，本轮延后：30 个作业状态为 deferred）
+## 微调模型（目标适应，本轮延后：28 个作业状态为 deferred）
 
 | 模型ID | 起点模型 | 目标任务 | 实际步数 | 是否早停 | 状态 | 保留的检查点路径 | 最近一次回测成功率 |
 |---|---|---|---:|---|---|---|---|
-| stage3_adapt_place_mouse_pad_r1_from_fam1 | stage3_source_fam1_r1 | place_mouse_pad | 0 | 否 | deferred | （无） | - |
-| stage3_adapt_place_mouse_pad_r1_from_fam2 | stage3_source_fam2_r1 | place_mouse_pad | 0 | 否 | deferred | （无） | - |
+| stage3_adapt_place_mouse_pad_r1_from_fam1 | stage3_source_fam1_r1 | place_mouse_pad | 4000 | 否 | pending | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1_final_step4000（最终权重，step 4000） | 0.0 |
+| stage3_adapt_place_mouse_pad_r1_from_fam2 | stage3_source_fam2_r1 | place_mouse_pad | 7500 | 否 | pending | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2_final_step7500（最终权重，step 7500）<br>/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2_step7500（里程碑 step 7500） | 0.0 |
 | stage3_adapt_place_mouse_pad_r1_from_fam3 | stage3_source_fam3_r1 | place_mouse_pad | 0 | 否 | deferred | （无） | - |
 | stage3_adapt_rotate_qrcode_r1_from_fam1 | stage3_source_fam1_r1 | rotate_qrcode | 0 | 否 | deferred | （无） | - |
 | stage3_adapt_rotate_qrcode_r1_from_fam2 | stage3_source_fam2_r1 | rotate_qrcode | 0 | 否 | deferred | （无） | - |
@@ -49,7 +50,7 @@
 - 已交付微调模型: 0 / 30
 
 
-- 源模型: 3 个（有交付权重 3，训练完成 2）
-- 微调模型: 30 个（完成 0，延后 30）
+- 源模型: 4 个（有交付权重 4，训练完成 2）
+- 微调模型: 30 个（完成 0，延后 28）
 - 检查点路径校验: 全部存在
 

@@ -48,8 +48,12 @@ if delivered:
     job["delivered_weights_note"] = (
         "15,000 步的权重已交付；族③ 的最终交付权重改为 stage3_source_fam3_r1_long "
         "(同族续训 15,000 步，共 30,000 步)")
+    # The adaptation jobs of the third family start from the delivered weights
+    # of their source model, so the record has to point at the improved tree.
+    job["final_checkpoint"] = {"step": long_job["final_checkpoint"]["step"],
+                                "params_only": long_job["final_checkpoint"]["params_only"]}
     base.write_text(json.dumps(job, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"stage3_source_fam3_r1: superseded by {delivered}")
+    print(f"stage3_source_fam3_r1: delivered weights = {delivered}")
 PYEOF
 
 "$PY" -u "$CAMPAIGN/manifest.py" >> "$LOG" 2>&1
@@ -59,8 +63,15 @@ say "scoring the third family on the ten target tasks (all eight cards)"
 # A last refill before the evaluation: one cell of the first round is still a
 # single episode short.
 "$PY" -u "$CAMPAIGN/refill_missing_eval.py" >> "$LOG" 2>&1
-PI05_FINAL_SIMS=6 "$PY" -u "$CAMPAIGN/eval_sources.py" --models stage3_source_fam3_r1_long \
-    >> "$LOG" 2>&1
+# The evaluation of the third family is optional: the operator only needs the
+# report of the two models, and the machine is better spent on the fine-tuning
+# matrix.  It runs when state/eval_s3.enabled exists.
+if [[ -f "$ROOT/state/eval_s3.enabled" ]]; then
+  PI05_FINAL_SIMS=6 "$PY" -u "$CAMPAIGN/eval_sources.py" --models stage3_source_fam3_r1_long \
+      >> "$LOG" 2>&1
+else
+  say "the evaluation of the third family is skipped (state/eval_s3.enabled is absent)"
+fi
 say "drawing the charts and rewriting the report with the third family"
 "$PY" -u "$CAMPAIGN/eval_charts.py" >> "$LOG" 2>&1
 "$PY" -u "$CAMPAIGN/eval_report.py" >> "$LOG" 2>&1

@@ -1,6 +1,6 @@
 {
   "job_id": "stage3_source_fam1_r1",
-  "created": "2026-10-23T09:36:51+0000",
+  "created": "2026-10-23T12:16:49+0000",
   "status": "stopped",
   "peak_lr": 2.5e-05,
   "action_horizon": 10,
