@@ -1,0 +1,331 @@
+/data/szgx/xworld-gzh/envs/robotwin/bin/python -u /data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py --config policy/ACT/deploy_policy.yml --overrides --task_name move_pillbottle_pad --task_config demo_clean --train_config_name 0 --seed 0 --policy_name ACT --port 43389 --robo_name robotwin --eval_video_log False --output_dir /data/szgx/gaohang/pi05_30/eval/backtest/stage1_lr1x_h5/2000/move_pillbottle_pad --test_num 5 --seed_list [500000, 500001, 500002, 500003, 500004] --episodes_json /data/szgx/gaohang/pi05_30/eval/backtest/stage1_lr1x_h5/2000/move_pillbottle_pad/episodes.json
+
+============= Config =============
+
+[95mMessy Table:[0m False
+[95mRandom Background:[0m False
+[95mRandom Light:[0m False
+[95mRandom Table Height:[0m 0
+[95mRandom Head Camera Distance:[0m 0
+[94mHead Camera Config:[0m D435, True
+[94mWrist Camera Config:[0m D435, True
+[94mEmbodiment Config:[0m aloha-agilex
+
+==================================
+[34mTask Name: move_pillbottle_pad[0m
+[34mPolicy Name: ACT[0m
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+step: [92m1 / 400[0mstep: [92m2 / 400[0mstep: [92m3 / 400[0mstep: [92m4 / 400[0mstep: [92m5 / 400[0minfer time {'infer_ms': 14343.164591991808}
+step: [92m6 / 400[0mstep: [92m7 / 400[0mstep: [92m8 / 400[0mstep: [92m9 / 400[0mstep: [92m10 / 400[0minfer time {'infer_ms': 114.75491401506588, 'prev_total_ms': 57776.63868298987}
+step: [92m11 / 400[0mstep: [92m12 / 400[0mstep: [92m13 / 400[0mstep: [92m14 / 400[0mstep: [92m15 / 400[0minfer time {'infer_ms': 114.82148797949776, 'prev_total_ms': 667.3097689636052}
+step: [92m16 / 400[0mstep: [92m17 / 400[0mstep: [92m18 / 400[0mstep: [92m19 / 400[0mstep: [92m20 / 400[0minfer time {'infer_ms': 114.32503402465954, 'prev_total_ms': 831.2681699753739}
+step: [92m21 / 400[0mstep: [92m22 / 400[0mstep: [92m23 / 400[0mstep: [92m24 / 400[0mstep: [92m25 / 400[0minfer time {'infer_ms': 113.30739897675812, 'prev_total_ms': 868.2573289843276}
+step: [92m26 / 400[0mstep: [92m27 / 400[0mstep: [92m28 / 400[0mstep: [92m29 / 400[0mstep: [92m30 / 400[0minfer time {'infer_ms': 114.48558000847697, 'prev_total_ms': 924.5195399853401}
+step: [92m31 / 400[0mstep: [92m32 / 400[0mstep: [92m33 / 400[0mstep: [92m34 / 400[0mstep: [92m35 / 400[0minfer time {'infer_ms': 113.49786701612175, 'prev_total_ms': 928.7293939851224}
+step: [92m36 / 400[0mstep: [92m37 / 400[0mstep: [92m38 / 400[0mstep: [92m39 / 400[0mstep: [92m40 / 400[0minfer time {'infer_ms': 114.6073589916341, 'prev_total_ms': 920.7903940114193}
+step: [92m41 / 400[0mstep: [92m42 / 400[0mstep: [92m43 / 400[0mstep: [92m44 / 400[0mstep: [92m45 / 400[0minfer time {'infer_ms': 112.61424695840105, 'prev_total_ms': 797.1865969593637}
+step: [92m46 / 400[0mstep: [92m47 / 400[0mstep: [92m48 / 400[0mstep: [92m49 / 400[0mstep: [92m50 / 400[0minfer time {'infer_ms': 115.48020999180153, 'prev_total_ms': 678.7977690109983}
+step: [92m51 / 400[0mstep: [92m52 / 400[0mstep: [92m53 / 400[0mstep: [92m54 / 400[0mstep: [92m55 / 400[0minfer time {'infer_ms': 115.33690901705995, 'prev_total_ms': 701.2865080032498}
+step: [92m56 / 400[0mstep: [92m57 / 400[0mstep: [92m58 / 400[0mstep: [92m59 / 400[0mstep: [92m60 / 400[0minfer time {'infer_ms': 113.81286900723353, 'prev_total_ms': 685.9360600356013}
+step: [92m61 / 400[0mstep: [92m62 / 400[0mstep: [92m63 / 400[0mstep: [92m64 / 400[0mstep: [92m65 / 400[0minfer time {'infer_ms': 114.71679899841547, 'prev_total_ms': 797.884856001474}
+step: [92m66 / 400[0mstep: [92m67 / 400[0mstep: [92m68 / 400[0mstep: [92m69 / 400[0mstep: [92m70 / 400[0minfer time {'infer_ms': 113.19790600100532, 'prev_total_ms': 801.7232230049558}
+step: [92m71 / 400[0mstep: [92m72 / 400[0mstep: [92m73 / 400[0mstep: [92m74 / 400[0mstep: [92m75 / 400[0minfer time {'infer_ms': 114.48237096192315, 'prev_total_ms': 890.1178219821304}
+step: [92m76 / 400[0mstep: [92m77 / 400[0mstep: [92m78 / 400[0mstep: [92m79 / 400[0mstep: [92m80 / 400[0minfer time {'infer_ms': 114.51579997083172, 'prev_total_ms': 746.4442090131342}
+step: [92m81 / 400[0mstep: [92m82 / 400[0mstep: [92m83 / 400[0mstep: [92m84 / 400[0mstep: [92m85 / 400[0minfer time {'infer_ms': 114.17131498456001, 'prev_total_ms': 895.4763259971514}
+step: [92m86 / 400[0mstep: [92m87 / 400[0mstep: [92m88 / 400[0mstep: [92m89 / 400[0mstep: [92m90 / 400[0minfer time {'infer_ms': 114.04949496500194, 'prev_total_ms': 965.3411110048182}
+step: [92m91 / 400[0mstep: [92m92 / 400[0mstep: [92m93 / 400[0mstep: [92m94 / 400[0mstep: [92m95 / 400[0minfer time {'infer_ms': 113.89394698198885, 'prev_total_ms': 996.6674870229326}
+step: [92m96 / 400[0mstep: [92m97 / 400[0mstep: [92m98 / 400[0mstep: [92m99 / 400[0mstep: [92m100 / 400[0minfer time {'infer_ms': 113.51418000413105, 'prev_total_ms': 1022.02185097849}
+step: [92m101 / 400[0mstep: [92m102 / 400[0mstep: [92m103 / 400[0mstep: [92m104 / 400[0mstep: [92m105 / 400[0minfer time {'infer_ms': 113.0459489650093, 'prev_total_ms': 1005.756916012615}
+step: [92m106 / 400[0mstep: [92m107 / 400[0mstep: [92m108 / 400[0mstep: [92m109 / 400[0mstep: [92m110 / 400[0minfer time {'infer_ms': 114.40958001185209, 'prev_total_ms': 950.4467429942451}
+step: [92m111 / 400[0mstep: [92m112 / 400[0mstep: [92m113 / 400[0mstep: [92m114 / 400[0mstep: [92m115 / 400[0minfer time {'infer_ms': 114.21803501434624, 'prev_total_ms': 902.8838339727372}
+step: [92m116 / 400[0mstep: [92m117 / 400[0mstep: [92m118 / 400[0mstep: [92m119 / 400[0mstep: [92m120 / 400[0minfer time {'infer_ms': 115.19092897651717, 'prev_total_ms': 893.7892689718865}
+step: [92m121 / 400[0mstep: [92m122 / 400[0mstep: [92m123 / 400[0mstep: [92m124 / 400[0mstep: [92m125 / 400[0minfer time {'infer_ms': 113.868806976825, 'prev_total_ms': 856.9863889715634}
+step: [92m126 / 400[0mstep: [92m127 / 400[0mstep: [92m128 / 400[0mstep: [92m129 / 400[0mstep: [92m130 / 400[0minfer time {'infer_ms': 113.62112703500316, 'prev_total_ms': 849.4663049932569}
+step: [92m131 / 400[0mstep: [92m132 / 400[0mstep: [92m133 / 400[0mstep: [92m134 / 400[0mstep: [92m135 / 400[0minfer time {'infer_ms': 114.08039199886844, 'prev_total_ms': 811.7315559647977}
+step: [92m136 / 400[0mstep: [92m137 / 400[0mstep: [92m138 / 400[0mstep: [92m139 / 400[0mstep: [92m140 / 400[0minfer time {'infer_ms': 112.46109096100554, 'prev_total_ms': 852.9008440091275}
+step: [92m141 / 400[0mstep: [92m142 / 400[0mstep: [92m143 / 400[0mstep: [92m144 / 400[0mstep: [92m145 / 400[0minfer time {'infer_ms': 114.23980299150571, 'prev_total_ms': 692.2247530310415}
+step: [92m146 / 400[0mstep: [92m147 / 400[0mstep: [92m148 / 400[0mstep: [92m149 / 400[0mstep: [92m150 / 400[0minfer time {'infer_ms': 114.87436800962314, 'prev_total_ms': 720.5540150171146}
+step: [92m151 / 400[0mstep: [92m152 / 400[0mstep: [92m153 / 400[0mstep: [92m154 / 400[0mstep: [92m155 / 400[0minfer time {'infer_ms': 113.79788297927007, 'prev_total_ms': 706.4823170076124}
+step: [92m156 / 400[0mstep: [92m157 / 400[0mstep: [92m158 / 400[0mstep: [92m159 / 400[0mstep: [92m160 / 400[0minfer time {'infer_ms': 113.71150304330513, 'prev_total_ms': 878.5310949897394}
+step: [92m161 / 400[0mstep: [92m162 / 400[0mstep: [92m163 / 400[0mstep: [92m164 / 400[0mstep: [92m165 / 400[0minfer time {'infer_ms': 113.58839803142473, 'prev_total_ms': 737.4206070089713}
+step: [92m166 / 400[0mstep: [92m167 / 400[0mstep: [92m168 / 400[0mstep: [92m169 / 400[0mstep: [92m170 / 400[0minfer time {'infer_ms': 112.77079803403467, 'prev_total_ms': 842.3578290385194}
+step: [92m171 / 400[0mstep: [92m172 / 400[0mstep: [92m173 / 400[0mstep: [92m174 / 400[0mstep: [92m175 / 400[0minfer time {'infer_ms': 113.35618997691199, 'prev_total_ms': 896.8008970259689}
+step: [92m176 / 400[0mstep: [92m177 / 400[0mstep: [92m178 / 400[0mstep: [92m179 / 400[0mstep: [92m180 / 400[0minfer time {'infer_ms': 114.40695298369974, 'prev_total_ms': 838.9037380111404}
+step: [92m181 / 400[0mstep: [92m182 / 400[0mstep: [92m183 / 400[0mstep: [92m184 / 400[0mstep: [92m185 / 400[0minfer time {'infer_ms': 114.29938796209171, 'prev_total_ms': 713.5977950529195}
+step: [92m186 / 400[0mstep: [92m187 / 400[0mstep: [92m188 / 400[0mstep: [92m189 / 400[0mstep: [92m190 / 400[0minfer time {'infer_ms': 114.18721202062443, 'prev_total_ms': 959.5224629738368}
+step: [92m191 / 400[0mstep: [92m192 / 400[0mstep: [92m193 / 400[0mstep: [92m194 / 400[0mstep: [92m195 / 400[0minfer time {'infer_ms': 112.30112600605935, 'prev_total_ms': 885.7138589955866}
+step: [92m196 / 400[0mstep: [92m197 / 400[0mstep: [92m198 / 400[0mstep: [92m199 / 400[0mstep: [92m200 / 400[0minfer time {'infer_ms': 113.20029600756243, 'prev_total_ms': 699.4489569915459}
+step: [92m201 / 400[0mstep: [92m202 / 400[0mstep: [92m203 / 400[0mstep: [92m204 / 400[0mstep: [92m205 / 400[0minfer time {'infer_ms': 115.22075801622123, 'prev_total_ms': 726.1501330067404}
+step: [92m206 / 400[0mstep: [92m207 / 400[0mstep: [92m208 / 400[0mstep: [92m209 / 400[0mstep: [92m210 / 400[0minfer time {'infer_ms': 113.42272796900943, 'prev_total_ms': 993.6560309724882}
+step: [92m211 / 400[0mstep: [92m212 / 400[0mstep: [92m213 / 400[0mstep: [92m214 / 400[0mstep: [92m215 / 400[0minfer time {'infer_ms': 114.17101294500753, 'prev_total_ms': 960.2655439521186}
+step: [92m216 / 400[0mstep: [92m217 / 400[0mstep: [92m218 / 400[0mstep: [92m219 / 400[0mstep: [92m220 / 400[0minfer time {'infer_ms': 114.6681770333089, 'prev_total_ms': 991.9207710190676}
+step: [92m221 / 400[0mstep: [92m222 / 400[0mstep: [92m223 / 400[0mstep: [92m224 / 400[0mstep: [92m225 / 400[0minfer time {'infer_ms': 114.13550900761038, 'prev_total_ms': 975.5547089735046}
+step: [92m226 / 400[0mstep: [92m227 / 400[0mstep: [92m228 / 400[0mstep: [92m229 / 400[0mstep: [92m230 / 400[0minfer time {'infer_ms': 114.39001199323684, 'prev_total_ms': 925.1791239948943}
+step: [92m231 / 400[0mstep: [92m232 / 400[0mstep: [92m233 / 400[0mstep: [92m234 / 400[0mstep: [92m235 / 400[0minfer time {'infer_ms': 112.28199600009248, 'prev_total_ms': 770.7931749755517}
+step: [92m236 / 400[0mstep: [92m237 / 400[0mstep: [92m238 / 400[0mstep: [92m239 / 400[0mstep: [92m240 / 400[0minfer time {'infer_ms': 114.00673200841993, 'prev_total_ms': 752.6261290186085}
+step: [92m241 / 400[0mstep: [92m242 / 400[0mstep: [92m243 / 400[0mstep: [92m244 / 400[0mstep: [92m245 / 400[0minfer time {'infer_ms': 111.93359398748726, 'prev_total_ms': 891.1875889752991}
+step: [92m246 / 400[0mstep: [92m247 / 400[0mstep: [92m248 / 400[0mstep: [92m249 / 400[0mstep: [92m250 / 400[0minfer time {'infer_ms': 114.07362599857152, 'prev_total_ms': 752.215757034719}
+step: [92m251 / 400[0mstep: [92m252 / 400[0mstep: [92m253 / 400[0mstep: [92m254 / 400[0mstep: [92m255 / 400[0minfer time {'infer_ms': 112.52274096477777, 'prev_total_ms': 766.4490679744631}
+step: [92m256 / 400[0mstep: [92m257 / 400[0mstep: [92m258 / 400[0mstep: [92m259 / 400[0mstep: [92m260 / 400[0minfer time {'infer_ms': 113.36160899372771, 'prev_total_ms': 794.7174780420028}
+step: [92m261 / 400[0mstep: [92m262 / 400[0mstep: [92m263 / 400[0mstep: [92m264 / 400[0mstep: [92m265 / 400[0minfer time {'infer_ms': 113.2028279826045, 'prev_total_ms': 734.7288909950294}
+step: [92m266 / 400[0mstep: [92m267 / 400[0mstep: [92m268 / 400[0mstep: [92m269 / 400[0mstep: [92m270 / 400[0minfer time {'infer_ms': 115.11733598308638, 'prev_total_ms': 729.7956210095435}
+step: [92m271 / 400[0mstep: [92m272 / 400[0mstep: [92m273 / 400[0mstep: [92m274 / 400[0mstep: [92m275 / 400[0minfer time {'infer_ms': 113.71250898810104, 'prev_total_ms': 752.6194860110991}
+step: [92m276 / 400[0mstep: [92m277 / 400[0mstep: [92m278 / 400[0mstep: [92m279 / 400[0mstep: [92m280 / 400[0minfer time {'infer_ms': 113.42610494466498, 'prev_total_ms': 740.2522609918378}
+step: [92m281 / 400[0mstep: [92m282 / 400[0mstep: [92m283 / 400[0mstep: [92m284 / 400[0mstep: [92m285 / 400[0minfer time {'infer_ms': 115.59087201021612, 'prev_total_ms': 720.6016249838285}
+step: [92m286 / 400[0mstep: [92m287 / 400[0mstep: [92m288 / 400[0mstep: [92m289 / 400[0mstep: [92m290 / 400[0minfer time {'infer_ms': 113.75652201240882, 'prev_total_ms': 723.4793390380219}
+step: [92m291 / 400[0mstep: [92m292 / 400[0mstep: [92m293 / 400[0mstep: [92m294 / 400[0mstep: [92m295 / 400[0minfer time {'infer_ms': 114.79488800978288, 'prev_total_ms': 723.203265981283}
+step: [92m296 / 400[0mstep: [92m297 / 400[0mstep: [92m298 / 400[0mstep: [92m299 / 400[0mstep: [92m300 / 400[0minfer time {'infer_ms': 113.8437109766528, 'prev_total_ms': 726.6619709553197}
+step: [92m301 / 400[0mstep: [92m302 / 400[0mstep: [92m303 / 400[0mstep: [92m304 / 400[0mstep: [92m305 / 400[0minfer time {'infer_ms': 112.99645801773295, 'prev_total_ms': 793.6234069638886}
+step: [92m306 / 400[0mstep: [92m307 / 400[0mstep: [92m308 / 400[0mstep: [92m309 / 400[0mstep: [92m310 / 400[0minfer time {'infer_ms': 112.77988197980449, 'prev_total_ms': 717.8232180303894}
+step: [92m311 / 400[0mstep: [92m312 / 400[0mstep: [92m313 / 400[0mstep: [92m314 / 400[0mstep: [92m315 / 400[0minfer time {'infer_ms': 114.23376202583313, 'prev_total_ms': 761.9348840089515}
+step: [92m316 / 400[0mstep: [92m317 / 400[0mstep: [92m318 / 400[0mstep: [92m319 / 400[0mstep: [92m320 / 400[0minfer time {'infer_ms': 111.90677201375365, 'prev_total_ms': 722.4175890441984}
+step: [92m321 / 400[0mstep: [92m322 / 400[0mstep: [92m323 / 400[0mstep: [92m324 / 400[0mstep: [92m325 / 400[0minfer time {'infer_ms': 113.96441300166771, 'prev_total_ms': 719.0397930098698}
+step: [92m326 / 400[0mstep: [92m327 / 400[0mstep: [92m328 / 400[0mstep: [92m329 / 400[0mstep: [92m330 / 400[0minfer time {'infer_ms': 112.37047699978575, 'prev_total_ms': 748.3117270166986}
+step: [92m331 / 400[0mstep: [92m332 / 400[0mstep: [92m333 / 400[0mstep: [92m334 / 400[0mstep: [92m335 / 400[0minfer time {'infer_ms': 112.07637598272413, 'prev_total_ms': 729.3040819931775}
+step: [92m336 / 400[0mstep: [92m337 / 400[0mstep: [92m338 / 400[0mstep: [92m339 / 400[0mstep: [92m340 / 400[0minfer time {'infer_ms': 113.39724098797888, 'prev_total_ms': 820.1801149989478}
+step: [92m341 / 400[0mstep: [92m342 / 400[0mstep: [92m343 / 400[0mstep: [92m344 / 400[0mstep: [92m345 / 400[0minfer time {'infer_ms': 113.48011100199074, 'prev_total_ms': 738.7650670134462}
+step: [92m346 / 400[0mstep: [92m347 / 400[0mstep: [92m348 / 400[0mstep: [92m349 / 400[0mstep: [92m350 / 400[0minfer time {'infer_ms': 114.02164696482942, 'prev_total_ms': 755.5460780276917}
+step: [92m351 / 400[0mstep: [92m352 / 400[0mstep: [92m353 / 400[0mstep: [92m354 / 400[0mstep: [92m355 / 400[0minfer time {'infer_ms': 113.29504300374538, 'prev_total_ms': 738.5859079658985}
+step: [92m356 / 400[0mstep: [92m357 / 400[0mstep: [92m358 / 400[0mstep: [92m359 / 400[0mstep: [92m360 / 400[0minfer time {'infer_ms': 114.34384400490671, 'prev_total_ms': 733.3819220075384}
+step: [92m361 / 400[0mstep: [92m362 / 400[0mstep: [92m363 / 400[0mstep: [92m364 / 400[0mstep: [92m365 / 400[0minfer time {'infer_ms': 114.06268103746697, 'prev_total_ms': 730.1783160073683}
+step: [92m366 / 400[0mstep: [92m367 / 400[0mstep: [92m368 / 400[0mstep: [92m369 / 400[0mstep: [92m370 / 400[0minfer time {'infer_ms': 113.0673399893567, 'prev_total_ms': 740.9570200252347}
+step: [92m371 / 400[0mstep: [92m372 / 400[0mstep: [92m373 / 400[0mstep: [92m374 / 400[0mstep: [92m375 / 400[0minfer time {'infer_ms': 111.99647799367085, 'prev_total_ms': 745.0391029706225}
+step: [92m376 / 400[0mstep: [92m377 / 400[0mstep: [92m378 / 400[0mstep: [92m379 / 400[0mstep: [92m380 / 400[0minfer time {'infer_ms': 112.78503603534773, 'prev_total_ms': 735.5878439848311}
+step: [92m381 / 400[0mstep: [92m382 / 400[0mstep: [92m383 / 400[0mstep: [92m384 / 400[0mstep: [92m385 / 400[0minfer time {'infer_ms': 114.30077097611502, 'prev_total_ms': 727.9358839732595}
+step: [92m386 / 400[0mstep: [92m387 / 400[0mstep: [92m388 / 400[0mstep: [92m389 / 400[0mstep: [92m390 / 400[0minfer time {'infer_ms': 112.61040205135942, 'prev_total_ms': 736.4810529979877}
+step: [92m391 / 400[0mstep: [92m392 / 400[0mstep: [92m393 / 400[0mstep: [92m394 / 400[0mstep: [92m395 / 400[0minfer time {'infer_ms': 113.45395195530728, 'prev_total_ms': 729.5707589946687}
+step: [92m396 / 400[0mstep: [92m397 / 400[0mstep: [92m398 / 400[0mstep: [92m399 / 400[0mstep: [92m400 / 400[0minfer time {'infer_ms': 111.98542203055695, 'prev_total_ms': 743.688819988165}
+[91mFail![0m
+[93mmove_pillbottle_pad[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m0/1[0m => [95m0.0%[0m, current seed: [90m500000[0m
+
+step: [92m1 / 400[0mstep: [92m2 / 400[0mstep: [92m3 / 400[0mstep: [92m4 / 400[0mstep: [92m5 / 400[0minfer time {'infer_ms': 115.63976004254073, 'prev_total_ms': 743.6024060007185}
+step: [92m6 / 400[0mstep: [92m7 / 400[0mstep: [92m8 / 400[0mstep: [92m9 / 400[0mstep: [92m10 / 400[0minfer time {'infer_ms': 113.94580197520554, 'prev_total_ms': 21615.453691978473}
+step: [92m11 / 400[0mstep: [92m12 / 400[0mstep: [92m13 / 400[0mstep: [92m14 / 400[0mstep: [92m15 / 400[0minfer time {'infer_ms': 115.03431800520048, 'prev_total_ms': 693.4362989850342}
+step: [92m16 / 400[0mstep: [92m17 / 400[0mstep: [92m18 / 400[0mstep: [92m19 / 400[0mstep: [92m20 / 400[0minfer time {'infer_ms': 113.07339899940416, 'prev_total_ms': 850.9891820140183}
+step: [92m21 / 400[0mstep: [92m22 / 400[0mstep: [92m23 / 400[0mstep: [92m24 / 400[0mstep: [92m25 / 400[0minfer time {'infer_ms': 114.05178101267666, 'prev_total_ms': 911.9437669869512}
+step: [92m26 / 400[0mstep: [92m27 / 400[0mstep: [92m28 / 400[0mstep: [92m29 / 400[0mstep: [92m30 / 400[0minfer time {'infer_ms': 112.86990501685068, 'prev_total_ms': 943.2167189661413}
+step: [92m31 / 400[0mstep: [92m32 / 400[0mstep: [92m33 / 400[0mstep: [92m34 / 400[0mstep: [92m35 / 400[0minfer time {'infer_ms': 113.26298903441057, 'prev_total_ms': 946.4383849990554}
+step: [92m36 / 400[0mstep: [92m37 / 400[0mstep: [92m38 / 400[0mstep: [92m39 / 400[0mstep: [92m40 / 400[0minfer time {'infer_ms': 112.47910204110667, 'prev_total_ms': 897.9278730112128}
+step: [92m41 / 400[0mstep: [92m42 / 400[0mstep: [92m43 / 400[0mstep: [92m44 / 400[0mstep: [92m45 / 400[0minfer time {'infer_ms': 112.75022896006703, 'prev_total_ms': 776.0387439629994}
+step: [92m46 / 400[0mstep: [92m47 / 400[0mstep: [92m48 / 400[0mstep: [92m49 / 400[0mstep: [92m50 / 400[0minfer time {'infer_ms': 114.16557698976249, 'prev_total_ms': 789.7764410008676}
+step: [92m51 / 400[0mstep: [92m52 / 400[0mstep: [92m53 / 400[0mstep: [92m54 / 400[0mstep: [92m55 / 400[0minfer time {'infer_ms': 114.3347899778746, 'prev_total_ms': 876.8648770055734}
+step: [92m56 / 400[0mstep: [92m57 / 400[0mstep: [92m58 / 400[0mstep: [92m59 / 400[0mstep: [92m60 / 400[0minfer time {'infer_ms': 113.2240200531669, 'prev_total_ms': 682.7108230208978}
+step: [92m61 / 400[0mstep: [92m62 / 400[0mstep: [92m63 / 400[0mstep: [92m64 / 400[0mstep: [92m65 / 400[0minfer time {'infer_ms': 114.03343395795673, 'prev_total_ms': 670.6170350080356}
+step: [92m66 / 400[0mstep: [92m67 / 400[0mstep: [92m68 / 400[0mstep: [92m69 / 400[0mstep: [92m70 / 400[0minfer time {'infer_ms': 113.75977704301476, 'prev_total_ms': 663.7705360190012}
+step: [92m71 / 400[0mstep: [92m72 / 400[0mstep: [92m73 / 400[0mstep: [92m74 / 400[0mstep: [92m75 / 400[0minfer time {'infer_ms': 112.93425702024251, 'prev_total_ms': 678.5388279822655}
+step: [92m76 / 400[0mstep: [92m77 / 400[0mstep: [92m78 / 400[0mstep: [92m79 / 400[0mstep: [92m80 / 400[0minfer time {'infer_ms': 113.52943402016535, 'prev_total_ms': 687.3721770243719}
+step: [92m81 / 400[0mstep: [92m82 / 400[0mstep: [92m83 / 400[0mstep: [92m84 / 400[0mstep: [92m85 / 400[0minfer time {'infer_ms': 113.97095303982496, 'prev_total_ms': 904.9404119723476}
+step: [92m86 / 400[0mstep: [92m87 / 400[0mstep: [92m88 / 400[0mstep: [92m89 / 400[0mstep: [92m90 / 400[0minfer time {'infer_ms': 113.5386010282673, 'prev_total_ms': 755.3702970035374}
+step: [92m91 / 400[0mstep: [92m92 / 400[0mstep: [92m93 / 400[0mstep: [92m94 / 400[0mstep: [92m95 / 400[0minfer time {'infer_ms': 114.36297302134335, 'prev_total_ms': 886.7994070169516}
+step: [92m96 / 400[0mstep: [92m97 / 400[0mstep: [92m98 / 400[0mstep: [92m99 / 400[0mstep: [92m100 / 400[0minfer time {'infer_ms': 112.00391798047349, 'prev_total_ms': 743.8541469746269}
+step: [92m101 / 400[0mstep: [92m102 / 400[0mstep: [92m103 / 400[0mstep: [92m104 / 400[0mstep: [92m105 / 400[0minfer time {'infer_ms': 112.91111103491858, 'prev_total_ms': 750.5128449993208}
+step: [92m106 / 400[0mstep: [92m107 / 400[0mstep: [92m108 / 400[0mstep: [92m109 / 400[0mstep: [92m110 / 400[0minfer time {'infer_ms': 114.45746797835454, 'prev_total_ms': 643.6548290075734}
+step: [92m111 / 400[0mstep: [92m112 / 400[0mstep: [92m113 / 400[0mstep: [92m114 / 400[0mstep: [92m115 / 400[0minfer time {'infer_ms': 113.83226199541241, 'prev_total_ms': 637.4564800062217}
+step: [92m116 / 400[0mstep: [92m117 / 400[0mstep: [92m118 / 400[0mstep: [92m119 / 400[0mstep: [92m120 / 400[0minfer time {'infer_ms': 112.96784499427304, 'prev_total_ms': 654.5691420324147}
+step: [92m121 / 400[0mstep: [92m122 / 400[0mstep: [92m123 / 400[0mstep: [92m124 / 400[0mstep: [92m125 / 400[0minfer time {'infer_ms': 113.38863696437329, 'prev_total_ms': 692.790107044857}
+step: [92m126 / 400[0mstep: [92m127 / 400[0mstep: [92m128 / 400[0mstep: [92m129 / 400[0mstep: [92m130 / 400[0minfer time {'infer_ms': 113.0209100083448, 'prev_total_ms': 656.2407539458945}
+step: [92m131 / 400[0mstep: [92m132 / 400[0mstep: [92m133 / 400[0mstep: [92m134 / 400[0mstep: [92m135 / 400[0minfer time {'infer_ms': 113.83608198957518, 'prev_total_ms': 776.5408899867907}
+step: [92m136 / 400[0mstep: [92m137 / 400[0mstep: [92m138 / 400[0mstep: [92m139 / 400[0mstep: [92m140 / 400[0minfer time {'infer_ms': 112.46951099019498, 'prev_total_ms': 702.6074540335685}
+step: [92m141 / 400[0mstep: [92m142 / 400[0mstep: [92m143 / 400[0mstep: [92m144 / 400[0mstep: [92m145 / 400[0minfer time {'infer_ms': 112.53513203701004, 'prev_total_ms': 798.9953469950706}
+step: [92m146 / 400[0mstep: [92m147 / 400[0mstep: [92m148 / 400[0mstep: [92m149 / 400[0mstep: [92m150 / 400[0minfer time {'infer_ms': 115.04839197732508, 'prev_total_ms': 798.3683770289645}
+step: [92m151 / 400[0mstep: [92m152 / 400[0mstep: [92m153 / 400[0mstep: [92m154 / 400[0mstep: [92m155 / 400[0minfer time {'infer_ms': 112.77456098468974, 'prev_total_ms': 733.6493579787202}
+step: [92m156 / 400[0mstep: [92m157 / 400[0mstep: [92m158 / 400[0mstep: [92m159 / 400[0mstep: [92m160 / 400[0minfer time {'infer_ms': 113.17630304256454, 'prev_total_ms': 875.8665050263517}
+step: [92m161 / 400[0mstep: [92m162 / 400[0mstep: [92m163 / 400[0mstep: [92m164 / 400[0mstep: [92m165 / 400[0minfer time {'infer_ms': 113.99194301338866, 'prev_total_ms': 891.4023069664836}
+step: [92m166 / 400[0mstep: [92m167 / 400[0mstep: [92m168 / 400[0mstep: [92m169 / 400[0mstep: [92m170 / 400[0minfer time {'infer_ms': 113.293374015484, 'prev_total_ms': 951.1016929754987}
+step: [92m171 / 400[0mstep: [92m172 / 400[0mstep: [92m173 / 400[0mstep: [92m174 / 400[0mstep: [92m175 / 400[0minfer time {'infer_ms': 113.89177100500092, 'prev_total_ms': 915.9704850171693}
+step: [92m176 / 400[0mstep: [92m177 / 400[0mstep: [92m178 / 400[0mstep: [92m179 / 400[0mstep: [92m180 / 400[0minfer time {'infer_ms': 113.06495097232983, 'prev_total_ms': 893.040455004666}
+step: [92m181 / 400[0mstep: [92m182 / 400[0mstep: [92m183 / 400[0mstep: [92m184 / 400[0mstep: [92m185 / 400[0minfer time {'infer_ms': 114.01166702853516, 'prev_total_ms': 743.0104509694502}
+step: [92m186 / 400[0mstep: [92m187 / 400[0mstep: [92m188 / 400[0mstep: [92m189 / 400[0mstep: [92m190 / 400[0minfer time {'infer_ms': 112.33308899682015, 'prev_total_ms': 888.5167440166697}
+step: [92m191 / 400[0mstep: [92m192 / 400[0mstep: [92m193 / 400[0mstep: [92m194 / 400[0mstep: [92m195 / 400[0minfer time {'infer_ms': 114.57064800197259, 'prev_total_ms': 847.8065259987488}
+step: [92m196 / 400[0mstep: [92m197 / 400[0mstep: [92m198 / 400[0mstep: [92m199 / 400[0mstep: [92m200 / 400[0minfer time {'infer_ms': 114.3029120285064, 'prev_total_ms': 706.5087940427475}
+step: [92m201 / 400[0mstep: [92m202 / 400[0mstep: [92m203 / 400[0mstep: [92m204 / 400[0mstep: [92m205 / 400[0minfer time {'infer_ms': 113.78069804050028, 'prev_total_ms': 719.3121899617836}
+step: [92m206 / 400[0mstep: [92m207 / 400[0mstep: [92m208 / 400[0mstep: [92m209 / 400[0mstep: [92m210 / 400[0minfer time {'infer_ms': 113.72061498695984, 'prev_total_ms': 746.737422014121}
+step: [92m211 / 400[0mstep: [92m212 / 400[0mstep: [92m213 / 400[0mstep: [92m214 / 400[0mstep: [92m215 / 400[0minfer time {'infer_ms': 113.09873301070184, 'prev_total_ms': 708.3649659762159}
+step: [92m216 / 400[0mstep: [92m217 / 400[0mstep: [92m218 / 400[0mstep: [92m219 / 400[0mstep: [92m220 / 400[0minfer time {'infer_ms': 113.64593694452196, 'prev_total_ms': 714.2459949827753}
+step: [92m221 / 400[0mstep: [92m222 / 400[0mstep: [92m223 / 400[0mstep: [92m224 / 400[0mstep: [92m225 / 400[0minfer time {'infer_ms': 113.67311398498714, 'prev_total_ms': 702.7031839825213}
+step: [92m226 / 400[0mstep: [92m227 / 400[0mstep: [92m228 / 400[0mstep: [92m229 / 400[0mstep: [92m230 / 400[0minfer time {'infer_ms': 114.88967796321958, 'prev_total_ms': 793.694376014173}
+step: [92m231 / 400[0mstep: [92m232 / 400[0mstep: [92m233 / 400[0mstep: [92m234 / 400[0mstep: [92m235 / 400[0minfer time {'infer_ms': 113.33209200529382, 'prev_total_ms': 707.7479669824243}
+step: [92m236 / 400[0mstep: [92m237 / 400[0mstep: [92m238 / 400[0mstep: [92m239 / 400[0mstep: [92m240 / 400[0minfer time {'infer_ms': 114.13616896606982, 'prev_total_ms': 699.7110639931634}
+step: [92m241 / 400[0mstep: [92m242 / 400[0mstep: [92m243 / 400[0mstep: [92m244 / 400[0mstep: [92m245 / 400[0minfer time {'infer_ms': 112.30890400474891, 'prev_total_ms': 701.6230720328167}
+step: [92m246 / 400[0mstep: [92m247 / 400[0mstep: [92m248 / 400[0mstep: [92m249 / 400[0mstep: [92m250 / 400[0minfer time {'infer_ms': 113.2793800206855, 'prev_total_ms': 700.6615109858103}
+step: [92m251 / 400[0mstep: [92m252 / 400[0mstep: [92m253 / 400[0mstep: [92m254 / 400[0mstep: [92m255 / 400[0minfer time {'infer_ms': 113.7255429639481, 'prev_total_ms': 736.5145340445451}
+step: [92m256 / 400[0mstep: [92m257 / 400[0mstep: [92m258 / 400[0mstep: [92m259 / 400[0mstep: [92m260 / 400[0minfer time {'infer_ms': 114.32664503809065, 'prev_total_ms': 683.9096529874951}
+step: [92m261 / 400[0mstep: [92m262 / 400[0mstep: [92m263 / 400[0mstep: [92m264 / 400[0mstep: [92m265 / 400[0minfer time {'infer_ms': 113.12357702990994, 'prev_total_ms': 698.260165983811}
+step: [92m266 / 400[0mstep: [92m267 / 400[0mstep: [92m268 / 400[0mstep: [92m269 / 400[0mstep: [92m270 / 400[0minfer time {'infer_ms': 113.72703203232959, 'prev_total_ms': 691.9955820194446}
+step: [92m271 / 400[0mstep: [92m272 / 400[0mstep: [92m273 / 400[0mstep: [92m274 / 400[0mstep: [92m275 / 400[0minfer time {'infer_ms': 114.19863603077829, 'prev_total_ms': 693.1648529716767}
+step: [92m276 / 400[0mstep: [92m277 / 400[0mstep: [92m278 / 400[0mstep: [92m279 / 400[0mstep: [92m280 / 400[0minfer time {'infer_ms': 113.70689497562125, 'prev_total_ms': 706.6441340139136}
+step: [92m281 / 400[0mstep: [92m282 / 400[0mstep: [92m283 / 400[0mstep: [92m284 / 400[0mstep: [92m285 / 400[0minfer time {'infer_ms': 113.56359499040991, 'prev_total_ms': 688.8822020264342}
+step: [92m286 / 400[0mstep: [92m287 / 400[0mstep: [92m288 / 400[0mstep: [92m289 / 400[0mstep: [92m290 / 400[0minfer time {'infer_ms': 113.84099500719458, 'prev_total_ms': 691.577784018591}
+step: [92m291 / 400[0mstep: [92m292 / 400[0mstep: [92m293 / 400[0mstep: [92m294 / 400[0mstep: [92m295 / 400[0minfer time {'infer_ms': 114.19070902047679, 'prev_total_ms': 693.5730529949069}
+step: [92m296 / 400[0mstep: [92m297 / 400[0mstep: [92m298 / 400[0mstep: [92m299 / 400[0mstep: [92m300 / 400[0minfer time {'infer_ms': 113.22437401395291, 'prev_total_ms': 681.6284949891269}
+step: [92m301 / 400[0mstep: [92m302 / 400[0mstep: [92m303 / 400[0mstep: [92m304 / 400[0mstep: [92m305 / 400[0minfer time {'infer_ms': 112.90414596442133, 'prev_total_ms': 698.4085079748183}
+step: [92m306 / 400[0mstep: [92m307 / 400[0mstep: [92m308 / 400[0mstep: [92m309 / 400[0mstep: [92m310 / 400[0minfer time {'infer_ms': 112.78537003090605, 'prev_total_ms': 689.2007919959724}
+step: [92m311 / 400[0mstep: [92m312 / 400[0mstep: [92m313 / 400[0mstep: [92m314 / 400[0mstep: [92m315 / 400[0minfer time {'infer_ms': 113.81829000310972, 'prev_total_ms': 686.4365540095605}
+step: [92m316 / 400[0mstep: [92m317 / 400[0mstep: [92m318 / 400[0mstep: [92m319 / 400[0mstep: [92m320 / 400[0minfer time {'infer_ms': 113.81064599845558, 'prev_total_ms': 701.9510180107318}
+step: [92m321 / 400[0mstep: [92m322 / 400[0mstep: [92m323 / 400[0mstep: [92m324 / 400[0mstep: [92m325 / 400[0minfer time {'infer_ms': 112.35965800005943, 'prev_total_ms': 708.1536279874854}
+step: [92m326 / 400[0mstep: [92m327 / 400[0mstep: [92m328 / 400[0mstep: [92m329 / 400[0mstep: [92m330 / 400[0minfer time {'infer_ms': 112.57027398096398, 'prev_total_ms': 708.8739239843562}
+step: [92m331 / 400[0mstep: [92m332 / 400[0mstep: [92m333 / 400[0mstep: [92m334 / 400[0mstep: [92m335 / 400[0minfer time {'infer_ms': 114.30979502620175, 'prev_total_ms': 687.1945270104334}
+step: [92m336 / 400[0mstep: [92m337 / 400[0mstep: [92m338 / 400[0mstep: [92m339 / 400[0mstep: [92m340 / 400[0minfer time {'infer_ms': 113.47327299881727, 'prev_total_ms': 703.9382049697451}
+step: [92m341 / 400[0mstep: [92m342 / 400[0mstep: [92m343 / 400[0mstep: [92m344 / 400[0mstep: [92m345 / 400[0minfer time {'infer_ms': 112.36854002345353, 'prev_total_ms': 697.9602539795451}
+step: [92m346 / 400[0mstep: [92m347 / 400[0mstep: [92m348 / 400[0mstep: [92m349 / 400[0mstep: [92m350 / 400[0minfer time {'infer_ms': 114.47258398402482, 'prev_total_ms': 689.4921850180253}
+step: [92m351 / 400[0mstep: [92m352 / 400[0mstep: [92m353 / 400[0mstep: [92m354 / 400[0mstep: [92m355 / 400[0minfer time {'infer_ms': 114.96594198979437, 'prev_total_ms': 703.2596109784208}
+step: [92m356 / 400[0mstep: [92m357 / 400[0mstep: [92m358 / 400[0mstep: [92m359 / 400[0mstep: [92m360 / 400[0minfer time {'infer_ms': 113.46272402442992, 'prev_total_ms': 714.0935779898427}
+step: [92m361 / 400[0mstep: [92m362 / 400[0mstep: [92m363 / 400[0mstep: [92m364 / 400[0mstep: [92m365 / 400[0minfer time {'infer_ms': 113.4153520106338, 'prev_total_ms': 707.7844010200351}
+step: [92m366 / 400[0mstep: [92m367 / 400[0mstep: [92m368 / 400[0mstep: [92m369 / 400[0mstep: [92m370 / 400[0minfer time {'infer_ms': 114.57673198310658, 'prev_total_ms': 707.1945619536564}
+step: [92m371 / 400[0mstep: [92m372 / 400[0mstep: [92m373 / 400[0mstep: [92m374 / 400[0mstep: [92m375 / 400[0minfer time {'infer_ms': 114.76571095408872, 'prev_total_ms': 694.7658659773879}
+step: [92m376 / 400[0mstep: [92m377 / 400[0mstep: [92m378 / 400[0mstep: [92m379 / 400[0mstep: [92m380 / 400[0minfer time {'infer_ms': 113.65591402864084, 'prev_total_ms': 706.0311459936202}
+step: [92m381 / 400[0mstep: [92m382 / 400[0mstep: [92m383 / 400[0mstep: [92m384 / 400[0mstep: [92m385 / 400[0minfer time {'infer_ms': 112.67677502473816, 'prev_total_ms': 693.0272899917327}
+step: [92m386 / 400[0mstep: [92m387 / 400[0mstep: [92m388 / 400[0mstep: [92m389 / 400[0mstep: [92m390 / 400[0minfer time {'infer_ms': 115.04980397876352, 'prev_total_ms': 692.0277900062501}
+step: [92m391 / 400[0mstep: [92m392 / 400[0mstep: [92m393 / 400[0mstep: [92m394 / 400[0mstep: [92m395 / 400[0minfer time {'infer_ms': 114.60454599000514, 'prev_total_ms': 691.0081339883618}
+step: [92m396 / 400[0mstep: [92m397 / 400[0mstep: [92m398 / 400[0mstep: [92m399 / 400[0mstep: [92m400 / 400[0minfer time {'infer_ms': 112.57999698864296, 'prev_total_ms': 686.9660370284691}
+[91mFail![0m
+[93mmove_pillbottle_pad[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m0/2[0m => [95m0.0%[0m, current seed: [90m500002[0m
+
+step: [92m1 / 400[0mstep: [92m2 / 400[0mstep: [92m3 / 400[0mstep: [92m4 / 400[0mstep: [92m5 / 400[0minfer time {'infer_ms': 114.2415149952285, 'prev_total_ms': 690.5455620144494}
+step: [92m6 / 400[0mstep: [92m7 / 400[0mstep: [92m8 / 400[0mstep: [92m9 / 400[0mstep: [92m10 / 400[0minfer time {'infer_ms': 113.00625698640943, 'prev_total_ms': 8975.419104972389}
+step: [92m11 / 400[0mstep: [92m12 / 400[0mstep: [92m13 / 400[0mstep: [92m14 / 400[0mstep: [92m15 / 400[0minfer time {'infer_ms': 112.89753799792379, 'prev_total_ms': 675.6801920128055}
+step: [92m16 / 400[0mstep: [92m17 / 400[0mstep: [92m18 / 400[0mstep: [92m19 / 400[0mstep: [92m20 / 400[0minfer time {'infer_ms': 113.60667197732255, 'prev_total_ms': 827.0155339851044}
+step: [92m21 / 400[0mstep: [92m22 / 400[0mstep: [92m23 / 400[0mstep: [92m24 / 400[0mstep: [92m25 / 400[0minfer time {'infer_ms': 114.65819698059931, 'prev_total_ms': 878.0928140040487}
+step: [92m26 / 400[0mstep: [92m27 / 400[0mstep: [92m28 / 400[0mstep: [92m29 / 400[0mstep: [92m30 / 400[0minfer time {'infer_ms': 112.30217799311504, 'prev_total_ms': 898.0664199916646}
+step: [92m31 / 400[0mstep: [92m32 / 400[0mstep: [92m33 / 400[0mstep: [92m34 / 400[0mstep: [92m35 / 400[0minfer time {'infer_ms': 114.15757099166512, 'prev_total_ms': 805.6400820496492}
+step: [92m36 / 400[0mstep: [92m37 / 400[0mstep: [92m38 / 400[0mstep: [92m39 / 400[0mstep: [92m40 / 400[0minfer time {'infer_ms': 112.27374500595033, 'prev_total_ms': 784.6814570366405}
+step: [92m41 / 400[0mstep: [92m42 / 400[0mstep: [92m43 / 400[0mstep: [92m44 / 400[0mstep: [92m45 / 400[0minfer time {'infer_ms': 113.59208897920325, 'prev_total_ms': 671.7632599757053}
+step: [92m46 / 400[0mstep: [92m47 / 400[0mstep: [92m48 / 400[0mstep: [92m49 / 400[0mstep: [92m50 / 400[0minfer time {'infer_ms': 112.4432299984619, 'prev_total_ms': 833.3677320042625}
+step: [92m51 / 400[0mstep: [92m52 / 400[0mstep: [92m53 / 400[0mstep: [92m54 / 400[0mstep: [92m55 / 400[0minfer time {'infer_ms': 113.18255501100793, 'prev_total_ms': 655.5556189850904}
+step: [92m56 / 400[0mstep: [92m57 / 400[0mstep: [92m58 / 400[0mstep: [92m59 / 400[0mstep: [92m60 / 400[0minfer time {'infer_ms': 113.28354297438636, 'prev_total_ms': 637.6830469816923}
+step: [92m61 / 400[0mstep: [92m62 / 400[0mstep: [92m63 / 400[0mstep: [92m64 / 400[0mstep: [92m65 / 400[0minfer time {'infer_ms': 113.15889598336071, 'prev_total_ms': 636.6029030177742}
+step: [92m66 / 400[0mstep: [92m67 / 400[0mstep: [92m68 / 400[0mstep: [92m69 / 400[0mstep: [92m70 / 400[0minfer time {'infer_ms': 112.80756001360714, 'prev_total_ms': 662.8974719787948}
+step: [92m71 / 400[0mstep: [92m72 / 400[0mstep: [92m73 / 400[0mstep: [92m74 / 400[0mstep: [92m75 / 400[0minfer time {'infer_ms': 113.72489697532728, 'prev_total_ms': 759.7925629816018}
+step: [92m76 / 400[0mstep: [92m77 / 400[0mstep: [92m78 / 400[0mstep: [92m79 / 400[0mstep: [92m80 / 400[0minfer time {'infer_ms': 113.58587100403383, 'prev_total_ms': 707.3944509611465}
+step: [92m81 / 400[0mstep: [92m82 / 400[0mstep: [92m83 / 400[0mstep: [92m84 / 400[0mstep: [92m85 / 400[0minfer time {'infer_ms': 112.29900398757309, 'prev_total_ms': 719.3645299994387}
+step: [92m86 / 400[0mstep: [92m87 / 400[0mstep: [92m88 / 400[0mstep: [92m89 / 400[0mstep: [92m90 / 400[0minfer time {'infer_ms': 113.9736829791218, 'prev_total_ms': 632.0319609949365}
+step: [92m91 / 400[0mstep: [92m92 / 400[0mstep: [92m93 / 400[0mstep: [92m94 / 400[0mstep: [92m95 / 400[0minfer time {'infer_ms': 115.54020398762077, 'prev_total_ms': 850.9898869669996}
+step: [92m96 / 400[0mstep: [92m97 / 400[0mstep: [92m98 / 400[0mstep: [92m99 / 400[0mstep: [92m100 / 400[0minfer time {'infer_ms': 112.91739897569641, 'prev_total_ms': 929.2894750251435}
+step: [92m101 / 400[0mstep: [92m102 / 400[0mstep: [92m103 / 400[0mstep: [92m104 / 400[0mstep: [92m105 / 400[0minfer time {'infer_ms': 111.91359598888084, 'prev_total_ms': 859.3057119869627}
+step: [92m106 / 400[0mstep: [92m107 / 400[0mstep: [92m108 / 400[0mstep: [92m109 / 400[0mstep: [92m110 / 400[0minfer time {'infer_ms': 114.49828802142292, 'prev_total_ms': 681.6097210394219}
+step: [92m111 / 400[0mstep: [92m112 / 400[0mstep: [92m113 / 400[0mstep: [92m114 / 400[0mstep: [92m115 / 400[0minfer time {'infer_ms': 113.24525502277538, 'prev_total_ms': 684.3613380333409}
+step: [92m116 / 400[0mstep: [92m117 / 400[0mstep: [92m118 / 400[0mstep: [92m119 / 400[0mstep: [92m120 / 400[0minfer time {'infer_ms': 114.72576996311545, 'prev_total_ms': 788.8482449925505}
+step: [92m121 / 400[0mstep: [92m122 / 400[0mstep: [92m123 / 400[0mstep: [92m124 / 400[0mstep: [92m125 / 400[0minfer time {'infer_ms': 113.51741797989234, 'prev_total_ms': 766.099528002087}
+step: [92m126 / 400[0mstep: [92m127 / 400[0mstep: [92m128 / 400[0mstep: [92m129 / 400[0minfer time {'infer_ms': 113.9519769931212, 'prev_total_ms': 612.9747690283693}
+[92mSuccess![0m
+[93mmove_pillbottle_pad[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m1/3[0m => [95m33.3%[0m, current seed: [90m500003[0m
+
+step: [92m1 / 400[0mstep: [92m2 / 400[0mstep: [92m3 / 400[0mstep: [92m4 / 400[0mstep: [92m5 / 400[0minfer time {'infer_ms': 115.89821701636538, 'prev_total_ms': 608.5208290023729}
+step: [92m6 / 400[0mstep: [92m7 / 400[0mstep: [92m8 / 400[0mstep: [92m9 / 400[0mstep: [92m10 / 400[0minfer time {'infer_ms': 113.87718102196231, 'prev_total_ms': 11325.21303294925}
+step: [92m11 / 400[0mstep: [92m12 / 400[0mstep: [92m13 / 400[0mstep: [92m14 / 400[0mstep: [92m15 / 400[0minfer time {'infer_ms': 112.32114100130275, 'prev_total_ms': 663.632846029941}
+step: [92m16 / 400[0mstep: [92m17 / 400[0mstep: [92m18 / 400[0mstep: [92m19 / 400[0mstep: [92m20 / 400[0minfer time {'infer_ms': 114.01485500391573, 'prev_total_ms': 848.1376690324396}
+step: [92m21 / 400[0mstep: [92m22 / 400[0mstep: [92m23 / 400[0mstep: [92m24 / 400[0mstep: [92m25 / 400[0minfer time {'infer_ms': 114.64869300834835, 'prev_total_ms': 925.2433980000205}
+step: [92m26 / 400[0mstep: [92m27 / 400[0mstep: [92m28 / 400[0mstep: [92m29 / 400[0mstep: [92m30 / 400[0minfer time {'infer_ms': 113.99270297260955, 'prev_total_ms': 956.5266369609162}
+step: [92m31 / 400[0mstep: [92m32 / 400[0mstep: [92m33 / 400[0mstep: [92m34 / 400[0mstep: [92m35 / 400[0minfer time {'infer_ms': 112.00394999468699, 'prev_total_ms': 970.1449039857835}
+step: [92m36 / 400[0mstep: [92m37 / 400[0mstep: [92m38 / 400[0mstep: [92m39 / 400[0mstep: [92m40 / 400[0minfer time {'infer_ms': 114.61306503042579, 'prev_total_ms': 803.8403340033256}
+step: [92m41 / 400[0mstep: [92m42 / 400[0mstep: [92m43 / 400[0mstep: [92m44 / 400[0mstep: [92m45 / 400[0minfer time {'infer_ms': 113.85030398378149, 'prev_total_ms': 881.1486859922297}
+step: [92m46 / 400[0mstep: [92m47 / 400[0mstep: [92m48 / 400[0mstep: [92m49 / 400[0mstep: [92m50 / 400[0minfer time {'infer_ms': 114.65459497412667, 'prev_total_ms': 729.7428110032342}
+step: [92m51 / 400[0mstep: [92m52 / 400[0mstep: [92m53 / 400[0mstep: [92m54 / 400[0mstep: [92m55 / 400[0minfer time {'infer_ms': 113.14674600725994, 'prev_total_ms': 650.0049290480092}
+step: [92m56 / 400[0mstep: [92m57 / 400[0mstep: [92m58 / 400[0mstep: [92m59 / 400[0mstep: [92m60 / 400[0minfer time {'infer_ms': 113.19612100487575, 'prev_total_ms': 662.3509239871055}
+step: [92m61 / 400[0mstep: [92m62 / 400[0mstep: [92m63 / 400[0mstep: [92m64 / 400[0mstep: [92m65 / 400[0minfer time {'infer_ms': 112.95413598418236, 'prev_total_ms': 661.0828319680877}
+step: [92m66 / 400[0mstep: [92m67 / 400[0mstep: [92m68 / 400[0mstep: [92m69 / 400[0mstep: [92m70 / 400[0minfer time {'infer_ms': 116.39083101181313, 'prev_total_ms': 666.9976330013014}
+step: [92m71 / 400[0mstep: [92m72 / 400[0mstep: [92m73 / 400[0mstep: [92m74 / 400[0mstep: [92m75 / 400[0minfer time {'infer_ms': 114.95062900939956, 'prev_total_ms': 825.6693829898722}
+step: [92m76 / 400[0mstep: [92m77 / 400[0mstep: [92m78 / 400[0mstep: [92m79 / 400[0mstep: [92m80 / 400[0minfer time {'infer_ms': 112.84036299912259, 'prev_total_ms': 788.4170290199108}
+step: [92m81 / 400[0mstep: [92m82 / 400[0mstep: [92m83 / 400[0mstep: [92m84 / 400[0mstep: [92m85 / 400[0minfer time {'infer_ms': 115.09321595076472, 'prev_total_ms': 843.2104589883238}
+step: [92m86 / 400[0mstep: [92m87 / 400[0mstep: [92m88 / 400[0mstep: [92m89 / 400[0mstep: [92m90 / 400[0minfer time {'infer_ms': 113.19155100500211, 'prev_total_ms': 1042.0536840101704}
+step: [92m91 / 400[0mstep: [92m92 / 400[0mstep: [92m93 / 400[0mstep: [92m94 / 400[0mstep: [92m95 / 400[0minfer time {'infer_ms': 111.95730598410591, 'prev_total_ms': 925.9369909996167}
+step: [92m96 / 400[0mstep: [92m97 / 400[0mstep: [92m98 / 400[0mstep: [92m99 / 400[0mstep: [92m100 / 400[0minfer time {'infer_ms': 113.49882202921435, 'prev_total_ms': 815.3323499718681}
+step: [92m101 / 400[0mstep: [92m102 / 400[0mstep: [92m103 / 400[0mstep: [92m104 / 400[0mstep: [92m105 / 400[0minfer time {'infer_ms': 113.89870999846607, 'prev_total_ms': 719.1529300180264}
+step: [92m106 / 400[0mstep: [92m107 / 400[0mstep: [92m108 / 400[0mstep: [92m109 / 400[0mstep: [92m110 / 400[0minfer time {'infer_ms': 114.0653970069252, 'prev_total_ms': 652.47090900084}
+step: [92m111 / 400[0mstep: [92m112 / 400[0mstep: [92m113 / 400[0mstep: [92m114 / 400[0mstep: [92m115 / 400[0minfer time {'infer_ms': 113.60237799817696, 'prev_total_ms': 820.5653359764256}
+step: [92m116 / 400[0mstep: [92m117 / 400[0mstep: [92m118 / 400[0mstep: [92m119 / 400[0mstep: [92m120 / 400[0minfer time {'infer_ms': 113.04162495071068, 'prev_total_ms': 810.8345629880205}
+step: [92m121 / 400[0mstep: [92m122 / 400[0mstep: [92m123 / 400[0mstep: [92m124 / 400[0mstep: [92m125 / 400[0minfer time {'infer_ms': 113.57415199745446, 'prev_total_ms': 791.9780500233173}
+step: [92m126 / 400[0mstep: [92m127 / 400[0mstep: [92m128 / 400[0mstep: [92m129 / 400[0minfer time {'infer_ms': 112.26256599184126, 'prev_total_ms': 690.8629230456427}
+[92mSuccess![0m
+[93mmove_pillbottle_pad[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m2/4[0m => [95m50.0%[0m, current seed: [90m500004[0m
+
+step: [92m1 / 400[0mstep: [92m2 / 400[0mstep: [92m3 / 400[0mstep: [92m4 / 400[0mstep: [92m5 / 400[0minfer time {'infer_ms': 115.5045690247789, 'prev_total_ms': 694.5112969842739}
+step: [92m6 / 400[0mstep: [92m7 / 400[0mstep: [92m8 / 400[0mstep: [92m9 / 400[0mstep: [92m10 / 400[0minfer time {'infer_ms': 114.77937002200633, 'prev_total_ms': 49653.06464099558}
+step: [92m11 / 400[0mstep: [92m12 / 400[0mstep: [92m13 / 400[0mstep: [92m14 / 400[0mstep: [92m15 / 400[0minfer time {'infer_ms': 112.79140796978027, 'prev_total_ms': 636.6351199685596}
+step: [92m16 / 400[0mstep: [92m17 / 400[0mstep: [92m18 / 400[0mstep: [92m19 / 400[0mstep: [92m20 / 400[0minfer time {'infer_ms': 113.28977096127346, 'prev_total_ms': 801.4851849875413}
+step: [92m21 / 400[0mstep: [92m22 / 400[0mstep: [92m23 / 400[0mstep: [92m24 / 400[0mstep: [92m25 / 400[0minfer time {'infer_ms': 114.43329398753121, 'prev_total_ms': 871.2789119454101}
+step: [92m26 / 400[0mstep: [92m27 / 400[0mstep: [92m28 / 400[0mstep: [92m29 / 400[0mstep: [92m30 / 400[0minfer time {'infer_ms': 113.36862802272663, 'prev_total_ms': 931.1529800179414}
+step: [92m31 / 400[0mstep: [92m32 / 400[0mstep: [92m33 / 400[0mstep: [92m34 / 400[0mstep: [92m35 / 400[0minfer time {'infer_ms': 114.1160239931196, 'prev_total_ms': 943.6774200294167}
+step: [92m36 / 400[0mstep: [92m37 / 400[0mstep: [92m38 / 400[0mstep: [92m39 / 400[0mstep: [92m40 / 400[0minfer time {'infer_ms': 113.27422002796084, 'prev_total_ms': 915.5938519979827}
+step: [92m41 / 400[0mstep: [92m42 / 400[0mstep: [92m43 / 400[0mstep: [92m44 / 400[0mstep: [92m45 / 400[0minfer time {'infer_ms': 112.26892098784447, 'prev_total_ms': 908.326557953842}
+step: [92m46 / 400[0mstep: [92m47 / 400[0mstep: [92m48 / 400[0mstep: [92m49 / 400[0mstep: [92m50 / 400[0minfer time {'infer_ms': 114.2132260138169, 'prev_total_ms': 852.7995289769024}
+step: [92m51 / 400[0mstep: [92m52 / 400[0mstep: [92m53 / 400[0mstep: [92m54 / 400[0mstep: [92m55 / 400[0minfer time {'infer_ms': 114.89261302631348, 'prev_total_ms': 650.6828899728134}
+step: [92m56 / 400[0mstep: [92m57 / 400[0mstep: [92m58 / 400[0mstep: [92m59 / 400[0mstep: [92m60 / 400[0minfer time {'infer_ms': 113.91810904024169, 'prev_total_ms': 777.8901879792102}
+step: [92m61 / 400[0mstep: [92m62 / 400[0mstep: [92m63 / 400[0mstep: [92m64 / 400[0mstep: [92m65 / 400[0minfer time {'infer_ms': 113.99896000511944, 'prev_total_ms': 882.6690609566867}
+step: [92m66 / 400[0mstep: [92m67 / 400[0mstep: [92m68 / 400[0mstep: [92m69 / 400[0mstep: [92m70 / 400[0minfer time {'infer_ms': 114.69977698288858, 'prev_total_ms': 745.7598249893636}
+step: [92m71 / 400[0mstep: [92m72 / 400[0mstep: [92m73 / 400[0mstep: [92m74 / 400[0mstep: [92m75 / 400[0minfer time {'infer_ms': 112.54048702539876, 'prev_total_ms': 646.3331389822997}
+step: [92m76 / 400[0mstep: [92m77 / 400[0mstep: [92m78 / 400[0mstep: [92m79 / 400[0mstep: [92m80 / 400[0minfer time {'infer_ms': 113.82908397354186, 'prev_total_ms': 647.142440022435}
+step: [92m81 / 400[0mstep: [92m82 / 400[0mstep: [92m83 / 400[0mstep: [92m84 / 400[0mstep: [92m85 / 400[0minfer time {'infer_ms': 114.09190896665677, 'prev_total_ms': 677.1706999861635}
+step: [92m86 / 400[0mstep: [92m87 / 400[0mstep: [92m88 / 400[0mstep: [92m89 / 400[0mstep: [92m90 / 400[0minfer time {'infer_ms': 112.70381195936352, 'prev_total_ms': 879.4011760037392}
+step: [92m91 / 400[0mstep: [92m92 / 400[0mstep: [92m93 / 400[0mstep: [92m94 / 400[0mstep: [92m95 / 400[0minfer time {'infer_ms': 115.2517480077222, 'prev_total_ms': 790.8520009950735}
+step: [92m96 / 400[0mstep: [92m97 / 400[0mstep: [92m98 / 400[0mstep: [92m99 / 400[0mstep: [92m100 / 400[0minfer time {'infer_ms': 113.49762399913743, 'prev_total_ms': 748.8789500202984}
+step: [92m101 / 400[0mstep: [92m102 / 400[0mstep: [92m103 / 400[0mstep: [92m104 / 400[0mstep: [92m105 / 400[0minfer time {'infer_ms': 117.4247590242885, 'prev_total_ms': 880.9549970319495}
+step: [92m106 / 400[0mstep: [92m107 / 400[0mstep: [92m108 / 400[0mstep: [92m109 / 400[0mstep: [92m110 / 400[0minfer time {'infer_ms': 114.2861990374513, 'prev_total_ms': 714.4333840114996}
+step: [92m111 / 400[0mstep: [92m112 / 400[0mstep: [92m113 / 400[0mstep: [92m114 / 400[0mstep: [92m115 / 400[0minfer time {'infer_ms': 111.91424599383026, 'prev_total_ms': 934.3924790155143}
+step: [92m116 / 400[0mstep: [92m117 / 400[0mstep: [92m118 / 400[0mstep: [92m119 / 400[0mstep: [92m120 / 400[0minfer time {'infer_ms': 112.32873500557616, 'prev_total_ms': 857.8278070199303}
+step: [92m121 / 400[0mstep: [92m122 / 400[0mstep: [92m123 / 400[0mstep: [92m124 / 400[0mstep: [92m125 / 400[0minfer time {'infer_ms': 113.57188801048324, 'prev_total_ms': 879.4835460139439}
+step: [92m126 / 400[0mstep: [92m127 / 400[0mstep: [92m128 / 400[0mstep: [92m129 / 400[0mstep: [92m130 / 400[0minfer time {'infer_ms': 114.38537499634549, 'prev_total_ms': 910.4484129929915}
+step: [92m131 / 400[0mstep: [92m132 / 400[0mstep: [92m133 / 400[0mstep: [92m134 / 400[0mstep: [92m135 / 400[0minfer time {'infer_ms': 113.75562299508601, 'prev_total_ms': 921.5212179697119}
+step: [92m136 / 400[0mstep: [92m137 / 400[0mstep: [92m138 / 400[0mstep: [92m139 / 400[0mstep: [92m140 / 400[0minfer time {'infer_ms': 112.2034530271776, 'prev_total_ms': 710.7908540056087}
+step: [92m141 / 400[0mstep: [92m142 / 400[0mstep: [92m143 / 400[0mstep: [92m144 / 400[0mstep: [92m145 / 400[0minfer time {'infer_ms': 115.13358500087634, 'prev_total_ms': 773.393181967549}
+step: [92m146 / 400[0mstep: [92m147 / 400[0mstep: [92m148 / 400[0mstep: [92m149 / 400[0mstep: [92m150 / 400[0minfer time {'infer_ms': 114.03611901914701, 'prev_total_ms': 799.3630990386009}
+step: [92m151 / 400[0mstep: [92m152 / 400[0mstep: [92m153 / 400[0mstep: [92m154 / 400[0mstep: [92m155 / 400[0minfer time {'infer_ms': 111.93820199696347, 'prev_total_ms': 852.3108250228688}
+step: [92m156 / 400[0mstep: [92m157 / 400[0mstep: [92m158 / 400[0mstep: [92m159 / 400[0mstep: [92m160 / 400[0minfer time {'infer_ms': 114.13918202742934, 'prev_total_ms': 785.7695409911685}
+step: [92m161 / 400[0mstep: [92m162 / 400[0mstep: [92m163 / 400[0mstep: [92m164 / 400[0mstep: [92m165 / 400[0minfer time {'infer_ms': 113.6089509818703, 'prev_total_ms': 851.7821209970862}
+step: [92m166 / 400[0mstep: [92m167 / 400[0mstep: [92m168 / 400[0mstep: [92m169 / 400[0mstep: [92m170 / 400[0minfer time {'infer_ms': 113.67162701208144, 'prev_total_ms': 860.5458449455909}
+step: [92m171 / 400[0mstep: [92m172 / 400[0mstep: [92m173 / 400[0mstep: [92m174 / 400[0mstep: [92m175 / 400[0minfer time {'infer_ms': 112.78470902470872, 'prev_total_ms': 866.0677180159837}
+step: [92m176 / 400[0mstep: [92m177 / 400[0mstep: [92m178 / 400[0mstep: [92m179 / 400[0mstep: [92m180 / 400[0minfer time {'infer_ms': 113.91180503414944, 'prev_total_ms': 805.4776039789431}
+step: [92m181 / 400[0mstep: [92m182 / 400[0mstep: [92m183 / 400[0mstep: [92m184 / 400[0mstep: [92m185 / 400[0minfer time {'infer_ms': 114.60940801771358, 'prev_total_ms': 639.2320590093732}
+step: [92m186 / 400[0mstep: [92m187 / 400[0mstep: [92m188 / 400[0mstep: [92m189 / 400[0mstep: [92m190 / 400[0minfer time {'infer_ms': 114.38584898132831, 'prev_total_ms': 893.0988320498727}
+step: [92m191 / 400[0mstep: [92m192 / 400[0mstep: [92m193 / 400[0mstep: [92m194 / 400[0mstep: [92m195 / 400[0minfer time {'infer_ms': 114.35536399949342, 'prev_total_ms': 888.1640290492214}
+step: [92m196 / 400[0mstep: [92m197 / 400[0mstep: [92m198 / 400[0mstep: [92m199 / 400[0mstep: [92m200 / 400[0minfer time {'infer_ms': 112.64850001316518, 'prev_total_ms': 861.916564987041}
+step: [92m201 / 400[0mstep: [92m202 / 400[0mstep: [92m203 / 400[0mstep: [92m204 / 400[0mstep: [92m205 / 400[0minfer time {'infer_ms': 112.9298810265027, 'prev_total_ms': 769.9204360251315}
+step: [92m206 / 400[0mstep: [92m207 / 400[0mstep: [92m208 / 400[0mstep: [92m209 / 400[0mstep: [92m210 / 400[0minfer time {'infer_ms': 114.02289697434753, 'prev_total_ms': 801.9310969975777}
+step: [92m211 / 400[0mstep: [92m212 / 400[0mstep: [92m213 / 400[0mstep: [92m214 / 400[0mstep: [92m215 / 400[0minfer time {'infer_ms': 113.60329698072746, 'prev_total_ms': 807.0368869812228}
+step: [92m216 / 400[0mstep: [92m217 / 400[0mstep: [92m218 / 400[0mstep: [92m219 / 400[0mstep: [92m220 / 400[0minfer time {'infer_ms': 113.6562199681066, 'prev_total_ms': 830.3130909916945}
+step: [92m221 / 400[0mstep: [92m222 / 400[0mstep: [92m223 / 400[0mstep: [92m224 / 400[0mstep: [92m225 / 400[0minfer time {'infer_ms': 113.6466099997051, 'prev_total_ms': 735.2414499619044}
+step: [92m226 / 400[0mstep: [92m227 / 400[0mstep: [92m228 / 400[0mstep: [92m229 / 400[0mstep: [92m230 / 400[0minfer time {'infer_ms': 113.48198499763384, 'prev_total_ms': 583.0199579941109}
+step: [92m231 / 400[0mstep: [92m232 / 400[0mstep: [92m233 / 400[0mstep: [92m234 / 400[0mstep: [92m235 / 400[0minfer time {'infer_ms': 113.93207701621577, 'prev_total_ms': 707.8299840213731}
+step: [92m236 / 400[0mstep: [92m237 / 400[0mstep: [92m238 / 400[0mstep: [92m239 / 400[0mstep: [92m240 / 400[0minfer time {'infer_ms': 114.2730160499923, 'prev_total_ms': 643.5711859958246}
+step: [92m241 / 400[0mstep: [92m242 / 400[0mstep: [92m243 / 400[0mstep: [92m244 / 400[0mstep: [92m245 / 400[0minfer time {'infer_ms': 114.00216200854629, 'prev_total_ms': 686.3130140118301}
+step: [92m246 / 400[0mstep: [92m247 / 400[0mstep: [92m248 / 400[0mstep: [92m249 / 400[0mstep: [92m250 / 400[0minfer time {'infer_ms': 115.14034197898582, 'prev_total_ms': 606.4846260123886}
+step: [92m251 / 400[0mstep: [92m252 / 400[0mstep: [92m253 / 400[0mstep: [92m254 / 400[0mstep: [92m255 / 400[0minfer time {'infer_ms': 112.98062099376693, 'prev_total_ms': 662.1747189783491}
+step: [92m256 / 400[0mstep: [92m257 / 400[0mstep: [92m258 / 400[0mstep: [92m259 / 400[0mstep: [92m260 / 400[0minfer time {'infer_ms': 112.84365499159321, 'prev_total_ms': 636.9331380119547}
+step: [92m261 / 400[0mstep: [92m262 / 400[0mstep: [92m263 / 400[0mstep: [92m264 / 400[0mstep: [92m265 / 400[0minfer time {'infer_ms': 114.13150501903147, 'prev_total_ms': 623.6453280434944}
+step: [92m266 / 400[0mstep: [92m267 / 400[0mstep: [92m268 / 400[0mstep: [92m269 / 400[0mstep: [92m270 / 400[0minfer time {'infer_ms': 113.26308600837365, 'prev_total_ms': 599.1358360042796}
+step: [92m271 / 400[0mstep: [92m272 / 400[0mstep: [92m273 / 400[0mstep: [92m274 / 400[0mstep: [92m275 / 400[0minfer time {'infer_ms': 112.02430998673663, 'prev_total_ms': 615.7587469788268}
+step: [92m276 / 400[0mstep: [92m277 / 400[0mstep: [92m278 / 400[0mstep: [92m279 / 400[0mstep: [92m280 / 400[0minfer time {'infer_ms': 114.65237400261685, 'prev_total_ms': 619.1739240312018}
+step: [92m281 / 400[0mstep: [92m282 / 400[0mstep: [92m283 / 400[0mstep: [92m284 / 400[0mstep: [92m285 / 400[0minfer time {'infer_ms': 113.54733194457367, 'prev_total_ms': 689.8365369997919}
+step: [92m286 / 400[0mstep: [92m287 / 400[0mstep: [92m288 / 400[0mstep: [92m289 / 400[0mstep: [92m290 / 400[0minfer time {'infer_ms': 113.9762420207262, 'prev_total_ms': 626.9119119970128}
+step: [92m291 / 400[0mstep: [92m292 / 400[0mstep: [92m293 / 400[0mstep: [92m294 / 400[0mstep: [92m295 / 400[0minfer time {'infer_ms': 115.10814900975674, 'prev_total_ms': 538.7851999839768}
+step: [92m296 / 400[0mstep: [92m297 / 400[0mstep: [92m298 / 400[0mstep: [92m299 / 400[0mstep: [92m300 / 400[0minfer time {'infer_ms': 114.15230901911855, 'prev_total_ms': 529.672019998543}
+step: [92m301 / 400[0mstep: [92m302 / 400[0mstep: [92m303 / 400[0mstep: [92m304 / 400[0mstep: [92m305 / 400[0minfer time {'infer_ms': 112.30676400009543, 'prev_total_ms': 780.1831670221873}
+step: [92m306 / 400[0mstep: [92m307 / 400[0mstep: [92m308 / 400[0mstep: [92m309 / 400[0mstep: [92m310 / 400[0minfer time {'infer_ms': 112.31794202467427, 'prev_total_ms': 776.851424947381}
+step: [92m311 / 400[0mstep: [92m312 / 400[0mstep: [92m313 / 400[0mstep: [92m314 / 400[0mstep: [92m315 / 400[0minfer time {'infer_ms': 112.03133896924555, 'prev_total_ms': 820.8190390141681}
+step: [92m316 / 400[0mstep: [92m317 / 400[0mstep: [92m318 / 400[0mstep: [92m319 / 400[0mstep: [92m320 / 400[0minfer time {'infer_ms': 113.72133396798745, 'prev_total_ms': 772.6490140194073}
+step: [92m321 / 400[0mstep: [92m322 / 400[0mstep: [92m323 / 400[0mstep: [92m324 / 400[0mstep: [92m325 / 400[0minfer time {'infer_ms': 112.8673970233649, 'prev_total_ms': 671.4615329983644}
+step: [92m326 / 400[0mstep: [92m327 / 400[0mstep: [92m328 / 400[0mstep: [92m329 / 400[0mstep: [92m330 / 400[0minfer time {'infer_ms': 116.48600100306794, 'prev_total_ms': 819.040397007484}
+step: [92m331 / 400[0mstep: [92m332 / 400[0mstep: [92m333 / 400[0mstep: [92m334 / 400[0mstep: [92m335 / 400[0minfer time {'infer_ms': 113.04301500786096, 'prev_total_ms': 645.5457769916393}
+step: [92m336 / 400[0mstep: [92m337 / 400[0mstep: [92m338 / 400[0mstep: [92m339 / 400[0mstep: [92m340 / 400[0minfer time {'infer_ms': 111.71948100673035, 'prev_total_ms': 634.9582250113599}
+step: [92m341 / 400[0mstep: [92m342 / 400[0mstep: [92m343 / 400[0mstep: [92m344 / 400[0mstep: [92m345 / 400[0minfer time {'infer_ms': 113.00550802843645, 'prev_total_ms': 738.566461019218}
+step: [92m346 / 400[0mstep: [92m347 / 400[0mstep: [92m348 / 400[0mstep: [92m349 / 400[0mstep: [92m350 / 400[0minfer time {'infer_ms': 114.35895803151652, 'prev_total_ms': 831.4095530076884}
+step: [92m351 / 400[0mstep: [92m352 / 400[0mstep: [92m353 / 400[0mstep: [92m354 / 400[0mstep: [92m355 / 400[0minfer time {'infer_ms': 114.15119800949469, 'prev_total_ms': 891.5241689537652}
+step: [92m356 / 400[0mstep: [92m357 / 400[0mstep: [92m358 / 400[0mstep: [92m359 / 400[0mstep: [92m360 / 400[0minfer time {'infer_ms': 114.19237405061722, 'prev_total_ms': 1023.4663750161417}
+step: [92m361 / 400[0mstep: [92m362 / 400[0mstep: [92m363 / 400[0mstep: [92m364 / 400[0mstep: [92m365 / 400[0minfer time {'infer_ms': 111.79591703694314, 'prev_total_ms': 1050.5379179958254}
+step: [92m366 / 400[0mstep: [92m367 / 400[0mstep: [92m368 / 400[0mstep: [92m369 / 400[0mstep: [92m370 / 400[0minfer time {'infer_ms': 113.30596299376339, 'prev_total_ms': 1034.3509659869596}
+step: [92m371 / 400[0mstep: [92m372 / 400[0mstep: [92m373 / 400[0mstep: [92m374 / 400[0mstep: [92m375 / 400[0minfer time {'infer_ms': 113.2954090135172, 'prev_total_ms': 1037.9858300439082}
+step: [92m376 / 400[0mstep: [92m377 / 400[0mstep: [92m378 / 400[0mstep: [92m379 / 400[0mstep: [92m380 / 400[0minfer time {'infer_ms': 115.16645399387926, 'prev_total_ms': 990.83382304525}
+step: [92m381 / 400[0mstep: [92m382 / 400[0mstep: [92m383 / 400[0mstep: [92m384 / 400[0mstep: [92m385 / 400[0minfer time {'infer_ms': 114.39439002424479, 'prev_total_ms': 955.6026080390438}
+step: [92m386 / 400[0mstep: [92m387 / 400[0mstep: [92m388 / 400[0mstep: [92m389 / 400[0mstep: [92m390 / 400[0minfer time {'infer_ms': 113.79014397971332, 'prev_total_ms': 997.1843999810517}
+step: [92m391 / 400[0mstep: [92m392 / 400[0mstep: [92m393 / 400[0mstep: [92m394 / 400[0mstep: [92m395 / 400[0minfer time {'infer_ms': 112.87715402431786, 'prev_total_ms': 962.9543739720248}
+step: [92m396 / 400[0mstep: [92m397 / 400[0mstep: [92m398 / 400[0mstep: [92m399 / 400[0mstep: [92m400 / 400[0minfer time {'infer_ms': 114.92356902454048, 'prev_total_ms': 848.5128530301154}
+[91mFail![0m
+[93mmove_pillbottle_pad[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m2/5[0m => [95m40.0%[0m, current seed: [90m500007[0m
+
+Per-episode results saved to /data/szgx/gaohang/pi05_30/eval/backtest/stage1_lr1x_h5/2000/move_pillbottle_pad/episodes.json
+Data has been saved to /data/szgx/gaohang/pi05_30/eval/backtest/stage1_lr1x_h5/2000/move_pillbottle_pad/move_pillbottle_pad/_result.txt

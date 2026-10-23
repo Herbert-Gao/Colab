@@ -1,0 +1,58 @@
+{
+  "task": "place_bread_skillet",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103,
+    500104
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500100,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 124,
+      "instruction": "Lift the versatile skillet for frying and sauteing using the left arm while the other arm moves the square bread with light spots."
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 121,
+      "instruction": "Use the left arm for the dark skillet with shiny finish and the other arm for the rounded oval bread."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": false,
+      "reason": "UnStableError",
+      "success": false
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Use the left arm for the dark skillet with shiny finish and the other arm for the oval-shaped soft bread."
+    }
+  ]
+}

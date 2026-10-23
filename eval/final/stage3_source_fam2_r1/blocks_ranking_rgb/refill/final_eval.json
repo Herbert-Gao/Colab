@@ -1,0 +1,242 @@
+{
+  "task": "blocks_ranking_rgb",
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_final_step15000",
+  "episodes": 16,
+  "successes": 0,
+  "success_rate": 0.0,
+  "seeds": [
+    105005,
+    105011,
+    105017,
+    105023,
+    105029,
+    105035,
+    105041,
+    105047,
+    105053,
+    105059,
+    105065,
+    105071,
+    105077,
+    105083,
+    105089,
+    105095
+  ],
+  "sims": 6,
+  "per_chunk": [
+    {
+      "task": "blocks_ranking_rgb",
+      "seeds": [
+        105005,
+        105041,
+        105077
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/blocks_ranking_rgb/refill/sim0/eval.log",
+      "timed_out": false,
+      "seconds": 777.9,
+      "episodes": 3,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 105005,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block."
+        },
+        {
+          "episode": 2,
+          "seed": 105041,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Use the right arm to arrange red block first, then use the left arm for green block, and finally use the right arm for blue block in a row."
+        },
+        {
+          "episode": 3,
+          "seed": 105077,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "seeds": [
+        105011,
+        105047,
+        105083
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/blocks_ranking_rgb/refill/sim1/eval.log",
+      "timed_out": false,
+      "seconds": 765.9,
+      "episodes": 3,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 105011,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Arrange red block, green block, and blue block from left to right in a row."
+        },
+        {
+          "episode": 2,
+          "seed": 105047,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right."
+        },
+        {
+          "episode": 3,
+          "seed": 105083,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "seeds": [
+        105017,
+        105053,
+        105089
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/blocks_ranking_rgb/refill/sim2/eval.log",
+      "timed_out": false,
+      "seconds": 747.7,
+      "episodes": 3,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 105017,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right."
+        },
+        {
+          "episode": 2,
+          "seed": 105053,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block."
+        },
+        {
+          "episode": 3,
+          "seed": 105089,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "seeds": [
+        105023,
+        105059,
+        105095
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/blocks_ranking_rgb/refill/sim3/eval.log",
+      "timed_out": false,
+      "seconds": 751.8,
+      "episodes": 3,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 105023,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+        },
+        {
+          "episode": 2,
+          "seed": 105059,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right."
+        },
+        {
+          "episode": 3,
+          "seed": 105095,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Place red block on the left, then set green block to its right and blue block next to green block."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "seeds": [
+        105029,
+        105065
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/blocks_ranking_rgb/refill/sim4/eval.log",
+      "timed_out": false,
+      "seconds": 511.9,
+      "episodes": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 105029,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+        },
+        {
+          "episode": 2,
+          "seed": 105065,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "seeds": [
+        105035,
+        105071
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/blocks_ranking_rgb/refill/sim5/eval.log",
+      "timed_out": false,
+      "seconds": 519.0,
+      "episodes": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 105035,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+        },
+        {
+          "episode": 2,
+          "seed": 105071,
+          "success": false,
+          "steps": 1200,
+          "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block."
+        }
+      ],
+      "skipped": []
+    }
+  ],
+  "seconds": 796.7,
+  "recorded": "2026-10-23T09:50:29+0000"
+}

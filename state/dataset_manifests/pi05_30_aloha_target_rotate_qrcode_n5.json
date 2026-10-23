@@ -1,0 +1,76 @@
+{
+  "repo_id": "pi05_30_aloha_target_rotate_qrcode_n5",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 5,
+  "frames_total": 759,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "rotate_qrcode": 5
+  },
+  "task_instructions": [
+    "Pick the gray slanted panel with text up, rotate it, and ensure the QR code faces you.",
+    "Pick up the rectangular plastic paymentsign and adjust its position to face the qrcode towards you.",
+    "Take the gray top with QR code, raise it, and make the qrcode face you.",
+    "Take the smooth plastic paymentsign with QR code, raise it, and make the qrcode face you.",
+    "Using the left arm, catch the triangular stand with QR code and rotate it to face the QR code."
+  ],
+  "selection": {
+    "rotate_qrcode": [
+      0,
+      25,
+      28,
+      39,
+      41
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "rotate_qrcode",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/rotate_qrcode/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 152,
+      "instruction": "Pick up the rectangular plastic paymentsign and adjust its position to face the qrcode towards you."
+    },
+    {
+      "episode_index": 1,
+      "task": "rotate_qrcode",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/rotate_qrcode/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 153,
+      "instruction": "Pick the gray slanted panel with text up, rotate it, and ensure the QR code faces you."
+    },
+    {
+      "episode_index": 2,
+      "task": "rotate_qrcode",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/rotate_qrcode/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 157,
+      "instruction": "Take the smooth plastic paymentsign with QR code, raise it, and make the qrcode face you."
+    },
+    {
+      "episode_index": 3,
+      "task": "rotate_qrcode",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/rotate_qrcode/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 149,
+      "instruction": "Using the left arm, catch the triangular stand with QR code and rotate it to face the QR code."
+    },
+    {
+      "episode_index": 4,
+      "task": "rotate_qrcode",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/rotate_qrcode/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 148,
+      "instruction": "Take the gray top with QR code, raise it, and make the qrcode face you."
+    }
+  ],
+  "conversion_seconds": 10.9
+}

@@ -1,0 +1,222 @@
+{
+  "task": "pick_dual_bottles",
+  "task_config": "demo_clean",
+  "requested_episodes": 17,
+  "seed_schedule": [
+    106002,
+    106008,
+    106014,
+    106020,
+    106026,
+    106032,
+    106038,
+    106044,
+    106050,
+    106056,
+    106062,
+    106068,
+    106074,
+    106080,
+    106086,
+    106092,
+    106098
+  ],
+  "attempted_seeds": [
+    106002,
+    106008,
+    106014,
+    106020,
+    106026,
+    106032,
+    106038,
+    106044,
+    106050,
+    106056,
+    106062,
+    106068,
+    106074,
+    106080,
+    106086,
+    106092,
+    106098,
+    106019,
+    106020,
+    106021,
+    106022,
+    106023
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 106002,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use separate arms to pick the bottle with red screw cap and the green plastic bottle with ridged bottom simultaneously."
+    },
+    {
+      "episode": 2,
+      "seed": 106008,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use one arm for the bottle with red screw cap and the other for the green plastic bottle with ridged bottom."
+    },
+    {
+      "episode": 3,
+      "seed": 106014,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Hold the bottle with red screw cap in one arm and the green bottle with white label in the other."
+    },
+    {
+      "episode": 4,
+      "seed": 106020,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the plastic soda bottle and the green bottle together with both arms."
+    },
+    {
+      "episode": 5,
+      "seed": 106026,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Raise the bottle with red screw cap and the green plastic bottle with ridged bottom together."
+    },
+    {
+      "episode": 6,
+      "seed": 106032,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grasp both bottles in parallel: the brown bottle and the green bottle."
+    },
+    {
+      "episode": 6,
+      "seed": 106038,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 7,
+      "seed": 106044,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Hold the brown bottle in one arm and the green bottle in the other."
+    },
+    {
+      "episode": 8,
+      "seed": 106050,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Lift the brown bottle and the green plastic bottle with ridged bottom at the same time."
+    },
+    {
+      "episode": 9,
+      "seed": 106056,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Raise the plastic soda bottle and the green bottle with white label together."
+    },
+    {
+      "episode": 9,
+      "seed": 106062,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 10,
+      "seed": 106068,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick both the brown bottle and the green bottle up in parallel."
+    },
+    {
+      "episode": 10,
+      "seed": 106074,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 10,
+      "seed": 106080,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 11,
+      "seed": 106086,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the plastic soda bottle and the green bottle together with both arms."
+    },
+    {
+      "episode": 12,
+      "seed": 106092,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Hold the brown bottle in one arm and the green plastic bottle with ridged bottom in the other."
+    },
+    {
+      "episode": 12,
+      "seed": 106098,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 13,
+      "seed": 106019,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Lift the plastic soda bottle and the green bottle at the same time."
+    },
+    {
+      "episode": 14,
+      "seed": 106020,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use separate arms to pick the brown bottle and the green bottle with white label simultaneously."
+    },
+    {
+      "episode": 15,
+      "seed": 106021,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grasp both bottles in parallel: the brown bottle and the green plastic bottle with ridged bottom."
+    },
+    {
+      "episode": 16,
+      "seed": 106022,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use separate arms to pick the plastic soda bottle and the green bottle with white label simultaneously."
+    },
+    {
+      "episode": 17,
+      "seed": 106023,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Raise the plastic soda bottle and the green bottle with white label together."
+    }
+  ]
+}

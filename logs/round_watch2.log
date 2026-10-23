@@ -1,0 +1,14 @@
+{"baseline_finished": ["stage3_source_fam3_r1"]}
+{"active": {"stage3_source_fam2_r1": {"step": 14175, "status": "running", "kind": "source"}}, "gpu": "0, 79551 MiB, 99 % | 1, 60020 MiB, 99 % | 2, 60019 MiB, 99 % | 3, 60020 MiB, 98 % | 4, 0 MiB, 0 % | 5, 0 MiB, 0 % | 6, 0 MiB, 0 % | 7, 0 MiB, 0 %"}
+{"active": {"stage3_source_fam2_r1": {"step": 15000, "status": "pending", "kind": "source"}}, "gpu": "0, 19537 MiB, 0 % | 1, 0 MiB, 0 % | 2, 0 MiB, 0 % | 3, 0 MiB, 0 % | 4, 0 MiB, 0 % | 5, 0 MiB, 0 % | 6, 0 MiB, 0 % | 7, 0 MiB, 0 %"}
+{
+  "newly_finished": {
+    "stage3_source_fam2_r1": {
+      "status": "completed",
+      "kind": "source",
+      "step": 15000
+    }
+  },
+  "active": {},
+  "gpu": "0, 19537 MiB, 0 % | 1, 0 MiB, 0 % | 2, 0 MiB, 0 % | 3, 0 MiB, 0 % | 4, 0 MiB, 0 % | 5, 0 MiB, 0 % | 6, 0 MiB, 0 % | 7, 0 MiB, 0 %"
+}

@@ -1,0 +1,78 @@
+"""Re-run the evaluation tasks that lost episodes.
+
+The RoboTwin policy client uses a websocket keepalive; when the policy server
+is busy (the first request of a fresh server includes the JAX compilation),
+the ping can time out and the simulator chunk dies with
+``ConnectionClosedError: 1011 keepalive ping timeout``.  The affected tasks
+then hold fewer than the planned episodes, which would make the report's
+sample sizes uneven.
+
+This script finds the tasks with fewer episodes than planned and runs them
+again with a relaxed keepalive, overwriting their result file.
+
+    python refill_missing_eval.py
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import sys
+import time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+# A relaxed keepalive: the ping must not fire while the policy server
+# compiles or serves several simulator clients at once.
+os.environ.setdefault("WEBSOCKET_PING_INTERVAL", "60")
+os.environ.setdefault("WEBSOCKET_PING_TIMEOUT", "300")
+os.environ.setdefault("PI05_FINAL_SIMS", "6")
+
+import config as C  # noqa: E402
+import eval_sources as E  # noqa: E402
+
+RESULTS = C.EVAL / "final"
+
+
+def now() -> str:
+    return time.strftime("%Y-%m-%dT%H:%M:%S%z")
+
+
+def missing() -> list[tuple[str, int, str]]:
+    out = []
+    for path in sorted(RESULTS.glob("*/target*/**/final_eval.json")):
+        payload = json.loads(path.read_text())
+        if payload.get("episodes", 0) >= C.FINAL_EPISODES:
+            continue
+        parts = path.parts
+        model = parts[-4]
+        target_index = int(parts[-3].replace("target", ""))
+        out.append((model, target_index, str(path)))
+    return out
+
+
+def main() -> int:
+    todo = missing()
+    if not todo:
+        print("every task has the planned number of episodes")
+        return 0
+    for model, index, path in todo:
+        task = C.TARGET_TASKS[index]
+        print(f"[{now()}] refilling {model} -> {task} ({path})", flush=True)
+        job = __import__("jobctl").load(model)
+        checkpoint = E.delivered_weights(job)
+        summary = E.F.evaluate_checkpoint(
+            task, C.final_eval_seeds(index), checkpoint,
+            repo_id=job["repo_id"], action_horizon=job["action_horizon"],
+            out_dir=Path(path).parent, policy_gpu=E.SERVER_GPU.get(model, "0"),
+            sim_gpus=E.SIM_POOL.get(model))
+        summary["model"] = model
+        summary["target_index"] = index
+        summary["family"] = C.TARGET_FAMILY[index]
+        print(f"[{now()}] {model} -> {task}: {summary['successes']}/{summary['episodes']} "
+              f"= {summary['success_rate']:.2f}", flush=True)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

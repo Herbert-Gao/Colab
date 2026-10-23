@@ -1,0 +1,32 @@
+{
+  "task": "place_object_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Use one arm to grab the blue toycar, place it in the yellow basket with open slots."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 260,
+      "instruction": "Grab the small packet of playingcards, put it in the yellow rectangular basket with dual grips, move the yellow rectangular basket with dual grips."
+    }
+  ]
+}

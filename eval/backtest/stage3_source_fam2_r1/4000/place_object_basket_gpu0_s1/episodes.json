@@ -1,0 +1,32 @@
+{
+  "task": "place_object_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 192,
+      "instruction": "Move the blue toycar with yellow buttons to the yellow rectangular basket with dual grips, then shift the yellow rectangular basket with dual grips."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 302,
+      "instruction": "Grab the rectangular playingcards case with patterns and place into the medium-sized basket with perforated texture."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "job_id": "stage1_lr2x_h10",
+  "step": 2000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr2x_h10/2000",
+  "seeds": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004
+  ],
+  "tasks": {
+    "move_pillbottle_pad": {
+      "task": "move_pillbottle_pad",
+      "seeds": [
+        500000,
+        500001,
+        500002,
+        500003,
+        500004
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage1_lr2x_h10/2000/move_pillbottle_pad/eval.log",
+      "timed_out": false,
+      "seconds": 257.0,
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500000,
+          "success": true,
+          "steps": 123,
+          "instruction": "Pick the rounded white bottle with teal base and set it on the pad"
+        },
+        {
+          "episode": 2,
+          "seed": 500002,
+          "success": true,
+          "steps": 294,
+          "instruction": "Use the right arm to pick the bottle capped with textured white lid and place it."
+        },
+        {
+          "episode": 3,
+          "seed": 500003,
+          "success": true,
+          "steps": 160,
+          "instruction": "Pick the orange capped bottle and put it onto the pad"
+        },
+        {
+          "episode": 4,
+          "seed": 500004,
+          "success": true,
+          "steps": 119,
+          "instruction": "Pick the white bottle with teal ends and set it on the pad"
+        },
+        {
+          "episode": 5,
+          "seed": 500007,
+          "success": true,
+          "steps": 236,
+          "instruction": "Use the left arm to grab the plastic orange bottle with white lid and place it"
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 1,
+          "seed": 500001,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 4,
+          "seed": 500005,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 4,
+          "seed": 500006,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 1.0,
+  "recorded": "2026-10-21T06:14:14+0000"
+}

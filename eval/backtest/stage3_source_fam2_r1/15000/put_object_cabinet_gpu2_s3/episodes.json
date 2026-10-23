@@ -1,0 +1,96 @@
+{
+  "task": "put_object_cabinet",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103,
+    500103,
+    500104,
+    500105,
+    500106,
+    500107,
+    500108,
+    500109,
+    500110
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500101,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 0,
+      "seed": 500103,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 0,
+      "seed": 500103,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 268,
+      "instruction": "Open the slanted wooden cabinet's drawer and set the palm-sized black stapler inside with the other arm."
+    },
+    {
+      "episode": 1,
+      "seed": 500105,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500106,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500107,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500108,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500109,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500110,
+      "valid": true,
+      "success": true,
+      "steps": 252,
+      "instruction": "Open the cabinet with light wood panels's drawer and set the bright blue soap bar inside with the other arm."
+    }
+  ]
+}

@@ -1,0 +1,2035 @@
+{
+  "repo_id": "pi05_30_aloha_fam2_place_object_basket_place_cans_plasticbox_place_bread_skillet_put_object_cabinet_src50",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 200,
+  "frames_total": 48410,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "place_object_basket": 50,
+    "place_cans_plasticbox": 50,
+    "place_bread_skillet": 50,
+    "put_object_cabinet": 50
+  },
+  "task_instructions": [
+    "Access the cabinet with angled sides's drawer and set the blue stapler with curved design inside.",
+    "Both arms lift the beverage can with printed label, drop into the smooth blue plasticbox with handle, repeat for the red soda can with green accents.",
+    "Both arms lift the can with flat silver bottom, drop into the plasticbox with smooth plastic texture, repeat for the gold-decorated aluminum can.",
+    "Both arms lift the can with red green label, drop into the light blue plasticbox, repeat for the brown can.",
+    "Drop the cylindrical metal can and the metal can with pull-tab top into the plasticbox with rounded corners and lid with both arms",
+    "Drop the red can with gold illustrations and the cylindrical metal can into the blue plasticbox for storing things with both arms",
+    "Employ both arms to pick the Coca-Cola soda can and the cylindrical red drink can with logo, and place them inside the medium blue plasticbox.",
+    "First move the can with red green label to the medium box with angled sides, then move the can with rounded cylindrical shape into the medium box with angled sides.",
+    "First pick the metal can with red base, place it in the plasticbox with smooth plastic texture, then repeat for the red-orange text on white can.",
+    "Grab the black playing cards box, place it in the yellow basket, then move the yellow basket away.",
+    "Grab the blue carton for playingcards, place it in the yellow basket, then move the yellow basket away.",
+    "Grab the bread with rounded edges using the left arm and place it in the flat-bottomed skillet with long handle",
+    "Grab the bread with warm golden color and stick it in the flat-bottom skillet.",
+    "Grab the bright sleek toycar, drop it in the basket with perforated sides, then move the basket with perforated sides.",
+    "Grab the card box with golden designs, drop it in the woven basket, then move the woven basket.",
+    "Grab the cuboid bread with the left arm and place in the skillet for frying food",
+    "Grab the glossy blue toycar with one arm, drop the glossy blue toycar in the basket with black handle.",
+    "Grab the miniature pink car with black wheels, place it in the basket with black handle, then move the basket with black handle away.",
+    "Grab the rectangular box for card storage, drop in the basket with black handle, and move the basket with black handle.",
+    "Grab the red green beverage can, insert it into the blue box with angled edges, then grab the can with red green label and repeat.",
+    "Grab the red playingcards box, drop it in the basket for carrying things, shift the basket for carrying things.",
+    "Grab the small loaf with curved top and stick it in the heavy black cooking skillet.",
+    "Grab the small loaf with curved top and stick it in the skillet with extended grip handle.",
+    "Grab the smooth black cards container, drop it in the basket with loop handle, shift the basket with loop handle.",
+    "Grab the soft brown bread from the table and set it in the rounded skillet with a holey handle.",
+    "Grab the soft golden bread and stick it in the round skillet with handle.",
+    "Grab the toycar with dark gray windows with one arm, drop the toycar with dark gray windows in the basket for carrying things.",
+    "Grab the toycar with shiny plastic finish, drop in the basket with black handle, and move the basket with black handle.",
+    "Grab the toycar with shiny wheels, set it into the carrying basket with black plastic handle.",
+    "Grab the toycar with smooth texture, drop it in the basket with loop handle, shift the basket with loop handle.",
+    "Grab the yellow and red playingcards box with one arm, drop the yellow and red playingcards box in the brown basket.",
+    "Lift the box holding playing cards, drop it in the basket with loop handle, then slightly relocate the basket with loop handle.",
+    "Lift the bread with split top and drop it into the round skillet with open handle end.",
+    "Lift the brown can, put it in the medium storage plasticbox, then handle the smooth white can with accents similarly.",
+    "Lift the colorful can with lime and orange design and the white patterned brown metal can, then set them inside the blue plastic rectangular storage box",
+    "Lift the compact box for playing cards, place it into the oval-shaped basket with woven body, move the oval-shaped basket with woven body.",
+    "Lift the green toycar made from plastic, drop it in the brown basket with woven ridges, then slightly relocate the brown basket with woven ridges.",
+    "Lift the metal can with pull-tab top and the red and gold cylindrical can, and stick them into the plasticbox with smooth plastic texture",
+    "Lift the metallic can with rounded edges, put it in the blue plasticbox, then handle the smooth light brown can similarly.",
+    "Lift the playing cards box with gold text, drop it in the basket with loop handle, then slightly relocate the basket with loop handle.",
+    "Lift the rectangular box for card storage, drop it in the wooden basket with curved handle, then slightly relocate the wooden basket with curved handle.",
+    "Lift the rectangular playingcards case using the right arm, drop it in the brown basket with woven ridges, then push the brown basket with woven ridges via the left arm.",
+    "Lift the red and white beverage can and the red and gold cylindrical can, and stick them into the deep blue plasticbox with grooves",
+    "Lift the red shiny can with green label into the durable plasticbox with side handle, then the red shiny can with green label to the durable plasticbox with side handle without delay.",
+    "Lift the round bread with braided top and drop it into the smooth round pan made of iron",
+    "Lift the small aluminum red drink can into the medium storage plasticbox, then the red soda can with green accents to the medium storage plasticbox without delay.",
+    "Lift the small aluminum red drink can into the plasticbox with grooved sides, then the red can with white lettering to the plasticbox with grooved sides without delay.",
+    "Lift the small aluminum red drink can, place it in the blue plastic rectangular storage box, then repeat for the metallic red beverage can.",
+    "Lift the small cylindrical drink container and the white can, and stick them into the smooth blue hard plasticbox",
+    "Lift the smooth brown can with rounded edges and the red can with decorative label, then set them inside the deep blue box for storage",
+    "Lift the smooth loaf with rounded edges using the left arm and move it to the round cooking pan",
+    "Move the Coca-Cola soda can and the white can into the durable plasticbox with side handle using separate arms.",
+    "Move the bread with golden crust to the black skillet with smooth base using the left arm",
+    "Move the can with rounded cylindrical shape and the cylindrical white glossy can together into the boxy light blue plasticbox",
+    "Move the golden bread loaf from table into the flat-bottom skillet",
+    "Move the hand-sized bread block from table into the heavy black cooking skillet",
+    "Move the light brown loaf with smooth sides to the flat-bottomed black cast iron skillet using the left arm",
+    "Move the medium-sized bread piece from table into the gray skillet for stovetop cooking",
+    "Move the soft brown bread from table into the skillet with black cooking surface",
+    "Open the cabinet with angled sides's drawer and carefully drop the playingcards pack with blue top into it.",
+    "Open the cabinet with angled sides's drawer and move the black and white phone into it.",
+    "Open the cabinet with gray sides's drawer and carefully drop the metallic phone with glass screen front into it.",
+    "Open the cabinet with gray sides's drawer and place the round-topped golden bread inside it.",
+    "Open the cabinet with metal reinforcements's drawer and place the rubikscube with bright primary colors inside it.",
+    "Open the drawer of the gray and wood cabinet before placing the brown box holding coffee inside it.",
+    "Open the drawer of the light wood cabinet and move the slanted rectangular soap into the drawer.",
+    "Open the drawer of the light wood top cabinet before placing the doughy and soft bread inside it.",
+    "Open the drawer of the medium-sized cabinet and move the black stapler with curved top into the drawer.",
+    "Open the drawer of the rectangular cabinet and set the mouse with two buttons and a scroll wheel inside.",
+    "Open the gray and wood cabinet's drawer and place the mouse with two buttons and a scroll wheel inside it.",
+    "Open the light wood cabinet's drawer first, then place the rounded bar of dark soap inside.",
+    "Open the light wood top cabinet's drawer and carefully drop the solid yellow soap bar into it.",
+    "Open the light wood top cabinet's drawer and transfer the small office stapler into it.",
+    "Open the medium-sized cabinet's drawer and carefully drop the mouse with two buttons and a scroll wheel into it.",
+    "Open the medium-sized cabinet's drawer and move the blue pack holding playingcards into it.",
+    "Open the medium-sized cabinet's drawer and transfer the brown and gray multimedia phone into it.",
+    "Open the rectangular cabinet's drawer and place the rectangular soap with slight groove pattern inside it.",
+    "Open the wooden cabinet's drawer and carefully drop the small black box with cards into it.",
+    "Open the wooden cabinet's drawer first, then place the playingcards box with white symbols inside.",
+    "Pick and drop the red cylindrical can with silver top and the can with gold top lid into the medium blue plasticbox.",
+    "Pick and drop the small soda can with lime graphics and the metal can with red base into the medium box with angled sides.",
+    "Pick the box for playingcards, drop the box for playingcards in the brown basket with woven ridges, slide the brown basket with woven ridges lightly.",
+    "Pick the bread with rounded corners and transfer it to the black-surfaced skillet with gray sides",
+    "Pick the card box with golden designs, drop the card box with golden designs in the smooth ribbed light brown basket, slide the smooth ribbed light brown basket lightly.",
+    "Pick the compact box for playing cards, place it in the brown basket.",
+    "Pick the compact box for playing cards, place it in the plastic basket, shift the plastic basket.",
+    "Pick the golden bread and transfer it to the smooth non-stick skillet",
+    "Pick the golden bread loaf and transfer it to the skillet with black cooking surface",
+    "Pick the pink toycar shaped like real car, put it inside the smooth ribbed light brown basket.",
+    "Pick the pink toycar, place it in the carrying basket with black plastic handle, shift the carrying basket with black plastic handle.",
+    "Pick the playingcards pack with blue top, place it in the basket with loop handle.",
+    "Pick the small aluminum red drink can, place it inside the plasticbox for carrying items, follow the same for the red cylindrical can with silver top.",
+    "Pick the smooth crusty small bread up using the right arm and drop it in the flat-bottomed skillet with long handle.",
+    "Pick the smooth loaf with rounded edges up using the right arm and drop it in the hefty black skillet.",
+    "Pick the soft brown bread with the left arm and set it in the medium-sized frying skillet",
+    "Pick the toycar with rounded edges and position it in the wooden basket with curved handle, move the wooden basket with curved handle slightly.",
+    "Pick up the box for playingcards, put it in the brown basket, shift the brown basket a little.",
+    "Pick up the bread with golden-brown crust and put it in the round cooking pan",
+    "Pick up the card box with golden designs, place it in the basket with black handle, grab the basket with black handle.",
+    "Pick up the playingcards box with white symbols and drop it in the basket with loop handle, then move the basket with loop handle.",
+    "Pick up the playingcards box with white symbols, put it in the basket made of woven wood, shift the basket made of woven wood a little.",
+    "Place the Nescafe coffee-box with shiny surface into the drawer of the wooden cabinet after sliding it open.",
+    "Place the bread with split top into the round cooking pan using the right arm",
+    "Place the can with gold top lid and the can with red-orange text into the blue plastic rectangular storage box using both arms.",
+    "Place the green red metallic soda can and the smooth red can with silver bottom into the deep blue box for storage using both arms.",
+    "Place the metallic stapler with blue cover into the drawer of the cabinet with gray sides after sliding it open.",
+    "Place the palm-sized plastic toycar into the brown basket and push the brown basket slightly away.",
+    "Place the rectangular playingcards case into the drawer of the rectangular slanted cabinet after sliding it open.",
+    "Place the red can with smooth metallic texture in the rectangular storage box with grooves, follow with the metallic soda can using each arm.",
+    "Place the red-orange text on white can and the metallic drink can with pull-tab into the durable plasticbox with side handle with dual arms",
+    "Place the small plastic rubikscube into the drawer of the cabinet with gray sides after sliding it open.",
+    "Place the small playingcards pack into the drawer of the wooden cabinet after sliding it open.",
+    "Place the small teal plastic car with windows into the basket with arched black grip and push the basket with arched black grip slightly away.",
+    "Place the smooth plastic mouse into the drawer of the cabinet with angled sides after sliding it open.",
+    "Place the smooth playingcards holder into the basket with handle and push the basket with handle slightly away.",
+    "Place the smooth red soda can and the cylindrical red drink can with logo into the medium box with angled sides using both arms.",
+    "Pull open the drawer of the medium-sized cabinet and move the plastic toycar with smooth finish into it.",
+    "Pull open the drawer of the medium-sized cabinet and place the soft bread inside.",
+    "Pull open the drawer of the rectangular slanted cabinet and move the box for playingcards into it.",
+    "Pull open the drawer of the rectangular slanted cabinet and move the sleek phone into it.",
+    "Pull open the light wood cabinet's drawer and place the blue rectangular stapler with curves inside it.",
+    "Pull open the light wood top cabinet's drawer and place the colorful cube inside.",
+    "Pull open the light wood top cabinet's drawer and place the mouse with two buttons and a scroll wheel inside it.",
+    "Pull open the rectangular cabinet's drawer and place the small dark cleaning soap inside it.",
+    "Pull the light wood top cabinet's drawer open and transfer the rectangular bread loaf with fluffy texture into it.",
+    "Put the lightweight toycar in the yellow basket and pull the yellow basket away.",
+    "Put the small golden brown bread into the metal skillet.",
+    "Put the toycar with rounded compact shape in the rectangular basket with smooth surface, then move the rectangular basket with smooth surface away slightly.",
+    "Set the black playing cards box in the rectangular basket with smooth surface, and shift the rectangular basket with smooth surface away.",
+    "Set the black stapler with rectangular base into the smooth-surface cabinet's drawer after opening it.",
+    "Set the blue toycar with yellow roof accents in the rectangular basket with smooth surface, and shift the rectangular basket with smooth surface away.",
+    "Set the computer mouse into the cabinet with gray sides's drawer after opening it.",
+    "Set the hand-sized bread block into the round cooking pan after grabbing",
+    "Set the mouse with two buttons and a scroll wheel into the rectangular slanted cabinet's drawer after opening it.",
+    "Set the small golden brown bread into the skillet for frying food after grabbing",
+    "Set the white and golden rectangular bread into the storage cabinet's drawer after opening it.",
+    "Set the white stapler with rounded design into the medium-sized cabinet's drawer after opening it.",
+    "Slide open the cabinet with angled sides's drawer and set the rubikscube colorful and compact inside.",
+    "Slide open the cabinet with metal reinforcements's drawer and drop the rounded computer mouse inside.",
+    "Slide open the cabinet with metal reinforcements's drawer and drop the smooth soap with grainy spots inside.",
+    "Slide open the drawer of the smooth-surface cabinet before putting the black playing cards box inside.",
+    "Slide open the drawer of the storage cabinet before putting the red playingcards box inside.",
+    "Slide open the drawer of the storage cabinet before putting the square-shaped bread piece inside.",
+    "Slide open the medium-sized cabinet's drawer and drop the rubikscube with smooth plastic tiles inside.",
+    "Take the bread with golden surface color with the left arm and drop into the flat-bottom skillet",
+    "Take the brown bread loaf and place it inside the metal skillet",
+    "Take the golden baked bread off the table into the round skillet with handle",
+    "Take the golden bread off the table into the skillet with extended grip handle",
+    "Take the red playingcards box, set it in the basket made of woven wood, shift the basket made of woven wood lightly.",
+    "Take the round bread with braided top with the left arm and drop into the skillet with black cooking surface",
+    "Take the small bread and drop it into the metal skillet with comfortable grip.",
+    "Take the soft brown bread and place it inside the metal skillet with comfortable grip",
+    "Take the soft square bread and place it inside the flat-bottom skillet",
+    "Take the square loaf of bread and put it in the metal skillet with comfortable grip.",
+    "Transfer the cylindrical white glossy can to the plasticbox with rounded corners and lid, then transfer the red green can to the plasticbox with rounded corners and lid.",
+    "Transfer the drink can with bright colors into the blue box with angled edges, then position the small soda can with lime graphics within the blue box with angled edges.",
+    "Transfer the hand-sized metallic can to the blue plastic rectangular storage box, then transfer the smooth white can with accents to the blue plastic rectangular storage box.",
+    "Transfer the medium metal can into the medium storage plasticbox, then position the smooth brown can with rounded edges within the medium storage plasticbox.",
+    "Transfer the metal can with white decorative designs and the can with sealed gold top into the rectangular plasticbox with rounded edges using dual arms",
+    "Transfer the red can with white lettering to the plasticbox with grooved sides, then transfer the beverage can with printed label to the plasticbox with grooved sides.",
+    "Transfer the red drink can with white lid to the plasticbox with grooved sides, then transfer the red and gold cylindrical can to the plasticbox with grooved sides.",
+    "Transfer the smooth red soda can and the can with red green label into the deep blue box for storage using dual arms",
+    "Unlock the drawer of the cabinet with angled sides and drop the soap bar into it.",
+    "Unlock the drawer of the rectangular slanted cabinet and drop the medium-sized handheld phone into it.",
+    "Use arms to pick the hand-sized red can for drinks, drop it in the plasticbox with rounded corners and lid, repeat for the metallic drink can with pull-tab.",
+    "Use arms to pick the red can with gold illustrations, drop it in the plasticbox for carrying items, repeat for the soda can with lime illustration.",
+    "Use arms to set the can with red-orange text and the red green can into the smooth blue plasticbox with handle.",
+    "Use both arms to move the cylindrical red drink can with logo and the red can with gold illustrations into the rectangular plasticbox with rounded edges",
+    "Use both arms to move the hand-sized red can for drinks and the smooth red can into the plasticbox with rounded corners and lid",
+    "Use dual arms to pick the gold patterned beverage can and the colorful can with lime and orange design, placing both in the blue box for storing things.",
+    "Use dual arms to pick the palm-sized drink can and the metal can with pull-tab top, placing both in the deep blue plasticbox with grooves.",
+    "Use one arm to grab the playful green toycar, place it in the yellow basket for carrying stuff, then move the yellow basket for carrying stuff.",
+    "Use one arm to place the box of playingcards in the basket with handle.",
+    "Use one arm to place the pink toycar in the woven basket.",
+    "Use one arm to place the smooth playingcards holder in the plastic basket.",
+    "Use one arm to place the toycar with black tires in the basket with loop handle.",
+    "Use the arms to transfer the small light brown cylindrical can and the red green can into the light blue rectangular storage plasticbox.",
+    "Use the left arm to grab the bread block with light patches for the skillet for frying food",
+    "Use the left arm to grab the light brown loaf with smooth sides for the solid dark-colored round pan",
+    "Use the left arm to grab the small plastic toycar, place it in the yellow basket for carrying stuff, and move the yellow basket for carrying stuff using the right arm.",
+    "Use the left arm to lift the golden crusted bread slice and place it into the round cooking pan.",
+    "Use the left arm to move the doughy and soft bread and set it into the medium-sized frying skillet.",
+    "Use the left arm to pick the blue and white playingcards packaging, then use the right arm for the basket with loop handle.",
+    "Use the left arm to pick the box of playingcards, then use the right arm for the basket with loop handle.",
+    "Use the left arm to pick the red playingcards box, then use the right arm for the basket with loop handle.",
+    "Use the left arm to stick the soft doughy bread into the dark gray skillet.",
+    "Use the left arm to take the cuboid bread and move it into the skillet with looped handle.",
+    "Use the left arm to take the light brown bread with ridges and move it into the hefty black skillet.",
+    "Use the right arm to grab the box with cards inside, place it in the woven basket, and move the woven basket using the left arm.",
+    "Use the right arm to grab the bread with split top for the metal skillet",
+    "Use the right arm to move the bread with rounded edges into the black-surfaced skillet with gray sides",
+    "Use the right arm to move the golden bread loaf into the flat-bottomed skillet with long handle",
+    "Use the right arm to pick the small golden baked bread for the flat-bottomed skillet with long handle",
+    "Use the right arm to stick the bread loaf with bumpy surface into the round cooking pan.",
+    "Use the right arm to stick the bread with soft texture into the smooth round pan made of iron.",
+    "Use the right arm to take the square-shaped bread and move it into the metal skillet with comfortable grip.",
+    "Use your arms to set the metallic soda can and the metal can with printed white graphics gently into the plasticbox with smooth plastic texture.",
+    "Use your arms to set the rounded red Coca-Cola soda container and the rounded red Coca-Cola soda container gently into the light blue rectangular storage plasticbox.",
+    "Using dual arms, place the can with rounded cylindrical shape and the Coca-Cola can inside the boxy light blue plasticbox",
+    "Utilize the arms to deposit both the can with red-orange text and the soda can with lime illustration into the plasticbox with smooth plastic texture."
+  ],
+  "selection": {
+    "place_object_basket": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "place_cans_plasticbox": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "place_bread_skillet": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "put_object_cabinet": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "place_object_basket",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 254,
+      "instruction": "Use one arm to place the box of playingcards in the basket with handle."
+    },
+    {
+      "episode_index": 1,
+      "task": "place_object_basket",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 260,
+      "instruction": "Take the red playingcards box, set it in the basket made of woven wood, shift the basket made of woven wood lightly."
+    },
+    {
+      "episode_index": 2,
+      "task": "place_object_basket",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 243,
+      "instruction": "Pick the playingcards pack with blue top, place it in the basket with loop handle."
+    },
+    {
+      "episode_index": 3,
+      "task": "place_object_basket",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 253,
+      "instruction": "Use the left arm to pick the box of playingcards, then use the right arm for the basket with loop handle."
+    },
+    {
+      "episode_index": 4,
+      "task": "place_object_basket",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 231,
+      "instruction": "Grab the rectangular box for card storage, drop in the basket with black handle, and move the basket with black handle."
+    },
+    {
+      "episode_index": 5,
+      "task": "place_object_basket",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 243,
+      "instruction": "Pick the card box with golden designs, drop the card box with golden designs in the smooth ribbed light brown basket, slide the smooth ribbed light brown basket lightly."
+    },
+    {
+      "episode_index": 6,
+      "task": "place_object_basket",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 243,
+      "instruction": "Use the left arm to pick the blue and white playingcards packaging, then use the right arm for the basket with loop handle."
+    },
+    {
+      "episode_index": 7,
+      "task": "place_object_basket",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 257,
+      "instruction": "Grab the black playing cards box, place it in the yellow basket, then move the yellow basket away."
+    },
+    {
+      "episode_index": 8,
+      "task": "place_object_basket",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 246,
+      "instruction": "Use the left arm to pick the red playingcards box, then use the right arm for the basket with loop handle."
+    },
+    {
+      "episode_index": 9,
+      "task": "place_object_basket",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 244,
+      "instruction": "Pick up the playingcards box with white symbols and drop it in the basket with loop handle, then move the basket with loop handle."
+    },
+    {
+      "episode_index": 10,
+      "task": "place_object_basket",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 248,
+      "instruction": "Grab the toycar with shiny wheels, set it into the carrying basket with black plastic handle."
+    },
+    {
+      "episode_index": 11,
+      "task": "place_object_basket",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 244,
+      "instruction": "Put the lightweight toycar in the yellow basket and pull the yellow basket away."
+    },
+    {
+      "episode_index": 12,
+      "task": "place_object_basket",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 243,
+      "instruction": "Place the small teal plastic car with windows into the basket with arched black grip and push the basket with arched black grip slightly away."
+    },
+    {
+      "episode_index": 13,
+      "task": "place_object_basket",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 249,
+      "instruction": "Grab the miniature pink car with black wheels, place it in the basket with black handle, then move the basket with black handle away."
+    },
+    {
+      "episode_index": 14,
+      "task": "place_object_basket",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 253,
+      "instruction": "Grab the yellow and red playingcards box with one arm, drop the yellow and red playingcards box in the brown basket."
+    },
+    {
+      "episode_index": 15,
+      "task": "place_object_basket",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 232,
+      "instruction": "Use one arm to place the smooth playingcards holder in the plastic basket."
+    },
+    {
+      "episode_index": 16,
+      "task": "place_object_basket",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 245,
+      "instruction": "Use one arm to grab the playful green toycar, place it in the yellow basket for carrying stuff, then move the yellow basket for carrying stuff."
+    },
+    {
+      "episode_index": 17,
+      "task": "place_object_basket",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 239,
+      "instruction": "Pick the box for playingcards, drop the box for playingcards in the brown basket with woven ridges, slide the brown basket with woven ridges lightly."
+    },
+    {
+      "episode_index": 18,
+      "task": "place_object_basket",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 245,
+      "instruction": "Lift the playing cards box with gold text, drop it in the basket with loop handle, then slightly relocate the basket with loop handle."
+    },
+    {
+      "episode_index": 19,
+      "task": "place_object_basket",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 239,
+      "instruction": "Lift the compact box for playing cards, place it into the oval-shaped basket with woven body, move the oval-shaped basket with woven body."
+    },
+    {
+      "episode_index": 20,
+      "task": "place_object_basket",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 245,
+      "instruction": "Use one arm to place the toycar with black tires in the basket with loop handle."
+    },
+    {
+      "episode_index": 21,
+      "task": "place_object_basket",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 257,
+      "instruction": "Grab the card box with golden designs, drop it in the woven basket, then move the woven basket."
+    },
+    {
+      "episode_index": 22,
+      "task": "place_object_basket",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 243,
+      "instruction": "Grab the blue carton for playingcards, place it in the yellow basket, then move the yellow basket away."
+    },
+    {
+      "episode_index": 23,
+      "task": "place_object_basket",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 232,
+      "instruction": "Pick up the box for playingcards, put it in the brown basket, shift the brown basket a little."
+    },
+    {
+      "episode_index": 24,
+      "task": "place_object_basket",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 229,
+      "instruction": "Grab the glossy blue toycar with one arm, drop the glossy blue toycar in the basket with black handle."
+    },
+    {
+      "episode_index": 25,
+      "task": "place_object_basket",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 247,
+      "instruction": "Use one arm to place the pink toycar in the woven basket."
+    },
+    {
+      "episode_index": 26,
+      "task": "place_object_basket",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 269,
+      "instruction": "Grab the toycar with shiny plastic finish, drop in the basket with black handle, and move the basket with black handle."
+    },
+    {
+      "episode_index": 27,
+      "task": "place_object_basket",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 237,
+      "instruction": "Grab the toycar with dark gray windows with one arm, drop the toycar with dark gray windows in the basket for carrying things."
+    },
+    {
+      "episode_index": 28,
+      "task": "place_object_basket",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 292,
+      "instruction": "Grab the smooth black cards container, drop it in the basket with loop handle, shift the basket with loop handle."
+    },
+    {
+      "episode_index": 29,
+      "task": "place_object_basket",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 244,
+      "instruction": "Pick up the card box with golden designs, place it in the basket with black handle, grab the basket with black handle."
+    },
+    {
+      "episode_index": 30,
+      "task": "place_object_basket",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 246,
+      "instruction": "Grab the toycar with smooth texture, drop it in the basket with loop handle, shift the basket with loop handle."
+    },
+    {
+      "episode_index": 31,
+      "task": "place_object_basket",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 239,
+      "instruction": "Use the left arm to grab the small plastic toycar, place it in the yellow basket for carrying stuff, and move the yellow basket for carrying stuff using the right arm."
+    },
+    {
+      "episode_index": 32,
+      "task": "place_object_basket",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 250,
+      "instruction": "Pick up the playingcards box with white symbols, put it in the basket made of woven wood, shift the basket made of woven wood a little."
+    },
+    {
+      "episode_index": 33,
+      "task": "place_object_basket",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 227,
+      "instruction": "Set the black playing cards box in the rectangular basket with smooth surface, and shift the rectangular basket with smooth surface away."
+    },
+    {
+      "episode_index": 34,
+      "task": "place_object_basket",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 245,
+      "instruction": "Lift the rectangular playingcards case using the right arm, drop it in the brown basket with woven ridges, then push the brown basket with woven ridges via the left arm."
+    },
+    {
+      "episode_index": 35,
+      "task": "place_object_basket",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 245,
+      "instruction": "Pick the toycar with rounded edges and position it in the wooden basket with curved handle, move the wooden basket with curved handle slightly."
+    },
+    {
+      "episode_index": 36,
+      "task": "place_object_basket",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 248,
+      "instruction": "Lift the green toycar made from plastic, drop it in the brown basket with woven ridges, then slightly relocate the brown basket with woven ridges."
+    },
+    {
+      "episode_index": 37,
+      "task": "place_object_basket",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 249,
+      "instruction": "Lift the rectangular box for card storage, drop it in the wooden basket with curved handle, then slightly relocate the wooden basket with curved handle."
+    },
+    {
+      "episode_index": 38,
+      "task": "place_object_basket",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 245,
+      "instruction": "Set the blue toycar with yellow roof accents in the rectangular basket with smooth surface, and shift the rectangular basket with smooth surface away."
+    },
+    {
+      "episode_index": 39,
+      "task": "place_object_basket",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 237,
+      "instruction": "Pick the compact box for playing cards, place it in the brown basket."
+    },
+    {
+      "episode_index": 40,
+      "task": "place_object_basket",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 245,
+      "instruction": "Grab the bright sleek toycar, drop it in the basket with perforated sides, then move the basket with perforated sides."
+    },
+    {
+      "episode_index": 41,
+      "task": "place_object_basket",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 247,
+      "instruction": "Grab the red playingcards box, drop it in the basket for carrying things, shift the basket for carrying things."
+    },
+    {
+      "episode_index": 42,
+      "task": "place_object_basket",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 227,
+      "instruction": "Put the toycar with rounded compact shape in the rectangular basket with smooth surface, then move the rectangular basket with smooth surface away slightly."
+    },
+    {
+      "episode_index": 43,
+      "task": "place_object_basket",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 246,
+      "instruction": "Pick the pink toycar, place it in the carrying basket with black plastic handle, shift the carrying basket with black plastic handle."
+    },
+    {
+      "episode_index": 44,
+      "task": "place_object_basket",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 263,
+      "instruction": "Pick the compact box for playing cards, place it in the plastic basket, shift the plastic basket."
+    },
+    {
+      "episode_index": 45,
+      "task": "place_object_basket",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 248,
+      "instruction": "Place the smooth playingcards holder into the basket with handle and push the basket with handle slightly away."
+    },
+    {
+      "episode_index": 46,
+      "task": "place_object_basket",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 249,
+      "instruction": "Use the right arm to grab the box with cards inside, place it in the woven basket, and move the woven basket using the left arm."
+    },
+    {
+      "episode_index": 47,
+      "task": "place_object_basket",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 253,
+      "instruction": "Lift the box holding playing cards, drop it in the basket with loop handle, then slightly relocate the basket with loop handle."
+    },
+    {
+      "episode_index": 48,
+      "task": "place_object_basket",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 245,
+      "instruction": "Pick the pink toycar shaped like real car, put it inside the smooth ribbed light brown basket."
+    },
+    {
+      "episode_index": 49,
+      "task": "place_object_basket",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_object_basket/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 238,
+      "instruction": "Place the palm-sized plastic toycar into the brown basket and push the brown basket slightly away."
+    },
+    {
+      "episode_index": 50,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 288,
+      "instruction": "Use dual arms to pick the palm-sized drink can and the metal can with pull-tab top, placing both in the deep blue plasticbox with grooves."
+    },
+    {
+      "episode_index": 51,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 287,
+      "instruction": "Place the red can with smooth metallic texture in the rectangular storage box with grooves, follow with the metallic soda can using each arm."
+    },
+    {
+      "episode_index": 52,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 286,
+      "instruction": "Use both arms to move the hand-sized red can for drinks and the smooth red can into the plasticbox with rounded corners and lid"
+    },
+    {
+      "episode_index": 53,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 291,
+      "instruction": "Use both arms to move the cylindrical red drink can with logo and the red can with gold illustrations into the rectangular plasticbox with rounded edges"
+    },
+    {
+      "episode_index": 54,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 286,
+      "instruction": "Transfer the cylindrical white glossy can to the plasticbox with rounded corners and lid, then transfer the red green can to the plasticbox with rounded corners and lid."
+    },
+    {
+      "episode_index": 55,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 287,
+      "instruction": "Use arms to pick the hand-sized red can for drinks, drop it in the plasticbox with rounded corners and lid, repeat for the metallic drink can with pull-tab."
+    },
+    {
+      "episode_index": 56,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 286,
+      "instruction": "Lift the smooth brown can with rounded edges and the red can with decorative label, then set them inside the deep blue box for storage"
+    },
+    {
+      "episode_index": 57,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 287,
+      "instruction": "Lift the metallic can with rounded edges, put it in the blue plasticbox, then handle the smooth light brown can similarly."
+    },
+    {
+      "episode_index": 58,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 290,
+      "instruction": "Use arms to set the can with red-orange text and the red green can into the smooth blue plasticbox with handle."
+    },
+    {
+      "episode_index": 59,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 290,
+      "instruction": "Lift the red shiny can with green label into the durable plasticbox with side handle, then the red shiny can with green label to the durable plasticbox with side handle without delay."
+    },
+    {
+      "episode_index": 60,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 289,
+      "instruction": "Pick and drop the red cylindrical can with silver top and the can with gold top lid into the medium blue plasticbox."
+    },
+    {
+      "episode_index": 61,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 285,
+      "instruction": "Use your arms to set the rounded red Coca-Cola soda container and the rounded red Coca-Cola soda container gently into the light blue rectangular storage plasticbox."
+    },
+    {
+      "episode_index": 62,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 285,
+      "instruction": "Place the red-orange text on white can and the metallic drink can with pull-tab into the durable plasticbox with side handle with dual arms"
+    },
+    {
+      "episode_index": 63,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 284,
+      "instruction": "Use dual arms to pick the gold patterned beverage can and the colorful can with lime and orange design, placing both in the blue box for storing things."
+    },
+    {
+      "episode_index": 64,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 288,
+      "instruction": "Drop the cylindrical metal can and the metal can with pull-tab top into the plasticbox with rounded corners and lid with both arms"
+    },
+    {
+      "episode_index": 65,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 285,
+      "instruction": "Transfer the metal can with white decorative designs and the can with sealed gold top into the rectangular plasticbox with rounded edges using dual arms"
+    },
+    {
+      "episode_index": 66,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 289,
+      "instruction": "Lift the small aluminum red drink can, place it in the blue plastic rectangular storage box, then repeat for the metallic red beverage can."
+    },
+    {
+      "episode_index": 67,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 285,
+      "instruction": "Pick the small aluminum red drink can, place it inside the plasticbox for carrying items, follow the same for the red cylindrical can with silver top."
+    },
+    {
+      "episode_index": 68,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 288,
+      "instruction": "Transfer the red drink can with white lid to the plasticbox with grooved sides, then transfer the red and gold cylindrical can to the plasticbox with grooved sides."
+    },
+    {
+      "episode_index": 69,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 290,
+      "instruction": "Lift the small aluminum red drink can into the plasticbox with grooved sides, then the red can with white lettering to the plasticbox with grooved sides without delay."
+    },
+    {
+      "episode_index": 70,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 286,
+      "instruction": "Lift the colorful can with lime and orange design and the white patterned brown metal can, then set them inside the blue plastic rectangular storage box"
+    },
+    {
+      "episode_index": 71,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 285,
+      "instruction": "Lift the metal can with pull-tab top and the red and gold cylindrical can, and stick them into the plasticbox with smooth plastic texture"
+    },
+    {
+      "episode_index": 72,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 290,
+      "instruction": "First move the can with red green label to the medium box with angled sides, then move the can with rounded cylindrical shape into the medium box with angled sides."
+    },
+    {
+      "episode_index": 73,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 287,
+      "instruction": "Place the smooth red soda can and the cylindrical red drink can with logo into the medium box with angled sides using both arms."
+    },
+    {
+      "episode_index": 74,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 287,
+      "instruction": "Lift the brown can, put it in the medium storage plasticbox, then handle the smooth white can with accents similarly."
+    },
+    {
+      "episode_index": 75,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 283,
+      "instruction": "Move the Coca-Cola soda can and the white can into the durable plasticbox with side handle using separate arms."
+    },
+    {
+      "episode_index": 76,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 290,
+      "instruction": "Place the can with gold top lid and the can with red-orange text into the blue plastic rectangular storage box using both arms."
+    },
+    {
+      "episode_index": 77,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 287,
+      "instruction": "Use the arms to transfer the small light brown cylindrical can and the red green can into the light blue rectangular storage plasticbox."
+    },
+    {
+      "episode_index": 78,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 287,
+      "instruction": "Both arms lift the can with flat silver bottom, drop into the plasticbox with smooth plastic texture, repeat for the gold-decorated aluminum can."
+    },
+    {
+      "episode_index": 79,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 291,
+      "instruction": "First pick the metal can with red base, place it in the plasticbox with smooth plastic texture, then repeat for the red-orange text on white can."
+    },
+    {
+      "episode_index": 80,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 285,
+      "instruction": "Transfer the smooth red soda can and the can with red green label into the deep blue box for storage using dual arms"
+    },
+    {
+      "episode_index": 81,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 284,
+      "instruction": "Lift the small cylindrical drink container and the white can, and stick them into the smooth blue hard plasticbox"
+    },
+    {
+      "episode_index": 82,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 284,
+      "instruction": "Lift the small aluminum red drink can into the medium storage plasticbox, then the red soda can with green accents to the medium storage plasticbox without delay."
+    },
+    {
+      "episode_index": 83,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 290,
+      "instruction": "Pick and drop the small soda can with lime graphics and the metal can with red base into the medium box with angled sides."
+    },
+    {
+      "episode_index": 84,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 292,
+      "instruction": "Transfer the hand-sized metallic can to the blue plastic rectangular storage box, then transfer the smooth white can with accents to the blue plastic rectangular storage box."
+    },
+    {
+      "episode_index": 85,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 292,
+      "instruction": "Transfer the medium metal can into the medium storage plasticbox, then position the smooth brown can with rounded edges within the medium storage plasticbox."
+    },
+    {
+      "episode_index": 86,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 289,
+      "instruction": "Place the green red metallic soda can and the smooth red can with silver bottom into the deep blue box for storage using both arms."
+    },
+    {
+      "episode_index": 87,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 286,
+      "instruction": "Transfer the drink can with bright colors into the blue box with angled edges, then position the small soda can with lime graphics within the blue box with angled edges."
+    },
+    {
+      "episode_index": 88,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 291,
+      "instruction": "Lift the red and white beverage can and the red and gold cylindrical can, and stick them into the deep blue plasticbox with grooves"
+    },
+    {
+      "episode_index": 89,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 290,
+      "instruction": "Grab the red green beverage can, insert it into the blue box with angled edges, then grab the can with red green label and repeat."
+    },
+    {
+      "episode_index": 90,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 287,
+      "instruction": "Use arms to pick the red can with gold illustrations, drop it in the plasticbox for carrying items, repeat for the soda can with lime illustration."
+    },
+    {
+      "episode_index": 91,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 287,
+      "instruction": "Employ both arms to pick the Coca-Cola soda can and the cylindrical red drink can with logo, and place them inside the medium blue plasticbox."
+    },
+    {
+      "episode_index": 92,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 288,
+      "instruction": "Using dual arms, place the can with rounded cylindrical shape and the Coca-Cola can inside the boxy light blue plasticbox"
+    },
+    {
+      "episode_index": 93,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 290,
+      "instruction": "Both arms lift the beverage can with printed label, drop into the smooth blue plasticbox with handle, repeat for the red soda can with green accents."
+    },
+    {
+      "episode_index": 94,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 289,
+      "instruction": "Both arms lift the can with red green label, drop into the light blue plasticbox, repeat for the brown can."
+    },
+    {
+      "episode_index": 95,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 283,
+      "instruction": "Move the can with rounded cylindrical shape and the cylindrical white glossy can together into the boxy light blue plasticbox"
+    },
+    {
+      "episode_index": 96,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 286,
+      "instruction": "Use your arms to set the metallic soda can and the metal can with printed white graphics gently into the plasticbox with smooth plastic texture."
+    },
+    {
+      "episode_index": 97,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 287,
+      "instruction": "Drop the red can with gold illustrations and the cylindrical metal can into the blue plasticbox for storing things with both arms"
+    },
+    {
+      "episode_index": 98,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 290,
+      "instruction": "Utilize the arms to deposit both the can with red-orange text and the soda can with lime illustration into the plasticbox with smooth plastic texture."
+    },
+    {
+      "episode_index": 99,
+      "task": "place_cans_plasticbox",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_cans_plasticbox/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 286,
+      "instruction": "Transfer the red can with white lettering to the plasticbox with grooved sides, then transfer the beverage can with printed label to the plasticbox with grooved sides."
+    },
+    {
+      "episode_index": 100,
+      "task": "place_bread_skillet",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 165,
+      "instruction": "Move the soft brown bread from table into the skillet with black cooking surface"
+    },
+    {
+      "episode_index": 101,
+      "task": "place_bread_skillet",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 157,
+      "instruction": "Take the golden bread off the table into the skillet with extended grip handle"
+    },
+    {
+      "episode_index": 102,
+      "task": "place_bread_skillet",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 169,
+      "instruction": "Take the square loaf of bread and put it in the metal skillet with comfortable grip."
+    },
+    {
+      "episode_index": 103,
+      "task": "place_bread_skillet",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 174,
+      "instruction": "Grab the cuboid bread with the left arm and place in the skillet for frying food"
+    },
+    {
+      "episode_index": 104,
+      "task": "place_bread_skillet",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 168,
+      "instruction": "Grab the bread with warm golden color and stick it in the flat-bottom skillet."
+    },
+    {
+      "episode_index": 105,
+      "task": "place_bread_skillet",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 164,
+      "instruction": "Use the right arm to take the square-shaped bread and move it into the metal skillet with comfortable grip."
+    },
+    {
+      "episode_index": 106,
+      "task": "place_bread_skillet",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 162,
+      "instruction": "Set the small golden brown bread into the skillet for frying food after grabbing"
+    },
+    {
+      "episode_index": 107,
+      "task": "place_bread_skillet",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 159,
+      "instruction": "Move the bread with golden crust to the black skillet with smooth base using the left arm"
+    },
+    {
+      "episode_index": 108,
+      "task": "place_bread_skillet",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 165,
+      "instruction": "Take the soft square bread and place it inside the flat-bottom skillet"
+    },
+    {
+      "episode_index": 109,
+      "task": "place_bread_skillet",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 158,
+      "instruction": "Use the right arm to stick the bread loaf with bumpy surface into the round cooking pan."
+    },
+    {
+      "episode_index": 110,
+      "task": "place_bread_skillet",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 166,
+      "instruction": "Use the right arm to move the golden bread loaf into the flat-bottomed skillet with long handle"
+    },
+    {
+      "episode_index": 111,
+      "task": "place_bread_skillet",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 169,
+      "instruction": "Grab the small loaf with curved top and stick it in the skillet with extended grip handle."
+    },
+    {
+      "episode_index": 112,
+      "task": "place_bread_skillet",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 165,
+      "instruction": "Take the soft brown bread and place it inside the metal skillet with comfortable grip"
+    },
+    {
+      "episode_index": 113,
+      "task": "place_bread_skillet",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 180,
+      "instruction": "Take the bread with golden surface color with the left arm and drop into the flat-bottom skillet"
+    },
+    {
+      "episode_index": 114,
+      "task": "place_bread_skillet",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 162,
+      "instruction": "Use the right arm to move the bread with rounded edges into the black-surfaced skillet with gray sides"
+    },
+    {
+      "episode_index": 115,
+      "task": "place_bread_skillet",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 164,
+      "instruction": "Lift the bread with split top and drop it into the round skillet with open handle end."
+    },
+    {
+      "episode_index": 116,
+      "task": "place_bread_skillet",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 177,
+      "instruction": "Take the round bread with braided top with the left arm and drop into the skillet with black cooking surface"
+    },
+    {
+      "episode_index": 117,
+      "task": "place_bread_skillet",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 173,
+      "instruction": "Use the left arm to take the light brown bread with ridges and move it into the hefty black skillet."
+    },
+    {
+      "episode_index": 118,
+      "task": "place_bread_skillet",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 167,
+      "instruction": "Use the left arm to move the doughy and soft bread and set it into the medium-sized frying skillet."
+    },
+    {
+      "episode_index": 119,
+      "task": "place_bread_skillet",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 153,
+      "instruction": "Move the hand-sized bread block from table into the heavy black cooking skillet"
+    },
+    {
+      "episode_index": 120,
+      "task": "place_bread_skillet",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 164,
+      "instruction": "Put the small golden brown bread into the metal skillet."
+    },
+    {
+      "episode_index": 121,
+      "task": "place_bread_skillet",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 166,
+      "instruction": "Pick the soft brown bread with the left arm and set it in the medium-sized frying skillet"
+    },
+    {
+      "episode_index": 122,
+      "task": "place_bread_skillet",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 162,
+      "instruction": "Use the left arm to lift the golden crusted bread slice and place it into the round cooking pan."
+    },
+    {
+      "episode_index": 123,
+      "task": "place_bread_skillet",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 162,
+      "instruction": "Pick the bread with rounded corners and transfer it to the black-surfaced skillet with gray sides"
+    },
+    {
+      "episode_index": 124,
+      "task": "place_bread_skillet",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 170,
+      "instruction": "Lift the smooth loaf with rounded edges using the left arm and move it to the round cooking pan"
+    },
+    {
+      "episode_index": 125,
+      "task": "place_bread_skillet",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 162,
+      "instruction": "Move the medium-sized bread piece from table into the gray skillet for stovetop cooking"
+    },
+    {
+      "episode_index": 126,
+      "task": "place_bread_skillet",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 160,
+      "instruction": "Grab the small loaf with curved top and stick it in the heavy black cooking skillet."
+    },
+    {
+      "episode_index": 127,
+      "task": "place_bread_skillet",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 163,
+      "instruction": "Use the left arm to grab the bread block with light patches for the skillet for frying food"
+    },
+    {
+      "episode_index": 128,
+      "task": "place_bread_skillet",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 168,
+      "instruction": "Pick the golden bread loaf and transfer it to the skillet with black cooking surface"
+    },
+    {
+      "episode_index": 129,
+      "task": "place_bread_skillet",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 153,
+      "instruction": "Use the left arm to grab the light brown loaf with smooth sides for the solid dark-colored round pan"
+    },
+    {
+      "episode_index": 130,
+      "task": "place_bread_skillet",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 185,
+      "instruction": "Use the left arm to stick the soft doughy bread into the dark gray skillet."
+    },
+    {
+      "episode_index": 131,
+      "task": "place_bread_skillet",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 163,
+      "instruction": "Use the right arm to stick the bread with soft texture into the smooth round pan made of iron."
+    },
+    {
+      "episode_index": 132,
+      "task": "place_bread_skillet",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 165,
+      "instruction": "Set the hand-sized bread block into the round cooking pan after grabbing"
+    },
+    {
+      "episode_index": 133,
+      "task": "place_bread_skillet",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 165,
+      "instruction": "Place the bread with split top into the round cooking pan using the right arm"
+    },
+    {
+      "episode_index": 134,
+      "task": "place_bread_skillet",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 162,
+      "instruction": "Use the left arm to take the cuboid bread and move it into the skillet with looped handle."
+    },
+    {
+      "episode_index": 135,
+      "task": "place_bread_skillet",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 170,
+      "instruction": "Take the small bread and drop it into the metal skillet with comfortable grip."
+    },
+    {
+      "episode_index": 136,
+      "task": "place_bread_skillet",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 162,
+      "instruction": "Pick up the bread with golden-brown crust and put it in the round cooking pan"
+    },
+    {
+      "episode_index": 137,
+      "task": "place_bread_skillet",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 177,
+      "instruction": "Grab the bread with rounded edges using the left arm and place it in the flat-bottomed skillet with long handle"
+    },
+    {
+      "episode_index": 138,
+      "task": "place_bread_skillet",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 162,
+      "instruction": "Pick the golden bread and transfer it to the smooth non-stick skillet"
+    },
+    {
+      "episode_index": 139,
+      "task": "place_bread_skillet",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 168,
+      "instruction": "Lift the round bread with braided top and drop it into the smooth round pan made of iron"
+    },
+    {
+      "episode_index": 140,
+      "task": "place_bread_skillet",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 172,
+      "instruction": "Grab the soft brown bread from the table and set it in the rounded skillet with a holey handle."
+    },
+    {
+      "episode_index": 141,
+      "task": "place_bread_skillet",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 167,
+      "instruction": "Pick the smooth loaf with rounded edges up using the right arm and drop it in the hefty black skillet."
+    },
+    {
+      "episode_index": 142,
+      "task": "place_bread_skillet",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 168,
+      "instruction": "Move the light brown loaf with smooth sides to the flat-bottomed black cast iron skillet using the left arm"
+    },
+    {
+      "episode_index": 143,
+      "task": "place_bread_skillet",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 158,
+      "instruction": "Move the golden bread loaf from table into the flat-bottom skillet"
+    },
+    {
+      "episode_index": 144,
+      "task": "place_bread_skillet",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 168,
+      "instruction": "Take the brown bread loaf and place it inside the metal skillet"
+    },
+    {
+      "episode_index": 145,
+      "task": "place_bread_skillet",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 164,
+      "instruction": "Grab the soft golden bread and stick it in the round skillet with handle."
+    },
+    {
+      "episode_index": 146,
+      "task": "place_bread_skillet",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 167,
+      "instruction": "Use the right arm to grab the bread with split top for the metal skillet"
+    },
+    {
+      "episode_index": 147,
+      "task": "place_bread_skillet",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 169,
+      "instruction": "Use the right arm to pick the small golden baked bread for the flat-bottomed skillet with long handle"
+    },
+    {
+      "episode_index": 148,
+      "task": "place_bread_skillet",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 153,
+      "instruction": "Pick the smooth crusty small bread up using the right arm and drop it in the flat-bottomed skillet with long handle."
+    },
+    {
+      "episode_index": 149,
+      "task": "place_bread_skillet",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_bread_skillet/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 165,
+      "instruction": "Take the golden baked bread off the table into the round skillet with handle"
+    },
+    {
+      "episode_index": 150,
+      "task": "put_object_cabinet",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 272,
+      "instruction": "Slide open the cabinet with angled sides's drawer and set the rubikscube colorful and compact inside."
+    },
+    {
+      "episode_index": 151,
+      "task": "put_object_cabinet",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 267,
+      "instruction": "Open the cabinet with angled sides's drawer and carefully drop the playingcards pack with blue top into it."
+    },
+    {
+      "episode_index": 152,
+      "task": "put_object_cabinet",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 268,
+      "instruction": "Open the light wood cabinet's drawer first, then place the rounded bar of dark soap inside."
+    },
+    {
+      "episode_index": 153,
+      "task": "put_object_cabinet",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 273,
+      "instruction": "Open the gray and wood cabinet's drawer and place the mouse with two buttons and a scroll wheel inside it."
+    },
+    {
+      "episode_index": 154,
+      "task": "put_object_cabinet",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 270,
+      "instruction": "Slide open the drawer of the smooth-surface cabinet before putting the black playing cards box inside."
+    },
+    {
+      "episode_index": 155,
+      "task": "put_object_cabinet",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 271,
+      "instruction": "Open the cabinet with metal reinforcements's drawer and place the rubikscube with bright primary colors inside it."
+    },
+    {
+      "episode_index": 156,
+      "task": "put_object_cabinet",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 281,
+      "instruction": "Open the cabinet with gray sides's drawer and carefully drop the metallic phone with glass screen front into it."
+    },
+    {
+      "episode_index": 157,
+      "task": "put_object_cabinet",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 264,
+      "instruction": "Open the cabinet with angled sides's drawer and move the black and white phone into it."
+    },
+    {
+      "episode_index": 158,
+      "task": "put_object_cabinet",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 270,
+      "instruction": "Set the black stapler with rectangular base into the smooth-surface cabinet's drawer after opening it."
+    },
+    {
+      "episode_index": 159,
+      "task": "put_object_cabinet",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 265,
+      "instruction": "Pull open the light wood cabinet's drawer and place the blue rectangular stapler with curves inside it."
+    },
+    {
+      "episode_index": 160,
+      "task": "put_object_cabinet",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 265,
+      "instruction": "Open the drawer of the light wood cabinet and move the slanted rectangular soap into the drawer."
+    },
+    {
+      "episode_index": 161,
+      "task": "put_object_cabinet",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 262,
+      "instruction": "Open the drawer of the medium-sized cabinet and move the black stapler with curved top into the drawer."
+    },
+    {
+      "episode_index": 162,
+      "task": "put_object_cabinet",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 270,
+      "instruction": "Pull the light wood top cabinet's drawer open and transfer the rectangular bread loaf with fluffy texture into it."
+    },
+    {
+      "episode_index": 163,
+      "task": "put_object_cabinet",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 270,
+      "instruction": "Pull open the rectangular cabinet's drawer and place the small dark cleaning soap inside it."
+    },
+    {
+      "episode_index": 164,
+      "task": "put_object_cabinet",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 263,
+      "instruction": "Open the wooden cabinet's drawer and carefully drop the small black box with cards into it."
+    },
+    {
+      "episode_index": 165,
+      "task": "put_object_cabinet",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 268,
+      "instruction": "Slide open the cabinet with metal reinforcements's drawer and drop the smooth soap with grainy spots inside."
+    },
+    {
+      "episode_index": 166,
+      "task": "put_object_cabinet",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 278,
+      "instruction": "Open the wooden cabinet's drawer first, then place the playingcards box with white symbols inside."
+    },
+    {
+      "episode_index": 167,
+      "task": "put_object_cabinet",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 269,
+      "instruction": "Open the rectangular cabinet's drawer and place the rectangular soap with slight groove pattern inside it."
+    },
+    {
+      "episode_index": 168,
+      "task": "put_object_cabinet",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 273,
+      "instruction": "Open the medium-sized cabinet's drawer and transfer the brown and gray multimedia phone into it."
+    },
+    {
+      "episode_index": 169,
+      "task": "put_object_cabinet",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 284,
+      "instruction": "Place the rectangular playingcards case into the drawer of the rectangular slanted cabinet after sliding it open."
+    },
+    {
+      "episode_index": 170,
+      "task": "put_object_cabinet",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 271,
+      "instruction": "Unlock the drawer of the cabinet with angled sides and drop the soap bar into it."
+    },
+    {
+      "episode_index": 171,
+      "task": "put_object_cabinet",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 265,
+      "instruction": "Pull open the drawer of the medium-sized cabinet and place the soft bread inside."
+    },
+    {
+      "episode_index": 172,
+      "task": "put_object_cabinet",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 266,
+      "instruction": "Open the drawer of the light wood top cabinet before placing the doughy and soft bread inside it."
+    },
+    {
+      "episode_index": 173,
+      "task": "put_object_cabinet",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 274,
+      "instruction": "Open the light wood top cabinet's drawer and transfer the small office stapler into it."
+    },
+    {
+      "episode_index": 174,
+      "task": "put_object_cabinet",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 262,
+      "instruction": "Open the medium-sized cabinet's drawer and move the blue pack holding playingcards into it."
+    },
+    {
+      "episode_index": 175,
+      "task": "put_object_cabinet",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 262,
+      "instruction": "Slide open the cabinet with metal reinforcements's drawer and drop the rounded computer mouse inside."
+    },
+    {
+      "episode_index": 176,
+      "task": "put_object_cabinet",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 269,
+      "instruction": "Place the smooth plastic mouse into the drawer of the cabinet with angled sides after sliding it open."
+    },
+    {
+      "episode_index": 177,
+      "task": "put_object_cabinet",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 269,
+      "instruction": "Place the small playingcards pack into the drawer of the wooden cabinet after sliding it open."
+    },
+    {
+      "episode_index": 178,
+      "task": "put_object_cabinet",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 271,
+      "instruction": "Open the light wood top cabinet's drawer and carefully drop the solid yellow soap bar into it."
+    },
+    {
+      "episode_index": 179,
+      "task": "put_object_cabinet",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 266,
+      "instruction": "Open the drawer of the rectangular cabinet and set the mouse with two buttons and a scroll wheel inside."
+    },
+    {
+      "episode_index": 180,
+      "task": "put_object_cabinet",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 266,
+      "instruction": "Set the white stapler with rounded design into the medium-sized cabinet's drawer after opening it."
+    },
+    {
+      "episode_index": 181,
+      "task": "put_object_cabinet",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 274,
+      "instruction": "Slide open the medium-sized cabinet's drawer and drop the rubikscube with smooth plastic tiles inside."
+    },
+    {
+      "episode_index": 182,
+      "task": "put_object_cabinet",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 260,
+      "instruction": "Set the computer mouse into the cabinet with gray sides's drawer after opening it."
+    },
+    {
+      "episode_index": 183,
+      "task": "put_object_cabinet",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 267,
+      "instruction": "Pull open the light wood top cabinet's drawer and place the mouse with two buttons and a scroll wheel inside it."
+    },
+    {
+      "episode_index": 184,
+      "task": "put_object_cabinet",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 268,
+      "instruction": "Slide open the drawer of the storage cabinet before putting the square-shaped bread piece inside."
+    },
+    {
+      "episode_index": 185,
+      "task": "put_object_cabinet",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 266,
+      "instruction": "Unlock the drawer of the rectangular slanted cabinet and drop the medium-sized handheld phone into it."
+    },
+    {
+      "episode_index": 186,
+      "task": "put_object_cabinet",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 272,
+      "instruction": "Place the small plastic rubikscube into the drawer of the cabinet with gray sides after sliding it open."
+    },
+    {
+      "episode_index": 187,
+      "task": "put_object_cabinet",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 273,
+      "instruction": "Open the medium-sized cabinet's drawer and carefully drop the mouse with two buttons and a scroll wheel into it."
+    },
+    {
+      "episode_index": 188,
+      "task": "put_object_cabinet",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 278,
+      "instruction": "Pull open the drawer of the rectangular slanted cabinet and move the sleek phone into it."
+    },
+    {
+      "episode_index": 189,
+      "task": "put_object_cabinet",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 271,
+      "instruction": "Pull open the light wood top cabinet's drawer and place the colorful cube inside."
+    },
+    {
+      "episode_index": 190,
+      "task": "put_object_cabinet",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 270,
+      "instruction": "Open the drawer of the gray and wood cabinet before placing the brown box holding coffee inside it."
+    },
+    {
+      "episode_index": 191,
+      "task": "put_object_cabinet",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 265,
+      "instruction": "Set the white and golden rectangular bread into the storage cabinet's drawer after opening it."
+    },
+    {
+      "episode_index": 192,
+      "task": "put_object_cabinet",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 270,
+      "instruction": "Place the metallic stapler with blue cover into the drawer of the cabinet with gray sides after sliding it open."
+    },
+    {
+      "episode_index": 193,
+      "task": "put_object_cabinet",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 264,
+      "instruction": "Access the cabinet with angled sides's drawer and set the blue stapler with curved design inside."
+    },
+    {
+      "episode_index": 194,
+      "task": "put_object_cabinet",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 263,
+      "instruction": "Open the cabinet with gray sides's drawer and place the round-topped golden bread inside it."
+    },
+    {
+      "episode_index": 195,
+      "task": "put_object_cabinet",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 269,
+      "instruction": "Pull open the drawer of the rectangular slanted cabinet and move the box for playingcards into it."
+    },
+    {
+      "episode_index": 196,
+      "task": "put_object_cabinet",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 265,
+      "instruction": "Pull open the drawer of the medium-sized cabinet and move the plastic toycar with smooth finish into it."
+    },
+    {
+      "episode_index": 197,
+      "task": "put_object_cabinet",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 274,
+      "instruction": "Slide open the drawer of the storage cabinet before putting the red playingcards box inside."
+    },
+    {
+      "episode_index": 198,
+      "task": "put_object_cabinet",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 278,
+      "instruction": "Place the Nescafe coffee-box with shiny surface into the drawer of the wooden cabinet after sliding it open."
+    },
+    {
+      "episode_index": 199,
+      "task": "put_object_cabinet",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/put_object_cabinet/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 269,
+      "instruction": "Set the mouse with two buttons and a scroll wheel into the rectangular slanted cabinet's drawer after opening it."
+    }
+  ],
+  "conversion_seconds": 764.0
+}

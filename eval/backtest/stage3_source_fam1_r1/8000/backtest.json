@@ -1,0 +1,639 @@
+{
+  "job_id": "stage3_source_fam1_r1",
+  "step": 8000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1/8000",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "0",
+    "2",
+    "4",
+    "6"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "move_pillbottle_pad": {
+      "task": "move_pillbottle_pad",
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": true,
+          "steps": 148,
+          "instruction": "Pick the cylindrical bottle with ribbed cap and put it onto the pad"
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": true,
+          "steps": 146,
+          "instruction": "Pick the hand-sized bottle with screw cap and set it on the pad"
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 130,
+          "instruction": "Grab the orange capped bottle and set it on the pad"
+        },
+        {
+          "episode": 1,
+          "seed": 500103,
+          "success": true,
+          "steps": 210,
+          "instruction": "Pick the medium-sized bottle and put it onto the pad"
+        },
+        {
+          "episode": 1,
+          "seed": 500103,
+          "success": true,
+          "steps": 204,
+          "instruction": "Pick the white bottle for storing items and set it on the pad"
+        }
+      ],
+      "per_group": [
+        {
+          "task": "move_pillbottle_pad",
+          "seeds": [
+            500100,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_pillbottle_pad_gpu0_s0/eval.log",
+          "timed_out": false,
+          "seconds": 220.6,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": true,
+              "steps": 148,
+              "instruction": "Pick the cylindrical bottle with ribbed cap and put it onto the pad"
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 146,
+              "instruction": "Pick the hand-sized bottle with screw cap and set it on the pad"
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "move_pillbottle_pad",
+          "seeds": [
+            500101
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_pillbottle_pad_gpu0_s1/eval.log",
+          "timed_out": false,
+          "seconds": 126.6,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 130,
+              "instruction": "Grab the orange capped bottle and set it on the pad"
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "move_pillbottle_pad",
+          "seeds": [
+            500102
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_pillbottle_pad_gpu0_s2/eval.log",
+          "timed_out": false,
+          "seconds": 201.4,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500103,
+              "success": true,
+              "steps": 210,
+              "instruction": "Pick the medium-sized bottle and put it onto the pad"
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500102,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "move_pillbottle_pad",
+          "seeds": [
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_pillbottle_pad_gpu0_s3/eval.log",
+          "timed_out": false,
+          "seconds": 146.9,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500103,
+              "success": true,
+              "steps": 204,
+              "instruction": "Pick the white bottle for storing items and set it on the pad"
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 500102,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    },
+    "move_stapler_pad": {
+      "task": "move_stapler_pad",
+      "episodes": 5,
+      "successes": 2,
+      "success_rate": 0.4,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": true,
+          "steps": 148,
+          "instruction": "Move the red plastic stapler to the Cyan mat"
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": false,
+          "steps": 400,
+          "instruction": "Place the rectangular stapler with curved corners on the Black mat"
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 400,
+          "instruction": "Move the blue stapler with smooth finish to the Green mat"
+        },
+        {
+          "episode": 1,
+          "seed": 500102,
+          "success": false,
+          "steps": 400,
+          "instruction": "Use the right arm to move the metal and plastic stapler to the Gray mat"
+        },
+        {
+          "episode": 1,
+          "seed": 500103,
+          "success": true,
+          "steps": 186,
+          "instruction": "Move the red plastic stapler to the Black mat."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "move_stapler_pad",
+          "seeds": [
+            500100,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_stapler_pad_gpu2_s0/eval.log",
+          "timed_out": false,
+          "seconds": 181.0,
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": true,
+              "steps": 148,
+              "instruction": "Move the red plastic stapler to the Cyan mat"
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Place the rectangular stapler with curved corners on the Black mat"
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "move_stapler_pad",
+          "seeds": [
+            500101
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_stapler_pad_gpu2_s1/eval.log",
+          "timed_out": false,
+          "seconds": 138.4,
+          "episodes": 1,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Move the blue stapler with smooth finish to the Green mat"
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "move_stapler_pad",
+          "seeds": [
+            500102
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_stapler_pad_gpu2_s2/eval.log",
+          "timed_out": false,
+          "seconds": 136.8,
+          "episodes": 1,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 400,
+              "instruction": "Use the right arm to move the metal and plastic stapler to the Gray mat"
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "move_stapler_pad",
+          "seeds": [
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/move_stapler_pad_gpu2_s3/eval.log",
+          "timed_out": false,
+          "seconds": 119.8,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500103,
+              "success": true,
+              "steps": 186,
+              "instruction": "Move the red plastic stapler to the Black mat."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    },
+    "place_a2b_left": {
+      "task": "place_a2b_left",
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": true,
+          "steps": 145,
+          "instruction": "Set the medium tea-box for gatherings down to the left of the brown soap"
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": true,
+          "steps": 126,
+          "instruction": "Use the left arm to place the hand-sized wireless mouse left of the compact toycar with shiny black tires."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 135,
+          "instruction": "Use the left arm to put the palm-sized bell left of the hand-sized rubikscube with colored squares."
+        },
+        {
+          "episode": 1,
+          "seed": 500102,
+          "success": true,
+          "steps": 138,
+          "instruction": "Pick the black tea-box with golden details and set it left of the brown soap."
+        },
+        {
+          "episode": 1,
+          "seed": 500104,
+          "success": true,
+          "steps": 143,
+          "instruction": "Set the mouse with scroll wheel on the left side of the compact toycar with shiny black tires."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_a2b_left",
+          "seeds": [
+            500100,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_a2b_left_gpu4_s0/eval.log",
+          "timed_out": false,
+          "seconds": 172.0,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": true,
+              "steps": 145,
+              "instruction": "Set the medium tea-box for gatherings down to the left of the brown soap"
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 126,
+              "instruction": "Use the left arm to place the hand-sized wireless mouse left of the compact toycar with shiny black tires."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_a2b_left",
+          "seeds": [
+            500101
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_a2b_left_gpu4_s1/eval.log",
+          "timed_out": false,
+          "seconds": 104.9,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 135,
+              "instruction": "Use the left arm to put the palm-sized bell left of the hand-sized rubikscube with colored squares."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_a2b_left",
+          "seeds": [
+            500102
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_a2b_left_gpu4_s2/eval.log",
+          "timed_out": false,
+          "seconds": 119.7,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 138,
+              "instruction": "Pick the black tea-box with golden details and set it left of the brown soap."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_a2b_left",
+          "seeds": [
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_a2b_left_gpu4_s3/eval.log",
+          "timed_out": false,
+          "seconds": 113.5,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": true,
+              "steps": 143,
+              "instruction": "Set the mouse with scroll wheel on the left side of the compact toycar with shiny black tires."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "setup_error: target_pose cannot be None for move action.",
+              "success": false
+            }
+          ]
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "setup_error: target_pose cannot be None for move action.",
+          "success": false
+        }
+      ]
+    },
+    "place_fan": {
+      "task": "place_fan",
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": true,
+          "steps": 135,
+          "instruction": "Grab the fan with small round shape and set it on the Tan mat facing the robot."
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": true,
+          "steps": 149,
+          "instruction": "Pick the portable curved handle fan and set it on the Yellow mat facing the robot."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 168,
+          "instruction": "Grab the plastic fan and set it on the Maroon mat."
+        },
+        {
+          "episode": 1,
+          "seed": 500102,
+          "success": true,
+          "steps": 143,
+          "instruction": "Use the right arm to grab the beige circular blade fan and place it on the Tan mat facing the robot."
+        },
+        {
+          "episode": 1,
+          "seed": 500104,
+          "success": true,
+          "steps": 158,
+          "instruction": "Use the left arm to grab the portable curved handle fan and place it on the Yellow mat facing the robot."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_fan",
+          "seeds": [
+            500100,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_fan_gpu6_s0/eval.log",
+          "timed_out": false,
+          "seconds": 180.4,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": true,
+              "steps": 135,
+              "instruction": "Grab the fan with small round shape and set it on the Tan mat facing the robot."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 149,
+              "instruction": "Pick the portable curved handle fan and set it on the Yellow mat facing the robot."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_fan",
+          "seeds": [
+            500101
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_fan_gpu6_s1/eval.log",
+          "timed_out": false,
+          "seconds": 128.4,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 168,
+              "instruction": "Grab the plastic fan and set it on the Maroon mat."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_fan",
+          "seeds": [
+            500102
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_fan_gpu6_s2/eval.log",
+          "timed_out": false,
+          "seconds": 115.5,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 143,
+              "instruction": "Use the right arm to grab the beige circular blade fan and place it on the Tan mat facing the robot."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_fan",
+          "seeds": [
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/8000/place_fan_gpu6_s3/eval.log",
+          "timed_out": false,
+          "seconds": 143.1,
+          "episodes": 1,
+          "successes": 1,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": true,
+              "steps": 158,
+              "instruction": "Use the left arm to grab the portable curved handle fan and place it on the Yellow mat facing the robot."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "setup_error: target_pose cannot be None for move action.",
+              "success": false
+            }
+          ]
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "setup_error: target_pose cannot be None for move action.",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 0.85,
+  "recorded": "2026-10-22T07:14:38+0000"
+}

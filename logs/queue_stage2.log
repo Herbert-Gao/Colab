@@ -1,0 +1,21 @@
+[2026-10-21T09:13:36+00:00] stage 2 queue: 2 jobs
+[2026-10-21T09:13:37+00:00] start stage2_source_fam1_r0
+[2026-10-21T09:13:38+00:00] === job stage2_source_fam1_r0 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=2001 seed=0 ===
+[2026-10-21T09:13:38+00:00] trainer pid=1200931
+[2026-10-21T09:38:46+00:00] checkpoint 2000 ready -> backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan)
+[2026-10-21T09:47:40+00:00] backtest 2000 recorded (early-stop: continue)
+[2026-10-21T09:48:34+00:00] milestone snapshot 2000
+[2026-10-21T09:49:29+00:00] job stage2_source_fam1_r0 completed at 2000 (train rc=0)
+[2026-10-21T09:49:32+00:00] === job stage2_source_fam1_r0 end ===
+[2026-10-21T09:49:32+00:00] done stage2_source_fam1_r0 (status=completed)
+[2026-10-21T09:49:32+00:00] start stage2_target_place_mouse_pad_r0
+[2026-10-21T09:49:34+00:00] init weights from stage2_source_fam1_r0: /data/szgx/gaohang/pi05_30/runs/stage2/pi05_aloha_robotwin_30/aloha_trial_fam1_r0_final_step2000/params
+[2026-10-21T09:49:34+00:00] === job stage2_target_place_mouse_pad_r0 start: repo=pi05_30_aloha_target_place_mouse_pad_r0_n5 lr=1.25e-05 horizon=10 steps=2001 seed=0 ===
+[2026-10-21T09:49:34+00:00] trainer pid=1229638
+[2026-10-21T10:14:42+00:00] checkpoint 2000 ready -> backtest (tasks: place_mouse_pad)
+[2026-10-21T10:18:35+00:00] backtest 2000 recorded (early-stop: continue)
+[2026-10-21T10:19:30+00:00] milestone snapshot 2000
+[2026-10-21T10:20:24+00:00] job stage2_target_place_mouse_pad_r0 completed at 2000 (train rc=0)
+[2026-10-21T10:20:27+00:00] === job stage2_target_place_mouse_pad_r0 end ===
+[2026-10-21T10:20:27+00:00] done stage2_target_place_mouse_pad_r0 (status=completed)
+[2026-10-21T10:20:27+00:00] stage 2 queue finished

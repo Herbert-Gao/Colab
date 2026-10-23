@@ -1,0 +1,32 @@
+{
+  "task": "blocks_ranking_size",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Place large block, medium block, and small block in order at the table's center."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 517,
+      "instruction": "Take large block, medium block, and small block to the table center."
+    }
+  ]
+}

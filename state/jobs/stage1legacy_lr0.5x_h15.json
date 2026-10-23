@@ -1,0 +1,126 @@
+{
+  "job_id": "stage1legacy_lr0.5x_h15",
+  "created": "2026-10-22T02:21:04+0000",
+  "status": "completed",
+  "peak_lr": 1.25e-05,
+  "action_horizon": 15,
+  "batch_size": 32,
+  "max_steps": 2001,
+  "seed": 0,
+  "history": [
+    {
+      "step": 2000,
+      "mean_success_rate": 0.8,
+      "per_task": {
+        "move_pillbottle_pad": {
+          "successes": 4,
+          "episodes": 5,
+          "success_rate": 0.8,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500000,
+              "success": true,
+              "steps": 132,
+              "instruction": "Pick the rounded white bottle with teal base and set it on the pad"
+            },
+            {
+              "episode": 2,
+              "seed": 500002,
+              "success": true,
+              "steps": 168,
+              "instruction": "Use the right arm to grab the bottle capped with textured white lid and place it"
+            },
+            {
+              "episode": 3,
+              "seed": 500003,
+              "success": true,
+              "steps": 139,
+              "instruction": "Pick the hand-sized orange capped bottle and set it on the pad"
+            },
+            {
+              "episode": 4,
+              "seed": 500004,
+              "success": true,
+              "steps": 288,
+              "instruction": "Pick the hand-sized bottle with screw cap and set it on the pad"
+            },
+            {
+              "episode": 5,
+              "seed": 500007,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick the bottle with printed white label and set it on the pad"
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.034478461315855385,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 2001
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr0.5x_h15/2000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage1_lr0.5x_h15/2000/backtest.json",
+      "seeds": [
+        500000,
+        500001,
+        500002,
+        500003,
+        500004
+      ],
+      "time": "2026-10-21T03:33:44+0000",
+      "early_stop": {
+        "step": 2000,
+        "success_rate": 0.8,
+        "loss": {
+          "loss_mean": 0.034478461315855385,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 2001
+        },
+        "stop": false,
+        "reasons": [
+          "step 2000 < 12000"
+        ]
+      }
+    }
+  ],
+  "milestones": {},
+  "milestone_steps": [
+    2000
+  ],
+  "save_interval": 2000,
+  "no_improve_count": 0,
+  "best_success": null,
+  "processed_checkpoints": [
+    2000
+  ],
+  "incidents": [],
+  "stage": 0,
+  "kind": "pilot",
+  "repeat": 0,
+  "task": "move_pillbottle_pad",
+  "repo_id": "pi05_30_pilot_move_pillbottle_pad",
+  "exp_name": "aloha_pilot_stage1_lr0.5x_h15",
+  "checkpoint_base_dir": "/data/szgx/gaohang/pi05_30/runs/stage1",
+  "init_params": "/data/szgx/xworld-gzh/cache/openpi/openpi-assets/checkpoints/pi05_base/params",
+  "backtest_tasks": [
+    "move_pillbottle_pad"
+  ],
+  "backtest_seeds": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004
+  ],
+  "lr_factor": 0.5,
+  "started": "2026-10-21T03:04:02+00:00",
+  "current_step": 2000,
+  "final_checkpoint": null,
+  "finished": "2026-10-21T03:35:34+00:00",
+  "legacy": true,
+  "spec_source": "logs/stage1_*.log 启动行（作业记录曾被选参冻结后的计划重写覆盖，按日志更正）"
+}

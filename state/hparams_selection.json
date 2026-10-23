@@ -1,0 +1,116 @@
+{
+  "selected": {
+    "job_id": "stage1_lr0.5x_h10",
+    "lr": 1.25e-05,
+    "action_horizon": 10,
+    "success_rate": 1.0,
+    "loss_2000": 0.028099135780707003,
+    "step": 2000,
+    "per_task": {
+      "move_pillbottle_pad": 1.0
+    }
+  },
+  "rule": "5 回合成功率最高 → 2000 步 loss（最后 500 次更新均值）更低 → 最接近配置基准值",
+  "decided": "2026-10-22T06:36:21+0000",
+  "rows": [
+    {
+      "job_id": "stage1_lr0.5x_h10",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 1.0,
+      "loss_2000": 0.028099135780707003,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 1.0
+      }
+    },
+    {
+      "job_id": "stage1_lr1x_h10",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 1.0,
+      "loss_2000": 0.03159422889351845,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 1.0
+      }
+    },
+    {
+      "job_id": "stage1_lr2x_h10",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 1.0,
+      "loss_2000": 0.03861285316385329,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 1.0
+      }
+    },
+    {
+      "job_id": "stage1_lr0.5x_h5",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 0.8,
+      "loss_2000": 0.017602493797428904,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 0.8
+      }
+    },
+    {
+      "job_id": "stage1_lr0.5x_h15",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 0.8,
+      "loss_2000": 0.034478461315855385,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 0.8
+      }
+    },
+    {
+      "job_id": "stage1_lr1x_h15",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 0.8,
+      "loss_2000": 0.03914982818253338,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 0.8
+      }
+    },
+    {
+      "job_id": "stage1_lr2x_h15",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 0.8,
+      "loss_2000": 0.04872591815516353,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 0.8
+      }
+    },
+    {
+      "job_id": "stage1_lr2x_h5",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 0.6,
+      "loss_2000": 0.024560658968985082,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 0.6
+      }
+    },
+    {
+      "job_id": "stage1_lr1x_h5",
+      "lr": 1.25e-05,
+      "action_horizon": 10,
+      "success_rate": 0.4,
+      "loss_2000": 0.019694991181604563,
+      "step": 2000,
+      "per_task": {
+        "move_pillbottle_pad": 0.4
+      }
+    }
+  ]
+}

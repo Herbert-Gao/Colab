@@ -1,0 +1,32 @@
+{
+  "task": "place_fan",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500100,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500104
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 117,
+      "instruction": "Grab the white desk fan and set it on the Tan mat facing the robot"
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 164,
+      "instruction": "Pick the off-white fan with beige accents and set it on the Yellow mat facing the robot."
+    }
+  ]
+}

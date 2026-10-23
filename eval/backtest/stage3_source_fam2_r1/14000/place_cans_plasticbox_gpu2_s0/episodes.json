@@ -1,0 +1,42 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 3,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 211,
+      "instruction": "Pick the red can with white top and the red can with white top at once, then place them into the rectangular plasticbox with locking clips."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 245,
+      "instruction": "Pick the cylindrical can with bright colors and the cylindrical can with bright colors together, then set both in the hard plastic rectangular box."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 245,
+      "instruction": "Grab the can with shiny smooth surface and the gold and red soda can and place them in the smooth exterior blue plasticbox"
+    }
+  ]
+}

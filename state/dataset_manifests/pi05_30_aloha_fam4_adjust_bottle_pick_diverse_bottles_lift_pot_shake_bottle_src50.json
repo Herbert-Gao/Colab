@@ -1,0 +1,2028 @@
+{
+  "repo_id": "pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 200,
+  "frames_total": 31203,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "adjust_bottle": 50,
+    "pick_diverse_bottles": 50,
+    "lift_pot": 50,
+    "shake_bottle": 50
+  },
+  "task_instructions": [
+    "Assign one arm to each of the medium bottle with orange lid and the orange bottle with bold labeling.",
+    "Both arms lift the cooking kitchenpot with side grips upright",
+    "Both arms lift the medium-sized kitchenpot upright",
+    "Bring the gray cylindrical metal kitchenpot upwards together",
+    "Bring the smooth gray kitchenpot upwards together",
+    "Carefully grab the red-capped bottle head-up",
+    "Carry the kitchenpot with smooth exterior securely using arms",
+    "Catch both the black bottle and the red bottle with curved grooves quickly.",
+    "Catch the black cylindrical bottle with ridges in one arm and the red bottle in the other arm.",
+    "Catch the bottle for holding drinks with one arm, the white bottle with blue accents with another arm.",
+    "Catch the orange bottle, then grab the cylindrical orange bottle with smooth surface too.",
+    "Catch the rectangular brown body with white top, then take hold of the orange bottle.",
+    "Catch the smooth brown bottle with green label, then grab the smooth plastic bottle too.",
+    "Catch the yellow-capped cylindrical bottle and shake it instantly.",
+    "Collect the blue bottle with label, then pick up the medium plastic bottle.",
+    "Collect the cylindrical bottle with narrow neck, then pick up the yellow-capped bottle for beverages.",
+    "Each arm should pick up one: the grooved orange drink bottle, then the plastic bottle.",
+    "Engage arms to grip and lift the metal kitchenpot.",
+    "Find the dark drink bottle with logo on the table and raise it using the right arm.",
+    "Find the narrow-necked bottle on the table and raise it using the right arm.",
+    "Grab and hold the green bottle with black text label, then grab the medium-sized green bottle.",
+    "Grab and shake the medium plastic bottle with cap using the right arm.",
+    "Grab and shake the narrow-necked bottle using the right arm.",
+    "Grab and shake the plastic bottle with colorful label using the right arm.",
+    "Grab and shake the rounded body bottle made of plastic using the left arm.",
+    "Grab the bottle with ridges on bottom and shake it steadily.",
+    "Grab the bottle with ridges on bottom from the table with the left arm",
+    "Grab the bottle with ridges on bottom with one arm, the bottle with red cap with the other.",
+    "Grab the curved orange soda bottle carefully and shake.",
+    "Grab the hand-sized soda bottle from the table with the left arm",
+    "Grab the handheld brown bottle with white lid with the right arm and shake.",
+    "Grab the handheld green bottle from the table with the left arm",
+    "Grab the medium bottle with yellow cap and pick up the red bottle with white bottom text.",
+    "Grab the medium green bottle with capped neck using an arm and the handheld medium-sized liquid bottle with the other arm.",
+    "Grab the medium-sized kitchenpot and lift it upwards",
+    "Grab the medium-sized orange bottle using the left arm, then shake.",
+    "Grab the metal kitchenpot and lift it up",
+    "Grab the metal kitchenpot and lift together",
+    "Grab the plastic bottle using an arm and the cylindrical orange plastic bottle with the other arm.",
+    "Grab the plastic bottle with bright red color and pick up the plastic bottle.",
+    "Grab the smooth bottle with red lid and lift it upward from the table.",
+    "Grab the smooth cylindrical bottle with the left arm and shake.",
+    "Grab the smooth green and yellow bottle with one arm, the bottle with blue and yellow print with the other.",
+    "Grab the smooth green plastic bottle head-up using the right arm from the table.",
+    "Grab the white bottle for liquids with one arm, the smooth orange bottle with the other.",
+    "Grab the white-capped bottle using one arm and the beverage bottle with black body using the other.",
+    "Grasp the bottle with narrow neck with the right arm and shake it.",
+    "Grasp the rounded body bottle made of plastic with the left arm and shake it.",
+    "Grasp the yellow container with rounded edges with the left arm and shake it.",
+    "Grip the gray cylindrical metal kitchenpot firmly and lift",
+    "Grip the yellow bottle for liquid storage using the right arm and shake.",
+    "Hold both the blue bottle with label and the bottle with brown body and white top.",
+    "Hold both the smooth brown bottle and the red-capped bottle.",
+    "Hold onto the bottle with dark brown color and then get the black cylindrical bottle with ridges.",
+    "Hold onto the smooth orange bottle, then pick up the bottle with blue cap.",
+    "Hold the Coca-Cola bottle with the left arm and shake lightly.",
+    "Hold the black plastic bottle with Pepsi logo, shake it briefly.",
+    "Hold the bottle with ridges near base upright from the table",
+    "Hold the cooking kitchenpot with side grips firmly and lift it",
+    "Hold the cooking kitchenpot with side grips firmly, then lift.",
+    "Hold the gray kitchenpot firmly and lift it",
+    "Hold the gray kitchenpot with both arms",
+    "Hold the green bottle with black text label with one arm, hold the handheld medium-sized liquid bottle with the other.",
+    "Hold the hand-sized soda bottle upright from the table",
+    "Hold the handheld green bottle head-up after lifting it.",
+    "Hold the medium green bottle with one arm, hold the small bottle with decorative design with the other.",
+    "Hold the medium kitchenpot made of metal firmly and lift it",
+    "Hold the medium kitchenpot made of metal with both arms",
+    "Hold the medium-sized kitchenpot and lift upward",
+    "Hold the medium-sized kitchenpot firmly with arms",
+    "Hold the metal kitchenpot and lift upward",
+    "Hold the metal kitchenpot firmly and move upward.",
+    "Hold the round kitchenpot with handles and lift upward",
+    "Hold the smooth bottle with red lid steady, then shake it.",
+    "Hold the smooth gray kitchenpot firmly and lift it",
+    "Hold the smooth gray kitchenpot with both arms",
+    "Hold the white and blue bottle with the left arm and shake lightly.",
+    "Identify the bottle with white neck and red top and grab it with the right arm",
+    "Let each arm grab either the hand-sized soda bottle or the dark brown bottle with a squared body.",
+    "Lift both the plastic bottle and the medium-sized plastic bottle simultaneously.",
+    "Lift both the yellow-capped bottle for beverages and the bottle with blue and yellow print simultaneously.",
+    "Lift the bottle for liquids, continue and pick up the plastic drink bottle.",
+    "Lift the bottle with cute ghost drawing with the left arm and give it a shake.",
+    "Lift the bottle with green and white labels and shake it gently.",
+    "Lift the bottle with ridges near base head-up from the table",
+    "Lift the bottle with ridges on bottom from the table upright",
+    "Lift the bottle with white printed label and the rounded bottom orange plastic bottle with separate arms.",
+    "Lift the gray cylindrical metal kitchenpot upward and hold it",
+    "Lift the gray kitchenpot steadily with support",
+    "Lift the green bottle with indented base upright carefully using the right arm",
+    "Lift the kitchenpot with smooth exterior carefully using arms",
+    "Lift the long thin bottle head-up from the table.",
+    "Lift the medium green bottle head-up from the table",
+    "Lift the medium plastic bottle and shake it gently.",
+    "Lift the medium-sized kitchenpot up using your arms",
+    "Lift the metal kitchenpot carefully using arms",
+    "Lift the metal kitchenpot steadily with support",
+    "Lift the narrow-necked bottle from the table upright",
+    "Lift the narrow-necked bottle off the table and hold it upright.",
+    "Lift the narrow-necked bottle using the right arm and hold upright",
+    "Lift the round kitchenpot with handles upward with both arms",
+    "Lift the yellow body bottle, continue and pick up the yellow-capped orange plastic bottle.",
+    "Lift up the bottle shaped like small cylinder using the left arm, then shake.",
+    "Lift up the brown bottle using the left arm, then shake.",
+    "Lift up the smooth cylindrical bottle using the right arm, then shake.",
+    "Pick the blue bottle with label up with the left arm and shake.",
+    "Pick the bottle with blue cap and perform shaking motion.",
+    "Pick the bottle with brown body and white top up with the left arm and shake.",
+    "Pick the bottle with ridges near base head-up using the left arm",
+    "Pick the bottle with ridges on bottom upright from the table",
+    "Pick the bottle with rounded neck head-up and hold it steady.",
+    "Pick the bottle with white neck and red top up with the right arm ensuring it stays head-up.",
+    "Pick the cylindrical orange bottle with yellow top up with the right arm and shake.",
+    "Pick the dark drink bottle with logo upright from the table",
+    "Pick the medium dark brown bottle upright from the table",
+    "Pick the medium-sized plastic bottle, shake it with the right arm.",
+    "Pick the narrow-necked bottle upright from the table",
+    "Pick the small bottle with decorative design up using the right arm and shake it.",
+    "Pick the smooth green bottle upright from the table",
+    "Pick up both the drinking bottle with yellow label and the smooth red cylindrical bottle together.",
+    "Pick up both the plastic bottle and the blue bottle with label together.",
+    "Pick up both the plastic bottle with bright red color and the white bottle with blue accents.",
+    "Pick up both the rounded orange bottle with yellow top and the rounded bottom orange plastic bottle together.",
+    "Pick up both the white-capped bottle and the plastic bottle together.",
+    "Pick up the dark drink bottle with logo from the table using the left arm.",
+    "Pick up the gray cylindrical metal kitchenpot with both arms",
+    "Pick up the handheld green bottle from the table carefully.",
+    "Pick up the medium bottle for beverages and then pick up the beverage bottle with black body.",
+    "Pick up the medium bottle with smooth texture and shake it.",
+    "Pick up the medium dark brown bottle upright from the table",
+    "Pick up the narrow-necked bottle upright from the table",
+    "Pick up the smooth bottle and shake it.",
+    "Pick up the smooth bottle with red lid from the table using the left arm.",
+    "Position the medium dark brown bottle head-up and lift it",
+    "Raise and hold the smooth gray kitchenpot together",
+    "Raise the cooking kitchenpot with side grips with strong support",
+    "Raise the cylindrical kitchenpot using both arms",
+    "Raise the cylindrical kitchenpot with strong support",
+    "Raise the dark gray stove kitchenpot upward with both hands",
+    "Raise the dark gray stove kitchenpot with strong support",
+    "Raise the kitchenpot with smooth exterior steadily using arms",
+    "Raise the kitchenpot with smooth exterior using both arms",
+    "Raise the long thin bottle in a head-up position",
+    "Raise the medium dark brown bottle from the table using the correct arm, the left arm.",
+    "Raise the medium green bottle with capped neck in a head-up position",
+    "Raise the medium-sized kitchenpot together using arms",
+    "Raise the metal kitchenpot evenly with arms",
+    "Raise the plastic drink bottle from the table using the correct arm, the left arm.",
+    "Raise the round kitchenpot with handles together with arms",
+    "Secure both the plastic bottle and the white bottle with blue accents quickly.",
+    "Secure both the smooth red cylindrical bottle and the plastic bottle quickly.",
+    "Secure the green bottle with indented base upright with the right arm",
+    "Secure the white cylindrical bottle, shake it, and place it down.",
+    "Secure the yellow-capped cylindrical bottle, shake it, and place it down.",
+    "Securely lift the kitchenpot with smooth exterior together",
+    "Shake the bottle with ribbed orange bottom after grabbing it.",
+    "Shake the brown bottle with rounded rectangular shape after holding it firmly.",
+    "Shake the hand-sized bottle with screw cap after grabbing it.",
+    "Shake the handheld bottle after grabbing it.",
+    "Shake the handheld bottle thoroughly after grabbing it.",
+    "Shake the medium-sized bottle properly after lifting.",
+    "Shake the smooth black bottle with ridges after grabbing it.",
+    "Shake the yellow-capped bottle for beverages after grabbing it.",
+    "Support the dark gray stove kitchenpot and raise it upward",
+    "Support the medium kitchenpot made of metal and raise it upward",
+    "Take hold of the bottle with brown body and white top and the yellow-capped cylindrical bottle.",
+    "Take the long thin bottle from the table and keep upright",
+    "Take the medium bottle for beverages using the left arm and give it a shake.",
+    "Use both arms to raise the medium kitchenpot made of metal",
+    "Use both arms to raise the smooth gray kitchenpot",
+    "Use each arm to lift the plastic bottle and the handheld bottle.",
+    "Use each arm to lift the plastic bottle and the plastic bottle.",
+    "Use one arm for the bottle with narrow neck, the other for the blue bottle with label.",
+    "Use one arm for the bottle with ribbed orange bottom and the other for the bottle with red cap.",
+    "Use one arm for the dark drink bottle with logo, another for the hand-sized soda bottle.",
+    "Use one arm for the drink bottle with rounded yellow lid and the other for the cylindrical orange and white bottle.",
+    "Use one arm for the handheld plastic bottle and the other for the black bottle.",
+    "Use one arm for the medium bottle with yellow cap, another for the medium bottle with smooth texture.",
+    "Use one arm for the medium rectangular yellow bottle and the other for the handheld green bottle.",
+    "Use one arm for the small bottle with decorative design, another for the blue bottle with label.",
+    "Use the correct arm to pick up the bottle with ridges on bottom.",
+    "Use the left arm to grab the gray bottle with slight shine and shake it.",
+    "Use the left arm to grab the orange and white bottle with cap and shake properly.",
+    "Use the left arm to grab the plastic bottle and shake properly.",
+    "Use the left arm to pick the hand-sized soda bottle up and keep it head-up.",
+    "Use the left arm to pick the plastic drink bottle up and keep it head-up.",
+    "Use the right arm to grab the bottle with orange cap and shake it.",
+    "Use the right arm to lift and shake the medium cylinder-shaped bottle.",
+    "Use the right arm to pick and shake the medium cylinder-shaped bottle.",
+    "Use the right arm to pick and shake the plastic bottle.",
+    "Use the right arm to pick up the bottle with ridges on bottom in the correct orientation",
+    "Utilize the left arm to lift the long thin bottle while keeping it head-up.",
+    "Utilize the right arm to lift the bottle with white neck and red top while keeping it head-up."
+  ],
+  "selection": {
+    "adjust_bottle": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "pick_diverse_bottles": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "lift_pot": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "shake_bottle": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "adjust_bottle",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 139,
+      "instruction": "Pick the bottle with ridges near base head-up using the left arm"
+    },
+    {
+      "episode_index": 1,
+      "task": "adjust_bottle",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 143,
+      "instruction": "Raise the plastic drink bottle from the table using the correct arm, the left arm."
+    },
+    {
+      "episode_index": 2,
+      "task": "adjust_bottle",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 149,
+      "instruction": "Use the left arm to pick the hand-sized soda bottle up and keep it head-up."
+    },
+    {
+      "episode_index": 3,
+      "task": "adjust_bottle",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 148,
+      "instruction": "Pick up the narrow-necked bottle upright from the table"
+    },
+    {
+      "episode_index": 4,
+      "task": "adjust_bottle",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 151,
+      "instruction": "Hold the hand-sized soda bottle upright from the table"
+    },
+    {
+      "episode_index": 5,
+      "task": "adjust_bottle",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 147,
+      "instruction": "Pick up the dark drink bottle with logo from the table using the left arm."
+    },
+    {
+      "episode_index": 6,
+      "task": "adjust_bottle",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 137,
+      "instruction": "Pick the bottle with rounded neck head-up and hold it steady."
+    },
+    {
+      "episode_index": 7,
+      "task": "adjust_bottle",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 136,
+      "instruction": "Pick up the handheld green bottle from the table carefully."
+    },
+    {
+      "episode_index": 8,
+      "task": "adjust_bottle",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 152,
+      "instruction": "Grab the smooth bottle with red lid and lift it upward from the table."
+    },
+    {
+      "episode_index": 9,
+      "task": "adjust_bottle",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 152,
+      "instruction": "Lift the narrow-necked bottle off the table and hold it upright."
+    },
+    {
+      "episode_index": 10,
+      "task": "adjust_bottle",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 135,
+      "instruction": "Hold the bottle with ridges near base upright from the table"
+    },
+    {
+      "episode_index": 11,
+      "task": "adjust_bottle",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 143,
+      "instruction": "Raise the medium dark brown bottle from the table using the correct arm, the left arm."
+    },
+    {
+      "episode_index": 12,
+      "task": "adjust_bottle",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 139,
+      "instruction": "Pick the bottle with ridges on bottom upright from the table"
+    },
+    {
+      "episode_index": 13,
+      "task": "adjust_bottle",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 139,
+      "instruction": "Raise the medium green bottle with capped neck in a head-up position"
+    },
+    {
+      "episode_index": 14,
+      "task": "adjust_bottle",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 143,
+      "instruction": "Grab the hand-sized soda bottle from the table with the left arm"
+    },
+    {
+      "episode_index": 15,
+      "task": "adjust_bottle",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 138,
+      "instruction": "Pick the smooth green bottle upright from the table"
+    },
+    {
+      "episode_index": 16,
+      "task": "adjust_bottle",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 138,
+      "instruction": "Pick the bottle with ridges on bottom upright from the table"
+    },
+    {
+      "episode_index": 17,
+      "task": "adjust_bottle",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 147,
+      "instruction": "Grab the bottle with ridges on bottom from the table with the left arm"
+    },
+    {
+      "episode_index": 18,
+      "task": "adjust_bottle",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 143,
+      "instruction": "Use the correct arm to pick up the bottle with ridges on bottom."
+    },
+    {
+      "episode_index": 19,
+      "task": "adjust_bottle",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 143,
+      "instruction": "Pick up the medium dark brown bottle upright from the table"
+    },
+    {
+      "episode_index": 20,
+      "task": "adjust_bottle",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 135,
+      "instruction": "Find the narrow-necked bottle on the table and raise it using the right arm."
+    },
+    {
+      "episode_index": 21,
+      "task": "adjust_bottle",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 143,
+      "instruction": "Grab the smooth bottle with red lid and lift it upward from the table."
+    },
+    {
+      "episode_index": 22,
+      "task": "adjust_bottle",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 140,
+      "instruction": "Utilize the right arm to lift the bottle with white neck and red top while keeping it head-up."
+    },
+    {
+      "episode_index": 23,
+      "task": "adjust_bottle",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 156,
+      "instruction": "Take the long thin bottle from the table and keep upright"
+    },
+    {
+      "episode_index": 24,
+      "task": "adjust_bottle",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 144,
+      "instruction": "Lift the medium green bottle head-up from the table"
+    },
+    {
+      "episode_index": 25,
+      "task": "adjust_bottle",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 133,
+      "instruction": "Use the right arm to pick up the bottle with ridges on bottom in the correct orientation"
+    },
+    {
+      "episode_index": 26,
+      "task": "adjust_bottle",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 147,
+      "instruction": "Grab the handheld green bottle from the table with the left arm"
+    },
+    {
+      "episode_index": 27,
+      "task": "adjust_bottle",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 143,
+      "instruction": "Raise the plastic drink bottle from the table using the correct arm, the left arm."
+    },
+    {
+      "episode_index": 28,
+      "task": "adjust_bottle",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 138,
+      "instruction": "Lift the bottle with ridges near base head-up from the table"
+    },
+    {
+      "episode_index": 29,
+      "task": "adjust_bottle",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 152,
+      "instruction": "Lift the bottle with ridges on bottom from the table upright"
+    },
+    {
+      "episode_index": 30,
+      "task": "adjust_bottle",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 143,
+      "instruction": "Identify the bottle with white neck and red top and grab it with the right arm"
+    },
+    {
+      "episode_index": 31,
+      "task": "adjust_bottle",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 141,
+      "instruction": "Lift the long thin bottle head-up from the table."
+    },
+    {
+      "episode_index": 32,
+      "task": "adjust_bottle",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 135,
+      "instruction": "Lift the green bottle with indented base upright carefully using the right arm"
+    },
+    {
+      "episode_index": 33,
+      "task": "adjust_bottle",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 139,
+      "instruction": "Pick the dark drink bottle with logo upright from the table"
+    },
+    {
+      "episode_index": 34,
+      "task": "adjust_bottle",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 144,
+      "instruction": "Lift the narrow-necked bottle off the table and hold it upright."
+    },
+    {
+      "episode_index": 35,
+      "task": "adjust_bottle",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 150,
+      "instruction": "Use the left arm to pick the plastic drink bottle up and keep it head-up."
+    },
+    {
+      "episode_index": 36,
+      "task": "adjust_bottle",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 152,
+      "instruction": "Hold the handheld green bottle head-up after lifting it."
+    },
+    {
+      "episode_index": 37,
+      "task": "adjust_bottle",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 143,
+      "instruction": "Find the dark drink bottle with logo on the table and raise it using the right arm."
+    },
+    {
+      "episode_index": 38,
+      "task": "adjust_bottle",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 144,
+      "instruction": "Raise the long thin bottle in a head-up position"
+    },
+    {
+      "episode_index": 39,
+      "task": "adjust_bottle",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 138,
+      "instruction": "Carefully grab the red-capped bottle head-up"
+    },
+    {
+      "episode_index": 40,
+      "task": "adjust_bottle",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 142,
+      "instruction": "Lift the narrow-necked bottle using the right arm and hold upright"
+    },
+    {
+      "episode_index": 41,
+      "task": "adjust_bottle",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 149,
+      "instruction": "Pick up the smooth bottle with red lid from the table using the left arm."
+    },
+    {
+      "episode_index": 42,
+      "task": "adjust_bottle",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 142,
+      "instruction": "Secure the green bottle with indented base upright with the right arm"
+    },
+    {
+      "episode_index": 43,
+      "task": "adjust_bottle",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 146,
+      "instruction": "Pick the medium dark brown bottle upright from the table"
+    },
+    {
+      "episode_index": 44,
+      "task": "adjust_bottle",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 142,
+      "instruction": "Lift the narrow-necked bottle from the table upright"
+    },
+    {
+      "episode_index": 45,
+      "task": "adjust_bottle",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 144,
+      "instruction": "Position the medium dark brown bottle head-up and lift it"
+    },
+    {
+      "episode_index": 46,
+      "task": "adjust_bottle",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 142,
+      "instruction": "Pick the narrow-necked bottle upright from the table"
+    },
+    {
+      "episode_index": 47,
+      "task": "adjust_bottle",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 139,
+      "instruction": "Grab the smooth green plastic bottle head-up using the right arm from the table."
+    },
+    {
+      "episode_index": 48,
+      "task": "adjust_bottle",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 144,
+      "instruction": "Utilize the left arm to lift the long thin bottle while keeping it head-up."
+    },
+    {
+      "episode_index": 49,
+      "task": "adjust_bottle",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/adjust_bottle/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 141,
+      "instruction": "Pick the bottle with white neck and red top up with the right arm ensuring it stays head-up."
+    },
+    {
+      "episode_index": 50,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 121,
+      "instruction": "Catch the smooth brown bottle with green label, then grab the smooth plastic bottle too."
+    },
+    {
+      "episode_index": 51,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 117,
+      "instruction": "Catch the orange bottle, then grab the cylindrical orange bottle with smooth surface too."
+    },
+    {
+      "episode_index": 52,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 121,
+      "instruction": "Grab the white-capped bottle using one arm and the beverage bottle with black body using the other."
+    },
+    {
+      "episode_index": 53,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 121,
+      "instruction": "Take hold of the bottle with brown body and white top and the yellow-capped cylindrical bottle."
+    },
+    {
+      "episode_index": 54,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 132,
+      "instruction": "Grab the plastic bottle with bright red color and pick up the plastic bottle."
+    },
+    {
+      "episode_index": 55,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 125,
+      "instruction": "Pick up both the white-capped bottle and the plastic bottle together."
+    },
+    {
+      "episode_index": 56,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 129,
+      "instruction": "Grab the plastic bottle using an arm and the cylindrical orange plastic bottle with the other arm."
+    },
+    {
+      "episode_index": 57,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 115,
+      "instruction": "Catch both the black bottle and the red bottle with curved grooves quickly."
+    },
+    {
+      "episode_index": 58,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 119,
+      "instruction": "Let each arm grab either the hand-sized soda bottle or the dark brown bottle with a squared body."
+    },
+    {
+      "episode_index": 59,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 120,
+      "instruction": "Hold the green bottle with black text label with one arm, hold the handheld medium-sized liquid bottle with the other."
+    },
+    {
+      "episode_index": 60,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 120,
+      "instruction": "Secure both the plastic bottle and the white bottle with blue accents quickly."
+    },
+    {
+      "episode_index": 61,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 126,
+      "instruction": "Lift both the yellow-capped bottle for beverages and the bottle with blue and yellow print simultaneously."
+    },
+    {
+      "episode_index": 62,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 114,
+      "instruction": "Pick up both the drinking bottle with yellow label and the smooth red cylindrical bottle together."
+    },
+    {
+      "episode_index": 63,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 121,
+      "instruction": "Grab the bottle with ridges on bottom with one arm, the bottle with red cap with the other."
+    },
+    {
+      "episode_index": 64,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 119,
+      "instruction": "Hold both the blue bottle with label and the bottle with brown body and white top."
+    },
+    {
+      "episode_index": 65,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 125,
+      "instruction": "Pick up both the plastic bottle and the blue bottle with label together."
+    },
+    {
+      "episode_index": 66,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 121,
+      "instruction": "Grab and hold the green bottle with black text label, then grab the medium-sized green bottle."
+    },
+    {
+      "episode_index": 67,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 128,
+      "instruction": "Use one arm for the bottle with ribbed orange bottom and the other for the bottle with red cap."
+    },
+    {
+      "episode_index": 68,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 119,
+      "instruction": "Use one arm for the dark drink bottle with logo, another for the hand-sized soda bottle."
+    },
+    {
+      "episode_index": 69,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 110,
+      "instruction": "Secure both the smooth red cylindrical bottle and the plastic bottle quickly."
+    },
+    {
+      "episode_index": 70,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 122,
+      "instruction": "Grab the smooth green and yellow bottle with one arm, the bottle with blue and yellow print with the other."
+    },
+    {
+      "episode_index": 71,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 117,
+      "instruction": "Use one arm for the medium bottle with yellow cap, another for the medium bottle with smooth texture."
+    },
+    {
+      "episode_index": 72,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 113,
+      "instruction": "Lift the bottle with white printed label and the rounded bottom orange plastic bottle with separate arms."
+    },
+    {
+      "episode_index": 73,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 125,
+      "instruction": "Catch the bottle for holding drinks with one arm, the white bottle with blue accents with another arm."
+    },
+    {
+      "episode_index": 74,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 118,
+      "instruction": "Use each arm to lift the plastic bottle and the handheld bottle."
+    },
+    {
+      "episode_index": 75,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 123,
+      "instruction": "Use one arm for the medium rectangular yellow bottle and the other for the handheld green bottle."
+    },
+    {
+      "episode_index": 76,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 125,
+      "instruction": "Collect the cylindrical bottle with narrow neck, then pick up the yellow-capped bottle for beverages."
+    },
+    {
+      "episode_index": 77,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 124,
+      "instruction": "Use one arm for the handheld plastic bottle and the other for the black bottle."
+    },
+    {
+      "episode_index": 78,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 130,
+      "instruction": "Grab the medium bottle with yellow cap and pick up the red bottle with white bottom text."
+    },
+    {
+      "episode_index": 79,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 121,
+      "instruction": "Grab the white bottle for liquids with one arm, the smooth orange bottle with the other."
+    },
+    {
+      "episode_index": 80,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 118,
+      "instruction": "Grab the medium green bottle with capped neck using an arm and the handheld medium-sized liquid bottle with the other arm."
+    },
+    {
+      "episode_index": 81,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 119,
+      "instruction": "Hold the medium green bottle with one arm, hold the small bottle with decorative design with the other."
+    },
+    {
+      "episode_index": 82,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 123,
+      "instruction": "Catch the rectangular brown body with white top, then take hold of the orange bottle."
+    },
+    {
+      "episode_index": 83,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 127,
+      "instruction": "Collect the blue bottle with label, then pick up the medium plastic bottle."
+    },
+    {
+      "episode_index": 84,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 122,
+      "instruction": "Hold both the smooth brown bottle and the red-capped bottle."
+    },
+    {
+      "episode_index": 85,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 117,
+      "instruction": "Each arm should pick up one: the grooved orange drink bottle, then the plastic bottle."
+    },
+    {
+      "episode_index": 86,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 117,
+      "instruction": "Use one arm for the small bottle with decorative design, another for the blue bottle with label."
+    },
+    {
+      "episode_index": 87,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 117,
+      "instruction": "Pick up both the rounded orange bottle with yellow top and the rounded bottom orange plastic bottle together."
+    },
+    {
+      "episode_index": 88,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 122,
+      "instruction": "Lift the yellow body bottle, continue and pick up the yellow-capped orange plastic bottle."
+    },
+    {
+      "episode_index": 89,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 124,
+      "instruction": "Lift the bottle for liquids, continue and pick up the plastic drink bottle."
+    },
+    {
+      "episode_index": 90,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 123,
+      "instruction": "Pick up both the plastic bottle with bright red color and the white bottle with blue accents."
+    },
+    {
+      "episode_index": 91,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 126,
+      "instruction": "Lift both the plastic bottle and the medium-sized plastic bottle simultaneously."
+    },
+    {
+      "episode_index": 92,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 124,
+      "instruction": "Catch the black cylindrical bottle with ridges in one arm and the red bottle in the other arm."
+    },
+    {
+      "episode_index": 93,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 112,
+      "instruction": "Use one arm for the drink bottle with rounded yellow lid and the other for the cylindrical orange and white bottle."
+    },
+    {
+      "episode_index": 94,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 121,
+      "instruction": "Hold onto the smooth orange bottle, then pick up the bottle with blue cap."
+    },
+    {
+      "episode_index": 95,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 118,
+      "instruction": "Pick up the medium bottle for beverages and then pick up the beverage bottle with black body."
+    },
+    {
+      "episode_index": 96,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 132,
+      "instruction": "Use each arm to lift the plastic bottle and the plastic bottle."
+    },
+    {
+      "episode_index": 97,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 116,
+      "instruction": "Assign one arm to each of the medium bottle with orange lid and the orange bottle with bold labeling."
+    },
+    {
+      "episode_index": 98,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 122,
+      "instruction": "Hold onto the bottle with dark brown color and then get the black cylindrical bottle with ridges."
+    },
+    {
+      "episode_index": 99,
+      "task": "pick_diverse_bottles",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/pick_diverse_bottles/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 119,
+      "instruction": "Use one arm for the bottle with narrow neck, the other for the blue bottle with label."
+    },
+    {
+      "episode_index": 100,
+      "task": "lift_pot",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 113,
+      "instruction": "Hold the gray kitchenpot with both arms"
+    },
+    {
+      "episode_index": 101,
+      "task": "lift_pot",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 113,
+      "instruction": "Use both arms to raise the medium kitchenpot made of metal"
+    },
+    {
+      "episode_index": 102,
+      "task": "lift_pot",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 115,
+      "instruction": "Raise the cooking kitchenpot with side grips with strong support"
+    },
+    {
+      "episode_index": 103,
+      "task": "lift_pot",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 106,
+      "instruction": "Raise the cylindrical kitchenpot with strong support"
+    },
+    {
+      "episode_index": 104,
+      "task": "lift_pot",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 108,
+      "instruction": "Lift the gray kitchenpot steadily with support"
+    },
+    {
+      "episode_index": 105,
+      "task": "lift_pot",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 111,
+      "instruction": "Securely lift the kitchenpot with smooth exterior together"
+    },
+    {
+      "episode_index": 106,
+      "task": "lift_pot",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 110,
+      "instruction": "Bring the gray cylindrical metal kitchenpot upwards together"
+    },
+    {
+      "episode_index": 107,
+      "task": "lift_pot",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 108,
+      "instruction": "Hold the gray kitchenpot firmly and lift it"
+    },
+    {
+      "episode_index": 108,
+      "task": "lift_pot",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 112,
+      "instruction": "Lift the metal kitchenpot carefully using arms"
+    },
+    {
+      "episode_index": 109,
+      "task": "lift_pot",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 108,
+      "instruction": "Lift the metal kitchenpot carefully using arms"
+    },
+    {
+      "episode_index": 110,
+      "task": "lift_pot",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 116,
+      "instruction": "Raise the kitchenpot with smooth exterior using both arms"
+    },
+    {
+      "episode_index": 111,
+      "task": "lift_pot",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 113,
+      "instruction": "Hold the medium-sized kitchenpot firmly with arms"
+    },
+    {
+      "episode_index": 112,
+      "task": "lift_pot",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 107,
+      "instruction": "Hold the medium kitchenpot made of metal with both arms"
+    },
+    {
+      "episode_index": 113,
+      "task": "lift_pot",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 111,
+      "instruction": "Hold the round kitchenpot with handles and lift upward"
+    },
+    {
+      "episode_index": 114,
+      "task": "lift_pot",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 115,
+      "instruction": "Raise the dark gray stove kitchenpot with strong support"
+    },
+    {
+      "episode_index": 115,
+      "task": "lift_pot",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 111,
+      "instruction": "Raise the dark gray stove kitchenpot upward with both hands"
+    },
+    {
+      "episode_index": 116,
+      "task": "lift_pot",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 116,
+      "instruction": "Raise the metal kitchenpot evenly with arms"
+    },
+    {
+      "episode_index": 117,
+      "task": "lift_pot",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 107,
+      "instruction": "Raise the cylindrical kitchenpot using both arms"
+    },
+    {
+      "episode_index": 118,
+      "task": "lift_pot",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 114,
+      "instruction": "Bring the smooth gray kitchenpot upwards together"
+    },
+    {
+      "episode_index": 119,
+      "task": "lift_pot",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 111,
+      "instruction": "Raise and hold the smooth gray kitchenpot together"
+    },
+    {
+      "episode_index": 120,
+      "task": "lift_pot",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 111,
+      "instruction": "Hold the medium kitchenpot made of metal firmly and lift it"
+    },
+    {
+      "episode_index": 121,
+      "task": "lift_pot",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 107,
+      "instruction": "Lift the metal kitchenpot steadily with support"
+    },
+    {
+      "episode_index": 122,
+      "task": "lift_pot",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 109,
+      "instruction": "Engage arms to grip and lift the metal kitchenpot."
+    },
+    {
+      "episode_index": 123,
+      "task": "lift_pot",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 108,
+      "instruction": "Support the medium kitchenpot made of metal and raise it upward"
+    },
+    {
+      "episode_index": 124,
+      "task": "lift_pot",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 111,
+      "instruction": "Hold the metal kitchenpot and lift upward"
+    },
+    {
+      "episode_index": 125,
+      "task": "lift_pot",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 107,
+      "instruction": "Support the dark gray stove kitchenpot and raise it upward"
+    },
+    {
+      "episode_index": 126,
+      "task": "lift_pot",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 109,
+      "instruction": "Lift the gray cylindrical metal kitchenpot upward and hold it"
+    },
+    {
+      "episode_index": 127,
+      "task": "lift_pot",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 112,
+      "instruction": "Raise the round kitchenpot with handles together with arms"
+    },
+    {
+      "episode_index": 128,
+      "task": "lift_pot",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 111,
+      "instruction": "Grab the metal kitchenpot and lift it up"
+    },
+    {
+      "episode_index": 129,
+      "task": "lift_pot",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 111,
+      "instruction": "Raise the medium-sized kitchenpot together using arms"
+    },
+    {
+      "episode_index": 130,
+      "task": "lift_pot",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 112,
+      "instruction": "Grab the medium-sized kitchenpot and lift it upwards"
+    },
+    {
+      "episode_index": 131,
+      "task": "lift_pot",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 114,
+      "instruction": "Raise the kitchenpot with smooth exterior steadily using arms"
+    },
+    {
+      "episode_index": 132,
+      "task": "lift_pot",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 118,
+      "instruction": "Hold the cooking kitchenpot with side grips firmly, then lift."
+    },
+    {
+      "episode_index": 133,
+      "task": "lift_pot",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 114,
+      "instruction": "Carry the kitchenpot with smooth exterior securely using arms"
+    },
+    {
+      "episode_index": 134,
+      "task": "lift_pot",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 110,
+      "instruction": "Lift the kitchenpot with smooth exterior carefully using arms"
+    },
+    {
+      "episode_index": 135,
+      "task": "lift_pot",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 107,
+      "instruction": "Both arms lift the medium-sized kitchenpot upright"
+    },
+    {
+      "episode_index": 136,
+      "task": "lift_pot",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 115,
+      "instruction": "Hold the medium-sized kitchenpot and lift upward"
+    },
+    {
+      "episode_index": 137,
+      "task": "lift_pot",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 111,
+      "instruction": "Lift the medium-sized kitchenpot up using your arms"
+    },
+    {
+      "episode_index": 138,
+      "task": "lift_pot",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 114,
+      "instruction": "Use both arms to raise the smooth gray kitchenpot"
+    },
+    {
+      "episode_index": 139,
+      "task": "lift_pot",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 112,
+      "instruction": "Hold the smooth gray kitchenpot firmly and lift it"
+    },
+    {
+      "episode_index": 140,
+      "task": "lift_pot",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 108,
+      "instruction": "Hold the smooth gray kitchenpot with both arms"
+    },
+    {
+      "episode_index": 141,
+      "task": "lift_pot",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 112,
+      "instruction": "Grab the medium-sized kitchenpot and lift it upwards"
+    },
+    {
+      "episode_index": 142,
+      "task": "lift_pot",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 114,
+      "instruction": "Pick up the gray cylindrical metal kitchenpot with both arms"
+    },
+    {
+      "episode_index": 143,
+      "task": "lift_pot",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 107,
+      "instruction": "Lift the round kitchenpot with handles upward with both arms"
+    },
+    {
+      "episode_index": 144,
+      "task": "lift_pot",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 108,
+      "instruction": "Hold the cooking kitchenpot with side grips firmly and lift it"
+    },
+    {
+      "episode_index": 145,
+      "task": "lift_pot",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 107,
+      "instruction": "Grip the gray cylindrical metal kitchenpot firmly and lift"
+    },
+    {
+      "episode_index": 146,
+      "task": "lift_pot",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 112,
+      "instruction": "Hold the metal kitchenpot firmly and move upward."
+    },
+    {
+      "episode_index": 147,
+      "task": "lift_pot",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 112,
+      "instruction": "Both arms lift the cooking kitchenpot with side grips upright"
+    },
+    {
+      "episode_index": 148,
+      "task": "lift_pot",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 114,
+      "instruction": "Grab the metal kitchenpot and lift together"
+    },
+    {
+      "episode_index": 149,
+      "task": "lift_pot",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/lift_pot/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 112,
+      "instruction": "Lift the metal kitchenpot carefully using arms"
+    },
+    {
+      "episode_index": 150,
+      "task": "shake_bottle",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 251,
+      "instruction": "Pick the bottle with brown body and white top up with the left arm and shake."
+    },
+    {
+      "episode_index": 151,
+      "task": "shake_bottle",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 250,
+      "instruction": "Grab and shake the medium plastic bottle with cap using the right arm."
+    },
+    {
+      "episode_index": 152,
+      "task": "shake_bottle",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 244,
+      "instruction": "Grab the handheld brown bottle with white lid with the right arm and shake."
+    },
+    {
+      "episode_index": 153,
+      "task": "shake_bottle",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 245,
+      "instruction": "Grab and shake the rounded body bottle made of plastic using the left arm."
+    },
+    {
+      "episode_index": 154,
+      "task": "shake_bottle",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 247,
+      "instruction": "Shake the handheld bottle after grabbing it."
+    },
+    {
+      "episode_index": 155,
+      "task": "shake_bottle",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 244,
+      "instruction": "Lift up the smooth cylindrical bottle using the right arm, then shake."
+    },
+    {
+      "episode_index": 156,
+      "task": "shake_bottle",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 254,
+      "instruction": "Use the right arm to pick and shake the medium cylinder-shaped bottle."
+    },
+    {
+      "episode_index": 157,
+      "task": "shake_bottle",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 260,
+      "instruction": "Use the left arm to grab the orange and white bottle with cap and shake properly."
+    },
+    {
+      "episode_index": 158,
+      "task": "shake_bottle",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 252,
+      "instruction": "Grab and shake the narrow-necked bottle using the right arm."
+    },
+    {
+      "episode_index": 159,
+      "task": "shake_bottle",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 243,
+      "instruction": "Shake the bottle with ribbed orange bottom after grabbing it."
+    },
+    {
+      "episode_index": 160,
+      "task": "shake_bottle",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 246,
+      "instruction": "Shake the yellow-capped bottle for beverages after grabbing it."
+    },
+    {
+      "episode_index": 161,
+      "task": "shake_bottle",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 257,
+      "instruction": "Secure the yellow-capped cylindrical bottle, shake it, and place it down."
+    },
+    {
+      "episode_index": 162,
+      "task": "shake_bottle",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 254,
+      "instruction": "Grab and shake the plastic bottle with colorful label using the right arm."
+    },
+    {
+      "episode_index": 163,
+      "task": "shake_bottle",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 257,
+      "instruction": "Hold the black plastic bottle with Pepsi logo, shake it briefly."
+    },
+    {
+      "episode_index": 164,
+      "task": "shake_bottle",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 260,
+      "instruction": "Grab the bottle with ridges on bottom and shake it steadily."
+    },
+    {
+      "episode_index": 165,
+      "task": "shake_bottle",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 245,
+      "instruction": "Use the right arm to lift and shake the medium cylinder-shaped bottle."
+    },
+    {
+      "episode_index": 166,
+      "task": "shake_bottle",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 245,
+      "instruction": "Grasp the rounded body bottle made of plastic with the left arm and shake it."
+    },
+    {
+      "episode_index": 167,
+      "task": "shake_bottle",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 245,
+      "instruction": "Hold the Coca-Cola bottle with the left arm and shake lightly."
+    },
+    {
+      "episode_index": 168,
+      "task": "shake_bottle",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 247,
+      "instruction": "Shake the brown bottle with rounded rectangular shape after holding it firmly."
+    },
+    {
+      "episode_index": 169,
+      "task": "shake_bottle",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 260,
+      "instruction": "Pick the cylindrical orange bottle with yellow top up with the right arm and shake."
+    },
+    {
+      "episode_index": 170,
+      "task": "shake_bottle",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 259,
+      "instruction": "Shake the hand-sized bottle with screw cap after grabbing it."
+    },
+    {
+      "episode_index": 171,
+      "task": "shake_bottle",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 241,
+      "instruction": "Pick the small bottle with decorative design up using the right arm and shake it."
+    },
+    {
+      "episode_index": 172,
+      "task": "shake_bottle",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 255,
+      "instruction": "Shake the medium-sized bottle properly after lifting."
+    },
+    {
+      "episode_index": 173,
+      "task": "shake_bottle",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 244,
+      "instruction": "Shake the smooth black bottle with ridges after grabbing it."
+    },
+    {
+      "episode_index": 174,
+      "task": "shake_bottle",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 242,
+      "instruction": "Hold the white and blue bottle with the left arm and shake lightly."
+    },
+    {
+      "episode_index": 175,
+      "task": "shake_bottle",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 246,
+      "instruction": "Lift up the bottle shaped like small cylinder using the left arm, then shake."
+    },
+    {
+      "episode_index": 176,
+      "task": "shake_bottle",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 244,
+      "instruction": "Grab the smooth cylindrical bottle with the left arm and shake."
+    },
+    {
+      "episode_index": 177,
+      "task": "shake_bottle",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 249,
+      "instruction": "Lift the bottle with green and white labels and shake it gently."
+    },
+    {
+      "episode_index": 178,
+      "task": "shake_bottle",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 242,
+      "instruction": "Lift the bottle with cute ghost drawing with the left arm and give it a shake."
+    },
+    {
+      "episode_index": 179,
+      "task": "shake_bottle",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 255,
+      "instruction": "Pick the medium-sized plastic bottle, shake it with the right arm."
+    },
+    {
+      "episode_index": 180,
+      "task": "shake_bottle",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 245,
+      "instruction": "Lift the medium plastic bottle and shake it gently."
+    },
+    {
+      "episode_index": 181,
+      "task": "shake_bottle",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 262,
+      "instruction": "Secure the white cylindrical bottle, shake it, and place it down."
+    },
+    {
+      "episode_index": 182,
+      "task": "shake_bottle",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 243,
+      "instruction": "Grip the yellow bottle for liquid storage using the right arm and shake."
+    },
+    {
+      "episode_index": 183,
+      "task": "shake_bottle",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 244,
+      "instruction": "Grasp the yellow container with rounded edges with the left arm and shake it."
+    },
+    {
+      "episode_index": 184,
+      "task": "shake_bottle",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 252,
+      "instruction": "Catch the yellow-capped cylindrical bottle and shake it instantly."
+    },
+    {
+      "episode_index": 185,
+      "task": "shake_bottle",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 258,
+      "instruction": "Hold the smooth bottle with red lid steady, then shake it."
+    },
+    {
+      "episode_index": 186,
+      "task": "shake_bottle",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 250,
+      "instruction": "Use the right arm to pick and shake the plastic bottle."
+    },
+    {
+      "episode_index": 187,
+      "task": "shake_bottle",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 244,
+      "instruction": "Use the left arm to grab the gray bottle with slight shine and shake it."
+    },
+    {
+      "episode_index": 188,
+      "task": "shake_bottle",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 241,
+      "instruction": "Take the medium bottle for beverages using the left arm and give it a shake."
+    },
+    {
+      "episode_index": 189,
+      "task": "shake_bottle",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 245,
+      "instruction": "Grab the medium-sized orange bottle using the left arm, then shake."
+    },
+    {
+      "episode_index": 190,
+      "task": "shake_bottle",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 237,
+      "instruction": "Use the left arm to grab the plastic bottle and shake properly."
+    },
+    {
+      "episode_index": 191,
+      "task": "shake_bottle",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 241,
+      "instruction": "Pick up the smooth bottle and shake it."
+    },
+    {
+      "episode_index": 192,
+      "task": "shake_bottle",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 260,
+      "instruction": "Use the right arm to grab the bottle with orange cap and shake it."
+    },
+    {
+      "episode_index": 193,
+      "task": "shake_bottle",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 252,
+      "instruction": "Pick the blue bottle with label up with the left arm and shake."
+    },
+    {
+      "episode_index": 194,
+      "task": "shake_bottle",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 259,
+      "instruction": "Grasp the bottle with narrow neck with the right arm and shake it."
+    },
+    {
+      "episode_index": 195,
+      "task": "shake_bottle",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 237,
+      "instruction": "Lift up the brown bottle using the left arm, then shake."
+    },
+    {
+      "episode_index": 196,
+      "task": "shake_bottle",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 248,
+      "instruction": "Pick up the medium bottle with smooth texture and shake it."
+    },
+    {
+      "episode_index": 197,
+      "task": "shake_bottle",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 240,
+      "instruction": "Pick the bottle with blue cap and perform shaking motion."
+    },
+    {
+      "episode_index": 198,
+      "task": "shake_bottle",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 254,
+      "instruction": "Grab the curved orange soda bottle carefully and shake."
+    },
+    {
+      "episode_index": 199,
+      "task": "shake_bottle",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/shake_bottle/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 241,
+      "instruction": "Shake the handheld bottle thoroughly after grabbing it."
+    }
+  ],
+  "conversion_seconds": 459.3
+}

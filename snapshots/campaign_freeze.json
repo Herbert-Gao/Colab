@@ -1,0 +1,29 @@
+{
+  "created": "2026-10-21T02:30:28+0000",
+  "openpi_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+  "openpi_local_diff": "scripts/train.py                   | 66 ++++++++++++++++++++++++++++++++++++--\n src/openpi/training/checkpoints.py | 15 +++++++--\n src/openpi/training/config.py      | 42 ++++++++++++++++++++++++\n 3 files changed, 118 insertions(+), 5 deletions(-)",
+  "campaign_files": {
+    "backtest.py": "4611839c1690d49ccbf957333f6143fa0daaf835841bd239d54d92397c9f9c5e",
+    "cleanup_stage.py": "fce3a052dd0738841b296405e8553c6deecc5da2939308bf83c33e62c9ecff38",
+    "config.py": "a21065307e069cce5ab38d49ef5d3b0cc46937ff9ad05faf3ddfa4350566282a",
+    "deliverables.py": "f0691bbb614719895f04a45b391144e2c416c7346a21c4d23a376dcd24127031",
+    "evaluator.py": "69a313f48c87c52652fe49bcbe16b4b5d24e6376678289c8b80ea176655a899c",
+    "final_eval.py": "da31c7145d056155ca2c9561b59c474c7a3316dc71a24982d9842697098eda9d",
+    "jobctl.py": "7fa5bb9681c51ae86e77cac8d1a3208147367db6102747486022dbb88bb7be87",
+    "notify_channel.py": "897ab42f53b6ac54d993f57234e3fc494506ba4eb3440c66e071b4868fb15a85",
+    "pi05_config.py": "ea795b96fce873daf46ee0f2ccdb0f6b818f156381fe3045894a9e91aaf4bea2",
+    "plan.py": "731cef78978943acdfd4684916361ea855303451a1a235aae138aefb23ee44f3",
+    "policy_server.py": "109e79a9527f410729a3a5e62ad02d8e46ad7943652c709c0d2598f3e702bc08",
+    "preflight.py": "b5b8f21a8a90dfde886d69a4b7c107affeb13e52d29421daaca3e3f6ba4746ca",
+    "prepare_data.py": "3a78b6aa6542c3dbef41ed3f5a5f0d422a9b465cb505aa1169c044ead41bf1bb",
+    "robotwin_eval.py": "25f5465ffe513740bc0986a8c5dbc101dfb55a06a6a1055ce9a13123d7020dfb",
+    "select_hparams.py": "2efb87c5eafb6345fa11de05d880326f9b09aafd037d958f8c0efecfb43ff2f4",
+    "snapshot.py": "115c09ab52bee8d71955e967d1b1624df6fe7cca6e955b094d6c1581fb5f42a1",
+    "train_job.py": "1334f92f0ee1dc1511cb8d94baeb83667c0ec9e5e3a40a8955ff7e2744deb636",
+    "write_docs.py": "98f2c9cf142d83e4baca28c3c675792504fe0d53772e6aff54b896fe1e6aa951"
+  },
+  "campaign_digest": "8e29449b0718f41d1115b432e35f0fc0cbd70b277903b2122fcfbda778d8ea6f",
+  "robotwin_eval_driver_sha256": "25f5465ffe513740bc0986a8c5dbc101dfb55a06a6a1055ce9a13123d7020dfb",
+  "norm_stats_sha256": "2b66b3e6840d6b4a7bbedab48f77c6b7510c700d696044ee05081d34ae9629c4",
+  "python": "3.11.16"
+}

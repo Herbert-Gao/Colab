@@ -1,0 +1,62 @@
+{
+  "task": "place_mouse_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 5,
+  "seed_schedule": [
+    100012,
+    100030,
+    100048,
+    100066,
+    100084
+  ],
+  "attempted_seeds": [
+    100012,
+    100030,
+    100048,
+    100066,
+    100084
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 100012,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the wireless mouse with left and right buttons and set it on Blue mat."
+    },
+    {
+      "episode": 2,
+      "seed": 100030,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hand-sized wireless mouse and position it on the Cyan mat."
+    },
+    {
+      "episode": 3,
+      "seed": 100048,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the small rounded plastic mouse and set it on the Magenta mat."
+    },
+    {
+      "episode": 4,
+      "seed": 100066,
+      "valid": true,
+      "success": true,
+      "steps": 170,
+      "instruction": "Grab the dark gray computer mouse with logo and position it on the Red mat."
+    },
+    {
+      "episode": 5,
+      "seed": 100084,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hand-sized dark gray mouse and set it on Blue mat."
+    }
+  ]
+}

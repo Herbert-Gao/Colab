@@ -1,0 +1,26 @@
+{
+  "train": {
+    "ok": true,
+    "steps": 40,
+    "trace_rows": 41,
+    "checkpoint": "/data/szgx/gaohang/pi05_30/runs/smoke_validation/pi05_aloha_robotwin_30/aloha_smoke_validation/20"
+  },
+  "eval": {
+    "ok": true,
+    "episodes": 2,
+    "successes": 0,
+    "seeds": [
+      500000,
+      500001
+    ]
+  },
+  "parallel": {
+    "ok": true,
+    "minutes": 10.1,
+    "gpu_utilisation_pct": [],
+    "gpu_memory_mib": [],
+    "eval_episodes": 5,
+    "eval_successes": 0
+  },
+  "recorded": "2026-10-21T08:59:02+0000"
+}

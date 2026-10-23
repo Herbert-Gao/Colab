@@ -1,0 +1,76 @@
+{
+  "repo_id": "pi05_30_aloha_target_place_mouse_pad_n5",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 5,
+  "frames_total": 733,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "place_mouse_pad": 5
+  },
+  "task_instructions": [
+    "Pick up the mouse for cursor control and set it on the Black colored mat.",
+    "Slide the computer mouse onto the Cyan mat gently.",
+    "Take hold of the mouse with scroll wheel and place it on the Yellow mat.",
+    "Use the right arm to pick the compact oval-shaped mouse and place it on the Cyan mat.",
+    "Using the right arm, grab the mouse with buttons and wheel and place it on Cyan colored mat."
+  ],
+  "selection": {
+    "place_mouse_pad": [
+      9,
+      24,
+      29,
+      40,
+      49
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "place_mouse_pad",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_mouse_pad/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 147,
+      "instruction": "Take hold of the mouse with scroll wheel and place it on the Yellow mat."
+    },
+    {
+      "episode_index": 1,
+      "task": "place_mouse_pad",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_mouse_pad/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 147,
+      "instruction": "Pick up the mouse for cursor control and set it on the Black colored mat."
+    },
+    {
+      "episode_index": 2,
+      "task": "place_mouse_pad",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_mouse_pad/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 155,
+      "instruction": "Slide the computer mouse onto the Cyan mat gently."
+    },
+    {
+      "episode_index": 3,
+      "task": "place_mouse_pad",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_mouse_pad/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 143,
+      "instruction": "Use the right arm to pick the compact oval-shaped mouse and place it on the Cyan mat."
+    },
+    {
+      "episode_index": 4,
+      "task": "place_mouse_pad",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_mouse_pad/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 141,
+      "instruction": "Using the right arm, grab the mouse with buttons and wheel and place it on Cyan colored mat."
+    }
+  ],
+  "conversion_seconds": 11.9
+}

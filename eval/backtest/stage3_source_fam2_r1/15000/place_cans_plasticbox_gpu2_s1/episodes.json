@@ -1,0 +1,32 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 233,
+      "instruction": "Grab the small red soda can and the rounded can with smooth printed surface together, then drop them in the portable light blue storage plasticbox."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 240,
+      "instruction": "Pick the lightweight cylindrical metal can and the small aluminum can at once, then place them into the medium-sized smooth plasticbox."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "repo_id": "pi05_30_aloha_target_click_bell_n5",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 5,
+  "frames_total": 387,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "click_bell": 5
+  },
+  "task_instructions": [
+    "Ask the right arm to interact with the flat-topped bell's top.",
+    "Click using the right arm on the rounded bell with flat black part's center.",
+    "Click using the right arm on the small desk bell for tapping's center.",
+    "Pinpoint the rounded bell with flat black part and click its top center.",
+    "Tap the bell with brown base's top center with the right arm."
+  ],
+  "selection": {
+    "click_bell": [
+      7,
+      16,
+      23,
+      27,
+      39
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "click_bell",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_bell/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 76,
+      "instruction": "Pinpoint the rounded bell with flat black part and click its top center."
+    },
+    {
+      "episode_index": 1,
+      "task": "click_bell",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_bell/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 76,
+      "instruction": "Click using the right arm on the rounded bell with flat black part's center."
+    },
+    {
+      "episode_index": 2,
+      "task": "click_bell",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_bell/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 78,
+      "instruction": "Ask the right arm to interact with the flat-topped bell's top."
+    },
+    {
+      "episode_index": 3,
+      "task": "click_bell",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_bell/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 80,
+      "instruction": "Tap the bell with brown base's top center with the right arm."
+    },
+    {
+      "episode_index": 4,
+      "task": "click_bell",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_bell/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 77,
+      "instruction": "Click using the right arm on the small desk bell for tapping's center."
+    }
+  ],
+  "conversion_seconds": 15.8
+}

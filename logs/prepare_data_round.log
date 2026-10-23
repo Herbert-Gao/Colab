@@ -1,0 +1,67 @@
+[link] pi05_30_pilot_move_pillbottle_pad -> /data/szgx/xworld-gzh/datasets/lerobot/robotwin_move_pillbottle_pad_demo_clean
+[skip] pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50: 200 episodes already present
+[skip] pi05_30_aloha_fam2_place_object_basket_place_cans_plasticbox_place_bread_skillet_put_object_cabinet_src50: 200 episodes already present
+[skip] pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50: 200 episodes already present
+[skip] pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50: 200 episodes already present
+[skip] pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50: 200 episodes already present
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  56%|█████▋    | 83/147 [00:00<00:00, 815.83 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 720.44 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 90.70ba/s]
+[pi05_30_aloha_target_place_mouse_pad_n5] 1/5 place_mouse_pad#9 frames=147
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  61%|██████    | 89/147 [00:00<00:00, 872.12 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 770.59 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 151.03ba/s]
+[pi05_30_aloha_target_place_mouse_pad_n5] 2/5 place_mouse_pad#24 frames=294
+Map:   0%|          | 0/155 [00:00<?, ? examples/s]Map:  57%|█████▋    | 88/155 [00:00<00:00, 861.81 examples/s]Map: 100%|██████████| 155/155 [00:00<00:00, 764.14 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 103.70ba/s]
+[pi05_30_aloha_target_place_mouse_pad_n5] 3/5 place_mouse_pad#29 frames=449
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  64%|██████▎   | 91/143 [00:00<00:00, 885.43 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 786.57 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 109.86ba/s]
+[pi05_30_aloha_target_place_mouse_pad_n5] 4/5 place_mouse_pad#40 frames=592
+Map:   0%|          | 0/141 [00:00<?, ? examples/s]Map:  63%|██████▎   | 89/141 [00:00<00:00, 872.81 examples/s]Map: 100%|██████████| 141/141 [00:00<00:00, 785.09 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.03ba/s]
+[pi05_30_aloha_target_place_mouse_pad_n5] 5/5 place_mouse_pad#49 frames=733
+[done] pi05_30_aloha_target_place_mouse_pad_n5: 733 frames in 11.9s
+Map:   0%|          | 0/152 [00:00<?, ? examples/s]Map:  53%|█████▎    | 80/152 [00:00<00:00, 783.84 examples/s]Map: 100%|██████████| 152/152 [00:00<00:00, 644.68 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 77.71ba/s]
+[pi05_30_aloha_target_rotate_qrcode_n5] 1/5 rotate_qrcode#0 frames=152
+Map:   0%|          | 0/153 [00:00<?, ? examples/s]Map:  60%|██████    | 92/153 [00:00<00:00, 897.50 examples/s]Map: 100%|██████████| 153/153 [00:00<00:00, 769.87 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 115.32ba/s]
+[pi05_30_aloha_target_rotate_qrcode_n5] 2/5 rotate_qrcode#25 frames=305
+Map:   0%|          | 0/157 [00:00<?, ? examples/s]Map:  59%|█████▊    | 92/157 [00:00<00:00, 901.90 examples/s]Map: 100%|██████████| 157/157 [00:00<00:00, 826.49 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 99.85ba/s]
+[pi05_30_aloha_target_rotate_qrcode_n5] 3/5 rotate_qrcode#28 frames=462
+Map:   0%|          | 0/149 [00:00<?, ? examples/s]Map:  62%|██████▏   | 92/149 [00:00<00:00, 901.73 examples/s]Map: 100%|██████████| 149/149 [00:00<00:00, 778.78 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 108.67ba/s]
+[pi05_30_aloha_target_rotate_qrcode_n5] 4/5 rotate_qrcode#39 frames=611
+Map:   0%|          | 0/148 [00:00<?, ? examples/s]Map:  63%|██████▎   | 93/148 [00:00<00:00, 914.61 examples/s]Map: 100%|██████████| 148/148 [00:00<00:00, 797.80 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 105.25ba/s]
+[pi05_30_aloha_target_rotate_qrcode_n5] 5/5 rotate_qrcode#41 frames=759
+[done] pi05_30_aloha_target_rotate_qrcode_n5: 759 frames in 10.9s
+Map:   0%|          | 0/254 [00:00<?, ? examples/s]Map:  34%|███▍      | 86/254 [00:00<00:00, 839.79 examples/s]Map:  83%|████████▎ | 210/254 [00:00<00:00, 824.71 examples/s]Map: 100%|██████████| 254/254 [00:00<00:00, 644.61 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 71.54ba/s]
+[pi05_30_aloha_target_place_can_basket_n5] 1/5 place_can_basket#17 frames=254
+Map:   0%|          | 0/247 [00:00<?, ? examples/s]Map:  28%|██▊       | 68/247 [00:00<00:00, 662.72 examples/s]Map:  62%|██████▏   | 152/247 [00:00<00:00, 758.39 examples/s]Map:  98%|█████████▊| 241/247 [00:00<00:00, 814.16 examples/s]Map: 100%|██████████| 247/247 [00:00<00:00, 659.19 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 75.98ba/s]
+[pi05_30_aloha_target_place_can_basket_n5] 2/5 place_can_basket#27 frames=501
+Map:   0%|          | 0/262 [00:00<?, ? examples/s]Map:  35%|███▍      | 91/262 [00:00<00:00, 891.18 examples/s]Map:  69%|██████▉   | 182/262 [00:00<00:00, 893.64 examples/s]Map: 100%|██████████| 262/262 [00:00<00:00, 735.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 69.18ba/s]
+[pi05_30_aloha_target_place_can_basket_n5] 3/5 place_can_basket#37 frames=763
+Map:   0%|          | 0/249 [00:00<?, ? examples/s]Map:  37%|███▋      | 91/249 [00:00<00:00, 897.15 examples/s]Map:  73%|███████▎  | 182/249 [00:00<00:00, 902.73 examples/s]Map: 100%|██████████| 249/249 [00:00<00:00, 779.36 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 78.39ba/s]
+[pi05_30_aloha_target_place_can_basket_n5] 4/5 place_can_basket#44 frames=1012
+Map:   0%|          | 0/249 [00:00<?, ? examples/s]Map:  37%|███▋      | 91/249 [00:00<00:00, 886.68 examples/s]Map:  84%|████████▎ | 208/249 [00:00<00:00, 806.59 examples/s]Map: 100%|██████████| 249/249 [00:00<00:00, 715.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 67.18ba/s]
+[pi05_30_aloha_target_place_can_basket_n5] 5/5 place_can_basket#48 frames=1261
+[done] pi05_30_aloha_target_place_can_basket_n5: 1261 frames in 19.3s
+Map:   0%|          | 0/332 [00:00<?, ? examples/s]Map:  24%|██▍       | 81/332 [00:00<00:00, 789.77 examples/s]Map:  49%|████▉     | 164/332 [00:00<00:00, 806.39 examples/s]Map:  75%|███████▌  | 250/332 [00:00<00:00, 824.25 examples/s]Map: 100%|██████████| 332/332 [00:00<00:00, 631.17 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/4 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 4/4 [00:00<00:00, 64.06ba/s]
+[pi05_30_aloha_target_hanging_mug_n5] 1/5 hanging_mug#8 frames=332
+Map:   0%|          | 0/334 [00:00<?, ? examples/s]Map:  27%|██▋       | 89/334 [00:00<00:00, 878.12 examples/s]Map:  53%|█████▎    | 178/334 [00:00<00:00, 876.84 examples/s]Map:  81%|████████  | 269/334 [00:00<00:00, 886.61 examples/s]Map: 100%|██████████| 334/334 [00:00<00:00, 744.84 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/4 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 4/4 [00:00<00:00, 86.40ba/s]
+[pi05_30_aloha_target_hanging_mug_n5] 2/5 hanging_mug#12 frames=666
+Map:   0%|          | 0/331 [00:00<?, ? examples/s]Map:  27%|██▋       | 89/331 [00:00<00:00, 878.84 examples/s]Map:  54%|█████▍    | 179/331 [00:00<00:00, 885.40 examples/s]Map:  81%|████████▏ | 269/331 [00:00<00:00, 885.42 examples/s]Map: 100%|██████████| 331/331 [00:00<00:00, 753.84 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/4 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 4/4 [00:00<00:00, 86.99ba/s]
+[pi05_30_aloha_target_hanging_mug_n5] 3/5 hanging_mug#13 frames=997
+Map:   0%|          | 0/328 [00:00<?, ? examples/s]Map:  28%|██▊       | 91/328 [00:00<00:00, 890.91 examples/s]Map:  55%|█████▌    | 182/328 [00:00<00:00, 899.22 examples/s]Map:  84%|████████▍ | 275/328 [00:00<00:00, 907.07 examples/s]Map: 100%|██████████| 328/328 [00:00<00:00, 766.00 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/4 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 4/4 [00:00<00:00, 90.01ba/s]
+[pi05_30_aloha_target_hanging_mug_n5] 4/5 hanging_mug#14 frames=1325
+Map:   0%|          | 0/343 [00:00<?, ? examples/s]Map:  27%|██▋       | 92/343 [00:00<00:00, 903.63 examples/s]

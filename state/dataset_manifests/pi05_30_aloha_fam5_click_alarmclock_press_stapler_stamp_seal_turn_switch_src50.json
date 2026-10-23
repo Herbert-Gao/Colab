@@ -1,0 +1,2034 @@
+{
+  "repo_id": "pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 200,
+  "frames_total": 22245,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "click_alarmclock": 50,
+    "press_stapler": 50,
+    "stamp_seal": 50,
+    "turn_switch": 50
+  },
+  "task_instructions": [
+    "Activate the black alarm-clock by pressing the top button",
+    "Activate the black base switch with robotic precision",
+    "Activate the clock with white dial by pressing the top button",
+    "Activate the control switch using the left arm",
+    "Activate the digital screen alarm-clock by clicking its top button",
+    "Activate the rounded square-shaped alarm clock by pressing the top button",
+    "Activate the small square switch made of plastic using the right arm",
+    "Activate the smooth black alarm-clock by pressing its top",
+    "Activate the square gray switch panel via the left arm",
+    "Activate the tiny matte beige toggle switch by pressing it",
+    "Activate the toggle switch with black housing with the left arm.",
+    "Activate the two-tone red black switch using the left arm",
+    "Activate the white-faced alarm clock by pressing the top button",
+    "Apply enough force to the blue stapler with shiny silver parts to press it.",
+    "Apply enough force to the compact bright blue stapler to press it.",
+    "Apply force to the bright blue smooth stapler with the left arm",
+    "Apply force to the plastic stapler with metal on base with the right arm",
+    "Apply one arm the left arm to press the compact red stapler with silver accents firmly.",
+    "Apply pressure on the red plastic stapler with smooth top until it works.",
+    "Apply pressure on the stapler for fastening papers until it works.",
+    "Apply pressure to the compact office stapler with the left arm.",
+    "Apply pressure to the compact office stapler with the right arm.",
+    "Apply pressure to the handheld stapler with the left arm.",
+    "Approach and tap the beige switch via the right arm",
+    "Bring the rectangular seal block to Green and stamp",
+    "Bring the seal for marking to Gray and stamp",
+    "Click on the control switch with red lever precisely",
+    "Click on the rectangular black plastic switch precisely",
+    "Click on the smooth tan switch with textured sides precisely",
+    "Click on the tiny rectangular switch precisely",
+    "Click the black matte alarm-clock's top center button using the right arm.",
+    "Click the center button on the dark blue clock's top side.",
+    "Click the center button on the smooth black alarm-clock's top side.",
+    "Click the middle button on the dark blue clock's top side",
+    "Click the top center button of the lightweight plastic alarm-clock",
+    "Click the two-tone red black switch using automated tools",
+    "Deploy the left arm to press the small switch with red lever",
+    "Deploy the right arm to operate the rectangular black plastic switch",
+    "Deploy the right arm to press the electrical switch with protruding toggle",
+    "Directly interact with the plastic switch with angled edges",
+    "Directly interact with the rectangular black plastic switch",
+    "Engage the electric toggle switch using the left arm.",
+    "Engage the left arm to press the black switch",
+    "Engage the light gray plastic switch using the left arm.",
+    "Engage the lightweight red stapler by using the left arm to press it.",
+    "Engage the rectangular switch with curved lever using the robotic arm",
+    "Engage the right arm to press the angled-edge gray square switch",
+    "Engage the right arm to press the compact switch with flat base",
+    "Engage the right arm to press the switch with a smooth top",
+    "Engage with the plastic switch with matte buttons manually",
+    "Ensure the right arm clicks the top center button of the square alarm clock",
+    "Firmly press down on the blue stapler to staple.",
+    "Firmly press the stapler with rounded edges using an arm.",
+    "Firmly press the stapler with smooth blue finish using an arm.",
+    "Firmly push the blue stapler using the right arm to operate it.",
+    "Grab the brown seal and press onto Maroon",
+    "Grab the round yellow seal base with the right arm, press it onto Olive.",
+    "Grab the seal with rounded top and patterns to press onto Pink",
+    "Grab the seal with smooth yellow bottom and press onto Coral",
+    "Grab the seal with white engraving to press onto Blue",
+    "Grab the small seal with round base and press on Purple.",
+    "Grab the small seal with round base and press onto Indigo",
+    "Grab the small seal with round base to press onto Navy",
+    "Guide the left arm to press the centered button on the square plastic alarm clock.",
+    "Hit the center of the black alarm-clock's top button",
+    "Hold the reddish-brown seal and press onto Tan",
+    "Hold the seal for marking and press onto Yellow",
+    "Initiate the plastic switch with angled edges by clicking",
+    "Interact with the gray switch with red toggle directly",
+    "Interact with the hand-sized switch tan smooth finish directly",
+    "Locate and press the black switch with matte coating",
+    "Locate and press the black switch with slim profile",
+    "Locate and press the plastic switch with metal prongs",
+    "Locate and press the red bar switch",
+    "Locate and press the top button on the small plastic alarm clock",
+    "Locate and press the top button on the smooth black alarm-clock",
+    "Move to the smooth gray switch and click it.",
+    "Operate the control switch with the left arm",
+    "Operate the right arm to engage the flat switch",
+    "Pick the seal with textured top and stamp it on Red",
+    "Pick the seal with white engraving and press down on Purple",
+    "Pick up the smooth rectangular seal, stamp Lime",
+    "Place pressure on the compact red stapler with silver accents to staple.",
+    "Place the compact seal with matte base onto Cyan",
+    "Place the rectangular seal onto Yellow",
+    "Place the red seal for stamping onto Silver",
+    "Point the left arm to press the button of the blue clock with green stripe.",
+    "Point the left arm to press the button of the smooth black alarm-clock.",
+    "Point the right arm to press the button of the square plastic alarm clock.",
+    "Position the handheld seal with yellow bottom over Olive and stamp",
+    "Position the seal with vertical textured grip on Blue, apply pressure",
+    "Position the seal with wooden-like grip on Indigo, apply pressure",
+    "Press down on the bright blue smooth stapler until it functions.",
+    "Press down on the stapler the handheld stapler firmly.",
+    "Press on the stapler for fastening papers using the right arm.",
+    "Press the alarm-clock with buttons on side's top button using the left arm",
+    "Press the angled-edge gray square switch using robotic control",
+    "Press the beige switch with the left arm",
+    "Press the blue stapler with black handle area to staple the sheets together.",
+    "Press the button on the small alarm-clock's top side",
+    "Press the center button on the alarm-clock with rounded edges's top.",
+    "Press the center button on the digital screen alarm-clock's top.",
+    "Press the center button on the rectangular alarm-clock's top.",
+    "Press the center top button of the palm-sized alarm-clock",
+    "Press the hand-sized carved seal onto Blue with the left arm",
+    "Press the hand-sized switch tan smooth finish to activate.",
+    "Press the metal-pronged black switch to activate.",
+    "Press the plastic red and black seal firmly onto Turquoise",
+    "Press the seal with carved light letters firmly onto Indigo",
+    "Press the seal with sloped sides firmly onto Yellow",
+    "Press the seal with smooth engraved top firmly onto Blue",
+    "Press the small red stamp handle onto Magenta with the left arm",
+    "Press the small stapler firmly to staple",
+    "Press the small switch with red lever via automation",
+    "Press the stapler the manual stapler with black base using an arm the right arm.",
+    "Press the stapler the smooth plastic stapler using an arm the right arm.",
+    "Press the stapler the stapler with orange button using an arm the right arm.",
+    "Press the switch with darker rectangle using the right arm.",
+    "Press the top button at the black alarm-clock's center.",
+    "Press the top button at the clock with white dial's center.",
+    "Press the top button at the white-faced alarm clock's center.",
+    "Press the top button in the palm-sized dark blue clock's center.",
+    "Press the top button in the white-faced alarm clock's center.",
+    "Press the top middle button of the blue clock with green stripe",
+    "Press the top middle button of the small alarm-clock",
+    "Press the white stapler with rounded design to complete the task.",
+    "Press the white stapler with rounded design until it works",
+    "Push down forcefully on the stapler the compact stapler.",
+    "Push down forcefully on the stapler the stapler for stapling paper.",
+    "Push down hard on the blue stapler with the left arm.",
+    "Push down on the blue stapler with curved design firmly.",
+    "Push down on the stapler the curved black stapler.",
+    "Push down on the stapler the manual stapler with black base.",
+    "Push down on the stapler the stapler with curved blue top.",
+    "Push the black stapler for joining pages until it staples.",
+    "Push the blue stapler with white accents down completely",
+    "Push the button on the alarm clock with green stripe's top center.",
+    "Push the button on the alarm-clock with buttons on side's top center.",
+    "Push the button on the alarm-clock with rounded edges's top center.",
+    "Push the center area of the rounded square-shaped alarm clock's top",
+    "Push the center area of the small plastic alarm clock's top",
+    "Push the central button on the rounded square-shaped alarm clock's top side.",
+    "Push the handheld blue and silver stapler down completely",
+    "Push the handheld stapler using one arm",
+    "Push the metallic stapler with blue cover until it staples.",
+    "Push the modern design stapler down firmly.",
+    "Push the rectangular switch with smooth surface via the left arm.",
+    "Push the stapler in bright red color down completely",
+    "Push the stapler the paper stapler with silver tray to operate it.",
+    "Push the stapler the small stapler to operate it.",
+    "Push the stapler the stapler with silver staple tray to activate it.",
+    "Push the top button of the square alarm clock using the left arm",
+    "Push the top of the stapler for fastening papers down",
+    "Set the left arm to press the black switch with matte coating",
+    "Set the left arm to press the switch for electrical control",
+    "Set the seal with smooth handle on Green",
+    "Set the switch at the light gray plastic switch",
+    "Set the switch at the switch with thin red toggle",
+    "Stamp Cyan after grabbing the light beige ridged handle seal",
+    "Stamp Pink after grabbing the smooth brown seal.",
+    "Take the seal with embossed patterns and stamp it on Olive.",
+    "Take the seal with smooth engraved top and stamp Indigo",
+    "Tap the alarm-clock with buttons on side's top button with the left arm",
+    "Tap the compact alarm-clock's top button with the left arm",
+    "Tap the flat switch to engage it",
+    "Touch the palm-sized dark blue clock's button on the top side.",
+    "Trigger the red and black switch with precision",
+    "Trigger the smooth gray switch using the right arm",
+    "Use an arm to press the black stapler with curved top",
+    "Use an arm to press the compact black stapler",
+    "Use an arm to press the stapler in bright red color",
+    "Use one arm the left arm to press the stapler for stapling paper.",
+    "Use one arm the right arm to press the stapler with smooth blue finish.",
+    "Use one arm to press the simple stapler.",
+    "Use the compact stone seal to mark Teal",
+    "Use the hand-sized rectangular brown seal to stamp Teal",
+    "Use the left arm for the small seal with round base and stamp Olive",
+    "Use the left arm to pick the palm-sized stamping seal for Indigo",
+    "Use the left arm to press the center top of the clock with black hands",
+    "Use the left arm to press the light beige ridged handle seal on Orange",
+    "Use the left arm to press the small alarm-clock's top center button.",
+    "Use the palm-sized stamping seal to mark Red",
+    "Use the right arm to click the top center button on the compact alarm-clock.",
+    "Use the right arm to click the top center button on the small alarm-clock.",
+    "Use the right arm to pick the seal showing carved detailed textures for Brown",
+    "Use the right arm to press the alarm-clock with rounded edges's top button",
+    "Use the right arm to tap the compact alarm-clock's central button.",
+    "Use the right arm, take the handheld seal with yellow bottom, and apply to Coral.",
+    "Use the right arm, take the seal for stamping, and apply to Turquoise.",
+    "Use the round yellow seal base to mark Turquoise",
+    "Use the stone seal with leaf designs to mark Magenta",
+    "With the right arm, secure the compact stamping seal and mark Beige.",
+    "With the right arm, secure the seal with smooth yellow bottom and mark Turquoise.",
+    "With the right arm, take the seal for imprinting and mark Red.",
+    "With the right arm, take the seal for stamping and mark Orange.",
+    "With the right arm, take the seal made of polished stone and mark Teal.",
+    "the left arm uses the rectangular stone seal with engraved top to stamp Navy",
+    "the right arm clicks the center top button on the alarm-clock with digital display",
+    "the right arm picks the engraved reddish seal for marking, stamps Turquoise"
+  ],
+  "selection": {
+    "click_alarmclock": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "press_stapler": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "stamp_seal": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "turn_switch": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "click_alarmclock",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 76,
+      "instruction": "Click the black matte alarm-clock's top center button using the right arm."
+    },
+    {
+      "episode_index": 1,
+      "task": "click_alarmclock",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 96,
+      "instruction": "Push the center area of the small plastic alarm clock's top"
+    },
+    {
+      "episode_index": 2,
+      "task": "click_alarmclock",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 83,
+      "instruction": "Use the right arm to click the top center button on the compact alarm-clock."
+    },
+    {
+      "episode_index": 3,
+      "task": "click_alarmclock",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 89,
+      "instruction": "Click the center button on the smooth black alarm-clock's top side."
+    },
+    {
+      "episode_index": 4,
+      "task": "click_alarmclock",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 77,
+      "instruction": "Use the left arm to press the small alarm-clock's top center button."
+    },
+    {
+      "episode_index": 5,
+      "task": "click_alarmclock",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 82,
+      "instruction": "Use the right arm to click the top center button on the small alarm-clock."
+    },
+    {
+      "episode_index": 6,
+      "task": "click_alarmclock",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 85,
+      "instruction": "Press the top middle button of the blue clock with green stripe"
+    },
+    {
+      "episode_index": 7,
+      "task": "click_alarmclock",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 78,
+      "instruction": "Use the right arm to tap the compact alarm-clock's central button."
+    },
+    {
+      "episode_index": 8,
+      "task": "click_alarmclock",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 92,
+      "instruction": "the right arm clicks the center top button on the alarm-clock with digital display"
+    },
+    {
+      "episode_index": 9,
+      "task": "click_alarmclock",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 82,
+      "instruction": "Press the center button on the rectangular alarm-clock's top."
+    },
+    {
+      "episode_index": 10,
+      "task": "click_alarmclock",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 97,
+      "instruction": "Press the top button in the palm-sized dark blue clock's center."
+    },
+    {
+      "episode_index": 11,
+      "task": "click_alarmclock",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 78,
+      "instruction": "Use the right arm to press the alarm-clock with rounded edges's top button"
+    },
+    {
+      "episode_index": 12,
+      "task": "click_alarmclock",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 79,
+      "instruction": "Activate the smooth black alarm-clock by pressing its top"
+    },
+    {
+      "episode_index": 13,
+      "task": "click_alarmclock",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 99,
+      "instruction": "Press the top button at the white-faced alarm clock's center."
+    },
+    {
+      "episode_index": 14,
+      "task": "click_alarmclock",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 84,
+      "instruction": "Push the button on the alarm-clock with buttons on side's top center."
+    },
+    {
+      "episode_index": 15,
+      "task": "click_alarmclock",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 81,
+      "instruction": "Activate the black alarm-clock by pressing the top button"
+    },
+    {
+      "episode_index": 16,
+      "task": "click_alarmclock",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 101,
+      "instruction": "Push the top button of the square alarm clock using the left arm"
+    },
+    {
+      "episode_index": 17,
+      "task": "click_alarmclock",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 76,
+      "instruction": "Locate and press the top button on the smooth black alarm-clock"
+    },
+    {
+      "episode_index": 18,
+      "task": "click_alarmclock",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 87,
+      "instruction": "Click the middle button on the dark blue clock's top side"
+    },
+    {
+      "episode_index": 19,
+      "task": "click_alarmclock",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 102,
+      "instruction": "Push the central button on the rounded square-shaped alarm clock's top side."
+    },
+    {
+      "episode_index": 20,
+      "task": "click_alarmclock",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 81,
+      "instruction": "Push the button on the alarm clock with green stripe's top center."
+    },
+    {
+      "episode_index": 21,
+      "task": "click_alarmclock",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 77,
+      "instruction": "Use the right arm to click the top center button on the compact alarm-clock."
+    },
+    {
+      "episode_index": 22,
+      "task": "click_alarmclock",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 87,
+      "instruction": "Press the top button at the clock with white dial's center."
+    },
+    {
+      "episode_index": 23,
+      "task": "click_alarmclock",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 93,
+      "instruction": "Point the left arm to press the button of the blue clock with green stripe."
+    },
+    {
+      "episode_index": 24,
+      "task": "click_alarmclock",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 79,
+      "instruction": "Press the center button on the digital screen alarm-clock's top."
+    },
+    {
+      "episode_index": 25,
+      "task": "click_alarmclock",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 77,
+      "instruction": "Press the center top button of the palm-sized alarm-clock"
+    },
+    {
+      "episode_index": 26,
+      "task": "click_alarmclock",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 80,
+      "instruction": "Press the button on the small alarm-clock's top side"
+    },
+    {
+      "episode_index": 27,
+      "task": "click_alarmclock",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 95,
+      "instruction": "Press the center button on the alarm-clock with rounded edges's top."
+    },
+    {
+      "episode_index": 28,
+      "task": "click_alarmclock",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 82,
+      "instruction": "Press the top button in the white-faced alarm clock's center."
+    },
+    {
+      "episode_index": 29,
+      "task": "click_alarmclock",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 93,
+      "instruction": "Push the button on the alarm-clock with rounded edges's top center."
+    },
+    {
+      "episode_index": 30,
+      "task": "click_alarmclock",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 85,
+      "instruction": "Guide the left arm to press the centered button on the square plastic alarm clock."
+    },
+    {
+      "episode_index": 31,
+      "task": "click_alarmclock",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 95,
+      "instruction": "Activate the white-faced alarm clock by pressing the top button"
+    },
+    {
+      "episode_index": 32,
+      "task": "click_alarmclock",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 99,
+      "instruction": "Activate the rounded square-shaped alarm clock by pressing the top button"
+    },
+    {
+      "episode_index": 33,
+      "task": "click_alarmclock",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 79,
+      "instruction": "Activate the digital screen alarm-clock by clicking its top button"
+    },
+    {
+      "episode_index": 34,
+      "task": "click_alarmclock",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 85,
+      "instruction": "Use the left arm to press the center top of the clock with black hands"
+    },
+    {
+      "episode_index": 35,
+      "task": "click_alarmclock",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 83,
+      "instruction": "Hit the center of the black alarm-clock's top button"
+    },
+    {
+      "episode_index": 36,
+      "task": "click_alarmclock",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 84,
+      "instruction": "Push the center area of the rounded square-shaped alarm clock's top"
+    },
+    {
+      "episode_index": 37,
+      "task": "click_alarmclock",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 76,
+      "instruction": "Tap the compact alarm-clock's top button with the left arm"
+    },
+    {
+      "episode_index": 38,
+      "task": "click_alarmclock",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 80,
+      "instruction": "Press the top middle button of the small alarm-clock"
+    },
+    {
+      "episode_index": 39,
+      "task": "click_alarmclock",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 84,
+      "instruction": "Click the top center button of the lightweight plastic alarm-clock"
+    },
+    {
+      "episode_index": 40,
+      "task": "click_alarmclock",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 87,
+      "instruction": "Activate the clock with white dial by pressing the top button"
+    },
+    {
+      "episode_index": 41,
+      "task": "click_alarmclock",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 78,
+      "instruction": "Press the top button at the black alarm-clock's center."
+    },
+    {
+      "episode_index": 42,
+      "task": "click_alarmclock",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 81,
+      "instruction": "Tap the alarm-clock with buttons on side's top button with the left arm"
+    },
+    {
+      "episode_index": 43,
+      "task": "click_alarmclock",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 79,
+      "instruction": "Press the alarm-clock with buttons on side's top button using the left arm"
+    },
+    {
+      "episode_index": 44,
+      "task": "click_alarmclock",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 82,
+      "instruction": "Point the right arm to press the button of the square plastic alarm clock."
+    },
+    {
+      "episode_index": 45,
+      "task": "click_alarmclock",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 82,
+      "instruction": "Point the left arm to press the button of the smooth black alarm-clock."
+    },
+    {
+      "episode_index": 46,
+      "task": "click_alarmclock",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 84,
+      "instruction": "Click the center button on the dark blue clock's top side."
+    },
+    {
+      "episode_index": 47,
+      "task": "click_alarmclock",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 94,
+      "instruction": "Touch the palm-sized dark blue clock's button on the top side."
+    },
+    {
+      "episode_index": 48,
+      "task": "click_alarmclock",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 85,
+      "instruction": "Ensure the right arm clicks the top center button of the square alarm clock"
+    },
+    {
+      "episode_index": 49,
+      "task": "click_alarmclock",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/click_alarmclock/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 82,
+      "instruction": "Locate and press the top button on the small plastic alarm clock"
+    },
+    {
+      "episode_index": 50,
+      "task": "press_stapler",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 112,
+      "instruction": "Use one arm the right arm to press the stapler with smooth blue finish."
+    },
+    {
+      "episode_index": 51,
+      "task": "press_stapler",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 121,
+      "instruction": "Apply force to the bright blue smooth stapler with the left arm"
+    },
+    {
+      "episode_index": 52,
+      "task": "press_stapler",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 117,
+      "instruction": "Press the blue stapler with black handle area to staple the sheets together."
+    },
+    {
+      "episode_index": 53,
+      "task": "press_stapler",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 118,
+      "instruction": "Use one arm to press the simple stapler."
+    },
+    {
+      "episode_index": 54,
+      "task": "press_stapler",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 121,
+      "instruction": "Apply pressure to the compact office stapler with the left arm."
+    },
+    {
+      "episode_index": 55,
+      "task": "press_stapler",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 117,
+      "instruction": "Push the blue stapler with white accents down completely"
+    },
+    {
+      "episode_index": 56,
+      "task": "press_stapler",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 115,
+      "instruction": "Place pressure on the compact red stapler with silver accents to staple."
+    },
+    {
+      "episode_index": 57,
+      "task": "press_stapler",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 125,
+      "instruction": "Push down forcefully on the stapler the compact stapler."
+    },
+    {
+      "episode_index": 58,
+      "task": "press_stapler",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 128,
+      "instruction": "Apply pressure to the compact office stapler with the right arm."
+    },
+    {
+      "episode_index": 59,
+      "task": "press_stapler",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 118,
+      "instruction": "Press down on the bright blue smooth stapler until it functions."
+    },
+    {
+      "episode_index": 60,
+      "task": "press_stapler",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 129,
+      "instruction": "Press on the stapler for fastening papers using the right arm."
+    },
+    {
+      "episode_index": 61,
+      "task": "press_stapler",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 114,
+      "instruction": "Firmly push the blue stapler using the right arm to operate it."
+    },
+    {
+      "episode_index": 62,
+      "task": "press_stapler",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 115,
+      "instruction": "Apply enough force to the blue stapler with shiny silver parts to press it."
+    },
+    {
+      "episode_index": 63,
+      "task": "press_stapler",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 123,
+      "instruction": "Firmly press the stapler with rounded edges using an arm."
+    },
+    {
+      "episode_index": 64,
+      "task": "press_stapler",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 123,
+      "instruction": "Push the handheld blue and silver stapler down completely"
+    },
+    {
+      "episode_index": 65,
+      "task": "press_stapler",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 116,
+      "instruction": "Push down on the stapler the manual stapler with black base."
+    },
+    {
+      "episode_index": 66,
+      "task": "press_stapler",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 126,
+      "instruction": "Engage the lightweight red stapler by using the left arm to press it."
+    },
+    {
+      "episode_index": 67,
+      "task": "press_stapler",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 114,
+      "instruction": "Push down on the stapler the stapler with curved blue top."
+    },
+    {
+      "episode_index": 68,
+      "task": "press_stapler",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 116,
+      "instruction": "Push the stapler in bright red color down completely"
+    },
+    {
+      "episode_index": 69,
+      "task": "press_stapler",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 117,
+      "instruction": "Press the white stapler with rounded design until it works"
+    },
+    {
+      "episode_index": 70,
+      "task": "press_stapler",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 114,
+      "instruction": "Use an arm to press the stapler in bright red color"
+    },
+    {
+      "episode_index": 71,
+      "task": "press_stapler",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 115,
+      "instruction": "Push down forcefully on the stapler the stapler for stapling paper."
+    },
+    {
+      "episode_index": 72,
+      "task": "press_stapler",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 126,
+      "instruction": "Push the top of the stapler for fastening papers down"
+    },
+    {
+      "episode_index": 73,
+      "task": "press_stapler",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 114,
+      "instruction": "Use an arm to press the compact black stapler"
+    },
+    {
+      "episode_index": 74,
+      "task": "press_stapler",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 124,
+      "instruction": "Push the metallic stapler with blue cover until it staples."
+    },
+    {
+      "episode_index": 75,
+      "task": "press_stapler",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 115,
+      "instruction": "Push down hard on the blue stapler with the left arm."
+    },
+    {
+      "episode_index": 76,
+      "task": "press_stapler",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 123,
+      "instruction": "Press the white stapler with rounded design to complete the task."
+    },
+    {
+      "episode_index": 77,
+      "task": "press_stapler",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 113,
+      "instruction": "Firmly press down on the blue stapler to staple."
+    },
+    {
+      "episode_index": 78,
+      "task": "press_stapler",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 117,
+      "instruction": "Press down on the stapler the handheld stapler firmly."
+    },
+    {
+      "episode_index": 79,
+      "task": "press_stapler",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 126,
+      "instruction": "Apply pressure on the stapler for fastening papers until it works."
+    },
+    {
+      "episode_index": 80,
+      "task": "press_stapler",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 115,
+      "instruction": "Push the black stapler for joining pages until it staples."
+    },
+    {
+      "episode_index": 81,
+      "task": "press_stapler",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 118,
+      "instruction": "Apply pressure to the handheld stapler with the left arm."
+    },
+    {
+      "episode_index": 82,
+      "task": "press_stapler",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 114,
+      "instruction": "Push the modern design stapler down firmly."
+    },
+    {
+      "episode_index": 83,
+      "task": "press_stapler",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 118,
+      "instruction": "Press the small stapler firmly to staple"
+    },
+    {
+      "episode_index": 84,
+      "task": "press_stapler",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 117,
+      "instruction": "Press the stapler the smooth plastic stapler using an arm the right arm."
+    },
+    {
+      "episode_index": 85,
+      "task": "press_stapler",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 121,
+      "instruction": "Push down on the stapler the curved black stapler."
+    },
+    {
+      "episode_index": 86,
+      "task": "press_stapler",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 119,
+      "instruction": "Push the handheld stapler using one arm"
+    },
+    {
+      "episode_index": 87,
+      "task": "press_stapler",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 118,
+      "instruction": "Push the stapler the paper stapler with silver tray to operate it."
+    },
+    {
+      "episode_index": 88,
+      "task": "press_stapler",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 118,
+      "instruction": "Push the stapler the stapler with silver staple tray to activate it."
+    },
+    {
+      "episode_index": 89,
+      "task": "press_stapler",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 122,
+      "instruction": "Press the stapler the stapler with orange button using an arm the right arm."
+    },
+    {
+      "episode_index": 90,
+      "task": "press_stapler",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 117,
+      "instruction": "Use one arm the left arm to press the stapler for stapling paper."
+    },
+    {
+      "episode_index": 91,
+      "task": "press_stapler",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 117,
+      "instruction": "Use an arm to press the black stapler with curved top"
+    },
+    {
+      "episode_index": 92,
+      "task": "press_stapler",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 116,
+      "instruction": "Press the stapler the manual stapler with black base using an arm the right arm."
+    },
+    {
+      "episode_index": 93,
+      "task": "press_stapler",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 126,
+      "instruction": "Apply pressure on the red plastic stapler with smooth top until it works."
+    },
+    {
+      "episode_index": 94,
+      "task": "press_stapler",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 130,
+      "instruction": "Apply force to the plastic stapler with metal on base with the right arm"
+    },
+    {
+      "episode_index": 95,
+      "task": "press_stapler",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 119,
+      "instruction": "Apply enough force to the compact bright blue stapler to press it."
+    },
+    {
+      "episode_index": 96,
+      "task": "press_stapler",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 116,
+      "instruction": "Push the stapler the small stapler to operate it."
+    },
+    {
+      "episode_index": 97,
+      "task": "press_stapler",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 115,
+      "instruction": "Push down on the blue stapler with curved design firmly."
+    },
+    {
+      "episode_index": 98,
+      "task": "press_stapler",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 126,
+      "instruction": "Firmly press the stapler with smooth blue finish using an arm."
+    },
+    {
+      "episode_index": 99,
+      "task": "press_stapler",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/press_stapler/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 115,
+      "instruction": "Apply one arm the left arm to press the compact red stapler with silver accents firmly."
+    },
+    {
+      "episode_index": 100,
+      "task": "stamp_seal",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 139,
+      "instruction": "Use the round yellow seal base to mark Turquoise"
+    },
+    {
+      "episode_index": 101,
+      "task": "stamp_seal",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 150,
+      "instruction": "Pick the seal with white engraving and press down on Purple"
+    },
+    {
+      "episode_index": 102,
+      "task": "stamp_seal",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 145,
+      "instruction": "With the right arm, take the seal for stamping and mark Orange."
+    },
+    {
+      "episode_index": 103,
+      "task": "stamp_seal",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 139,
+      "instruction": "Hold the reddish-brown seal and press onto Tan"
+    },
+    {
+      "episode_index": 104,
+      "task": "stamp_seal",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 156,
+      "instruction": "Place the rectangular seal onto Yellow"
+    },
+    {
+      "episode_index": 105,
+      "task": "stamp_seal",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 151,
+      "instruction": "Place the red seal for stamping onto Silver"
+    },
+    {
+      "episode_index": 106,
+      "task": "stamp_seal",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 137,
+      "instruction": "Take the seal with embossed patterns and stamp it on Olive."
+    },
+    {
+      "episode_index": 107,
+      "task": "stamp_seal",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 141,
+      "instruction": "With the right arm, take the seal for imprinting and mark Red."
+    },
+    {
+      "episode_index": 108,
+      "task": "stamp_seal",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 147,
+      "instruction": "Place the compact seal with matte base onto Cyan"
+    },
+    {
+      "episode_index": 109,
+      "task": "stamp_seal",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 144,
+      "instruction": "Grab the seal with smooth yellow bottom and press onto Coral"
+    },
+    {
+      "episode_index": 110,
+      "task": "stamp_seal",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 144,
+      "instruction": "Grab the seal with rounded top and patterns to press onto Pink"
+    },
+    {
+      "episode_index": 111,
+      "task": "stamp_seal",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 138,
+      "instruction": "Use the left arm for the small seal with round base and stamp Olive"
+    },
+    {
+      "episode_index": 112,
+      "task": "stamp_seal",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 140,
+      "instruction": "Use the palm-sized stamping seal to mark Red"
+    },
+    {
+      "episode_index": 113,
+      "task": "stamp_seal",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 142,
+      "instruction": "Pick the seal with textured top and stamp it on Red"
+    },
+    {
+      "episode_index": 114,
+      "task": "stamp_seal",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 145,
+      "instruction": "Press the seal with carved light letters firmly onto Indigo"
+    },
+    {
+      "episode_index": 115,
+      "task": "stamp_seal",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 155,
+      "instruction": "Press the hand-sized carved seal onto Blue with the left arm"
+    },
+    {
+      "episode_index": 116,
+      "task": "stamp_seal",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 152,
+      "instruction": "Bring the rectangular seal block to Green and stamp"
+    },
+    {
+      "episode_index": 117,
+      "task": "stamp_seal",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 144,
+      "instruction": "Stamp Cyan after grabbing the light beige ridged handle seal"
+    },
+    {
+      "episode_index": 118,
+      "task": "stamp_seal",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 149,
+      "instruction": "Press the plastic red and black seal firmly onto Turquoise"
+    },
+    {
+      "episode_index": 119,
+      "task": "stamp_seal",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 158,
+      "instruction": "Grab the brown seal and press onto Maroon"
+    },
+    {
+      "episode_index": 120,
+      "task": "stamp_seal",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 155,
+      "instruction": "Stamp Pink after grabbing the smooth brown seal."
+    },
+    {
+      "episode_index": 121,
+      "task": "stamp_seal",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 144,
+      "instruction": "Position the seal with wooden-like grip on Indigo, apply pressure"
+    },
+    {
+      "episode_index": 122,
+      "task": "stamp_seal",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 143,
+      "instruction": "Position the handheld seal with yellow bottom over Olive and stamp"
+    },
+    {
+      "episode_index": 123,
+      "task": "stamp_seal",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 150,
+      "instruction": "With the right arm, secure the compact stamping seal and mark Beige."
+    },
+    {
+      "episode_index": 124,
+      "task": "stamp_seal",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 143,
+      "instruction": "Grab the small seal with round base and press onto Indigo"
+    },
+    {
+      "episode_index": 125,
+      "task": "stamp_seal",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 139,
+      "instruction": "With the right arm, secure the seal with smooth yellow bottom and mark Turquoise."
+    },
+    {
+      "episode_index": 126,
+      "task": "stamp_seal",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 154,
+      "instruction": "Grab the round yellow seal base with the right arm, press it onto Olive."
+    },
+    {
+      "episode_index": 127,
+      "task": "stamp_seal",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 134,
+      "instruction": "Position the seal with vertical textured grip on Blue, apply pressure"
+    },
+    {
+      "episode_index": 128,
+      "task": "stamp_seal",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 151,
+      "instruction": "Press the seal with smooth engraved top firmly onto Blue"
+    },
+    {
+      "episode_index": 129,
+      "task": "stamp_seal",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 143,
+      "instruction": "the right arm picks the engraved reddish seal for marking, stamps Turquoise"
+    },
+    {
+      "episode_index": 130,
+      "task": "stamp_seal",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 159,
+      "instruction": "With the right arm, take the seal made of polished stone and mark Teal."
+    },
+    {
+      "episode_index": 131,
+      "task": "stamp_seal",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 134,
+      "instruction": "Grab the small seal with round base to press onto Navy"
+    },
+    {
+      "episode_index": 132,
+      "task": "stamp_seal",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 142,
+      "instruction": "Grab the small seal with round base and press on Purple."
+    },
+    {
+      "episode_index": 133,
+      "task": "stamp_seal",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 140,
+      "instruction": "Take the seal with smooth engraved top and stamp Indigo"
+    },
+    {
+      "episode_index": 134,
+      "task": "stamp_seal",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 157,
+      "instruction": "Hold the seal for marking and press onto Yellow"
+    },
+    {
+      "episode_index": 135,
+      "task": "stamp_seal",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 146,
+      "instruction": "Bring the seal for marking to Gray and stamp"
+    },
+    {
+      "episode_index": 136,
+      "task": "stamp_seal",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 137,
+      "instruction": "Press the seal with sloped sides firmly onto Yellow"
+    },
+    {
+      "episode_index": 137,
+      "task": "stamp_seal",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 146,
+      "instruction": "Press the small red stamp handle onto Magenta with the left arm"
+    },
+    {
+      "episode_index": 138,
+      "task": "stamp_seal",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 139,
+      "instruction": "Use the right arm, take the seal for stamping, and apply to Turquoise."
+    },
+    {
+      "episode_index": 139,
+      "task": "stamp_seal",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 138,
+      "instruction": "Use the right arm, take the handheld seal with yellow bottom, and apply to Coral."
+    },
+    {
+      "episode_index": 140,
+      "task": "stamp_seal",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 133,
+      "instruction": "Grab the seal with white engraving to press onto Blue"
+    },
+    {
+      "episode_index": 141,
+      "task": "stamp_seal",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 135,
+      "instruction": "Use the right arm to pick the seal showing carved detailed textures for Brown"
+    },
+    {
+      "episode_index": 142,
+      "task": "stamp_seal",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 136,
+      "instruction": "the left arm uses the rectangular stone seal with engraved top to stamp Navy"
+    },
+    {
+      "episode_index": 143,
+      "task": "stamp_seal",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 147,
+      "instruction": "Use the stone seal with leaf designs to mark Magenta"
+    },
+    {
+      "episode_index": 144,
+      "task": "stamp_seal",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 137,
+      "instruction": "Use the hand-sized rectangular brown seal to stamp Teal"
+    },
+    {
+      "episode_index": 145,
+      "task": "stamp_seal",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 159,
+      "instruction": "Use the compact stone seal to mark Teal"
+    },
+    {
+      "episode_index": 146,
+      "task": "stamp_seal",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 159,
+      "instruction": "Set the seal with smooth handle on Green"
+    },
+    {
+      "episode_index": 147,
+      "task": "stamp_seal",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 139,
+      "instruction": "Pick up the smooth rectangular seal, stamp Lime"
+    },
+    {
+      "episode_index": 148,
+      "task": "stamp_seal",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 147,
+      "instruction": "Use the left arm to press the light beige ridged handle seal on Orange"
+    },
+    {
+      "episode_index": 149,
+      "task": "stamp_seal",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stamp_seal/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 156,
+      "instruction": "Use the left arm to pick the palm-sized stamping seal for Indigo"
+    },
+    {
+      "episode_index": 150,
+      "task": "turn_switch",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 92,
+      "instruction": "Directly interact with the plastic switch with angled edges"
+    },
+    {
+      "episode_index": 151,
+      "task": "turn_switch",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 97,
+      "instruction": "Initiate the plastic switch with angled edges by clicking"
+    },
+    {
+      "episode_index": 152,
+      "task": "turn_switch",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 91,
+      "instruction": "Tap the flat switch to engage it"
+    },
+    {
+      "episode_index": 153,
+      "task": "turn_switch",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 99,
+      "instruction": "Engage the rectangular switch with curved lever using the robotic arm"
+    },
+    {
+      "episode_index": 154,
+      "task": "turn_switch",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 93,
+      "instruction": "Locate and press the red bar switch"
+    },
+    {
+      "episode_index": 155,
+      "task": "turn_switch",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 98,
+      "instruction": "Engage the electric toggle switch using the left arm."
+    },
+    {
+      "episode_index": 156,
+      "task": "turn_switch",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 107,
+      "instruction": "Engage the left arm to press the black switch"
+    },
+    {
+      "episode_index": 157,
+      "task": "turn_switch",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 93,
+      "instruction": "Activate the square gray switch panel via the left arm"
+    },
+    {
+      "episode_index": 158,
+      "task": "turn_switch",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 97,
+      "instruction": "Set the left arm to press the switch for electrical control"
+    },
+    {
+      "episode_index": 159,
+      "task": "turn_switch",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 96,
+      "instruction": "Press the metal-pronged black switch to activate."
+    },
+    {
+      "episode_index": 160,
+      "task": "turn_switch",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 91,
+      "instruction": "Activate the black base switch with robotic precision"
+    },
+    {
+      "episode_index": 161,
+      "task": "turn_switch",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 99,
+      "instruction": "Locate and press the black switch with matte coating"
+    },
+    {
+      "episode_index": 162,
+      "task": "turn_switch",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 101,
+      "instruction": "Set the left arm to press the black switch with matte coating"
+    },
+    {
+      "episode_index": 163,
+      "task": "turn_switch",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 96,
+      "instruction": "Activate the two-tone red black switch using the left arm"
+    },
+    {
+      "episode_index": 164,
+      "task": "turn_switch",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 100,
+      "instruction": "Activate the small square switch made of plastic using the right arm"
+    },
+    {
+      "episode_index": 165,
+      "task": "turn_switch",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 96,
+      "instruction": "Press the angled-edge gray square switch using robotic control"
+    },
+    {
+      "episode_index": 166,
+      "task": "turn_switch",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 93,
+      "instruction": "Click on the tiny rectangular switch precisely"
+    },
+    {
+      "episode_index": 167,
+      "task": "turn_switch",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 96,
+      "instruction": "Activate the tiny matte beige toggle switch by pressing it"
+    },
+    {
+      "episode_index": 168,
+      "task": "turn_switch",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 93,
+      "instruction": "Press the switch with darker rectangle using the right arm."
+    },
+    {
+      "episode_index": 169,
+      "task": "turn_switch",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 94,
+      "instruction": "Activate the control switch using the left arm"
+    },
+    {
+      "episode_index": 170,
+      "task": "turn_switch",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 93,
+      "instruction": "Press the small switch with red lever via automation"
+    },
+    {
+      "episode_index": 171,
+      "task": "turn_switch",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 95,
+      "instruction": "Engage with the plastic switch with matte buttons manually"
+    },
+    {
+      "episode_index": 172,
+      "task": "turn_switch",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 96,
+      "instruction": "Deploy the left arm to press the small switch with red lever"
+    },
+    {
+      "episode_index": 173,
+      "task": "turn_switch",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 95,
+      "instruction": "Engage the right arm to press the angled-edge gray square switch"
+    },
+    {
+      "episode_index": 174,
+      "task": "turn_switch",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 94,
+      "instruction": "Set the switch at the switch with thin red toggle"
+    },
+    {
+      "episode_index": 175,
+      "task": "turn_switch",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 94,
+      "instruction": "Directly interact with the rectangular black plastic switch"
+    },
+    {
+      "episode_index": 176,
+      "task": "turn_switch",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 94,
+      "instruction": "Engage the light gray plastic switch using the left arm."
+    },
+    {
+      "episode_index": 177,
+      "task": "turn_switch",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 99,
+      "instruction": "Click on the rectangular black plastic switch precisely"
+    },
+    {
+      "episode_index": 178,
+      "task": "turn_switch",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 103,
+      "instruction": "Approach and tap the beige switch via the right arm"
+    },
+    {
+      "episode_index": 179,
+      "task": "turn_switch",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 92,
+      "instruction": "Press the beige switch with the left arm"
+    },
+    {
+      "episode_index": 180,
+      "task": "turn_switch",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 96,
+      "instruction": "Locate and press the black switch with slim profile"
+    },
+    {
+      "episode_index": 181,
+      "task": "turn_switch",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 97,
+      "instruction": "Deploy the right arm to press the electrical switch with protruding toggle"
+    },
+    {
+      "episode_index": 182,
+      "task": "turn_switch",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 96,
+      "instruction": "Locate and press the plastic switch with metal prongs"
+    },
+    {
+      "episode_index": 183,
+      "task": "turn_switch",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 90,
+      "instruction": "Deploy the right arm to operate the rectangular black plastic switch"
+    },
+    {
+      "episode_index": 184,
+      "task": "turn_switch",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 96,
+      "instruction": "Activate the toggle switch with black housing with the left arm."
+    },
+    {
+      "episode_index": 185,
+      "task": "turn_switch",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 96,
+      "instruction": "Push the rectangular switch with smooth surface via the left arm."
+    },
+    {
+      "episode_index": 186,
+      "task": "turn_switch",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 92,
+      "instruction": "Interact with the hand-sized switch tan smooth finish directly"
+    },
+    {
+      "episode_index": 187,
+      "task": "turn_switch",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 95,
+      "instruction": "Interact with the gray switch with red toggle directly"
+    },
+    {
+      "episode_index": 188,
+      "task": "turn_switch",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 96,
+      "instruction": "Move to the smooth gray switch and click it."
+    },
+    {
+      "episode_index": 189,
+      "task": "turn_switch",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 105,
+      "instruction": "Trigger the red and black switch with precision"
+    },
+    {
+      "episode_index": 190,
+      "task": "turn_switch",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 97,
+      "instruction": "Click the two-tone red black switch using automated tools"
+    },
+    {
+      "episode_index": 191,
+      "task": "turn_switch",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 93,
+      "instruction": "Engage the right arm to press the compact switch with flat base"
+    },
+    {
+      "episode_index": 192,
+      "task": "turn_switch",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 93,
+      "instruction": "Operate the right arm to engage the flat switch"
+    },
+    {
+      "episode_index": 193,
+      "task": "turn_switch",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 101,
+      "instruction": "Set the switch at the light gray plastic switch"
+    },
+    {
+      "episode_index": 194,
+      "task": "turn_switch",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 97,
+      "instruction": "Press the hand-sized switch tan smooth finish to activate."
+    },
+    {
+      "episode_index": 195,
+      "task": "turn_switch",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 93,
+      "instruction": "Engage the right arm to press the switch with a smooth top"
+    },
+    {
+      "episode_index": 196,
+      "task": "turn_switch",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 94,
+      "instruction": "Click on the control switch with red lever precisely"
+    },
+    {
+      "episode_index": 197,
+      "task": "turn_switch",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 92,
+      "instruction": "Operate the control switch with the left arm"
+    },
+    {
+      "episode_index": 198,
+      "task": "turn_switch",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 96,
+      "instruction": "Click on the smooth tan switch with textured sides precisely"
+    },
+    {
+      "episode_index": 199,
+      "task": "turn_switch",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/turn_switch/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 94,
+      "instruction": "Trigger the smooth gray switch using the right arm"
+    }
+  ],
+  "conversion_seconds": 329.1
+}

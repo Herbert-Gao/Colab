@@ -1,0 +1,2007 @@
+{
+  "repo_id": "pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 200,
+  "frames_total": 85920,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "blocks_ranking_size": 50,
+    "stack_blocks_three": 50,
+    "stack_bowls_two": 50,
+    "stack_bowls_three": 50
+  },
+  "task_instructions": [
+    "Adjust red block, green block, blue block to the center and use the right arm, the left arm, the left arm to stack blue block on green block, green block on red block.",
+    "Align bowls the blue bowl in descending size, forming a stack.",
+    "Align bowls the ceramic bowl in descending size, forming a stack.",
+    "Align large block, medium block, and small block in the center by size, using the right arm, the left arm, and the right arm.",
+    "Align the blue bowl over the blue bowl with slightly rounded base, then complete the stack.",
+    "Align the curved bowl light blue shade and the ceramic bowl with earthy brown trim, then stack the ceramic bowl with earthy brown trim on the curved bowl light blue shade.",
+    "Align the second the bowl with brown outer rim atop the first, then add the third above.",
+    "Align the second the curved bowl light blue shade atop the first, then add the third above.",
+    "Arrange large block leftmost, medium block in the middle, and small block rightmost.",
+    "Arrange large block, medium block, and small block by size at the center.",
+    "Arrange large block, medium block, small block in size order, largest on the left.",
+    "Arrange red block, green block, and blue block in the table's center and stack blue block atop green block, then green block atop red block.",
+    "Arrange the ceramic bowl with earthy brown trim with the largest bowl at the base.",
+    "Arrange the ceramic bowl, lift the blue bowl with the arm, and stack them.",
+    "Arrange the curved bowl light blue shade, lift the rounded bowl with light blue color with the arm, and stack them.",
+    "Arrange the glazed bowl with curved sides, lift the glazed bowl with curved sides with the arm, and stack them.",
+    "Arrange the rounded bowl with light blue color one on top of another.",
+    "Arrange the three the small bowl with brown edge by stacking them one over the other.",
+    "Bring large block, medium block, and small block to the center, sorting largest to smallest.",
+    "Bring large block, medium block, small block to the table's center and position them left to right.",
+    "Bring red block, green block, and blue block to the center and stack green block over red block, blue block over green block.",
+    "Bring red block, green block, and blue block to the center using the left arm, the right arm, and the left arm. Stack green block on red block.",
+    "Bring red block, green block, and blue block to the center using the right arm, the left arm, and the right arm. Stack green block on red block.",
+    "Bring red block, green block, and blue block to the center using the right arm, the right arm, and the left arm. Stack green block on red block.",
+    "Bring red block, green block, and blue block to the middle. Stack green block onto red block and blue block onto green block.",
+    "Bring red block, green block, and blue block to the table's center and arrange them by stacking blue block over green block and green block over red block.",
+    "Carefully stack the ceramic bowl with earthy brown trim piece by piece.",
+    "Carefully stack the medium-sized bowl for holding food piece by piece.",
+    "Center large block, medium block, small block with the left arm, the right arm, and the left arm following size order.",
+    "Center red block, green block, and blue block, then stack them with blue block on green block and green block on red block.",
+    "Form a tower with bowls the ceramic bowl, placing smallest last.",
+    "Gather red block, green block, and blue block at the table's center and stack blue block on green block, then green block on red block.",
+    "Grab a the blue bowl, set it down, and stack the rest on it.",
+    "Grab a the medium-sized bowl for holding food, set it down, and stack the rest on it.",
+    "Grab large block, medium block, and small block and align them by size at the center.",
+    "Grab large block, medium block, and small block, set them centrally, ordered by size.",
+    "Grab large block, medium block, small block with the right arm, the right arm, the left arm and organize them by descending size.",
+    "Grab large block, medium block, small block, and arrange them in size order at the center.",
+    "Grab red block, green block, and blue block using the right arm, the left arm, the left arm, move them to the center, then stack them.",
+    "Grab red block, green block, and blue block using the right arm, the left arm, the right arm, move them to the center, then stack them.",
+    "Grab the blue bowl with slightly rounded base with the left arm, place it, and stack the ceramic bowl with the right arm.",
+    "Grab the bowl with shiny texture, then stack the small bowl with brown edge on top.",
+    "Grab the ceramic bowl with earthy brown trim, position it, and place the glazed bowl with curved sides on top.",
+    "Grab the ceramic bowl, then carefully place the small bowl with brown edge on top.",
+    "Grab the curved bowl light blue shade, stack from largest at the base to the smallest.",
+    "Grab the dark inside bowl light blue outside, lift it up, position the medium-sized bowl for holding food, and stack them.",
+    "Grab the first the bowl with shiny texture, position the second, then add the third.",
+    "Grab the glazed bowl with curved sides, set it down, then place the rounded bowl with light blue color over it.",
+    "Grab the medium-sized bowl for holding food, arrange them vertically.",
+    "Grab the medium-sized bowl for holding food, position it, and place the dark inside bowl light blue outside on top.",
+    "Grasp the blue bowl with slightly rounded base, then use the arm to align and stack the ceramic bowl.",
+    "Hold the small bowl with brown edge and stack the ceramic bowl with earthy brown trim neatly atop.",
+    "Lift each the blue bowl with slightly rounded base and stack it over the previous one.",
+    "Lift each the bowl with brown outer rim and stack them together neatly.",
+    "Lift each the curved bowl light blue shade and stack it over the previous one.",
+    "Lift the blue bowl with slightly rounded base, put it on the table, and stack the glazed bowl with curved sides above.",
+    "Lift the bowl with shiny texture using the right arm, set it down, and stack the blue bowl with slightly rounded base using the left arm.",
+    "Lift the ceramic bowl with earthy brown trim and position it neatly over the bowl with shiny texture.",
+    "Lift the ceramic bowl with earthy brown trim, position the bowl with shiny texture above it, and stack.",
+    "Lift the ceramic bowl, position the dark inside bowl light blue outside above it, and stack.",
+    "Lift the ceramic bowl, position the small bowl with brown edge above it, and stack.",
+    "Lift the curved bowl light blue shade, then stack it on the ceramic bowl.",
+    "Lift the dark inside bowl light blue outside, lay it down, and stack the ceramic bowl with earthy brown trim on top.",
+    "Lift the dark inside bowl light blue outside, position the dark inside bowl light blue outside above it, and stack.",
+    "Lift the medium-sized bowl for holding food, grab the dark inside bowl light blue outside, and set the dark inside bowl light blue outside on the medium-sized bowl for holding food.",
+    "Lift the rounded bowl with light blue color using the right arm, set it down, and stack the medium-sized bowl for holding food using the left arm.",
+    "Lift the rounded bowl with light blue color, position the ceramic bowl with earthy brown trim above it, and stack.",
+    "Lift the small bowl with brown edge, stack it precisely on top of the blue bowl with slightly rounded base.",
+    "Move large block with the left arm, medium block with the left arm, and small block with the right arm to sort them.",
+    "Move large block with the left arm, medium block with the right arm, and small block with the left arm to arrange them.",
+    "Move large block, medium block, and small block to the center and align.",
+    "Move large block, medium block, and small block to the center, arranging them by size.",
+    "Move large block, medium block, and small block to the table center in size order.",
+    "Move red block, green block, and blue block to the center and stack green block on red block, blue block on green block.",
+    "Move red block, green block, and blue block to the center using the right arm, the left arm, the left arm, and stack them with blue block on top.",
+    "Move red block, green block, and blue block to the center. Stack blue block on green block and green block on red block.",
+    "Move red block, green block, and blue block to the middle and position blue block on green block, green block on top of red block.",
+    "Move red block, green block, and blue block to the middle first, then stack blue block on green block and green block on red block.",
+    "Organize bowls the medium-sized bowl for holding food by stacking them in size order.",
+    "Organize bowls the rounded bowl with light blue color by stacking them in size order.",
+    "Organize large block, medium block, and small block in the center of the table by size, largest first.",
+    "Pick each the medium-sized bowl for holding food and stack them in order one on top of another.",
+    "Pick the rounded bowl with light blue color, position on the table, and place the blue bowl over it.",
+    "Pick up each the dark inside bowl light blue outside and set them one over another.",
+    "Pick up the blue bowl with slightly rounded base and set the blue bowl with slightly rounded base on it.",
+    "Pick up the blue bowl with slightly rounded base using the left arm, then stack the medium-sized bowl for holding food using the right arm.",
+    "Pick up the rounded bowl with light blue color and set the bowl with shiny texture on it.",
+    "Pick up the small bowl with brown edge, grab the curved bowl light blue shade, and stack the curved bowl light blue shade on the small bowl with brown edge.",
+    "Place each the bowl with shiny texture on top of the previous one.",
+    "Place large block, medium block, small block centrally and arrange largest to smallest.",
+    "Place one the curved bowl light blue shade down and carefully stack the others above it.",
+    "Place red block, green block, and blue block at the center, then stack blue block onto green block and green block onto red block.",
+    "Place red block, green block, and blue block at the center, using the right arm, the left arm, and the right arm to stack blue block on green block and green block on red block.",
+    "Place red block, green block, and blue block at the table's center; stack blue block over green block, then green block over red block.",
+    "Place red block, green block, and blue block in the center, then arrange green block on red block and blue block on green block.",
+    "Place the blue bowl on the surface, then stack the bowl with brown outer rim above it.",
+    "Place the blue bowl on the surface, then stack the small bowl with brown edge above it.",
+    "Place the blue bowl with slightly rounded base in a stack with the largest at the foundation.",
+    "Place the bottom the bowl with brown outer rim, then add the other two on top.",
+    "Place the bottom the curved bowl light blue shade, then add the other two on top.",
+    "Place the bowls the dark inside bowl light blue outside in a stacking order.",
+    "Place the bowls the rounded bowl with light blue color in a stacking order.",
+    "Place the curved bowl light blue shade down, then set the ceramic bowl with earthy brown trim above it.",
+    "Place the first the curved bowl light blue shade down, then stack the remaining two.",
+    "Place the first the dark inside bowl light blue outside down, then stack the remaining two.",
+    "Place the first the glazed bowl with curved sides down, then stack the next two above it.",
+    "Place the medium-sized bowl for holding food down, then set the ceramic bowl above it.",
+    "Place the medium-sized bowl for holding food in a stack with the largest at the foundation.",
+    "Place the small bowl with brown edge down, then set the blue bowl above it.",
+    "Position large block, medium block, then small block at the center in size order.",
+    "Position red block, green block, and blue block centrally. Place green block on red block, then set blue block on green block.",
+    "Position red block, green block, and blue block in the center and stack blue block on green block, followed by green block on red block.",
+    "Position the bowl with shiny texture carefully on the blue bowl.",
+    "Position the curved bowl light blue shade with the arm, then set the curved bowl light blue shade above it.",
+    "Position the glazed bowl with curved sides one on top of the other largest to smallest.",
+    "Position the second the rounded bowl with light blue color over the first, then the third on top.",
+    "Put the bowl with shiny texture first, then bring the bowl with brown outer rim to stack above.",
+    "Put the curved bowl light blue shade first, then bring the dark inside bowl light blue outside to stack above.",
+    "Relocate large block, medium block, and small block to the center and arrange them by size.",
+    "Relocate red block, green block, and blue block to the center with the right arm, the left arm, the left arm, and stack blue block on green block, green block on red block.",
+    "Relocate red block, green block, and blue block to the table's center, stacking blue block over green block and green block over red block.",
+    "Sequentially stack the bowl with shiny texture using arms to align them.",
+    "Set down the ceramic bowl with earthy brown trim and drop the ceramic bowl with earthy brown trim on top.",
+    "Set large block, medium block, and small block in the center area, arranging from largest to smallest.",
+    "Shift large block, medium block, and small block to the table's center and sort by size.",
+    "Shift large block, medium block, small block to the center; align by size left to right.",
+    "Stack all three the bowl with brown outer rim by placing one on top of another.",
+    "Stack all three the bowl with brown outer rim directly on top of each other.",
+    "Stack all three the bowl with shiny texture directly on top of each other.",
+    "Stack blue block over green block and green block over red block after moving all blocks to the center.",
+    "Stack the blue bowl without arms in a vertical sequence.",
+    "Stack the bowl with shiny texture by arranging them sequentially.",
+    "Stack the medium-sized bowl for holding food securely on top of the ceramic bowl with earthy brown trim.",
+    "Start with the bottom the rounded bowl with light blue color and finish stacking.",
+    "Start with the first the dark inside bowl light blue outside, adding the next two in sequence.",
+    "Start with the first the glazed bowl with curved sides, adding the next two in sequence.",
+    "Start with the first the medium-sized bowl for holding food, adding the next two in sequence.",
+    "Take large block with the right arm, medium block with the right arm, and small block with the left arm to the middle.",
+    "Take the bottom the blue bowl with slightly rounded base and sequentially pile the other two above.",
+    "Take the bottom the ceramic bowl with earthy brown trim and sequentially pile the other two above.",
+    "Take the bowl with brown outer rim, place the bowl with shiny texture above, and let go.",
+    "Take the bowl with brown outer rim, stack them from bottom to top.",
+    "Take the bowl with shiny texture, position it, then stack the glazed bowl with curved sides directly above.",
+    "Take the ceramic bowl with earthy brown trim, place it, and stack the blue bowl on top.",
+    "Take the ceramic bowl, place it, and stack the bowl with brown outer rim on top.",
+    "Use arms the left arm, the right arm, and the left arm to centralize red block, green block, blue block and stack blue block above green block, then green block above red block.",
+    "Use arms to place each the glazed bowl with curved sides atop the previous one.",
+    "Use arms to stack each the bowl with brown outer rim carefully.",
+    "Use the left arm, the left arm, and the right arm to centralize red block, green block, and blue block and build a stack with them.",
+    "Use the left arm, the right arm, and the left arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block.",
+    "Use the left arm, the right arm, and the right arm to arrange large block, medium block, small block in order here.",
+    "Use the left arm, the right arm, and the right arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block.",
+    "Use the left arm, the right arm, and the right arm to place red block, green block, and blue block in the center. Stack blue block on top.",
+    "Use the left arm, the right arm, the right arm to place large block, medium block, and small block by size at the center.",
+    "Use the right arm, the left arm, and the left arm to arrange large block, medium block, and small block centrally by size.",
+    "Use the right arm, the left arm, and the left arm to arrange large block, medium block, small block in order here.",
+    "Use the right arm, the left arm, and the left arm to center red block, green block, and blue block, then stack blue block above green block and green block above red block.",
+    "Use the right arm, the left arm, and the left arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block.",
+    "Use the right arm, the left arm, and the right arm to arrange large block, medium block, and small block centrally by size.",
+    "Use the right arm, the left arm, and the right arm to arrange large block, medium block, small block in order here.",
+    "Use the right arm, the left arm, the right arm to place large block, medium block, and small block by size at the center.",
+    "Use the right arm, the right arm, and the left arm to arrange large block, medium block, small block in order here.",
+    "Use the right arm, the right arm, and the left arm to bring large block, medium block, small block to the center.",
+    "Use the right arm, the right arm, and the left arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block.",
+    "Using the left arm, the right arm, and the right arm, bring red block, green block, and blue block to the center and stack blue block on green block, green block on red block.",
+    "Using your tools, align large block, medium block, small block by size in the center.",
+    "With the left arm, lift the bowl with brown outer rim and stack the ceramic bowl using the right arm.",
+    "With the left arm, lift the glazed bowl with curved sides and stack the ceramic bowl with earthy brown trim using the right arm.",
+    "With the left arm, the right arm, the left arm, move red block, green block, blue block to the center and stack green block on red block, blue block on green block.",
+    "With the right arm, the left arm, and the right arm, move red block, green block, and blue block centrally and stack green block on red block.",
+    "With the right arm, the right arm, the left arm, move red block, green block, blue block to the center and stack green block on red block, blue block on green block.",
+    "the small bowl with brown edge goes at the bottom, the bowl with brown outer rim rests above."
+  ],
+  "selection": {
+    "blocks_ranking_size": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "stack_blocks_three": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "stack_bowls_two": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "stack_bowls_three": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 474,
+      "instruction": "Bring large block, medium block, and small block to the center, sorting largest to smallest."
+    },
+    {
+      "episode_index": 1,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 457,
+      "instruction": "Use the left arm, the right arm, the right arm to place large block, medium block, and small block by size at the center."
+    },
+    {
+      "episode_index": 2,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 477,
+      "instruction": "Shift large block, medium block, and small block to the table's center and sort by size."
+    },
+    {
+      "episode_index": 3,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 456,
+      "instruction": "Relocate large block, medium block, and small block to the center and arrange them by size."
+    },
+    {
+      "episode_index": 4,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 444,
+      "instruction": "Arrange large block, medium block, small block in size order, largest on the left."
+    },
+    {
+      "episode_index": 5,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 467,
+      "instruction": "Move large block, medium block, and small block to the center, arranging them by size."
+    },
+    {
+      "episode_index": 6,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 448,
+      "instruction": "Grab large block, medium block, small block, and arrange them in size order at the center."
+    },
+    {
+      "episode_index": 7,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 482,
+      "instruction": "Move large block with the left arm, medium block with the right arm, and small block with the left arm to arrange them."
+    },
+    {
+      "episode_index": 8,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 462,
+      "instruction": "Use the right arm, the left arm, and the left arm to arrange large block, medium block, small block in order here."
+    },
+    {
+      "episode_index": 9,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 476,
+      "instruction": "Position large block, medium block, then small block at the center in size order."
+    },
+    {
+      "episode_index": 10,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 453,
+      "instruction": "Use the right arm, the right arm, and the left arm to bring large block, medium block, small block to the center."
+    },
+    {
+      "episode_index": 11,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 465,
+      "instruction": "Use the right arm, the left arm, and the right arm to arrange large block, medium block, and small block centrally by size."
+    },
+    {
+      "episode_index": 12,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 475,
+      "instruction": "Move large block, medium block, and small block to the center and align."
+    },
+    {
+      "episode_index": 13,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 471,
+      "instruction": "Using your tools, align large block, medium block, small block by size in the center."
+    },
+    {
+      "episode_index": 14,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 468,
+      "instruction": "Align large block, medium block, and small block in the center by size, using the right arm, the left arm, and the right arm."
+    },
+    {
+      "episode_index": 15,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 474,
+      "instruction": "Shift large block, medium block, small block to the center; align by size left to right."
+    },
+    {
+      "episode_index": 16,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 464,
+      "instruction": "Arrange large block, medium block, and small block by size at the center."
+    },
+    {
+      "episode_index": 17,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 465,
+      "instruction": "Use the right arm, the left arm, and the right arm to arrange large block, medium block, small block in order here."
+    },
+    {
+      "episode_index": 18,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 476,
+      "instruction": "Grab large block, medium block, small block with the right arm, the right arm, the left arm and organize them by descending size."
+    },
+    {
+      "episode_index": 19,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 458,
+      "instruction": "Bring large block, medium block, and small block to the center, sorting largest to smallest."
+    },
+    {
+      "episode_index": 20,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 463,
+      "instruction": "Bring large block, medium block, small block to the table's center and position them left to right."
+    },
+    {
+      "episode_index": 21,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 477,
+      "instruction": "Use the right arm, the left arm, the right arm to place large block, medium block, and small block by size at the center."
+    },
+    {
+      "episode_index": 22,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 478,
+      "instruction": "Organize large block, medium block, and small block in the center of the table by size, largest first."
+    },
+    {
+      "episode_index": 23,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 464,
+      "instruction": "Take large block with the right arm, medium block with the right arm, and small block with the left arm to the middle."
+    },
+    {
+      "episode_index": 24,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 458,
+      "instruction": "Organize large block, medium block, and small block in the center of the table by size, largest first."
+    },
+    {
+      "episode_index": 25,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 458,
+      "instruction": "Grab large block, medium block, and small block and align them by size at the center."
+    },
+    {
+      "episode_index": 26,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 444,
+      "instruction": "Organize large block, medium block, and small block in the center of the table by size, largest first."
+    },
+    {
+      "episode_index": 27,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 481,
+      "instruction": "Relocate large block, medium block, and small block to the center and arrange them by size."
+    },
+    {
+      "episode_index": 28,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 486,
+      "instruction": "Use the right arm, the left arm, and the left arm to arrange large block, medium block, and small block centrally by size."
+    },
+    {
+      "episode_index": 29,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 454,
+      "instruction": "Set large block, medium block, and small block in the center area, arranging from largest to smallest."
+    },
+    {
+      "episode_index": 30,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 449,
+      "instruction": "Move large block, medium block, and small block to the table center in size order."
+    },
+    {
+      "episode_index": 31,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 449,
+      "instruction": "Use the right arm, the right arm, and the left arm to bring large block, medium block, small block to the center."
+    },
+    {
+      "episode_index": 32,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 444,
+      "instruction": "Bring large block, medium block, small block to the table's center and position them left to right."
+    },
+    {
+      "episode_index": 33,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 441,
+      "instruction": "Use the left arm, the right arm, and the right arm to arrange large block, medium block, small block in order here."
+    },
+    {
+      "episode_index": 34,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 473,
+      "instruction": "Grab large block, medium block, and small block, set them centrally, ordered by size."
+    },
+    {
+      "episode_index": 35,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 448,
+      "instruction": "Bring large block, medium block, small block to the table's center and position them left to right."
+    },
+    {
+      "episode_index": 36,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 468,
+      "instruction": "Bring large block, medium block, and small block to the center, sorting largest to smallest."
+    },
+    {
+      "episode_index": 37,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 474,
+      "instruction": "Position large block, medium block, then small block at the center in size order."
+    },
+    {
+      "episode_index": 38,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 471,
+      "instruction": "Arrange large block leftmost, medium block in the middle, and small block rightmost."
+    },
+    {
+      "episode_index": 39,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 466,
+      "instruction": "Relocate large block, medium block, and small block to the center and arrange them by size."
+    },
+    {
+      "episode_index": 40,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 468,
+      "instruction": "Bring large block, medium block, and small block to the center, sorting largest to smallest."
+    },
+    {
+      "episode_index": 41,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 463,
+      "instruction": "Bring large block, medium block, small block to the table's center and position them left to right."
+    },
+    {
+      "episode_index": 42,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 455,
+      "instruction": "Grab large block, medium block, and small block, set them centrally, ordered by size."
+    },
+    {
+      "episode_index": 43,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 469,
+      "instruction": "Center large block, medium block, small block with the left arm, the right arm, and the left arm following size order."
+    },
+    {
+      "episode_index": 44,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 463,
+      "instruction": "Use the right arm, the right arm, and the left arm to arrange large block, medium block, small block in order here."
+    },
+    {
+      "episode_index": 45,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 456,
+      "instruction": "Place large block, medium block, small block centrally and arrange largest to smallest."
+    },
+    {
+      "episode_index": 46,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 449,
+      "instruction": "Move large block with the left arm, medium block with the left arm, and small block with the right arm to sort them."
+    },
+    {
+      "episode_index": 47,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 462,
+      "instruction": "Bring large block, medium block, small block to the table's center and position them left to right."
+    },
+    {
+      "episode_index": 48,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 459,
+      "instruction": "Arrange large block, medium block, and small block by size at the center."
+    },
+    {
+      "episode_index": 49,
+      "task": "blocks_ranking_size",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/blocks_ranking_size/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 466,
+      "instruction": "Bring large block, medium block, small block to the table's center and position them left to right."
+    },
+    {
+      "episode_index": 50,
+      "task": "stack_blocks_three",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 466,
+      "instruction": "Position red block, green block, and blue block in the center and stack blue block on green block, followed by green block on red block."
+    },
+    {
+      "episode_index": 51,
+      "task": "stack_blocks_three",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 493,
+      "instruction": "Relocate red block, green block, and blue block to the table's center, stacking blue block over green block and green block over red block."
+    },
+    {
+      "episode_index": 52,
+      "task": "stack_blocks_three",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 481,
+      "instruction": "Use the right arm, the left arm, and the left arm to center red block, green block, and blue block, then stack blue block above green block and green block above red block."
+    },
+    {
+      "episode_index": 53,
+      "task": "stack_blocks_three",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 472,
+      "instruction": "Place red block, green block, and blue block in the center, then arrange green block on red block and blue block on green block."
+    },
+    {
+      "episode_index": 54,
+      "task": "stack_blocks_three",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 478,
+      "instruction": "Using the left arm, the right arm, and the right arm, bring red block, green block, and blue block to the center and stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 55,
+      "task": "stack_blocks_three",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 465,
+      "instruction": "Use the left arm, the right arm, and the right arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 56,
+      "task": "stack_blocks_three",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 461,
+      "instruction": "Place red block, green block, and blue block in the center, then arrange green block on red block and blue block on green block."
+    },
+    {
+      "episode_index": 57,
+      "task": "stack_blocks_three",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 491,
+      "instruction": "Bring red block, green block, and blue block to the center using the right arm, the left arm, and the right arm. Stack green block on red block."
+    },
+    {
+      "episode_index": 58,
+      "task": "stack_blocks_three",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 471,
+      "instruction": "Place red block, green block, and blue block in the center, then arrange green block on red block and blue block on green block."
+    },
+    {
+      "episode_index": 59,
+      "task": "stack_blocks_three",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 459,
+      "instruction": "Bring red block, green block, and blue block to the center using the right arm, the right arm, and the left arm. Stack green block on red block."
+    },
+    {
+      "episode_index": 60,
+      "task": "stack_blocks_three",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 487,
+      "instruction": "Position red block, green block, and blue block centrally. Place green block on red block, then set blue block on green block."
+    },
+    {
+      "episode_index": 61,
+      "task": "stack_blocks_three",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 480,
+      "instruction": "Bring red block, green block, and blue block to the center and stack green block over red block, blue block over green block."
+    },
+    {
+      "episode_index": 62,
+      "task": "stack_blocks_three",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 459,
+      "instruction": "Grab red block, green block, and blue block using the right arm, the left arm, the left arm, move them to the center, then stack them."
+    },
+    {
+      "episode_index": 63,
+      "task": "stack_blocks_three",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 458,
+      "instruction": "Move red block, green block, and blue block to the center. Stack blue block on green block and green block on red block."
+    },
+    {
+      "episode_index": 64,
+      "task": "stack_blocks_three",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 462,
+      "instruction": "Place red block, green block, and blue block at the table's center; stack blue block over green block, then green block over red block."
+    },
+    {
+      "episode_index": 65,
+      "task": "stack_blocks_three",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 460,
+      "instruction": "Place red block, green block, and blue block in the center, then arrange green block on red block and blue block on green block."
+    },
+    {
+      "episode_index": 66,
+      "task": "stack_blocks_three",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 453,
+      "instruction": "Gather red block, green block, and blue block at the table's center and stack blue block on green block, then green block on red block."
+    },
+    {
+      "episode_index": 67,
+      "task": "stack_blocks_three",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 472,
+      "instruction": "Position red block, green block, and blue block centrally. Place green block on red block, then set blue block on green block."
+    },
+    {
+      "episode_index": 68,
+      "task": "stack_blocks_three",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 482,
+      "instruction": "Bring red block, green block, and blue block to the table's center and arrange them by stacking blue block over green block and green block over red block."
+    },
+    {
+      "episode_index": 69,
+      "task": "stack_blocks_three",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 460,
+      "instruction": "Move red block, green block, and blue block to the center using the right arm, the left arm, the left arm, and stack them with blue block on top."
+    },
+    {
+      "episode_index": 70,
+      "task": "stack_blocks_three",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 475,
+      "instruction": "With the right arm, the right arm, the left arm, move red block, green block, blue block to the center and stack green block on red block, blue block on green block."
+    },
+    {
+      "episode_index": 71,
+      "task": "stack_blocks_three",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 484,
+      "instruction": "Arrange red block, green block, and blue block in the table's center and stack blue block atop green block, then green block atop red block."
+    },
+    {
+      "episode_index": 72,
+      "task": "stack_blocks_three",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 474,
+      "instruction": "Place red block, green block, and blue block at the center, using the right arm, the left arm, and the right arm to stack blue block on green block and green block on red block."
+    },
+    {
+      "episode_index": 73,
+      "task": "stack_blocks_three",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 461,
+      "instruction": "Adjust red block, green block, blue block to the center and use the right arm, the left arm, the left arm to stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 74,
+      "task": "stack_blocks_three",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 480,
+      "instruction": "Use the right arm, the left arm, and the left arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 75,
+      "task": "stack_blocks_three",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 479,
+      "instruction": "Stack blue block over green block and green block over red block after moving all blocks to the center."
+    },
+    {
+      "episode_index": 76,
+      "task": "stack_blocks_three",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 465,
+      "instruction": "Move red block, green block, and blue block to the middle and position blue block on green block, green block on top of red block."
+    },
+    {
+      "episode_index": 77,
+      "task": "stack_blocks_three",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 453,
+      "instruction": "Use the right arm, the right arm, and the left arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 78,
+      "task": "stack_blocks_three",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 469,
+      "instruction": "Move red block, green block, and blue block to the center and stack green block on red block, blue block on green block."
+    },
+    {
+      "episode_index": 79,
+      "task": "stack_blocks_three",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 466,
+      "instruction": "Relocate red block, green block, and blue block to the center with the right arm, the left arm, the left arm, and stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 80,
+      "task": "stack_blocks_three",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 482,
+      "instruction": "With the right arm, the left arm, and the right arm, move red block, green block, and blue block centrally and stack green block on red block."
+    },
+    {
+      "episode_index": 81,
+      "task": "stack_blocks_three",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 473,
+      "instruction": "Position red block, green block, and blue block in the center and stack blue block on green block, followed by green block on red block."
+    },
+    {
+      "episode_index": 82,
+      "task": "stack_blocks_three",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 462,
+      "instruction": "Place red block, green block, and blue block at the center, then stack blue block onto green block and green block onto red block."
+    },
+    {
+      "episode_index": 83,
+      "task": "stack_blocks_three",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 481,
+      "instruction": "Place red block, green block, and blue block at the center, then stack blue block onto green block and green block onto red block."
+    },
+    {
+      "episode_index": 84,
+      "task": "stack_blocks_three",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 467,
+      "instruction": "Bring red block, green block, and blue block to the center using the left arm, the right arm, and the left arm. Stack green block on red block."
+    },
+    {
+      "episode_index": 85,
+      "task": "stack_blocks_three",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 470,
+      "instruction": "Use the left arm, the left arm, and the right arm to centralize red block, green block, and blue block and build a stack with them."
+    },
+    {
+      "episode_index": 86,
+      "task": "stack_blocks_three",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 472,
+      "instruction": "Center red block, green block, and blue block, then stack them with blue block on green block and green block on red block."
+    },
+    {
+      "episode_index": 87,
+      "task": "stack_blocks_three",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 472,
+      "instruction": "Move red block, green block, and blue block to the center. Stack blue block on green block and green block on red block."
+    },
+    {
+      "episode_index": 88,
+      "task": "stack_blocks_three",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 469,
+      "instruction": "Grab red block, green block, and blue block using the right arm, the left arm, the right arm, move them to the center, then stack them."
+    },
+    {
+      "episode_index": 89,
+      "task": "stack_blocks_three",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 485,
+      "instruction": "Bring red block, green block, and blue block to the middle. Stack green block onto red block and blue block onto green block."
+    },
+    {
+      "episode_index": 90,
+      "task": "stack_blocks_three",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 484,
+      "instruction": "Use the left arm, the right arm, and the right arm to place red block, green block, and blue block in the center. Stack blue block on top."
+    },
+    {
+      "episode_index": 91,
+      "task": "stack_blocks_three",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 461,
+      "instruction": "Move red block, green block, and blue block to the middle first, then stack blue block on green block and green block on red block."
+    },
+    {
+      "episode_index": 92,
+      "task": "stack_blocks_three",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 489,
+      "instruction": "Use arms the left arm, the right arm, and the left arm to centralize red block, green block, blue block and stack blue block above green block, then green block above red block."
+    },
+    {
+      "episode_index": 93,
+      "task": "stack_blocks_three",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 492,
+      "instruction": "Move red block, green block, and blue block to the center using the right arm, the left arm, the left arm, and stack them with blue block on top."
+    },
+    {
+      "episode_index": 94,
+      "task": "stack_blocks_three",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 473,
+      "instruction": "Center red block, green block, and blue block, then stack them with blue block on green block and green block on red block."
+    },
+    {
+      "episode_index": 95,
+      "task": "stack_blocks_three",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 456,
+      "instruction": "Arrange red block, green block, and blue block in the table's center and stack blue block atop green block, then green block atop red block."
+    },
+    {
+      "episode_index": 96,
+      "task": "stack_blocks_three",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 478,
+      "instruction": "With the left arm, the right arm, the left arm, move red block, green block, blue block to the center and stack green block on red block, blue block on green block."
+    },
+    {
+      "episode_index": 97,
+      "task": "stack_blocks_three",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 471,
+      "instruction": "Bring red block, green block, and blue block to the middle. Stack green block onto red block and blue block onto green block."
+    },
+    {
+      "episode_index": 98,
+      "task": "stack_blocks_three",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 489,
+      "instruction": "Adjust red block, green block, blue block to the center and use the right arm, the left arm, the left arm to stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 99,
+      "task": "stack_blocks_three",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_blocks_three/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 477,
+      "instruction": "Use the left arm, the right arm, and the left arm to move red block, green block, blue block to the center and stack blue block on green block, green block on red block."
+    },
+    {
+      "episode_index": 100,
+      "task": "stack_bowls_two",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 311,
+      "instruction": "Take the ceramic bowl with earthy brown trim, place it, and stack the blue bowl on top."
+    },
+    {
+      "episode_index": 101,
+      "task": "stack_bowls_two",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 307,
+      "instruction": "Arrange the glazed bowl with curved sides, lift the glazed bowl with curved sides with the arm, and stack them."
+    },
+    {
+      "episode_index": 102,
+      "task": "stack_bowls_two",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 305,
+      "instruction": "Grab the ceramic bowl with earthy brown trim, position it, and place the glazed bowl with curved sides on top."
+    },
+    {
+      "episode_index": 103,
+      "task": "stack_bowls_two",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 301,
+      "instruction": "Grab the dark inside bowl light blue outside, lift it up, position the medium-sized bowl for holding food, and stack them."
+    },
+    {
+      "episode_index": 104,
+      "task": "stack_bowls_two",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 313,
+      "instruction": "Take the ceramic bowl, place it, and stack the bowl with brown outer rim on top."
+    },
+    {
+      "episode_index": 105,
+      "task": "stack_bowls_two",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 317,
+      "instruction": "Lift the ceramic bowl with earthy brown trim and position it neatly over the bowl with shiny texture."
+    },
+    {
+      "episode_index": 106,
+      "task": "stack_bowls_two",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 293,
+      "instruction": "Lift the rounded bowl with light blue color, position the ceramic bowl with earthy brown trim above it, and stack."
+    },
+    {
+      "episode_index": 107,
+      "task": "stack_bowls_two",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 316,
+      "instruction": "the small bowl with brown edge goes at the bottom, the bowl with brown outer rim rests above."
+    },
+    {
+      "episode_index": 108,
+      "task": "stack_bowls_two",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 318,
+      "instruction": "Position the bowl with shiny texture carefully on the blue bowl."
+    },
+    {
+      "episode_index": 109,
+      "task": "stack_bowls_two",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 334,
+      "instruction": "Place the blue bowl on the surface, then stack the small bowl with brown edge above it."
+    },
+    {
+      "episode_index": 110,
+      "task": "stack_bowls_two",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 325,
+      "instruction": "Grab the glazed bowl with curved sides, set it down, then place the rounded bowl with light blue color over it."
+    },
+    {
+      "episode_index": 111,
+      "task": "stack_bowls_two",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 310,
+      "instruction": "Pick up the rounded bowl with light blue color and set the bowl with shiny texture on it."
+    },
+    {
+      "episode_index": 112,
+      "task": "stack_bowls_two",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 292,
+      "instruction": "Take the bowl with brown outer rim, place the bowl with shiny texture above, and let go."
+    },
+    {
+      "episode_index": 113,
+      "task": "stack_bowls_two",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 294,
+      "instruction": "Lift the small bowl with brown edge, stack it precisely on top of the blue bowl with slightly rounded base."
+    },
+    {
+      "episode_index": 114,
+      "task": "stack_bowls_two",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 348,
+      "instruction": "Position the curved bowl light blue shade with the arm, then set the curved bowl light blue shade above it."
+    },
+    {
+      "episode_index": 115,
+      "task": "stack_bowls_two",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 308,
+      "instruction": "Place the curved bowl light blue shade down, then set the ceramic bowl with earthy brown trim above it."
+    },
+    {
+      "episode_index": 116,
+      "task": "stack_bowls_two",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 314,
+      "instruction": "Put the curved bowl light blue shade first, then bring the dark inside bowl light blue outside to stack above."
+    },
+    {
+      "episode_index": 117,
+      "task": "stack_bowls_two",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 300,
+      "instruction": "Set down the ceramic bowl with earthy brown trim and drop the ceramic bowl with earthy brown trim on top."
+    },
+    {
+      "episode_index": 118,
+      "task": "stack_bowls_two",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 313,
+      "instruction": "Arrange the curved bowl light blue shade, lift the rounded bowl with light blue color with the arm, and stack them."
+    },
+    {
+      "episode_index": 119,
+      "task": "stack_bowls_two",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 288,
+      "instruction": "Pick up the blue bowl with slightly rounded base and set the blue bowl with slightly rounded base on it."
+    },
+    {
+      "episode_index": 120,
+      "task": "stack_bowls_two",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 318,
+      "instruction": "Lift the ceramic bowl, position the small bowl with brown edge above it, and stack."
+    },
+    {
+      "episode_index": 121,
+      "task": "stack_bowls_two",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 313,
+      "instruction": "Take the bowl with shiny texture, position it, then stack the glazed bowl with curved sides directly above."
+    },
+    {
+      "episode_index": 122,
+      "task": "stack_bowls_two",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 314,
+      "instruction": "Grasp the blue bowl with slightly rounded base, then use the arm to align and stack the ceramic bowl."
+    },
+    {
+      "episode_index": 123,
+      "task": "stack_bowls_two",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 308,
+      "instruction": "Lift the bowl with shiny texture using the right arm, set it down, and stack the blue bowl with slightly rounded base using the left arm."
+    },
+    {
+      "episode_index": 124,
+      "task": "stack_bowls_two",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 298,
+      "instruction": "Arrange the ceramic bowl, lift the blue bowl with the arm, and stack them."
+    },
+    {
+      "episode_index": 125,
+      "task": "stack_bowls_two",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 317,
+      "instruction": "Align the curved bowl light blue shade and the ceramic bowl with earthy brown trim, then stack the ceramic bowl with earthy brown trim on the curved bowl light blue shade."
+    },
+    {
+      "episode_index": 126,
+      "task": "stack_bowls_two",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 304,
+      "instruction": "Lift the dark inside bowl light blue outside, lay it down, and stack the ceramic bowl with earthy brown trim on top."
+    },
+    {
+      "episode_index": 127,
+      "task": "stack_bowls_two",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 337,
+      "instruction": "Grab the medium-sized bowl for holding food, position it, and place the dark inside bowl light blue outside on top."
+    },
+    {
+      "episode_index": 128,
+      "task": "stack_bowls_two",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 296,
+      "instruction": "Put the bowl with shiny texture first, then bring the bowl with brown outer rim to stack above."
+    },
+    {
+      "episode_index": 129,
+      "task": "stack_bowls_two",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 309,
+      "instruction": "Align the blue bowl over the blue bowl with slightly rounded base, then complete the stack."
+    },
+    {
+      "episode_index": 130,
+      "task": "stack_bowls_two",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 316,
+      "instruction": "Place the medium-sized bowl for holding food down, then set the ceramic bowl above it."
+    },
+    {
+      "episode_index": 131,
+      "task": "stack_bowls_two",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 302,
+      "instruction": "Lift the curved bowl light blue shade, then stack it on the ceramic bowl."
+    },
+    {
+      "episode_index": 132,
+      "task": "stack_bowls_two",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 331,
+      "instruction": "Lift the dark inside bowl light blue outside, position the dark inside bowl light blue outside above it, and stack."
+    },
+    {
+      "episode_index": 133,
+      "task": "stack_bowls_two",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 302,
+      "instruction": "Pick up the small bowl with brown edge, grab the curved bowl light blue shade, and stack the curved bowl light blue shade on the small bowl with brown edge."
+    },
+    {
+      "episode_index": 134,
+      "task": "stack_bowls_two",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 328,
+      "instruction": "With the left arm, lift the bowl with brown outer rim and stack the ceramic bowl using the right arm."
+    },
+    {
+      "episode_index": 135,
+      "task": "stack_bowls_two",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 305,
+      "instruction": "Hold the small bowl with brown edge and stack the ceramic bowl with earthy brown trim neatly atop."
+    },
+    {
+      "episode_index": 136,
+      "task": "stack_bowls_two",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 309,
+      "instruction": "Lift the rounded bowl with light blue color using the right arm, set it down, and stack the medium-sized bowl for holding food using the left arm."
+    },
+    {
+      "episode_index": 137,
+      "task": "stack_bowls_two",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 315,
+      "instruction": "Place the blue bowl on the surface, then stack the bowl with brown outer rim above it."
+    },
+    {
+      "episode_index": 138,
+      "task": "stack_bowls_two",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 315,
+      "instruction": "Grab the ceramic bowl, then carefully place the small bowl with brown edge on top."
+    },
+    {
+      "episode_index": 139,
+      "task": "stack_bowls_two",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 315,
+      "instruction": "Pick the rounded bowl with light blue color, position on the table, and place the blue bowl over it."
+    },
+    {
+      "episode_index": 140,
+      "task": "stack_bowls_two",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 309,
+      "instruction": "Grab the blue bowl with slightly rounded base with the left arm, place it, and stack the ceramic bowl with the right arm."
+    },
+    {
+      "episode_index": 141,
+      "task": "stack_bowls_two",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 326,
+      "instruction": "Lift the ceramic bowl, position the dark inside bowl light blue outside above it, and stack."
+    },
+    {
+      "episode_index": 142,
+      "task": "stack_bowls_two",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 310,
+      "instruction": "Place the small bowl with brown edge down, then set the blue bowl above it."
+    },
+    {
+      "episode_index": 143,
+      "task": "stack_bowls_two",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 311,
+      "instruction": "Lift the blue bowl with slightly rounded base, put it on the table, and stack the glazed bowl with curved sides above."
+    },
+    {
+      "episode_index": 144,
+      "task": "stack_bowls_two",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 321,
+      "instruction": "Lift the medium-sized bowl for holding food, grab the dark inside bowl light blue outside, and set the dark inside bowl light blue outside on the medium-sized bowl for holding food."
+    },
+    {
+      "episode_index": 145,
+      "task": "stack_bowls_two",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 311,
+      "instruction": "Lift the ceramic bowl with earthy brown trim, position the bowl with shiny texture above it, and stack."
+    },
+    {
+      "episode_index": 146,
+      "task": "stack_bowls_two",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 329,
+      "instruction": "Pick up the blue bowl with slightly rounded base using the left arm, then stack the medium-sized bowl for holding food using the right arm."
+    },
+    {
+      "episode_index": 147,
+      "task": "stack_bowls_two",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 307,
+      "instruction": "With the left arm, lift the glazed bowl with curved sides and stack the ceramic bowl with earthy brown trim using the right arm."
+    },
+    {
+      "episode_index": 148,
+      "task": "stack_bowls_two",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 316,
+      "instruction": "Grab the bowl with shiny texture, then stack the small bowl with brown edge on top."
+    },
+    {
+      "episode_index": 149,
+      "task": "stack_bowls_two",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_two/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 335,
+      "instruction": "Stack the medium-sized bowl for holding food securely on top of the ceramic bowl with earthy brown trim."
+    },
+    {
+      "episode_index": 150,
+      "task": "stack_bowls_three",
+      "source_episode_id": 0,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000000.hdf5",
+      "frames": 441,
+      "instruction": "Grab the first the bowl with shiny texture, position the second, then add the third."
+    },
+    {
+      "episode_index": 151,
+      "task": "stack_bowls_three",
+      "source_episode_id": 1,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000001.hdf5",
+      "frames": 478,
+      "instruction": "Lift each the blue bowl with slightly rounded base and stack it over the previous one."
+    },
+    {
+      "episode_index": 152,
+      "task": "stack_bowls_three",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 485,
+      "instruction": "Start with the first the dark inside bowl light blue outside, adding the next two in sequence."
+    },
+    {
+      "episode_index": 153,
+      "task": "stack_bowls_three",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 452,
+      "instruction": "Position the glazed bowl with curved sides one on top of the other largest to smallest."
+    },
+    {
+      "episode_index": 154,
+      "task": "stack_bowls_three",
+      "source_episode_id": 4,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000004.hdf5",
+      "frames": 459,
+      "instruction": "Start with the first the medium-sized bowl for holding food, adding the next two in sequence."
+    },
+    {
+      "episode_index": 155,
+      "task": "stack_bowls_three",
+      "source_episode_id": 5,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000005.hdf5",
+      "frames": 467,
+      "instruction": "Organize bowls the rounded bowl with light blue color by stacking them in size order."
+    },
+    {
+      "episode_index": 156,
+      "task": "stack_bowls_three",
+      "source_episode_id": 6,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000006.hdf5",
+      "frames": 462,
+      "instruction": "Place the blue bowl with slightly rounded base in a stack with the largest at the foundation."
+    },
+    {
+      "episode_index": 157,
+      "task": "stack_bowls_three",
+      "source_episode_id": 7,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000007.hdf5",
+      "frames": 451,
+      "instruction": "Place the first the dark inside bowl light blue outside down, then stack the remaining two."
+    },
+    {
+      "episode_index": 158,
+      "task": "stack_bowls_three",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 450,
+      "instruction": "Arrange the three the small bowl with brown edge by stacking them one over the other."
+    },
+    {
+      "episode_index": 159,
+      "task": "stack_bowls_three",
+      "source_episode_id": 9,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000009.hdf5",
+      "frames": 462,
+      "instruction": "Carefully stack the ceramic bowl with earthy brown trim piece by piece."
+    },
+    {
+      "episode_index": 160,
+      "task": "stack_bowls_three",
+      "source_episode_id": 10,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000010.hdf5",
+      "frames": 478,
+      "instruction": "Arrange the rounded bowl with light blue color one on top of another."
+    },
+    {
+      "episode_index": 161,
+      "task": "stack_bowls_three",
+      "source_episode_id": 11,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000011.hdf5",
+      "frames": 482,
+      "instruction": "Align bowls the ceramic bowl in descending size, forming a stack."
+    },
+    {
+      "episode_index": 162,
+      "task": "stack_bowls_three",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 449,
+      "instruction": "Place one the curved bowl light blue shade down and carefully stack the others above it."
+    },
+    {
+      "episode_index": 163,
+      "task": "stack_bowls_three",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 486,
+      "instruction": "Stack all three the bowl with brown outer rim directly on top of each other."
+    },
+    {
+      "episode_index": 164,
+      "task": "stack_bowls_three",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 474,
+      "instruction": "Stack the blue bowl without arms in a vertical sequence."
+    },
+    {
+      "episode_index": 165,
+      "task": "stack_bowls_three",
+      "source_episode_id": 15,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000015.hdf5",
+      "frames": 492,
+      "instruction": "Start with the bottom the rounded bowl with light blue color and finish stacking."
+    },
+    {
+      "episode_index": 166,
+      "task": "stack_bowls_three",
+      "source_episode_id": 16,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000016.hdf5",
+      "frames": 438,
+      "instruction": "Sequentially stack the bowl with shiny texture using arms to align them."
+    },
+    {
+      "episode_index": 167,
+      "task": "stack_bowls_three",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 445,
+      "instruction": "Place the medium-sized bowl for holding food in a stack with the largest at the foundation."
+    },
+    {
+      "episode_index": 168,
+      "task": "stack_bowls_three",
+      "source_episode_id": 18,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000018.hdf5",
+      "frames": 491,
+      "instruction": "Grab a the medium-sized bowl for holding food, set it down, and stack the rest on it."
+    },
+    {
+      "episode_index": 169,
+      "task": "stack_bowls_three",
+      "source_episode_id": 19,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000019.hdf5",
+      "frames": 453,
+      "instruction": "Place each the bowl with shiny texture on top of the previous one."
+    },
+    {
+      "episode_index": 170,
+      "task": "stack_bowls_three",
+      "source_episode_id": 20,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000020.hdf5",
+      "frames": 485,
+      "instruction": "Stack all three the bowl with brown outer rim by placing one on top of another."
+    },
+    {
+      "episode_index": 171,
+      "task": "stack_bowls_three",
+      "source_episode_id": 21,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000021.hdf5",
+      "frames": 476,
+      "instruction": "Use arms to place each the glazed bowl with curved sides atop the previous one."
+    },
+    {
+      "episode_index": 172,
+      "task": "stack_bowls_three",
+      "source_episode_id": 22,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000022.hdf5",
+      "frames": 462,
+      "instruction": "Pick up each the dark inside bowl light blue outside and set them one over another."
+    },
+    {
+      "episode_index": 173,
+      "task": "stack_bowls_three",
+      "source_episode_id": 23,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000023.hdf5",
+      "frames": 457,
+      "instruction": "Use arms to stack each the bowl with brown outer rim carefully."
+    },
+    {
+      "episode_index": 174,
+      "task": "stack_bowls_three",
+      "source_episode_id": 24,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000024.hdf5",
+      "frames": 463,
+      "instruction": "Pick each the medium-sized bowl for holding food and stack them in order one on top of another."
+    },
+    {
+      "episode_index": 175,
+      "task": "stack_bowls_three",
+      "source_episode_id": 25,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000025.hdf5",
+      "frames": 460,
+      "instruction": "Place the bottom the bowl with brown outer rim, then add the other two on top."
+    },
+    {
+      "episode_index": 176,
+      "task": "stack_bowls_three",
+      "source_episode_id": 26,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000026.hdf5",
+      "frames": 453,
+      "instruction": "Grab a the blue bowl, set it down, and stack the rest on it."
+    },
+    {
+      "episode_index": 177,
+      "task": "stack_bowls_three",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 452,
+      "instruction": "Lift each the bowl with brown outer rim and stack them together neatly."
+    },
+    {
+      "episode_index": 178,
+      "task": "stack_bowls_three",
+      "source_episode_id": 28,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000028.hdf5",
+      "frames": 489,
+      "instruction": "Align the second the bowl with brown outer rim atop the first, then add the third above."
+    },
+    {
+      "episode_index": 179,
+      "task": "stack_bowls_three",
+      "source_episode_id": 29,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000029.hdf5",
+      "frames": 467,
+      "instruction": "Place the bowls the dark inside bowl light blue outside in a stacking order."
+    },
+    {
+      "episode_index": 180,
+      "task": "stack_bowls_three",
+      "source_episode_id": 30,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000030.hdf5",
+      "frames": 491,
+      "instruction": "Carefully stack the medium-sized bowl for holding food piece by piece."
+    },
+    {
+      "episode_index": 181,
+      "task": "stack_bowls_three",
+      "source_episode_id": 31,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000031.hdf5",
+      "frames": 460,
+      "instruction": "Lift each the curved bowl light blue shade and stack it over the previous one."
+    },
+    {
+      "episode_index": 182,
+      "task": "stack_bowls_three",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 496,
+      "instruction": "Place the bowls the rounded bowl with light blue color in a stacking order."
+    },
+    {
+      "episode_index": 183,
+      "task": "stack_bowls_three",
+      "source_episode_id": 33,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000033.hdf5",
+      "frames": 454,
+      "instruction": "Place the first the glazed bowl with curved sides down, then stack the next two above it."
+    },
+    {
+      "episode_index": 184,
+      "task": "stack_bowls_three",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 500,
+      "instruction": "Position the second the rounded bowl with light blue color over the first, then the third on top."
+    },
+    {
+      "episode_index": 185,
+      "task": "stack_bowls_three",
+      "source_episode_id": 35,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000035.hdf5",
+      "frames": 463,
+      "instruction": "Grab the medium-sized bowl for holding food, arrange them vertically."
+    },
+    {
+      "episode_index": 186,
+      "task": "stack_bowls_three",
+      "source_episode_id": 36,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000036.hdf5",
+      "frames": 479,
+      "instruction": "Take the bottom the ceramic bowl with earthy brown trim and sequentially pile the other two above."
+    },
+    {
+      "episode_index": 187,
+      "task": "stack_bowls_three",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 480,
+      "instruction": "Take the bottom the blue bowl with slightly rounded base and sequentially pile the other two above."
+    },
+    {
+      "episode_index": 188,
+      "task": "stack_bowls_three",
+      "source_episode_id": 38,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000038.hdf5",
+      "frames": 482,
+      "instruction": "Align the second the curved bowl light blue shade atop the first, then add the third above."
+    },
+    {
+      "episode_index": 189,
+      "task": "stack_bowls_three",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 487,
+      "instruction": "Grab the curved bowl light blue shade, stack from largest at the base to the smallest."
+    },
+    {
+      "episode_index": 190,
+      "task": "stack_bowls_three",
+      "source_episode_id": 40,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000040.hdf5",
+      "frames": 458,
+      "instruction": "Take the bowl with brown outer rim, stack them from bottom to top."
+    },
+    {
+      "episode_index": 191,
+      "task": "stack_bowls_three",
+      "source_episode_id": 41,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000041.hdf5",
+      "frames": 459,
+      "instruction": "Start with the first the glazed bowl with curved sides, adding the next two in sequence."
+    },
+    {
+      "episode_index": 192,
+      "task": "stack_bowls_three",
+      "source_episode_id": 42,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000042.hdf5",
+      "frames": 477,
+      "instruction": "Place the first the curved bowl light blue shade down, then stack the remaining two."
+    },
+    {
+      "episode_index": 193,
+      "task": "stack_bowls_three",
+      "source_episode_id": 43,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000043.hdf5",
+      "frames": 484,
+      "instruction": "Organize bowls the medium-sized bowl for holding food by stacking them in size order."
+    },
+    {
+      "episode_index": 194,
+      "task": "stack_bowls_three",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 461,
+      "instruction": "Stack all three the bowl with shiny texture directly on top of each other."
+    },
+    {
+      "episode_index": 195,
+      "task": "stack_bowls_three",
+      "source_episode_id": 45,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000045.hdf5",
+      "frames": 465,
+      "instruction": "Place the bottom the curved bowl light blue shade, then add the other two on top."
+    },
+    {
+      "episode_index": 196,
+      "task": "stack_bowls_three",
+      "source_episode_id": 46,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000046.hdf5",
+      "frames": 478,
+      "instruction": "Align bowls the blue bowl in descending size, forming a stack."
+    },
+    {
+      "episode_index": 197,
+      "task": "stack_bowls_three",
+      "source_episode_id": 47,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000047.hdf5",
+      "frames": 474,
+      "instruction": "Form a tower with bowls the ceramic bowl, placing smallest last."
+    },
+    {
+      "episode_index": 198,
+      "task": "stack_bowls_three",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 505,
+      "instruction": "Arrange the ceramic bowl with earthy brown trim with the largest bowl at the base."
+    },
+    {
+      "episode_index": 199,
+      "task": "stack_bowls_three",
+      "source_episode_id": 49,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/stack_bowls_three/aloha_agilex/data/episode_0000049.hdf5",
+      "frames": 487,
+      "instruction": "Stack the bowl with shiny texture by arranging them sequentially."
+    }
+  ],
+  "conversion_seconds": 1017.1
+}

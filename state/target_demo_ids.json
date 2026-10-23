@@ -1,0 +1,72 @@
+{
+  "t0:place_mouse_pad": [
+    9,
+    24,
+    29,
+    40,
+    49
+  ],
+  "t1:rotate_qrcode": [
+    0,
+    25,
+    28,
+    39,
+    41
+  ],
+  "t2:place_can_basket": [
+    17,
+    27,
+    37,
+    44,
+    48
+  ],
+  "t3:hanging_mug": [
+    8,
+    12,
+    13,
+    14,
+    27
+  ],
+  "t4:stack_blocks_two": [
+    0,
+    5,
+    6,
+    9,
+    33
+  ],
+  "t5:blocks_ranking_rgb": [
+    3,
+    19,
+    25,
+    45,
+    48
+  ],
+  "t6:pick_dual_bottles": [
+    9,
+    15,
+    23,
+    29,
+    34
+  ],
+  "t7:scan_object": [
+    2,
+    3,
+    32,
+    34,
+    39
+  ],
+  "t8:click_bell": [
+    7,
+    16,
+    23,
+    27,
+    39
+  ],
+  "t9:beat_block_hammer": [
+    2,
+    13,
+    16,
+    29,
+    33
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 238,
+      "instruction": "Pick the red can with white top and the red can with white top together, then set both in the portable light blue storage plasticbox."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Pick the cylindrical can with bright colors and the hand-sized can with metallic finish simultaneously, then place both in the hard plastic rectangular box."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 237,
+      "instruction": "Pick the lightweight cylindrical metal can and the small aluminum can at once, then place them into the rectangular plasticbox."
+    }
+  ]
+}

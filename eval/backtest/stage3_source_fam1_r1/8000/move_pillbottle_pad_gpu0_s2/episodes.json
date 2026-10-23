@@ -1,0 +1,30 @@
+{
+  "task": "move_pillbottle_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 1,
+  "seed_schedule": [
+    500102
+  ],
+  "attempted_seeds": [
+    500102,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500102,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 210,
+      "instruction": "Pick the medium-sized bottle and put it onto the pad"
+    }
+  ]
+}

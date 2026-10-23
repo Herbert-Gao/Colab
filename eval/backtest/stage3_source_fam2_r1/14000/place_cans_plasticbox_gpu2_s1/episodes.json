@@ -1,0 +1,32 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Grab the small red soda can and the rounded can with smooth printed surface and place them in the medium-sized smooth plasticbox"
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 238,
+      "instruction": "Pick the can with shiny smooth surface and the gold and red soda can together, then set both in the rectangular plasticbox with locking clips."
+    }
+  ]
+}

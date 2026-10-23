@@ -1,0 +1,30 @@
+{
+  "task": "place_fan",
+  "task_config": "demo_clean",
+  "requested_episodes": 1,
+  "seed_schedule": [
+    500101
+  ],
+  "attempted_seeds": [
+    500101,
+    500102
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500101,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 147,
+      "instruction": "Use the right arm to grab the portable curved handle fan and place it on the Tan mat facing the robot."
+    }
+  ]
+}

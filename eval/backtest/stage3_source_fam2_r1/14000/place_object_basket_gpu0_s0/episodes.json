@@ -1,0 +1,50 @@
+{
+  "task": "place_object_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103
+  ],
+  "successes": 3,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500100,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 253,
+      "instruction": "Grab the bright green toycar and put it in the yellow rectangular basket with dual grips."
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 239,
+      "instruction": "Move the small box for playingcards to the medium basket with smooth texture, then shift the medium basket with smooth texture."
+    },
+    {
+      "episode": 3,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 234,
+      "instruction": "Move the rectangular playingcards pack to the yellow rectangular basket with dual grips, then shift the yellow rectangular basket with dual grips."
+    }
+  ]
+}

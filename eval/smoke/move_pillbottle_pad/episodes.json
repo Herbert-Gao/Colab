@@ -1,0 +1,40 @@
+{
+  "task": "move_pillbottle_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500000,
+    500001
+  ],
+  "attempted_seeds": [
+    500000,
+    500001,
+    500002
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500000,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the rounded white bottle with teal base and set it on the pad"
+    },
+    {
+      "episode": 1,
+      "seed": 500001,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500002,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the bottle with white screw-on cap and set it on the pad"
+    }
+  ]
+}

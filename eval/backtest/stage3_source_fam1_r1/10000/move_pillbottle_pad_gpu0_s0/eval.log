@@ -1,0 +1,58 @@
+/data/szgx/xworld-gzh/envs/robotwin/bin/python -u /data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py --config policy/ACT/deploy_policy.yml --overrides --task_name move_pillbottle_pad --task_config demo_clean --train_config_name 0 --seed 0 --policy_name ACT --port 46937 --robo_name robotwin --eval_video_log False --output_dir /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/10000/move_pillbottle_pad_gpu0_s0 --test_num 2 --seed_list [500100, 500104] --episodes_json /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/10000/move_pillbottle_pad_gpu0_s0/episodes.json
+
+============= Config =============
+
+[95mMessy Table:[0m False
+[95mRandom Background:[0m False
+[95mRandom Light:[0m False
+[95mRandom Table Height:[0m 0
+[95mRandom Head Camera Distance:[0m 0
+[94mHead Camera Config:[0m D435, True
+[94mWrist Camera Config:[0m D435, True
+[94mEmbodiment Config:[0m aloha-agilex
+
+==================================
+[34mTask Name: move_pillbottle_pad[0m
+[34mPolicy Name: ACT[0m
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+step: [92m1 / 400[0mstep: [92m2 / 400[0mstep: [92m3 / 400[0mstep: [92m4 / 400[0mstep: [92m5 / 400[0mstep: [92m6 / 400[0mstep: [92m7 / 400[0mstep: [92m8 / 400[0mstep: [92m9 / 400[0mstep: [92m10 / 400[0minfer time {'infer_ms': 15868.35963500198}
+step: [92m11 / 400[0mstep: [92m12 / 400[0mstep: [92m13 / 400[0mstep: [92m14 / 400[0mstep: [92m15 / 400[0mstep: [92m16 / 400[0mstep: [92m17 / 400[0mstep: [92m18 / 400[0mstep: [92m19 / 400[0mstep: [92m20 / 400[0minfer time {'infer_ms': 117.21158800355624, 'prev_total_ms': 65444.654726998124}
+step: [92m21 / 400[0mstep: [92m22 / 400[0mstep: [92m23 / 400[0mstep: [92m24 / 400[0mstep: [92m25 / 400[0mstep: [92m26 / 400[0mstep: [92m27 / 400[0mstep: [92m28 / 400[0mstep: [92m29 / 400[0mstep: [92m30 / 400[0minfer time {'infer_ms': 115.07979899761267, 'prev_total_ms': 1312.4493040013476}
+step: [92m31 / 400[0mstep: [92m32 / 400[0mstep: [92m33 / 400[0mstep: [92m34 / 400[0mstep: [92m35 / 400[0mstep: [92m36 / 400[0mstep: [92m37 / 400[0mstep: [92m38 / 400[0mstep: [92m39 / 400[0mstep: [92m40 / 400[0minfer time {'infer_ms': 112.9848829950788, 'prev_total_ms': 1439.7779819992138}
+step: [92m41 / 400[0mstep: [92m42 / 400[0mstep: [92m43 / 400[0mstep: [92m44 / 400[0mstep: [92m45 / 400[0mstep: [92m46 / 400[0mstep: [92m47 / 400[0mstep: [92m48 / 400[0mstep: [92m49 / 400[0mstep: [92m50 / 400[0minfer time {'infer_ms': 115.0202509961673, 'prev_total_ms': 1347.2941459986032}
+step: [92m51 / 400[0mstep: [92m52 / 400[0mstep: [92m53 / 400[0mstep: [92m54 / 400[0mstep: [92m55 / 400[0mstep: [92m56 / 400[0mstep: [92m57 / 400[0mstep: [92m58 / 400[0mstep: [92m59 / 400[0mstep: [92m60 / 400[0minfer time {'infer_ms': 114.44268099876354, 'prev_total_ms': 869.5448450016556}
+step: [92m61 / 400[0mstep: [92m62 / 400[0mstep: [92m63 / 400[0mstep: [92m64 / 400[0mstep: [92m65 / 400[0mstep: [92m66 / 400[0mstep: [92m67 / 400[0mstep: [92m68 / 400[0mstep: [92m69 / 400[0mstep: [92m70 / 400[0minfer time {'infer_ms': 114.7310579981422, 'prev_total_ms': 1110.3192909940844}
+step: [92m71 / 400[0mstep: [92m72 / 400[0mstep: [92m73 / 400[0mstep: [92m74 / 400[0mstep: [92m75 / 400[0mstep: [92m76 / 400[0mstep: [92m77 / 400[0mstep: [92m78 / 400[0mstep: [92m79 / 400[0mstep: [92m80 / 400[0minfer time {'infer_ms': 114.2039999976987, 'prev_total_ms': 769.5419320007204}
+step: [92m81 / 400[0mstep: [92m82 / 400[0mstep: [92m83 / 400[0mstep: [92m84 / 400[0mstep: [92m85 / 400[0mstep: [92m86 / 400[0mstep: [92m87 / 400[0mstep: [92m88 / 400[0mstep: [92m89 / 400[0mstep: [92m90 / 400[0minfer time {'infer_ms': 115.17395099508576, 'prev_total_ms': 763.6040779980249}
+step: [92m91 / 400[0mstep: [92m92 / 400[0mstep: [92m93 / 400[0mstep: [92m94 / 400[0mstep: [92m95 / 400[0mstep: [92m96 / 400[0mstep: [92m97 / 400[0mstep: [92m98 / 400[0mstep: [92m99 / 400[0mstep: [92m100 / 400[0minfer time {'infer_ms': 113.13684900233056, 'prev_total_ms': 998.55553299858}
+step: [92m101 / 400[0mstep: [92m102 / 400[0mstep: [92m103 / 400[0mstep: [92m104 / 400[0mstep: [92m105 / 400[0mstep: [92m106 / 400[0mstep: [92m107 / 400[0mstep: [92m108 / 400[0mstep: [92m109 / 400[0mstep: [92m110 / 400[0minfer time {'infer_ms': 114.4066959968768, 'prev_total_ms': 944.7237089989358}
+step: [92m111 / 400[0mstep: [92m112 / 400[0mstep: [92m113 / 400[0mstep: [92m114 / 400[0mstep: [92m115 / 400[0mstep: [92m116 / 400[0mstep: [92m117 / 400[0mstep: [92m118 / 400[0mstep: [92m119 / 400[0mstep: [92m120 / 400[0minfer time {'infer_ms': 116.96470600145403, 'prev_total_ms': 1170.3373490017839}
+step: [92m121 / 400[0mstep: [92m122 / 400[0mstep: [92m123 / 400[0mstep: [92m124 / 400[0mstep: [92m125 / 400[0mstep: [92m126 / 400[0mstep: [92m127 / 400[0mstep: [92m128 / 400[0mstep: [92m129 / 400[0mstep: [92m130 / 400[0minfer time {'infer_ms': 115.51576499914518, 'prev_total_ms': 1467.6889930051402}
+step: [92m131 / 400[0mstep: [92m132 / 400[0mstep: [92m133 / 400[0mstep: [92m134 / 400[0mstep: [92m135 / 400[0mstep: [92m136 / 400[0mstep: [92m137 / 400[0mstep: [92m138 / 400[0mstep: [92m139 / 400[0mstep: [92m140 / 400[0minfer time {'infer_ms': 113.12802699831082, 'prev_total_ms': 977.1468980034115}
+step: [92m141 / 400[0mstep: [92m142 / 400[0mstep: [92m143 / 400[0mstep: [92m144 / 400[0mstep: [92m145 / 400[0mstep: [92m146 / 400[0mstep: [92m147 / 400[0minfer time {'infer_ms': 115.50605799857294, 'prev_total_ms': 1003.2416799949715}
+[92mSuccess![0m
+[93mmove_pillbottle_pad[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m1/1[0m => [95m100.0%[0m, current seed: [90m500100[0m
+
+step: [92m1 / 400[0mstep: [92m2 / 400[0mstep: [92m3 / 400[0mstep: [92m4 / 400[0mstep: [92m5 / 400[0mstep: [92m6 / 400[0mstep: [92m7 / 400[0mstep: [92m8 / 400[0mstep: [92m9 / 400[0mstep: [92m10 / 400[0minfer time {'infer_ms': 116.01071899349336, 'prev_total_ms': 923.3876959988265}
+step: [92m11 / 400[0mstep: [92m12 / 400[0mstep: [92m13 / 400[0mstep: [92m14 / 400[0mstep: [92m15 / 400[0mstep: [92m16 / 400[0mstep: [92m17 / 400[0mstep: [92m18 / 400[0mstep: [92m19 / 400[0mstep: [92m20 / 400[0minfer time {'infer_ms': 114.00980699545471, 'prev_total_ms': 13443.025975997443}
+step: [92m21 / 400[0mstep: [92m22 / 400[0mstep: [92m23 / 400[0mstep: [92m24 / 400[0mstep: [92m25 / 400[0mstep: [92m26 / 400[0mstep: [92m27 / 400[0mstep: [92m28 / 400[0mstep: [92m29 / 400[0mstep: [92m30 / 400[0minfer time {'infer_ms': 115.80841000250075, 'prev_total_ms': 1043.8768910025829}
+step: [92m31 / 400[0mstep: [92m32 / 400[0mstep: [92m33 / 400[0mstep: [92m34 / 400[0mstep: [92m35 / 400[0mstep: [92m36 / 400[0mstep: [92m37 / 400[0mstep: [92m38 / 400[0mstep: [92m39 / 400[0mstep: [92m40 / 400[0minfer time {'infer_ms': 114.8246430020663, 'prev_total_ms': 1350.934898997366}
+step: [92m41 / 400[0mstep: [92m42 / 400[0mstep: [92m43 / 400[0mstep: [92m44 / 400[0mstep: [92m45 / 400[0mstep: [92m46 / 400[0mstep: [92m47 / 400[0mstep: [92m48 / 400[0mstep: [92m49 / 400[0mstep: [92m50 / 400[0minfer time {'infer_ms': 113.92702499870211, 'prev_total_ms': 1387.6762529980624}
+step: [92m51 / 400[0mstep: [92m52 / 400[0mstep: [92m53 / 400[0mstep: [92m54 / 400[0mstep: [92m55 / 400[0mstep: [92m56 / 400[0mstep: [92m57 / 400[0mstep: [92m58 / 400[0mstep: [92m59 / 400[0mstep: [92m60 / 400[0minfer time {'infer_ms': 113.8083089972497, 'prev_total_ms': 951.7420620031771}
+step: [92m61 / 400[0mstep: [92m62 / 400[0mstep: [92m63 / 400[0mstep: [92m64 / 400[0mstep: [92m65 / 400[0mstep: [92m66 / 400[0mstep: [92m67 / 400[0mstep: [92m68 / 400[0mstep: [92m69 / 400[0mstep: [92m70 / 400[0minfer time {'infer_ms': 115.76169599720743, 'prev_total_ms': 938.6359310010448}
+step: [92m71 / 400[0mstep: [92m72 / 400[0mstep: [92m73 / 400[0mstep: [92m74 / 400[0mstep: [92m75 / 400[0mstep: [92m76 / 400[0mstep: [92m77 / 400[0mstep: [92m78 / 400[0mstep: [92m79 / 400[0mstep: [92m80 / 400[0minfer time {'infer_ms': 114.78794499998912, 'prev_total_ms': 940.4802319986629}
+step: [92m81 / 400[0mstep: [92m82 / 400[0mstep: [92m83 / 400[0mstep: [92m84 / 400[0mstep: [92m85 / 400[0mstep: [92m86 / 400[0mstep: [92m87 / 400[0mstep: [92m88 / 400[0mstep: [92m89 / 400[0mstep: [92m90 / 400[0minfer time {'infer_ms': 113.80486599955475, 'prev_total_ms': 722.7671090004151}
+step: [92m91 / 400[0mstep: [92m92 / 400[0mstep: [92m93 / 400[0mstep: [92m94 / 400[0mstep: [92m95 / 400[0mstep: [92m96 / 400[0mstep: [92m97 / 400[0mstep: [92m98 / 400[0mstep: [92m99 / 400[0mstep: [92m100 / 400[0minfer time {'infer_ms': 116.04225000337465, 'prev_total_ms': 723.2239349978045}
+step: [92m101 / 400[0mstep: [92m102 / 400[0mstep: [92m103 / 400[0mstep: [92m104 / 400[0mstep: [92m105 / 400[0mstep: [92m106 / 400[0mstep: [92m107 / 400[0mstep: [92m108 / 400[0mstep: [92m109 / 400[0mstep: [92m110 / 400[0minfer time {'infer_ms': 115.22558800061233, 'prev_total_ms': 2623.542966997775}
+step: [92m111 / 400[0mstep: [92m112 / 400[0mstep: [92m113 / 400[0mstep: [92m114 / 400[0mstep: [92m115 / 400[0mstep: [92m116 / 400[0mstep: [92m117 / 400[0mstep: [92m118 / 400[0mstep: [92m119 / 400[0mstep: [92m120 / 400[0minfer time {'infer_ms': 114.43892100214725, 'prev_total_ms': 2333.8479880039813}
+step: [92m121 / 400[0mstep: [92m122 / 400[0mstep: [92m123 / 400[0mstep: [92m124 / 400[0mstep: [92m125 / 400[0mstep: [92m126 / 400[0mstep: [92m127 / 400[0mstep: [92m128 / 400[0mstep: [92m129 / 400[0mstep: [92m130 / 400[0minfer time {'infer_ms': 113.60067799978424, 'prev_total_ms': 1241.3484819990117}
+step: [92m131 / 400[0mstep: [92m132 / 400[0mstep: [92m133 / 400[0mstep: [92m134 / 400[0mstep: [92m135 / 400[0mstep: [92m136 / 400[0mstep: [92m137 / 400[0mstep: [92m138 / 400[0mstep: [92m139 / 400[0mstep: [92m140 / 400[0minfer time {'infer_ms': 115.33110099844635, 'prev_total_ms': 2867.8793299986864}
+step: [92m141 / 400[0mstep: [92m142 / 400[0mstep: [92m143 / 400[0mstep: [92m144 / 400[0mstep: [92m145 / 400[0mstep: [92m146 / 400[0mstep: [92m147 / 400[0mstep: [92m148 / 400[0mstep: [92m149 / 400[0mstep: [92m150 / 400[0minfer time {'infer_ms': 115.6246350001311, 'prev_total_ms': 2351.12259399466}
+step: [92m151 / 400[0mstep: [92m152 / 400[0mstep: [92m153 / 400[0mstep: [92m154 / 400[0mstep: [92m155 / 400[0mstep: [92m156 / 400[0mstep: [92m157 / 400[0mstep: [92m158 / 400[0mstep: [92m159 / 400[0minfer time {'infer_ms': 114.81992400513263, 'prev_total_ms': 929.6031420017243}
+[92mSuccess![0m
+[93mmove_pillbottle_pad[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m2/2[0m => [95m100.0%[0m, current seed: [90m500104[0m
+
+Per-episode results saved to /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/10000/move_pillbottle_pad_gpu0_s0/episodes.json
+Data has been saved to /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/10000/move_pillbottle_pad_gpu0_s0/move_pillbottle_pad/_result.txt

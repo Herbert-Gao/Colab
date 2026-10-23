@@ -1,0 +1,29 @@
+/data/szgx/xworld-gzh/envs/robotwin/bin/python -u /data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py --config policy/ACT/deploy_policy.yml --overrides --task_name place_mouse_pad --task_config demo_clean --train_config_name 0 --seed 0 --policy_name ACT --port 38825 --robo_name robotwin --eval_video_log False --output_dir /data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/sim0 --test_num 17 --seed_list [100000, 100006, 100012, 100018, 100024, 100030, 100036, 100042, 100048, 100054, 100060, 100066, 100072, 100078, 100084, 100090, 100096] --episodes_json /data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/sim0/episodes.json
+
+============= Config =============
+
+[95mMessy Table:[0m False
+[95mRandom Background:[0m False
+[95mRandom Light:[0m False
+[95mRandom Table Height:[0m 0
+[95mRandom Head Camera Distance:[0m 0
+[94mHead Camera Config:[0m D435, True
+[94mWrist Camera Config:[0m D435, True
+[94mEmbodiment Config:[0m aloha-agilex
+
+==================================
+[34mTask Name: place_mouse_pad[0m
+[34mPolicy Name: ACT[0m
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+Traceback (most recent call last):
+  File "/data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py", line 502, in <module>
+    main(usr_args)
+  File "/data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py", line 186, in main
+    st_seed, suc_num = eval_policy(task_name,
+  File "/data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py", line 385, in eval_policy
+    ret = model.infer(formatted_observation) #(TASK_ENV, model, observation)
+  File "/data/szgx/xworld-gzh/third_party/external/robotwin/script/deploy/websocket_client_policy.py", line 53, in infer
+    response = self._ws.recv()
+  File "/data/szgx/xworld-gzh/envs/robotwin/lib/python3.10/site-packages/websockets/sync/connection.py", line 338, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: received 1011 (internal error) keepalive ping timeout; then sent 1011 (internal error) keepalive ping timeout

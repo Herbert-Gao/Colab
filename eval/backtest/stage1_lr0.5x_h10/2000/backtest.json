@@ -1,0 +1,78 @@
+{
+  "job_id": "stage1_lr0.5x_h10",
+  "step": 2000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr0.5x_h10/2000",
+  "seeds": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004
+  ],
+  "tasks": {
+    "move_pillbottle_pad": {
+      "task": "move_pillbottle_pad",
+      "seeds": [
+        500000,
+        500001,
+        500002,
+        500003,
+        500004
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage1_lr0.5x_h10/2000/move_pillbottle_pad/eval.log",
+      "timed_out": false,
+      "seconds": 220.2,
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500000,
+          "success": true,
+          "steps": 138,
+          "instruction": "Use the right arm to grab the white bottle with teal ends and place it"
+        },
+        {
+          "episode": 2,
+          "seed": 500002,
+          "success": true,
+          "steps": 274,
+          "instruction": "Grab the bottle capped with textured white lid and set it on the pad"
+        },
+        {
+          "episode": 3,
+          "seed": 500003,
+          "success": true,
+          "steps": 122,
+          "instruction": "Use the left arm to grab the hand-sized orange capped bottle and place it"
+        },
+        {
+          "episode": 4,
+          "seed": 500004,
+          "success": true,
+          "steps": 133,
+          "instruction": "Pick the rounded white bottle with teal base and set it on the pad"
+        },
+        {
+          "episode": 5,
+          "seed": 500005,
+          "success": true,
+          "steps": 150,
+          "instruction": "Grab the hand-sized bottle with screw cap and set it on the pad"
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 1,
+          "seed": 500001,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 1.0,
+  "recorded": "2026-10-21T03:02:08+0000"
+}

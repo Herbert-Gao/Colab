@@ -1,0 +1,32 @@
+{
+  "task": "blocks_ranking_rgb",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    105035,
+    105071
+  ],
+  "attempted_seeds": [
+    105035,
+    105071
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 105035,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+    },
+    {
+      "episode": 2,
+      "seed": 105071,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block."
+    }
+  ]
+}

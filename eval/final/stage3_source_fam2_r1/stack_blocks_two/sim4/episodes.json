@@ -1,0 +1,172 @@
+{
+  "task": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "requested_episodes": 16,
+  "seed_schedule": [
+    104004,
+    104010,
+    104016,
+    104022,
+    104028,
+    104034,
+    104040,
+    104046,
+    104052,
+    104058,
+    104064,
+    104070,
+    104076,
+    104082,
+    104088,
+    104094
+  ],
+  "attempted_seeds": [
+    104004,
+    104010,
+    104016,
+    104022,
+    104028,
+    104034,
+    104040,
+    104046,
+    104052,
+    104058,
+    104064,
+    104070,
+    104076,
+    104082,
+    104088,
+    104094
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 104004,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block."
+    },
+    {
+      "episode": 2,
+      "seed": 104010,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Place red block in the middle, then stack green block on it."
+    },
+    {
+      "episode": 3,
+      "seed": 104016,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block and green block to the center, then stack green block on red block."
+    },
+    {
+      "episode": 4,
+      "seed": 104022,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Use the left arm to move red block to the center, then set the right arm and stack green block on red block."
+    },
+    {
+      "episode": 5,
+      "seed": 104028,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block and green block to the center and place green block atop red block."
+    },
+    {
+      "episode": 6,
+      "seed": 104034,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block and green block to the center, then stack green block on red block."
+    },
+    {
+      "episode": 7,
+      "seed": 104040,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Place red block in the middle, then stack green block on it."
+    },
+    {
+      "episode": 8,
+      "seed": 104046,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block and green block to the table's center, then stack green block on red block."
+    },
+    {
+      "episode": 9,
+      "seed": 104052,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Place red block in the middle, then stack green block on it."
+    },
+    {
+      "episode": 10,
+      "seed": 104058,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Place red block in the center, then stack green block on it."
+    },
+    {
+      "episode": 11,
+      "seed": 104064,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Bring red block and green block to the center, then position green block above red block."
+    },
+    {
+      "episode": 12,
+      "seed": 104070,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block."
+    },
+    {
+      "episode": 13,
+      "seed": 104076,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block to the center, then put green block on top."
+    },
+    {
+      "episode": 14,
+      "seed": 104082,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block and green block to the center, then stack green block on red block."
+    },
+    {
+      "episode": 15,
+      "seed": 104088,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block and green block to the center and place green block atop red block."
+    },
+    {
+      "episode": 16,
+      "seed": 104094,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block."
+    }
+  ]
+}

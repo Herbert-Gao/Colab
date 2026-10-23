@@ -1,0 +1,42 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 3,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 220,
+      "instruction": "Grab the red can with white top and the can with red body together, then drop them in the portable light blue storage plasticbox."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 244,
+      "instruction": "Pick the cylindrical can with smooth surface and the cylindrical can with smooth surface simultaneously, then place both in the smooth exterior blue plasticbox."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 227,
+      "instruction": "Pick up the lightweight cylindrical metal can and the can with gold logo design together, then drop each into the smooth exterior blue plasticbox"
+    }
+  ]
+}

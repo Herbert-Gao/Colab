@@ -1,0 +1,32 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 247,
+      "instruction": "Grab the small red soda can and the light brown cylindrical can in parallel, then put both into the portable light blue storage plasticbox."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 237,
+      "instruction": "Grasp the lightweight cylindrical metal can and the gold and red soda can together, then move each into the portable light blue storage plasticbox."
+    }
+  ]
+}

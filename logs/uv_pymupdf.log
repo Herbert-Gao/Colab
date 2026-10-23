@@ -1,0 +1,25 @@
+Using Python 3.11.16 environment at: envs/report-tools
+Resolved 12 packages in 1.47s
+Downloading networkx (2.0MiB)
+Downloading pymupdf (65.7MiB)
+Downloading numpy (16.1MiB)
+Downloading onnxruntime (22.7MiB)
+ Downloaded networkx
+ Downloaded numpy
+ Downloaded onnxruntime
+ Downloaded pymupdf
+Prepared 12 packages in 5.68s
+Installed 12 packages in 85ms
+ + flatbuffers==25.12.19
+ + networkx==3.6.1
+ + numpy==2.4.6
+ + onnxruntime==1.31.0
+ + packaging==26.3
+ + protobuf==7.36.2
+ + psutil==7.2.2
+ + pymupdf==2.0
+ + pymupdf-layout==2.0
+ + pymupdf4llm==2.0
+ + pyyaml==6.0.3
+ + tabulate==0.10.0
+rc=0

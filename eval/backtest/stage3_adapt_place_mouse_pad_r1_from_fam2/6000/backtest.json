@@ -1,0 +1,135 @@
+{
+  "job_id": "stage3_adapt_place_mouse_pad_r1_from_fam2",
+  "step": 6000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/6000",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "4",
+    "6"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "place_mouse_pad": {
+      "task": "place_mouse_pad",
+      "episodes": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the small rounded plastic mouse and set it on the Cyan mat."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the mouse with scroll wheel and set it on the Gray mat."
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the hand-sized black-gray mouse and set it on Black mat."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the wireless mouse with left and right buttons and set it on the Green mat."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick the hand-sized dark gray mouse and position it on the Black colored mat."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_mouse_pad",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_mouse_pad_r1_from_fam2/6000/place_mouse_pad_gpu4_s0/eval.log",
+          "timed_out": false,
+          "seconds": 279.7,
+          "episodes": 3,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the small rounded plastic mouse and set it on the Cyan mat."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the mouse with scroll wheel and set it on the Gray mat."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the hand-sized black-gray mouse and set it on Black mat."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_mouse_pad",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_mouse_pad_r1_from_fam2/6000/place_mouse_pad_gpu4_s1/eval.log",
+          "timed_out": false,
+          "seconds": 214.1,
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick up the wireless mouse with left and right buttons and set it on the Green mat."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick the hand-sized dark gray mouse and position it on the Black colored mat."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    }
+  },
+  "mean_success_rate": 0.0,
+  "recorded": "2026-10-23T01:59:32+0000"
+}

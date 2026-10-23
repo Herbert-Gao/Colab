@@ -1,0 +1,40 @@
+{
+  "task": "move_pillbottle_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500001,
+    500003
+  ],
+  "attempted_seeds": [
+    500001,
+    500003,
+    500003
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500001,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500003,
+      "valid": true,
+      "success": true,
+      "steps": 125,
+      "instruction": "Pick the orange capped bottle and set it onto the pad."
+    },
+    {
+      "episode": 2,
+      "seed": 500003,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use the left arm to grab the hand-sized orange capped bottle and place it"
+    }
+  ]
+}

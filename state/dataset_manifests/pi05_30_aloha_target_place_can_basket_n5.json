@@ -1,0 +1,76 @@
+{
+  "repo_id": "pi05_30_aloha_target_place_can_basket_n5",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 5,
+  "frames_total": 1261,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "place_can_basket": 5
+  },
+  "task_instructions": [
+    "Pick the brown can with one arm, place it in the handheld basket, and lift the handheld basket using another arm.",
+    "Pick the colorful can with lime and orange design, set it in the basket for holding items, then lift the basket for holding items.",
+    "Place the metallic red beverage can in the bright yellow basket and then lift the bright yellow basket.",
+    "Take the palm-sized drink can, place it into the basket with arched black grip, then lift the basket with arched black grip.",
+    "Use the right arm to grab the red can with white Coca-Cola logo, place it in the basket made of woven wood, and lift the basket made of woven wood."
+  ],
+  "selection": {
+    "place_can_basket": [
+      17,
+      27,
+      37,
+      44,
+      48
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "place_can_basket",
+      "source_episode_id": 17,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_can_basket/aloha_agilex/data/episode_0000017.hdf5",
+      "frames": 254,
+      "instruction": "Pick the brown can with one arm, place it in the handheld basket, and lift the handheld basket using another arm."
+    },
+    {
+      "episode_index": 1,
+      "task": "place_can_basket",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_can_basket/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 247,
+      "instruction": "Take the palm-sized drink can, place it into the basket with arched black grip, then lift the basket with arched black grip."
+    },
+    {
+      "episode_index": 2,
+      "task": "place_can_basket",
+      "source_episode_id": 37,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_can_basket/aloha_agilex/data/episode_0000037.hdf5",
+      "frames": 262,
+      "instruction": "Place the metallic red beverage can in the bright yellow basket and then lift the bright yellow basket."
+    },
+    {
+      "episode_index": 3,
+      "task": "place_can_basket",
+      "source_episode_id": 44,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_can_basket/aloha_agilex/data/episode_0000044.hdf5",
+      "frames": 249,
+      "instruction": "Use the right arm to grab the red can with white Coca-Cola logo, place it in the basket made of woven wood, and lift the basket made of woven wood."
+    },
+    {
+      "episode_index": 4,
+      "task": "place_can_basket",
+      "source_episode_id": 48,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/place_can_basket/aloha_agilex/data/episode_0000048.hdf5",
+      "frames": 249,
+      "instruction": "Pick the colorful can with lime and orange design, set it in the basket for holding items, then lift the basket for holding items."
+    }
+  ],
+  "conversion_seconds": 19.3
+}

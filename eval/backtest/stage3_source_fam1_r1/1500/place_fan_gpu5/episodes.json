@@ -1,0 +1,48 @@
+{
+  "task": "place_fan",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103,
+    500103,
+    500104
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the plastic fan with the left arm and position it on the Maroon mat facing the robot."
+    },
+    {
+      "episode": 1,
+      "seed": 500103,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500103,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the off-white fan with beige accents and set it on the Yellow mat."
+    }
+  ]
+}

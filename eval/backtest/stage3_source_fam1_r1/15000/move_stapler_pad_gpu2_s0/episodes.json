@@ -1,0 +1,42 @@
+{
+  "task": "move_stapler_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 3,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 156,
+      "instruction": "Place the red plastic stapler on the Cyan colored mat."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 166,
+      "instruction": "Move the metal and plastic stapler to the Gray colored mat"
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 138,
+      "instruction": "Place the blue and white stapler on the Black mat"
+    }
+  ]
+}

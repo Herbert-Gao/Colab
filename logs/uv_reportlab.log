@@ -1,0 +1,13 @@
+Using Python 3.11.16 environment at: envs/report-tools
+Resolved 3 packages in 9ms
+Downloading pillow (6.8MiB)
+Downloading reportlab (1.9MiB)
+ Downloaded reportlab
+ Downloaded pillow
+Prepared 2 packages in 1.11s
+Installed 3 packages in 48ms
+ + charset-normalizer==3.5.2
+ + pillow==13.0.0
+ + reportlab==5.1.0
+install rc=0
+reportlab 5.1.0

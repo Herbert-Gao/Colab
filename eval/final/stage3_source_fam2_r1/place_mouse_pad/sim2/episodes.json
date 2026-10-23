@@ -1,0 +1,182 @@
+{
+  "task": "place_mouse_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 17,
+  "seed_schedule": [
+    100002,
+    100008,
+    100014,
+    100020,
+    100026,
+    100032,
+    100038,
+    100044,
+    100050,
+    100056,
+    100062,
+    100068,
+    100074,
+    100080,
+    100086,
+    100092,
+    100098
+  ],
+  "attempted_seeds": [
+    100002,
+    100008,
+    100014,
+    100020,
+    100026,
+    100032,
+    100038,
+    100044,
+    100050,
+    100056,
+    100062,
+    100068,
+    100074,
+    100080,
+    100086,
+    100092,
+    100098
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 100002,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the hand-sized dark gray mouse and set it on the Black mat."
+    },
+    {
+      "episode": 2,
+      "seed": 100008,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the flat-bottomed mouse and position it on the Black mat."
+    },
+    {
+      "episode": 3,
+      "seed": 100014,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the hand-sized dark gray mouse and set it on the Gray mat."
+    },
+    {
+      "episode": 4,
+      "seed": 100020,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the flat-bottomed mouse with the left arm and drop it onto the Blue mat."
+    },
+    {
+      "episode": 5,
+      "seed": 100026,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hand-sized wireless mouse and set it on the Black mat."
+    },
+    {
+      "episode": 6,
+      "seed": 100032,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the wireless mouse with left and right buttons and position it on the Black mat."
+    },
+    {
+      "episode": 7,
+      "seed": 100038,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hand-sized dark gray mouse and set it on the Blue mat."
+    },
+    {
+      "episode": 8,
+      "seed": 100044,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the mouse with scroll wheel and position it on the Black colored mat."
+    },
+    {
+      "episode": 9,
+      "seed": 100050,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use the left arm to pick up the dark gray computer mouse with logo and drop it on Black mat."
+    },
+    {
+      "episode": 10,
+      "seed": 100056,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hand-sized wireless mouse and set it on the Gray mat."
+    },
+    {
+      "episode": 11,
+      "seed": 100062,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the mouse with scroll wheel and position it on the Green colored mat."
+    },
+    {
+      "episode": 12,
+      "seed": 100068,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the hand-sized black-gray mouse and set it on the Yellow mat."
+    },
+    {
+      "episode": 13,
+      "seed": 100074,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the flat-bottomed mouse and set it on Black mat."
+    },
+    {
+      "episode": 14,
+      "seed": 100080,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the wireless mouse with left and right buttons and set it on the Gray mat."
+    },
+    {
+      "episode": 15,
+      "seed": 100086,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the flat-bottomed mouse with the right arm and drop it onto the Red mat."
+    },
+    {
+      "episode": 16,
+      "seed": 100092,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the flat-bottomed mouse and set it on the Red mat."
+    },
+    {
+      "episode": 17,
+      "seed": 100098,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the dark gray wireless mouse with the right arm and drop it onto the Blue mat."
+    }
+  ]
+}

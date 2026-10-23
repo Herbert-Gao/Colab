@@ -1,0 +1,182 @@
+{
+  "task": "click_bell",
+  "task_config": "demo_clean",
+  "requested_episodes": 17,
+  "seed_schedule": [
+    108001,
+    108007,
+    108013,
+    108019,
+    108025,
+    108031,
+    108037,
+    108043,
+    108049,
+    108055,
+    108061,
+    108067,
+    108073,
+    108079,
+    108085,
+    108091,
+    108097
+  ],
+  "attempted_seeds": [
+    108001,
+    108007,
+    108013,
+    108019,
+    108025,
+    108031,
+    108037,
+    108043,
+    108049,
+    108055,
+    108061,
+    108067,
+    108073,
+    108079,
+    108085,
+    108091,
+    108097
+  ],
+  "successes": 17,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 108001,
+      "valid": true,
+      "success": true,
+      "steps": 103,
+      "instruction": "Use the left arm to press the lightweight bell with smooth surface's top center."
+    },
+    {
+      "episode": 2,
+      "seed": 108007,
+      "valid": true,
+      "success": true,
+      "steps": 98,
+      "instruction": "Use the left arm to press the blue bell with glossy finish's top center."
+    },
+    {
+      "episode": 3,
+      "seed": 108013,
+      "valid": true,
+      "success": true,
+      "steps": 79,
+      "instruction": "Find the palm-sized bell and click its top center."
+    },
+    {
+      "episode": 4,
+      "seed": 108019,
+      "valid": true,
+      "success": true,
+      "steps": 103,
+      "instruction": "Use the right arm to press the lightweight bell with smooth surface's top center."
+    },
+    {
+      "episode": 5,
+      "seed": 108025,
+      "valid": true,
+      "success": true,
+      "steps": 80,
+      "instruction": "Use the left arm to press the bell with raised round top's top center."
+    },
+    {
+      "episode": 6,
+      "seed": 108031,
+      "valid": true,
+      "success": true,
+      "steps": 88,
+      "instruction": "Direct the right arm to click the medium-sized bell's top."
+    },
+    {
+      "episode": 7,
+      "seed": 108037,
+      "valid": true,
+      "success": true,
+      "steps": 73,
+      "instruction": "Find the palm-sized bell and click its top center."
+    },
+    {
+      "episode": 8,
+      "seed": 108043,
+      "valid": true,
+      "success": true,
+      "steps": 68,
+      "instruction": "Find the medium-sized bell and click its top center."
+    },
+    {
+      "episode": 9,
+      "seed": 108049,
+      "valid": true,
+      "success": true,
+      "steps": 65,
+      "instruction": "Use the right arm to press the smooth metal bell's top center."
+    },
+    {
+      "episode": 10,
+      "seed": 108055,
+      "valid": true,
+      "success": true,
+      "steps": 82,
+      "instruction": "Click the blue bell with glossy finish's top center on the table."
+    },
+    {
+      "episode": 11,
+      "seed": 108061,
+      "valid": true,
+      "success": true,
+      "steps": 82,
+      "instruction": "Click the smooth metal bell's top center on the table."
+    },
+    {
+      "episode": 12,
+      "seed": 108067,
+      "valid": true,
+      "success": true,
+      "steps": 77,
+      "instruction": "Find the smooth metal bell and click its top center."
+    },
+    {
+      "episode": 13,
+      "seed": 108073,
+      "valid": true,
+      "success": true,
+      "steps": 95,
+      "instruction": "Use the right arm to press the palm-sized bell's top center."
+    },
+    {
+      "episode": 14,
+      "seed": 108079,
+      "valid": true,
+      "success": true,
+      "steps": 79,
+      "instruction": "Use the right arm to press the blue bell with glossy finish's top center."
+    },
+    {
+      "episode": 15,
+      "seed": 108085,
+      "valid": true,
+      "success": true,
+      "steps": 63,
+      "instruction": "Direct the left arm to click the palm-sized bell's top."
+    },
+    {
+      "episode": 16,
+      "seed": 108091,
+      "valid": true,
+      "success": true,
+      "steps": 93,
+      "instruction": "Use the right arm to press the palm-sized bell's top center."
+    },
+    {
+      "episode": 17,
+      "seed": 108097,
+      "valid": true,
+      "success": true,
+      "steps": 81,
+      "instruction": "Find the smooth metal bell and click its top center."
+    }
+  ]
+}

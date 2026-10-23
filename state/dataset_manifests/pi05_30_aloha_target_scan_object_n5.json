@@ -1,0 +1,76 @@
+{
+  "repo_id": "pi05_30_aloha_target_scan_object_n5",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 5,
+  "frames_total": 828,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "scan_object": 5
+  },
+  "task_instructions": [
+    "First grab the yellow and black code scanner, then the tea-box with top lid, and use the yellow and black code scanner to scan the tea-box with top lid.",
+    "Pick the scanner with trigger on handle with the right arm, grab the red cardboard tea-box with the left arm, and scan the red cardboard tea-box.",
+    "Take the barcode scanner in one hand, the palm-sized tea container in the other, and perform the scan.",
+    "With the left arm, pick the handheld scanner, then grab the tea box with printed leaves with the right arm, and scan the tea box with printed leaves.",
+    "the left arm grabs the scanner with textured grip, the right arm picks the tea-box with top lid, and the scanner with textured grip scans the tea-box with top lid."
+  ],
+  "selection": {
+    "scan_object": [
+      2,
+      3,
+      32,
+      34,
+      39
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "scan_object",
+      "source_episode_id": 2,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/scan_object/aloha_agilex/data/episode_0000002.hdf5",
+      "frames": 174,
+      "instruction": "Take the barcode scanner in one hand, the palm-sized tea container in the other, and perform the scan."
+    },
+    {
+      "episode_index": 1,
+      "task": "scan_object",
+      "source_episode_id": 3,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/scan_object/aloha_agilex/data/episode_0000003.hdf5",
+      "frames": 162,
+      "instruction": "Pick the scanner with trigger on handle with the right arm, grab the red cardboard tea-box with the left arm, and scan the red cardboard tea-box."
+    },
+    {
+      "episode_index": 2,
+      "task": "scan_object",
+      "source_episode_id": 32,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/scan_object/aloha_agilex/data/episode_0000032.hdf5",
+      "frames": 167,
+      "instruction": "With the left arm, pick the handheld scanner, then grab the tea box with printed leaves with the right arm, and scan the tea box with printed leaves."
+    },
+    {
+      "episode_index": 3,
+      "task": "scan_object",
+      "source_episode_id": 34,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/scan_object/aloha_agilex/data/episode_0000034.hdf5",
+      "frames": 173,
+      "instruction": "the left arm grabs the scanner with textured grip, the right arm picks the tea-box with top lid, and the scanner with textured grip scans the tea-box with top lid."
+    },
+    {
+      "episode_index": 4,
+      "task": "scan_object",
+      "source_episode_id": 39,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/scan_object/aloha_agilex/data/episode_0000039.hdf5",
+      "frames": 152,
+      "instruction": "First grab the yellow and black code scanner, then the tea-box with top lid, and use the yellow and black code scanner to scan the tea-box with top lid."
+    }
+  ],
+  "conversion_seconds": 42.3
+}

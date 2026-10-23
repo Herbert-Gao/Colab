@@ -1,0 +1,32 @@
+{
+  "task": "place_object_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 234,
+      "instruction": "Move the playable toycar with rolling wheels to the yellow basket with open slots, then shift the yellow basket with open slots."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 399,
+      "instruction": "Move the rectangular playingcards pack to the medium-sized basket with perforated texture, then shift the medium-sized basket with perforated texture."
+    }
+  ]
+}

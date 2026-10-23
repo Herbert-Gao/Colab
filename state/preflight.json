@@ -1,0 +1,322 @@
+[
+  {
+    "no": 1,
+    "name": "复用现有 RoboTwin 环境并创建 ALOHA 任务",
+    "passed": true,
+    "evidence": "task_config/demo_clean.yml embodiment=['aloha-agilex']（唯一机体），相机 D435+D435×2；30/30 个任务实例化成功",
+    "detail": {
+      "embodiment": [
+        "aloha-agilex"
+      ],
+      "camera": {
+        "head_camera_type": "D435",
+        "wrist_camera_type": "D435",
+        "collect_head_camera": true,
+        "collect_wrist_camera": true
+      },
+      "random": null,
+      "configs_path": "/data/szgx/xworld-gzh/third_party/external/robotwin/env_cfg/task_config/",
+      "probe_ok": [
+        {
+          "task": "adjust_bottle",
+          "ok": true
+        },
+        {
+          "task": "beat_block_hammer",
+          "ok": true
+        },
+        {
+          "task": "blocks_ranking_rgb",
+          "ok": true
+        },
+        {
+          "task": "blocks_ranking_size",
+          "ok": true
+        },
+        {
+          "task": "click_alarmclock",
+          "ok": true
+        },
+        {
+          "task": "click_bell",
+          "ok": true
+        },
+        {
+          "task": "hanging_mug",
+          "ok": true
+        },
+        {
+          "task": "lift_pot",
+          "ok": true
+        },
+        {
+          "task": "move_pillbottle_pad",
+          "ok": true
+        },
+        {
+          "task": "move_stapler_pad",
+          "ok": true
+        },
+        {
+          "task": "pick_diverse_bottles",
+          "ok": true
+        },
+        {
+          "task": "pick_dual_bottles",
+          "ok": true
+        },
+        {
+          "task": "place_a2b_left",
+          "ok": true
+        },
+        {
+          "task": "place_bread_skillet",
+          "ok": true
+        },
+        {
+          "task": "place_can_basket",
+          "ok": true
+        },
+        {
+          "task": "place_cans_plasticbox",
+          "ok": true
+        },
+        {
+          "task": "place_fan",
+          "ok": true
+        },
+        {
+          "task": "place_mouse_pad",
+          "ok": true
+        },
+        {
+          "task": "place_object_basket",
+          "ok": true
+        },
+        {
+          "task": "press_stapler",
+          "ok": true
+        },
+        {
+          "task": "put_object_cabinet",
+          "ok": true
+        },
+        {
+          "task": "rotate_qrcode",
+          "ok": true
+        },
+        {
+          "task": "scan_object",
+          "ok": true
+        },
+        {
+          "task": "shake_bottle",
+          "ok": true
+        },
+        {
+          "task": "stack_blocks_three",
+          "ok": true
+        },
+        {
+          "task": "stack_blocks_two",
+          "ok": true
+        },
+        {
+          "task": "stack_bowls_three",
+          "ok": true
+        },
+        {
+          "task": "stack_bowls_two",
+          "ok": true
+        },
+        {
+          "task": "stamp_seal",
+          "ok": true
+        },
+        {
+          "task": "turn_switch",
+          "ok": true
+        }
+      ],
+      "probe_failed": []
+    }
+  },
+  {
+    "no": 2,
+    "name": "训练环境（openpi/JAX 版本锁定）",
+    "passed": true,
+    "evidence": "python=3.11.16 jax=0.5.3 devices=8 driver=580.65.06 freeze=/data/szgx/gaohang/pi05_30/snapshots/openpi_venv_pip_freeze.txt",
+    "detail": {
+      "python": "3.11.16",
+      "jax": "0.5.3",
+      "flax": "0.10.2",
+      "optax": "0.2.4",
+      "orbax": "0.11.13",
+      "devices": [
+        "cuda:0",
+        "cuda:1",
+        "cuda:2",
+        "cuda:3",
+        "cuda:4",
+        "cuda:5",
+        "cuda:6",
+        "cuda:7"
+      ],
+      "pi0_config_defaults": {
+        "action_horizon": 50,
+        "pi05": true,
+        "action_dim": 32
+      },
+      "driver": "580.65.06"
+    }
+  },
+  {
+    "no": 3,
+    "name": "评测环境（渲染/物理/相机）",
+    "passed": true,
+    "evidence": "sapien=3.0.0b1 torch=2.4.1+cu121 cuda=True; 无头渲染使用 EGL/sapien，训练与评测环境分离",
+    "detail": {
+      "sapien": "3.0.0b1",
+      "torch": "2.4.1+cu121",
+      "cuda_available": true
+    }
+  },
+  {
+    "no": 4,
+    "name": "π0.5 预训练权重校验与离线可加载",
+    "passed": true,
+    "evidence": "params=11.6 GiB，离线 restore 叶子 51 个 / 3353433872 参数，工作目录软链 /data/szgx/gaohang/pi05_30/weights/pi05_base_params",
+    "detail": {
+      "source": "/data/szgx/xworld-gzh/cache/openpi/openpi-assets/checkpoints/pi05_base/params",
+      "work_dir_link": "/data/szgx/gaohang/pi05_30/weights/pi05_base_params",
+      "hf_repo": "openpi-assets/checkpoints/pi05_base (local cache /data/szgx/xworld-gzh/cache/openpi/openpi-assets/checkpoints/pi05_base)",
+      "revision": "本地缓存，未发起 hub 下载（离线 restore 验证通过）",
+      "offline_restore": {
+        "leaves": 51,
+        "params": 3353433872,
+        "tokenizer_assets": [
+          "RoboTwin_lerobot_v30",
+          "arx",
+          "arx_mobile",
+          "droid",
+          "fibocom_mobile",
+          "franka",
+          "trossen",
+          "trossen_mobile",
+          "ur5e",
+          "ur5e_dual"
+        ]
+      },
+      "params_bytes": 12441721931,
+      "assets_bytes": 30914,
+      "params_metadata_sha256": "250d0ad0f6540a5e4bdd70442d6864cef729724f2d23e2dd2cc669563a668d70"
+    }
+  },
+  {
+    "no": 5,
+    "name": "20源+10目标数据（ALOHA）与统一归一化统计量",
+    "passed": true,
+    "evidence": "datasets=44 全部 aloha_agilex，统计量 1000 条示范 / 217680 帧，sha256=2b66b3e6840d6b4a…，示范编号与校验和见 state/norm_stats_manifest.json",
+    "detail": null
+  },
+  {
+    "no": 6,
+    "name": "8 卡 NCCL 通信与小批量前反向",
+    "passed": false,
+    "evidence": "th NCCL_DEBUG=INFO for details). Last NCCL warning(error) log entry (may be unrelated) 'Cuda failure 'out of memory''.: while running replica 0 and partition 0 of a replicated computation (other replicas may have failed as well).\n--------------------\nFor simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.\n",
+    "detail": {}
+  },
+  {
+    "no": 7,
+    "name": "训练冒烟（20 步保存 + 恢复续训）",
+    "passed": false,
+    "evidence": "步数 0..-，检查点 20/40 已保存，从 step 20 恢复后续训到 40，loss 全精度轨迹 0 行 (logs/smoke-001_loss_trace.csv)",
+    "detail": {
+      "steps": 0,
+      "restored": false
+    }
+  },
+  {
+    "no": 8,
+    "name": "评测冒烟（2 回合全链路）",
+    "passed": false,
+    "evidence": "缺少 /data/szgx/gaohang/pi05_30/eval/smoke/move_pillbottle_pad/episodes.json",
+    "detail": {
+      "episodes": 0
+    }
+  },
+  {
+    "no": 9,
+    "name": "训练与评测并行（10 分钟无冲突）",
+    "passed": false,
+    "evidence": "缺少并发验证证据 state/concurrency_evidence.json",
+    "detail": {}
+  },
+  {
+    "no": 10,
+    "name": "磁盘与权限",
+    "passed": true,
+    "evidence": "剩余 3130 GiB，单作业峰值估算 258 GiB；工作目录可写=True docs=True",
+    "detail": {
+      "free_gib": 3129.8,
+      "estimated_peak_gib": 258
+    }
+  },
+  {
+    "no": 11,
+    "name": "飞书通知通道（lark-bot-bridge → OMP → lark-im）",
+    "passed": true,
+    "evidence": "status=sent receipt={\"ok\": true, \"identity\": \"bot\", \"data\": {\"chat_id\": \"oc_59380a2551cfa7641dc64b4982dd0405\", \"create_time\": \"2026-10-21 02:30:28\", \"message_id\": \"om_x100b62b67286",
+    "detail": {
+      "time": "2026-10-21T02:30:27+0000",
+      "message": "服务器A/A800×8｜阶段0：通知通道自检消息（预检项11）。",
+      "returncode": 0,
+      "receipt": {
+        "ok": true,
+        "identity": "bot",
+        "data": {
+          "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+          "create_time": "2026-10-21 02:30:28",
+          "message_id": "om_x100b62b67286a8b8cebe9dcc0250adf"
+        }
+      },
+      "stderr": "",
+      "status": "sent"
+    }
+  },
+  {
+    "no": 12,
+    "name": "环境/配置冻结快照",
+    "passed": true,
+    "evidence": "/data/szgx/gaohang/pi05_30/snapshots/campaign_freeze.json（openpi@215abfb217，18 个脚本摘要 8e29449b0718f41d…）",
+    "detail": {
+      "created": "2026-10-21T02:30:28+0000",
+      "openpi_commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+      "openpi_local_diff": "scripts/train.py                   | 66 ++++++++++++++++++++++++++++++++++++--\n src/openpi/training/checkpoints.py | 15 +++++++--\n src/openpi/training/config.py      | 42 ++++++++++++++++++++++++\n 3 files changed, 118 insertions(+), 5 deletions(-)",
+      "campaign_files": {
+        "backtest.py": "4611839c1690d49ccbf957333f6143fa0daaf835841bd239d54d92397c9f9c5e",
+        "cleanup_stage.py": "fce3a052dd0738841b296405e8553c6deecc5da2939308bf83c33e62c9ecff38",
+        "config.py": "a21065307e069cce5ab38d49ef5d3b0cc46937ff9ad05faf3ddfa4350566282a",
+        "deliverables.py": "f0691bbb614719895f04a45b391144e2c416c7346a21c4d23a376dcd24127031",
+        "evaluator.py": "69a313f48c87c52652fe49bcbe16b4b5d24e6376678289c8b80ea176655a899c",
+        "final_eval.py": "da31c7145d056155ca2c9561b59c474c7a3316dc71a24982d9842697098eda9d",
+        "jobctl.py": "7fa5bb9681c51ae86e77cac8d1a3208147367db6102747486022dbb88bb7be87",
+        "notify_channel.py": "897ab42f53b6ac54d993f57234e3fc494506ba4eb3440c66e071b4868fb15a85",
+        "pi05_config.py": "ea795b96fce873daf46ee0f2ccdb0f6b818f156381fe3045894a9e91aaf4bea2",
+        "plan.py": "731cef78978943acdfd4684916361ea855303451a1a235aae138aefb23ee44f3",
+        "policy_server.py": "109e79a9527f410729a3a5e62ad02d8e46ad7943652c709c0d2598f3e702bc08",
+        "preflight.py": "b5b8f21a8a90dfde886d69a4b7c107affeb13e52d29421daaca3e3f6ba4746ca",
+        "prepare_data.py": "3a78b6aa6542c3dbef41ed3f5a5f0d422a9b465cb505aa1169c044ead41bf1bb",
+        "robotwin_eval.py": "25f5465ffe513740bc0986a8c5dbc101dfb55a06a6a1055ce9a13123d7020dfb",
+        "select_hparams.py": "2efb87c5eafb6345fa11de05d880326f9b09aafd037d958f8c0efecfb43ff2f4",
+        "snapshot.py": "115c09ab52bee8d71955e967d1b1624df6fe7cca6e955b094d6c1581fb5f42a1",
+        "train_job.py": "1334f92f0ee1dc1511cb8d94baeb83667c0ec9e5e3a40a8955ff7e2744deb636",
+        "write_docs.py": "98f2c9cf142d83e4baca28c3c675792504fe0d53772e6aff54b896fe1e6aa951"
+      },
+      "campaign_digest": "8e29449b0718f41d1115b432e35f0fc0cbd70b277903b2122fcfbda778d8ea6f",
+      "robotwin_eval_driver_sha256": "25f5465ffe513740bc0986a8c5dbc101dfb55a06a6a1055ce9a13123d7020dfb",
+      "norm_stats_sha256": "2b66b3e6840d6b4a7bbedab48f77c6b7510c700d696044ee05081d34ae9629c4",
+      "python": "3.11.16"
+    }
+  }
+]

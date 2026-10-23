@@ -1,0 +1,246 @@
+{
+  "task": "place_can_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 17,
+  "seed_schedule": [
+    102003,
+    102009,
+    102015,
+    102021,
+    102027,
+    102033,
+    102039,
+    102045,
+    102051,
+    102057,
+    102063,
+    102069,
+    102075,
+    102081,
+    102087,
+    102093,
+    102099
+  ],
+  "attempted_seeds": [
+    102003,
+    102009,
+    102015,
+    102021,
+    102027,
+    102033,
+    102039,
+    102045,
+    102051,
+    102057,
+    102063,
+    102069,
+    102075,
+    102081,
+    102087,
+    102093,
+    102099,
+    102020,
+    102021,
+    102022,
+    102023,
+    102024,
+    102025,
+    102026,
+    102027
+  ],
+  "successes": 4,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 102003,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Use the right arm to place the cylindrical can with smooth surface in the oval basket with medium storage space; the other arm lifts the oval basket with medium storage space."
+    },
+    {
+      "episode": 2,
+      "seed": 102009,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the can with red body and put it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture."
+    },
+    {
+      "episode": 3,
+      "seed": 102015,
+      "valid": true,
+      "success": true,
+      "steps": 181,
+      "instruction": "Grab the hand-sized can with metallic finish and put it in the oval basket with medium storage space, then lift the oval basket with medium storage space."
+    },
+    {
+      "episode": 4,
+      "seed": 102021,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Use the right arm to put the small red soda can in the yellow basket with open slots; the other arm lifts the yellow basket with open slots."
+    },
+    {
+      "episode": 5,
+      "seed": 102027,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the rounded can with smooth printed surface, drop it into the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips with another arm."
+    },
+    {
+      "episode": 5,
+      "seed": 102033,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 6,
+      "seed": 102039,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Pick up the can with red body, place it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+    },
+    {
+      "episode": 7,
+      "seed": 102045,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Use the left arm to place the lightweight cylindrical metal can in the yellow rectangular basket with dual grips; the other arm lifts the yellow rectangular basket with dual grips."
+    },
+    {
+      "episode": 8,
+      "seed": 102051,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the can with red body, drop it in the basket with rounded edges, and lift the basket with rounded edges."
+    },
+    {
+      "episode": 9,
+      "seed": 102057,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Pick the hand-sized can with metallic finish, put it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture."
+    },
+    {
+      "episode": 10,
+      "seed": 102063,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Pick the cylindrical can with smooth surface, put it in the basket with rounded edges, then lift the basket with rounded edges."
+    },
+    {
+      "episode": 10,
+      "seed": 102069,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 10,
+      "seed": 102075,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 10,
+      "seed": 102081,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 10,
+      "seed": 102087,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 11,
+      "seed": 102093,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Use the left arm to set the light brown cylindrical can in the medium basket with smooth texture; another arm lifts the medium basket with smooth texture."
+    },
+    {
+      "episode": 12,
+      "seed": 102099,
+      "valid": true,
+      "success": true,
+      "steps": 153,
+      "instruction": "Grab the can with red body, drop it in the basket with rounded edges, and lift the basket with rounded edges."
+    },
+    {
+      "episode": 12,
+      "seed": 102020,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 13,
+      "seed": 102021,
+      "valid": true,
+      "success": true,
+      "steps": 225,
+      "instruction": "Grab the small red soda can, put it in the medium-sized basket with perforated texture, lift the medium-sized basket with perforated texture."
+    },
+    {
+      "episode": 14,
+      "seed": 102022,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Pick up the red can, place it in the medium basket with smooth texture, then lift the medium basket with smooth texture."
+    },
+    {
+      "episode": 15,
+      "seed": 102023,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Pick the small red soda can, put it in the yellow basket with open slots, then lift the yellow basket with open slots."
+    },
+    {
+      "episode": 15,
+      "seed": 102024,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 15,
+      "seed": 102025,
+      "valid": false,
+      "reason": "setup_error: target_pose cannot be None for move action.",
+      "success": false
+    },
+    {
+      "episode": 16,
+      "seed": 102026,
+      "valid": true,
+      "success": true,
+      "steps": 217,
+      "instruction": "Pick the can with shiny smooth surface, put it in the medium basket with smooth texture, then lift the medium basket with smooth texture."
+    },
+    {
+      "episode": 17,
+      "seed": 102027,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the cylindrical brown drink can with white markings, drop it in the yellow rectangular basket with dual grips, and lift the yellow rectangular basket with dual grips."
+    }
+  ]
+}

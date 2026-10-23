@@ -1,0 +1,98 @@
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+2026-10-23 02:19:20.940551: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 144.00MiB (rounded to 150994944)requested by op 
+2026-10-23 02:19:20.940684: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] ******************************************************************************************xxxxxxxxxx
+2026-10-23 02:19:30.993079: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 255.34MiB (rounded to 267743232)requested by op 
+2026-10-23 02:19:30.993208: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] ******************************************************************************************xxxxxxxxxx
+2026-10-23 02:19:41.017623: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 255.34MiB (rounded to 267743232)requested by op 
+2026-10-23 02:19:41.017751: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] ******************************************************************************************xxxxxxxxxx
+2026-10-23 02:19:51.060788: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 288.00MiB (rounded to 301989888)requested by op 
+2026-10-23 02:19:51.060988: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] ******************************************************************************************xxxxxxxxxx
+2026-10-23 02:20:01.094593: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1004.50MiB (rounded to 1053294592)requested by op 
+2026-10-23 02:20:01.094808: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] ******************************************************************************************xxxxxxxxxx
+2026-10-23 02:20:11.145763: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.12GiB (rounded to 1207959552)requested by op 
+2026-10-23 02:20:11.145897: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] ******************************************************************************************xxxxxxxxxx
+2026-10-23 02:20:21.186497: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.25GiB (rounded to 2415919104)requested by op 
+2026-10-23 02:20:21.186714: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] ******************************************************************************************xxxxxxxxxx
+Traceback (most recent call last):
+  File "/data/szgx/xworld-gzh/scripts/serve_pi05_robotwin_3tasks.py", line 81, in <module>
+    main()
+  File "/data/szgx/xworld-gzh/scripts/serve_pi05_robotwin_3tasks.py", line 56, in main
+    policy = _policy_config.create_trained_policy(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/src/openpi/policies/policy_config.py", line 57, in create_trained_policy
+    model = train_config.model.load(_model.restore_params(checkpoint_dir / "params", dtype=jnp.bfloat16))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/src/openpi/models/model.py", line 317, in restore_params
+    params = ckptr.restore(
+             ^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/checkpointers/checkpointer.py", line 300, in restore
+    restored = self._restore(directory, args=ckpt_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/checkpointers/checkpointer.py", line 319, in _restore
+    return self._handler.restore(directory, args=args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/handlers/pytree_checkpoint_handler.py", line 796, in restore
+    return self._handler_impl.restore(directory, args=args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/handlers/base_pytree_checkpoint_handler.py", line 760, in restore
+    tree_memory_size, restored_item = asyncio_utils.run_sync(
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/asyncio_utils.py", line 50, in run_sync
+    return asyncio.run(coro)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/handlers/base_pytree_checkpoint_handler.py", line 584, in _maybe_deserialize
+    deserialized_batches += await asyncio.gather(*deserialized_batches_ops)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/type_handlers.py", line 1314, in deserialize
+    *ret, array_metadatas = await asyncio.gather(*deserialize_ops)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/serialization.py", line 544, in async_deserialize
+    return await read_and_create_array(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/serialization.py", line 503, in read_and_create_array
+    dbs = sum(await asyncio.gather(*read_array_coros), [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/serialization.py", line 457, in _read_array_index_and_device_put
+    result.append(jax.device_put(shard, Layout(dll, sharding)))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/api.py", line 2376, in device_put
+    out_flat = dispatch.device_put_p.bind(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 502, in bind
+    return self._true_bind(*args, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 520, in _true_bind
+    return self.bind_with_trace(prev_trace, args, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 525, in bind_with_trace
+    return trace.process_primitive(self, args, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 1029, in process_primitive
+    return primitive.impl(*args, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/dispatch.py", line 566, in _batched_device_put_impl
+    shard_arg_results = pxla.shard_args(dsa_shardings, [None] * len(dsa_xs),
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/profiler.py", line 334, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/interpreters/pxla.py", line 134, in shard_args
+    return shard_arg_handlers[type(arg)]([arg], shardings, layouts,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/interpreters/pxla.py", line 216, in _shard_np_array
+    results.append(batched_device_put(aval, sharding, shards, devices))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/interpreters/pxla.py", line 243, in batched_device_put
+    return xc.batched_device_put(aval, sharding, xs, list(devices), committed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 150994944 bytes.

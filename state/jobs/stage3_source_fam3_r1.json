@@ -1,0 +1,1795 @@
+{
+  "job_id": "stage3_source_fam3_r1",
+  "created": "2026-10-23T09:36:51+0000",
+  "status": "completed",
+  "peak_lr": 2.5e-05,
+  "action_horizon": 10,
+  "batch_size": 32,
+  "max_steps": 15001,
+  "seed": 1,
+  "history": [
+    {
+      "step": 2000,
+      "mean_success_rate": 0.3,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange large block, medium block, and small block from largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the table center."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center table."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Take large block, medium block, and small block to the table center."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Center red block, put green block on it, and put blue block on green block."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Center red block, put green block on it, and put blue block on green block."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Center red block, put green block on it, and put blue block on green block."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange red block below green block and green block below blue block at the center."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Use red block as the base, add green block, and finish with blue block."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 280,
+              "instruction": "Stack the smooth bowl with glossy finish on top of the small smooth brown-rimmed bowl."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 287,
+              "instruction": "Place the small smooth brown-rimmed bowl carefully over the smooth bowl with glossy finish to stack them."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 291,
+              "instruction": "Place the small smooth brown-rimmed bowl onto the smooth bowl with glossy finish to form a stack."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 321,
+              "instruction": "Place the small smooth brown-rimmed bowl carefully over the smooth bowl with glossy finish to stack them."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 320,
+              "instruction": "Grab the small smooth brown-rimmed bowl and stack the smooth bowl with glossy finish on it."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 1,
+          "episodes": 5,
+          "success_rate": 0.2,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Put the light blue bowl with darkened rim in a pile, largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Pick up the first the light blue bowl with darkened rim and layer the rest above it."
+            },
+            {
+              "episode": 3,
+              "seed": 500105,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the first the smooth bowl with glossy finish, then the second, then the third."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 397,
+              "instruction": "Grab the small smooth brown-rimmed bowl, stack them one by one."
+            },
+            {
+              "episode": 2,
+              "seed": 500105,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Grab the smooth bowl with glossy finish, stack them one by one."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.05733372044190765,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 1992
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/2000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/2000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T13:18:30+0000",
+      "early_stop": {
+        "step": 2000,
+        "success_rate": 0.3,
+        "loss": {
+          "loss_mean": 0.05733372044190765,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 1992
+        },
+        "stop": false,
+        "reasons": [
+          "step 2000 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 4000,
+      "mean_success_rate": 0.4,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 3,
+          "episodes": 5,
+          "success_rate": 0.6,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block at the table center, largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 973,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block at the table center, largest to smallest."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 619,
+              "instruction": "Place large block, medium block, and small block at the table center."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 724,
+              "instruction": "Take large block, medium block, and small block to the table center."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack green block over red block, then place blue block over green block."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move the blocks into a centered stack ordered red block, green block, blue block from bottom up."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Center red block, put green block on it, and put blue block on green block."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place red block at the center, then stack green block on red block and blue block on green block."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Build upward from red block through green block to blue block."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 4,
+          "episodes": 5,
+          "success_rate": 0.8,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 284,
+              "instruction": "Place the small smooth brown-rimmed bowl onto the small smooth brown-rimmed bowl to form a stack."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 282,
+              "instruction": "Pick up the light blue bowl with darkened rim and stack the small smooth brown-rimmed bowl above."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 900,
+              "instruction": "Place the smooth bowl with glossy finish carefully over the light blue bowl with darkened rim to stack them."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 302,
+              "instruction": "Place the small smooth brown-rimmed bowl carefully over the smooth bowl with glossy finish to stack them."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 300,
+              "instruction": "Place the light blue bowl with darkened rim down, then put the smooth bowl with glossy finish on top."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 1,
+          "episodes": 5,
+          "success_rate": 0.2,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Grab the first the light blue bowl with darkened rim and stack the others on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the light blue bowl with darkened rim together one by one."
+            },
+            {
+              "episode": 3,
+              "seed": 500105,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Grab the first the small smooth brown-rimmed bowl and stack the others on top."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the light blue bowl with darkened rim by placing smallest on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 469,
+              "instruction": "Position one the smooth bowl with glossy finish and stack two others on it."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.039175801822915676,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 3984
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/4000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/4000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T14:22:10+0000",
+      "early_stop": {
+        "step": 4000,
+        "success_rate": 0.4,
+        "loss": {
+          "loss_mean": 0.039175801822915676,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 3984
+        },
+        "stop": false,
+        "reasons": [
+          "step 4000 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 6000,
+      "mean_success_rate": 0.5,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 461,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, arrange left to right."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block at the table center."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 528,
+              "instruction": "Arrange large block, medium block, and small block from largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, ordering largest to smallest."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Create a three-level stack with blue block supported by green block, which is supported by red block."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Use red block as the base, add green block, and finish with blue block."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Create a three-level stack with blue block supported by green block, which is supported by red block."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "At the table's center, stack red block, green block, and blue block from bottom to top."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move the blocks into a centered stack ordered red block, green block, blue block from bottom up."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 319,
+              "instruction": "Place the light blue bowl with darkened rim carefully over the smooth bowl with glossy finish to stack them."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 276,
+              "instruction": "Stack the smooth bowl with glossy finish directly over the light blue bowl with darkened rim."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 280,
+              "instruction": "Stack the small smooth brown-rimmed bowl directly over the smooth bowl with glossy finish."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 304,
+              "instruction": "Place the smooth bowl with glossy finish onto the small smooth brown-rimmed bowl to form a stack."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 298,
+              "instruction": "Place the smooth bowl with glossy finish carefully over the light blue bowl with darkened rim to stack them."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 3,
+          "episodes": 5,
+          "success_rate": 0.6,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the smooth bowl with glossy finish by placing smallest on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 479,
+              "instruction": "Stack the smooth bowl with glossy finish together one by one."
+            },
+            {
+              "episode": 3,
+              "seed": 500106,
+              "success": true,
+              "steps": 459,
+              "instruction": "Pick up the first the smooth bowl with glossy finish and layer the rest above it."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the smooth bowl with glossy finish together one by one."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 494,
+              "instruction": "Stack the first the light blue bowl with darkened rim, then the second, then the third."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.031823407201096415,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 5982
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/6000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/6000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T15:25:41+0000",
+      "early_stop": {
+        "step": 6000,
+        "success_rate": 0.5,
+        "loss": {
+          "loss_mean": 0.031823407201096415,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 5982
+        },
+        "stop": false,
+        "reasons": [
+          "step 6000 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 8000,
+      "mean_success_rate": 0.35,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Take large block, medium block, and small block to the table center."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the table center."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the table center."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the table center."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Build upward from red block through green block to blue block."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack green block over red block, then place blue block over green block."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Center red block, put green block on it, and put blue block on green block."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place red block at the center, then stack green block on red block and blue block on green block."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move the blocks into a centered stack ordered red block, green block, blue block from bottom up."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 291,
+              "instruction": "Grab the smooth bowl with glossy finish, then set the small smooth brown-rimmed bowl on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 289,
+              "instruction": "Place the smooth bowl with glossy finish down, then put the light blue bowl with darkened rim on top."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 272,
+              "instruction": "Grab the light blue bowl with darkened rim, then set the light blue bowl with darkened rim on top."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 322,
+              "instruction": "Grab the light blue bowl with darkened rim, then set the light blue bowl with darkened rim on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 293,
+              "instruction": "Pick up the light blue bowl with darkened rim and stack the smooth bowl with glossy finish above."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": true,
+              "steps": 447,
+              "instruction": "Grab the first the light blue bowl with darkened rim and stack the others on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the three the small smooth brown-rimmed bowl one above the other."
+            },
+            {
+              "episode": 3,
+              "seed": 500105,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the light blue bowl with darkened rim by placing smallest on top."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Start stacking the smooth bowl with glossy finish from the bottom to the top."
+            },
+            {
+              "episode": 2,
+              "seed": 500105,
+              "success": true,
+              "steps": 475,
+              "instruction": "Position one the light blue bowl with darkened rim and stack two others on it."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.02570020477473736,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 7976
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/8000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/8000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T16:35:12+0000",
+      "early_stop": {
+        "step": 8000,
+        "success_rate": 0.35,
+        "loss": {
+          "loss_mean": 0.02570020477473736,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 7976
+        },
+        "stop": false,
+        "reasons": [
+          "step 8000 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 10000,
+      "mean_success_rate": 0.5,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, ordering largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block at the table center, largest to smallest."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange large block, medium block, and small block from largest to smallest."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, arrange left to right."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, arrange left to right."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange red block below green block and green block below blue block at the center."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Use red block as the base, add green block, and finish with blue block."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Use red block as the base, add green block, and finish with blue block."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Create a three-level stack with blue block supported by green block, which is supported by red block."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "At the table's center, stack red block, green block, and blue block from bottom to top."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 289,
+              "instruction": "Place the light blue bowl with darkened rim down, then put the small smooth brown-rimmed bowl on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 287,
+              "instruction": "Grab the smooth bowl with glossy finish and stack the light blue bowl with darkened rim on it."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 272,
+              "instruction": "Place the light blue bowl with darkened rim onto the light blue bowl with darkened rim to form a stack."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 297,
+              "instruction": "Place the small smooth brown-rimmed bowl down, then put the light blue bowl with darkened rim on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 300,
+              "instruction": "Grab the smooth bowl with glossy finish and stack the light blue bowl with darkened rim on it."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": true,
+              "steps": 446,
+              "instruction": "Position one the smooth bowl with glossy finish and stack two others on it."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 453,
+              "instruction": "Grab the smooth bowl with glossy finish, stack them one by one."
+            },
+            {
+              "episode": 3,
+              "seed": 500105,
+              "success": true,
+              "steps": 469,
+              "instruction": "Position one the small smooth brown-rimmed bowl and stack two others on it."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 416,
+              "instruction": "Stack the three the small smooth brown-rimmed bowl one above the other."
+            },
+            {
+              "episode": 2,
+              "seed": 500105,
+              "success": true,
+              "steps": 449,
+              "instruction": "Grab the small smooth brown-rimmed bowl, stack them one by one."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.021895512186922133,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 9967
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/10000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/10000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T17:40:44+0000",
+      "early_stop": {
+        "step": 10000,
+        "success_rate": 0.5,
+        "loss": {
+          "loss_mean": 0.021895512186922133,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 9967
+        },
+        "stop": false,
+        "reasons": [
+          "baseline success rate recorded"
+        ]
+      }
+    },
+    {
+      "step": 12000,
+      "mean_success_rate": 0.45,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 1,
+          "episodes": 5,
+          "success_rate": 0.2,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Take large block, medium block, and small block to the table center."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, ordering largest to smallest."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": true,
+              "steps": 491,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Take large block, medium block, and small block to the table center."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the table center."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange red block below green block and green block below blue block at the center."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Use red block as the base, add green block, and finish with blue block."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack green block over red block, then place blue block over green block."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Build a tower with red block at the bottom, green block in the middle, and blue block on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange red block below green block and green block below blue block at the center."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 287,
+              "instruction": "Place the light blue bowl with darkened rim down, then put the small smooth brown-rimmed bowl on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 301,
+              "instruction": "Grab the smooth bowl with glossy finish and stack the light blue bowl with darkened rim on it."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 306,
+              "instruction": "Pick up the small smooth brown-rimmed bowl and stack the small smooth brown-rimmed bowl above."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 307,
+              "instruction": "Stack the light blue bowl with darkened rim on top of the small smooth brown-rimmed bowl."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 289,
+              "instruction": "Place the smooth bowl with glossy finish onto the smooth bowl with glossy finish to form a stack."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 3,
+          "episodes": 5,
+          "success_rate": 0.6,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 467,
+              "instruction": "Grab the first the small smooth brown-rimmed bowl and stack the others on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 471,
+              "instruction": "Pick up the first the light blue bowl with darkened rim and layer the rest above it."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Grab the smooth bowl with glossy finish, stack them one by one."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the smooth bowl with glossy finish together one by one."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 447,
+              "instruction": "Grab the small smooth brown-rimmed bowl, stack them one by one."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.01971115292608738,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 11967
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/12000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/12000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T18:40:17+0000",
+      "early_stop": {
+        "step": 12000,
+        "success_rate": 0.45,
+        "loss": {
+          "loss_mean": 0.01971115292608738,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 11967
+        },
+        "stop": false,
+        "reasons": [],
+        "loss_relative_changes": [
+          0.192412,
+          0.148041,
+          0.099763
+        ],
+        "loss_condition_met": false,
+        "success_condition_met": false
+      }
+    },
+    {
+      "step": 14000,
+      "mean_success_rate": 0.5,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, ordering largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 451,
+              "instruction": "Arrange large block, medium block, and small block from largest to smallest."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange large block, medium block, and small block from largest to smallest."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 517,
+              "instruction": "Take large block, medium block, and small block to the table center."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange red block below green block and green block below blue block at the center."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Create a three-level stack with blue block supported by green block, which is supported by red block."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Arrange red block below green block and green block below blue block at the center."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move the blocks into a centered stack ordered red block, green block, blue block from bottom up."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place red block at the center, then stack green block on red block and blue block on green block."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 289,
+              "instruction": "Grab the light blue bowl with darkened rim and stack the light blue bowl with darkened rim on it."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 286,
+              "instruction": "Place the smooth bowl with glossy finish carefully over the small smooth brown-rimmed bowl to stack them."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 300,
+              "instruction": "Stack the light blue bowl with darkened rim on top of the small smooth brown-rimmed bowl."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 287,
+              "instruction": "Grab the smooth bowl with glossy finish and stack the smooth bowl with glossy finish on it."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 277,
+              "instruction": "Place the smooth bowl with glossy finish carefully over the smooth bowl with glossy finish to stack them."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 3,
+          "episodes": 5,
+          "success_rate": 0.6,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 439,
+              "instruction": "Put the light blue bowl with darkened rim in a pile, largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Start stacking the small smooth brown-rimmed bowl from the bottom to the top."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the light blue bowl with darkened rim together one by one."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 446,
+              "instruction": "Stack the three the smooth bowl with glossy finish one above the other."
+            },
+            {
+              "episode": 2,
+              "seed": 500105,
+              "success": true,
+              "steps": 450,
+              "instruction": "Grab the first the light blue bowl with darkened rim and stack the others on top."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.016669407282955944,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 13961
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/14000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/14000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T19:43:38+0000",
+      "early_stop": {
+        "step": 14000,
+        "success_rate": 0.5,
+        "loss": {
+          "loss_mean": 0.016669407282955944,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 13961
+        },
+        "stop": false,
+        "reasons": [],
+        "loss_relative_changes": [
+          0.148041,
+          0.099763,
+          0.154316
+        ],
+        "loss_condition_met": false,
+        "success_condition_met": false
+      }
+    },
+    {
+      "step": 15000,
+      "mean_success_rate": 0.55,
+      "per_task": {
+        "blocks_ranking_size": {
+          "successes": 3,
+          "episodes": 5,
+          "success_rate": 0.6,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 469,
+              "instruction": "Move large block, medium block, and small block to the center, ordering largest to smallest."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move large block, medium block, and small block to the center, arrange left to right."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 1190,
+              "instruction": "Place large block, medium block, and small block in order at the table's center."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 514,
+              "instruction": "Place large block, medium block, and small block at the table center, largest to smallest."
+            }
+          ]
+        },
+        "stack_blocks_three": {
+          "successes": 0,
+          "episodes": 5,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Build a tower with red block at the bottom, green block in the middle, and blue block on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Move the blocks into a centered stack ordered red block, green block, blue block from bottom up."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Center red block, put green block on it, and put blue block on green block."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Build a tower with red block at the bottom, green block in the middle, and blue block on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Build upward from red block through green block to blue block."
+            }
+          ]
+        },
+        "stack_bowls_two": {
+          "successes": 5,
+          "episodes": 5,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 310,
+              "instruction": "Stack the light blue bowl with darkened rim on top of the light blue bowl with darkened rim."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 294,
+              "instruction": "Grab the smooth bowl with glossy finish and stack the light blue bowl with darkened rim on it."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 331,
+              "instruction": "Take the smooth bowl with glossy finish, set it down, and stack the smooth bowl with glossy finish on top."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 306,
+              "instruction": "Place the small smooth brown-rimmed bowl onto the light blue bowl with darkened rim to form a stack."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 297,
+              "instruction": "Take the small smooth brown-rimmed bowl, set it down, and stack the smooth bowl with glossy finish on top."
+            }
+          ]
+        },
+        "stack_bowls_three": {
+          "successes": 3,
+          "episodes": 5,
+          "success_rate": 0.6,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Put the light blue bowl with darkened rim in a pile, largest to smallest."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 485,
+              "instruction": "Grab the first the small smooth brown-rimmed bowl and stack the others on top."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 460,
+              "instruction": "Stack the first the small smooth brown-rimmed bowl, then the second, then the third."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 1200,
+              "instruction": "Stack the light blue bowl with darkened rim together one by one."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 459,
+              "instruction": "Grab the smooth bowl with glossy finish, stack them one by one."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.015705752642825244,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 14961
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3/15000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam3_r1/15000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-22T20:49:45+0000",
+      "early_stop": {
+        "step": 15000,
+        "success_rate": 0.55,
+        "loss": {
+          "loss_mean": 0.015705752642825244,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 14961
+        },
+        "stop": false,
+        "reasons": [
+          "new best success rate"
+        ],
+        "loss_relative_changes": [
+          0.099763,
+          0.154316,
+          0.05781
+        ],
+        "loss_condition_met": false,
+        "success_condition_met": false
+      }
+    }
+  ],
+  "milestones": {
+    "7500": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_step7500",
+      "bytes": 12440449399,
+      "files": 23,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 23
+    },
+    "15000": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_step15000",
+      "bytes": 12440639618,
+      "files": 36,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 36
+    }
+  },
+  "milestone_steps": [
+    7500,
+    15000
+  ],
+  "save_interval": 500,
+  "no_improve_count": 0,
+  "best_success": 0.55,
+  "processed_checkpoints": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000,
+    4500,
+    5000,
+    5500,
+    6000,
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500,
+    10000,
+    10500,
+    11000,
+    11500,
+    12000,
+    12500,
+    13000,
+    13500,
+    14000,
+    14500,
+    15000
+  ],
+  "incidents": [],
+  "stage": 3,
+  "kind": "source",
+  "repeat": 1,
+  "family": "3",
+  "task": null,
+  "repo_id": "pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50",
+  "exp_name": "aloha_r1_source_fam3",
+  "checkpoint_base_dir": "/data/szgx/gaohang/pi05_30/runs/stage3",
+  "init_params": "/data/szgx/xworld-gzh/cache/openpi/openpi-assets/checkpoints/pi05_base/params",
+  "backtest_tasks": [
+    "blocks_ranking_size",
+    "stack_blocks_three",
+    "stack_bowls_two",
+    "stack_bowls_three"
+  ],
+  "backtest_seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "final_backtest_step": 15000,
+  "train_gpus": "4,5,6,7",
+  "fsdp_devices": 4,
+  "policy_gpus": "4,6",
+  "sim_gpus": "5,7",
+  "mem_fraction": 0.72,
+  "started": "2026-10-22T12:04:56+00:00",
+  "current_step": 15000,
+  "loss_windows": [
+    {
+      "step": 2000,
+      "loss": 0.05733372044190765
+    },
+    {
+      "step": 4000,
+      "loss": 0.039175801822915676
+    },
+    {
+      "step": 6000,
+      "loss": 0.031823407201096415
+    },
+    {
+      "step": 8000,
+      "loss": 0.02570020477473736
+    },
+    {
+      "step": 10000,
+      "loss": 0.021895512186922133
+    },
+    {
+      "step": 12000,
+      "loss": 0.01971115292608738
+    },
+    {
+      "step": 14000,
+      "loss": 0.016669407282955944
+    },
+    {
+      "step": 15000,
+      "loss": 0.015705752642825244
+    }
+  ],
+  "final_checkpoint": {
+    "step": 15000,
+    "params_only": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_final_step15000",
+      "bytes": 12440639618,
+      "files": 36,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 36
+    }
+  },
+  "finished": "2026-10-22T20:24:22+00:00"
+}

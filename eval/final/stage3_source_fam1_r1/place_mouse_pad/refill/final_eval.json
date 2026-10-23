@@ -1,0 +1,404 @@
+{
+  "task": "place_mouse_pad",
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000",
+  "episodes": 34,
+  "successes": 7,
+  "success_rate": 0.2059,
+  "seeds": [
+    100000,
+    100002,
+    100006,
+    100008,
+    100012,
+    100014,
+    100018,
+    100020,
+    100024,
+    100026,
+    100030,
+    100032,
+    100036,
+    100038,
+    100042,
+    100044,
+    100048,
+    100050,
+    100054,
+    100056,
+    100060,
+    100062,
+    100066,
+    100068,
+    100072,
+    100074,
+    100078,
+    100080,
+    100084,
+    100086,
+    100090,
+    100092,
+    100096,
+    100098
+  ],
+  "sims": 6,
+  "per_chunk": [
+    {
+      "task": "place_mouse_pad",
+      "seeds": [
+        100000,
+        100018,
+        100036,
+        100054,
+        100072,
+        100090
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/refill/sim0/eval.log",
+      "timed_out": false,
+      "seconds": 447.8,
+      "episodes": 6,
+      "successes": 1,
+      "success_rate": 0.1667,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 100000,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the wireless mouse with left and right buttons and set it on the Cyan mat."
+        },
+        {
+          "episode": 2,
+          "seed": 100018,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the hand-sized black-gray mouse and set it on Green mat."
+        },
+        {
+          "episode": 3,
+          "seed": 100036,
+          "success": true,
+          "steps": 155,
+          "instruction": "Pick up the wireless mouse with left and right buttons and set it on the Red mat."
+        },
+        {
+          "episode": 4,
+          "seed": 100054,
+          "success": false,
+          "steps": 400,
+          "instruction": "Use the right arm to pick up the flat-bottomed mouse and drop it on Green mat."
+        },
+        {
+          "episode": 5,
+          "seed": 100072,
+          "success": false,
+          "steps": 400,
+          "instruction": "Use the left arm to pick up the mouse with scroll wheel and drop it on Cyan mat."
+        },
+        {
+          "episode": 6,
+          "seed": 100090,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the small rounded plastic mouse with the right arm and drop it onto the Yellow mat."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "place_mouse_pad",
+      "seeds": [
+        100002,
+        100020,
+        100038,
+        100056,
+        100074,
+        100092
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/refill/sim1/eval.log",
+      "timed_out": false,
+      "seconds": 455.7,
+      "episodes": 6,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 100002,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the hand-sized dark gray mouse and set it on the Black mat."
+        },
+        {
+          "episode": 2,
+          "seed": 100020,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the mouse with scroll wheel and set it on the Blue mat."
+        },
+        {
+          "episode": 3,
+          "seed": 100038,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the small rounded plastic mouse and set it on the Blue mat."
+        },
+        {
+          "episode": 4,
+          "seed": 100056,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick the flat-bottomed mouse and position it on the Gray colored mat."
+        },
+        {
+          "episode": 5,
+          "seed": 100074,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the hand-sized wireless mouse and set it on the Black mat."
+        },
+        {
+          "episode": 6,
+          "seed": 100092,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the hand-sized wireless mouse and position it on the Red mat."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "place_mouse_pad",
+      "seeds": [
+        100006,
+        100024,
+        100042,
+        100060,
+        100078,
+        100096
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/refill/sim2/eval.log",
+      "timed_out": false,
+      "seconds": 448.3,
+      "episodes": 6,
+      "successes": 1,
+      "success_rate": 0.1667,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 100006,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the flat-bottomed mouse and set it on the Black mat."
+        },
+        {
+          "episode": 2,
+          "seed": 100024,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the wireless mouse with left and right buttons and set it on the Yellow mat."
+        },
+        {
+          "episode": 3,
+          "seed": 100042,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the mouse with scroll wheel and set it on Magenta mat."
+        },
+        {
+          "episode": 4,
+          "seed": 100060,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick the dark gray wireless mouse and position it on the Black colored mat."
+        },
+        {
+          "episode": 5,
+          "seed": 100078,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the wireless mouse with left and right buttons and set it on the Blue mat."
+        },
+        {
+          "episode": 6,
+          "seed": 100096,
+          "success": true,
+          "steps": 165,
+          "instruction": "Grab the hand-sized black-gray mouse and set it on the Magenta mat."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "place_mouse_pad",
+      "seeds": [
+        100008,
+        100026,
+        100044,
+        100062,
+        100080,
+        100098
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/refill/sim3/eval.log",
+      "timed_out": false,
+      "seconds": 412.2,
+      "episodes": 6,
+      "successes": 2,
+      "success_rate": 0.3333,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 100008,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the flat-bottomed mouse with the left arm and drop it onto the Black mat."
+        },
+        {
+          "episode": 2,
+          "seed": 100026,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the flat-bottomed mouse with the left arm and drop it onto the Black mat."
+        },
+        {
+          "episode": 3,
+          "seed": 100044,
+          "success": true,
+          "steps": 160,
+          "instruction": "Pick up the flat-bottomed mouse and set it on the Black mat."
+        },
+        {
+          "episode": 4,
+          "seed": 100062,
+          "success": true,
+          "steps": 145,
+          "instruction": "Pick up the hand-sized wireless mouse and set it on the Green mat."
+        },
+        {
+          "episode": 5,
+          "seed": 100080,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the dark gray wireless mouse and set it on the Gray mat."
+        },
+        {
+          "episode": 6,
+          "seed": 100098,
+          "success": false,
+          "steps": 400,
+          "instruction": "Lift the hand-sized black-gray mouse and drop it on the Blue mat."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "place_mouse_pad",
+      "seeds": [
+        100012,
+        100030,
+        100048,
+        100066,
+        100084
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/refill/sim4/eval.log",
+      "timed_out": false,
+      "seconds": 386.7,
+      "episodes": 5,
+      "successes": 1,
+      "success_rate": 0.2,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 100012,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the wireless mouse with left and right buttons and set it on Blue mat."
+        },
+        {
+          "episode": 2,
+          "seed": 100030,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the hand-sized wireless mouse and position it on the Cyan mat."
+        },
+        {
+          "episode": 3,
+          "seed": 100048,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the small rounded plastic mouse and set it on the Magenta mat."
+        },
+        {
+          "episode": 4,
+          "seed": 100066,
+          "success": true,
+          "steps": 170,
+          "instruction": "Grab the dark gray computer mouse with logo and position it on the Red mat."
+        },
+        {
+          "episode": 5,
+          "seed": 100084,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the hand-sized dark gray mouse and set it on Blue mat."
+        }
+      ],
+      "skipped": []
+    },
+    {
+      "task": "place_mouse_pad",
+      "seeds": [
+        100014,
+        100032,
+        100050,
+        100068,
+        100086
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/refill/sim5/eval.log",
+      "timed_out": false,
+      "seconds": 383.8,
+      "episodes": 5,
+      "successes": 2,
+      "success_rate": 0.4,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 100014,
+          "success": true,
+          "steps": 148,
+          "instruction": "Use the right arm to pick up the dark gray computer mouse with logo and drop it on Gray mat."
+        },
+        {
+          "episode": 2,
+          "seed": 100032,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the dark gray wireless mouse and set it on the Black mat."
+        },
+        {
+          "episode": 3,
+          "seed": 100050,
+          "success": true,
+          "steps": 176,
+          "instruction": "Pick up the hand-sized dark gray mouse and set it on the Black mat."
+        },
+        {
+          "episode": 4,
+          "seed": 100068,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the wireless mouse with left and right buttons and set it on Yellow mat."
+        },
+        {
+          "episode": 5,
+          "seed": 100086,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick the mouse with scroll wheel and position it on the Red colored mat."
+        }
+      ],
+      "skipped": []
+    }
+  ],
+  "seconds": 471.4,
+  "recorded": "2026-10-23T09:17:23+0000"
+}

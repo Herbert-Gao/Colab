@@ -1,0 +1,1226 @@
+[link] pi05_30_pilot_move_pillbottle_pad -> /data/szgx/xworld-gzh/datasets/lerobot/robotwin_move_pillbottle_pad_demo_clean
+[skip] pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50: 200 episodes already present
+[skip] pi05_30_aloha_fam2_place_object_basket_place_cans_plasticbox_place_bread_skillet_put_object_cabinet_src50: 200 episodes already present
+[skip] pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50: 200 episodes already present
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  64%|██████▍   | 89/139 [00:00<00:00, 873.35 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 765.46 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 89.73ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 1/200 adjust_bottle#0 frames=139
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  63%|██████▎   | 90/143 [00:00<00:00, 890.17 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 797.19 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 105.27ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 2/200 adjust_bottle#1 frames=282
+Map:   0%|          | 0/149 [00:00<?, ? examples/s]Map:  62%|██████▏   | 92/149 [00:00<00:00, 903.42 examples/s]Map: 100%|██████████| 149/149 [00:00<00:00, 805.50 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 97.13ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 3/200 adjust_bottle#2 frames=431
+Map:   0%|          | 0/148 [00:00<?, ? examples/s]Map:  63%|██████▎   | 93/148 [00:00<00:00, 906.34 examples/s]Map: 100%|██████████| 148/148 [00:00<00:00, 802.71 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 81.62ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 4/200 adjust_bottle#3 frames=579
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map:  62%|██████▏   | 94/151 [00:00<00:00, 923.82 examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 840.22 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 104.15ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 5/200 adjust_bottle#4 frames=730
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  62%|██████▏   | 91/147 [00:00<00:00, 889.45 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 798.19 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 105.05ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 6/200 adjust_bottle#5 frames=877
+Map:   0%|          | 0/137 [00:00<?, ? examples/s]Map:  69%|██████▊   | 94/137 [00:00<00:00, 929.92 examples/s]Map: 100%|██████████| 137/137 [00:00<00:00, 845.99 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 133.37ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 7/200 adjust_bottle#6 frames=1014
+Map:   0%|          | 0/136 [00:00<?, ? examples/s]Map:  71%|███████   | 96/136 [00:00<00:00, 939.01 examples/s]Map: 100%|██████████| 136/136 [00:00<00:00, 874.44 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 133.45ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 8/200 adjust_bottle#7 frames=1150
+Map:   0%|          | 0/152 [00:00<?, ? examples/s]Map:  61%|██████    | 92/152 [00:00<00:00, 905.87 examples/s]Map: 100%|██████████| 152/152 [00:00<00:00, 806.83 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 103.71ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 9/200 adjust_bottle#8 frames=1302
+Map:   0%|          | 0/152 [00:00<?, ? examples/s]Map:  63%|██████▎   | 96/152 [00:00<00:00, 935.11 examples/s]Map: 100%|██████████| 152/152 [00:00<00:00, 859.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.50ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 10/200 adjust_bottle#9 frames=1454
+Map:   0%|          | 0/135 [00:00<?, ? examples/s]Map:  70%|██████▉   | 94/135 [00:00<00:00, 922.65 examples/s]Map: 100%|██████████| 135/135 [00:00<00:00, 843.05 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 84.44ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 11/200 adjust_bottle#10 frames=1589
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  64%|██████▍   | 92/143 [00:00<00:00, 907.38 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 823.13 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 100.40ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 12/200 adjust_bottle#11 frames=1732
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  68%|██████▊   | 94/139 [00:00<00:00, 920.62 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 842.91 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.16ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 13/200 adjust_bottle#12 frames=1871
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  66%|██████▌   | 92/139 [00:00<00:00, 905.72 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 831.10 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 102.56ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 14/200 adjust_bottle#13 frames=2010
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  66%|██████▋   | 95/143 [00:00<00:00, 932.14 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 852.97 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 115.49ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 15/200 adjust_bottle#14 frames=2153
+Map:   0%|          | 0/138 [00:00<?, ? examples/s]Map:  69%|██████▉   | 95/138 [00:00<00:00, 931.51 examples/s]Map: 100%|██████████| 138/138 [00:00<00:00, 852.81 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 113.48ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 16/200 adjust_bottle#15 frames=2291
+Map:   0%|          | 0/138 [00:00<?, ? examples/s]Map:  67%|██████▋   | 92/138 [00:00<00:00, 906.11 examples/s]Map: 100%|██████████| 138/138 [00:00<00:00, 812.83 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 115.75ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 17/200 adjust_bottle#16 frames=2429
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  65%|██████▍   | 95/147 [00:00<00:00, 936.81 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 858.64 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 117.12ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 18/200 adjust_bottle#17 frames=2576
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  65%|██████▌   | 93/143 [00:00<00:00, 906.14 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 843.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 111.57ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 19/200 adjust_bottle#18 frames=2719
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  66%|██████▋   | 95/143 [00:00<00:00, 938.57 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 834.70 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 117.73ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 20/200 adjust_bottle#19 frames=2862
+Map:   0%|          | 0/135 [00:00<?, ? examples/s]Map:  71%|███████   | 96/135 [00:00<00:00, 936.09 examples/s]Map: 100%|██████████| 135/135 [00:00<00:00, 860.12 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 131.34ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 21/200 adjust_bottle#20 frames=2997
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  66%|██████▋   | 95/143 [00:00<00:00, 928.44 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 854.40 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 117.70ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 22/200 adjust_bottle#21 frames=3140
+Map:   0%|          | 0/140 [00:00<?, ? examples/s]Map:  67%|██████▋   | 94/140 [00:00<00:00, 923.41 examples/s]Map: 100%|██████████| 140/140 [00:00<00:00, 820.12 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 114.16ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 23/200 adjust_bottle#22 frames=3280
+Map:   0%|          | 0/156 [00:00<?, ? examples/s]Map:  61%|██████    | 95/156 [00:00<00:00, 928.01 examples/s]Map: 100%|██████████| 156/156 [00:00<00:00, 851.86 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 100.01ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 24/200 adjust_bottle#23 frames=3436
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  67%|██████▋   | 96/144 [00:00<00:00, 937.55 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 835.93 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 106.11ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 25/200 adjust_bottle#24 frames=3580
+Map:   0%|          | 0/133 [00:00<?, ? examples/s]Map:  72%|███████▏  | 96/133 [00:00<00:00, 946.43 examples/s]Map: 100%|██████████| 133/133 [00:00<00:00, 867.84 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 132.75ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 26/200 adjust_bottle#25 frames=3713
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  65%|██████▌   | 96/147 [00:00<00:00, 940.61 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 860.26 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 104.83ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 27/200 adjust_bottle#26 frames=3860
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  67%|██████▋   | 96/143 [00:00<00:00, 943.24 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 840.94 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 111.15ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 28/200 adjust_bottle#27 frames=4003
+Map:   0%|          | 0/138 [00:00<?, ? examples/s]Map:  70%|██████▉   | 96/138 [00:00<00:00, 940.83 examples/s]Map: 100%|██████████| 138/138 [00:00<00:00, 857.21 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 111.88ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 29/200 adjust_bottle#28 frames=4141
+Map:   0%|          | 0/152 [00:00<?, ? examples/s]Map:  61%|██████    | 92/152 [00:00<00:00, 908.49 examples/s]Map: 100%|██████████| 152/152 [00:00<00:00, 797.68 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 91.87ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 30/200 adjust_bottle#29 frames=4293
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  66%|██████▌   | 94/143 [00:00<00:00, 918.20 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 839.32 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 111.06ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 31/200 adjust_bottle#30 frames=4436
+Map:   0%|          | 0/141 [00:00<?, ? examples/s]Map:  67%|██████▋   | 95/141 [00:00<00:00, 930.35 examples/s]Map: 100%|██████████| 141/141 [00:00<00:00, 850.37 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 125.43ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 32/200 adjust_bottle#31 frames=4577
+Map:   0%|          | 0/135 [00:00<?, ? examples/s]Map:  70%|██████▉   | 94/135 [00:00<00:00, 922.56 examples/s]Map: 100%|██████████| 135/135 [00:00<00:00, 835.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 116.38ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 33/200 adjust_bottle#32 frames=4712
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  66%|██████▌   | 92/139 [00:00<00:00, 903.82 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 808.61 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 118.55ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 34/200 adjust_bottle#33 frames=4851
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  66%|██████▌   | 95/144 [00:00<00:00, 929.43 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 847.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 108.35ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 35/200 adjust_bottle#34 frames=4995
+Map:   0%|          | 0/150 [00:00<?, ? examples/s]Map:  63%|██████▎   | 94/150 [00:00<00:00, 925.89 examples/s]Map: 100%|██████████| 150/150 [00:00<00:00, 850.92 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 112.08ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 36/200 adjust_bottle#35 frames=5145
+Map:   0%|          | 0/152 [00:00<?, ? examples/s]Map:  59%|█████▊    | 89/152 [00:00<00:00, 868.90 examples/s]Map: 100%|██████████| 152/152 [00:00<00:00, 759.11 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 89.76ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 37/200 adjust_bottle#36 frames=5297
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  66%|██████▌   | 94/143 [00:00<00:00, 926.25 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 880.75 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 117.38ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 38/200 adjust_bottle#37 frames=5440
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  65%|██████▍   | 93/144 [00:00<00:00, 919.55 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 841.71 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 113.55ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 39/200 adjust_bottle#38 frames=5584
+Map:   0%|          | 0/138 [00:00<?, ? examples/s]Map:  65%|██████▌   | 90/138 [00:00<00:00, 886.62 examples/s]Map: 100%|██████████| 138/138 [00:00<00:00, 819.16 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 116.44ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 40/200 adjust_bottle#39 frames=5722
+Map:   0%|          | 0/142 [00:00<?, ? examples/s]Map:  64%|██████▍   | 91/142 [00:00<00:00, 898.55 examples/s]Map: 100%|██████████| 142/142 [00:00<00:00, 834.09 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 115.95ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 41/200 adjust_bottle#40 frames=5864
+Map:   0%|          | 0/149 [00:00<?, ? examples/s]Map:  62%|██████▏   | 93/149 [00:00<00:00, 914.82 examples/s]Map: 100%|██████████| 149/149 [00:00<00:00, 839.03 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 102.40ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 42/200 adjust_bottle#41 frames=6013
+Map:   0%|          | 0/142 [00:00<?, ? examples/s]Map:  65%|██████▌   | 93/142 [00:00<00:00, 915.77 examples/s]Map: 100%|██████████| 142/142 [00:00<00:00, 835.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 106.94ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 43/200 adjust_bottle#42 frames=6155
+Map:   0%|          | 0/146 [00:00<?, ? examples/s]Map:  62%|██████▏   | 90/146 [00:00<00:00, 884.80 examples/s]Map: 100%|██████████| 146/146 [00:00<00:00, 790.22 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 100.89ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 44/200 adjust_bottle#43 frames=6301
+Map:   0%|          | 0/142 [00:00<?, ? examples/s]Map:  66%|██████▌   | 94/142 [00:00<00:00, 919.26 examples/s]Map: 100%|██████████| 142/142 [00:00<00:00, 839.68 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 113.85ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 45/200 adjust_bottle#44 frames=6443
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  65%|██████▍   | 93/144 [00:00<00:00, 912.89 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 838.71 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 110.01ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 46/200 adjust_bottle#45 frames=6587
+Map:   0%|          | 0/142 [00:00<?, ? examples/s]Map:  66%|██████▌   | 94/142 [00:00<00:00, 925.32 examples/s]Map: 100%|██████████| 142/142 [00:00<00:00, 847.85 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 116.48ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 47/200 adjust_bottle#46 frames=6729
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  68%|██████▊   | 95/139 [00:00<00:00, 933.23 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 852.89 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 110.26ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 48/200 adjust_bottle#47 frames=6868
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  66%|██████▌   | 95/144 [00:00<00:00, 934.95 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 847.94 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 114.24ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 49/200 adjust_bottle#48 frames=7012
+Map:   0%|          | 0/141 [00:00<?, ? examples/s]Map:  67%|██████▋   | 95/141 [00:00<00:00, 931.89 examples/s]Map: 100%|██████████| 141/141 [00:00<00:00, 857.97 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.77ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 50/200 adjust_bottle#49 frames=7153
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  76%|███████▌  | 92/121 [00:00<00:00, 901.22 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 746.11 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 88.63ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 51/200 pick_diverse_bottles#0 frames=7274
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/117 [00:00<00:00, 916.32 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 781.65 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 92.56ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 52/200 pick_diverse_bottles#1 frames=7391
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  77%|███████▋  | 93/121 [00:00<00:00, 916.17 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 839.91 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 110.21ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 53/200 pick_diverse_bottles#2 frames=7512
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  77%|███████▋  | 93/121 [00:00<00:00, 910.69 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 766.72 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 90.22ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 54/200 pick_diverse_bottles#3 frames=7633
+Map:   0%|          | 0/132 [00:00<?, ? examples/s]Map:  69%|██████▉   | 91/132 [00:00<00:00, 892.24 examples/s]Map: 100%|██████████| 132/132 [00:00<00:00, 798.32 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 88.03ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 55/200 pick_diverse_bottles#4 frames=7765
+Map:   0%|          | 0/125 [00:00<?, ? examples/s]Map:  74%|███████▍  | 93/125 [00:00<00:00, 914.97 examples/s]Map: 100%|██████████| 125/125 [00:00<00:00, 801.52 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 98.75ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 56/200 pick_diverse_bottles#5 frames=7890
+Map:   0%|          | 0/129 [00:00<?, ? examples/s]Map:  71%|███████   | 91/129 [00:00<00:00, 890.04 examples/s]Map: 100%|██████████| 129/129 [00:00<00:00, 799.29 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 98.47ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 57/200 pick_diverse_bottles#6 frames=8019
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  78%|███████▊  | 90/115 [00:00<00:00, 879.46 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 800.68 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 92.33ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 58/200 pick_diverse_bottles#7 frames=8134
+Map:   0%|          | 0/119 [00:00<?, ? examples/s]Map:  79%|███████▉  | 94/119 [00:00<00:00, 914.59 examples/s]Map: 100%|██████████| 119/119 [00:00<00:00, 819.59 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 102.99ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 59/200 pick_diverse_bottles#8 frames=8253
+Map:   0%|          | 0/120 [00:00<?, ? examples/s]Map:  78%|███████▊  | 93/120 [00:00<00:00, 907.12 examples/s]Map: 100%|██████████| 120/120 [00:00<00:00, 736.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 70.63ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 60/200 pick_diverse_bottles#9 frames=8373
+Map:   0%|          | 0/120 [00:00<?, ? examples/s]Map:  74%|███████▍  | 89/120 [00:00<00:00, 876.78 examples/s]Map: 100%|██████████| 120/120 [00:00<00:00, 775.14 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 91.22ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 61/200 pick_diverse_bottles#10 frames=8493
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map:  74%|███████▍  | 93/126 [00:00<00:00, 909.32 examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 800.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 91.04ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 62/200 pick_diverse_bottles#11 frames=8619
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/114 [00:00<00:00, 910.01 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 797.12 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 93.82ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 63/200 pick_diverse_bottles#12 frames=8733
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  78%|███████▊  | 94/121 [00:00<00:00, 927.10 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 864.50 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 107.55ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 64/200 pick_diverse_bottles#13 frames=8854
+Map:   0%|          | 0/119 [00:00<?, ? examples/s]Map:  77%|███████▋  | 92/119 [00:00<00:00, 910.89 examples/s]Map: 100%|██████████| 119/119 [00:00<00:00, 772.35 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 95.61ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 65/200 pick_diverse_bottles#14 frames=8973
+Map:   0%|          | 0/125 [00:00<?, ? examples/s]Map:  74%|███████▎  | 92/125 [00:00<00:00, 896.14 examples/s]Map: 100%|██████████| 125/125 [00:00<00:00, 797.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 100.19ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 66/200 pick_diverse_bottles#15 frames=9098
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  78%|███████▊  | 94/121 [00:00<00:00, 922.31 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 799.40 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 88.06ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 67/200 pick_diverse_bottles#16 frames=9219
+Map:   0%|          | 0/128 [00:00<?, ? examples/s]Map:  73%|███████▎  | 94/128 [00:00<00:00, 916.47 examples/s]Map: 100%|██████████| 128/128 [00:00<00:00, 807.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 88.35ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 68/200 pick_diverse_bottles#17 frames=9347
+Map:   0%|          | 0/119 [00:00<?, ? examples/s]Map:  79%|███████▉  | 94/119 [00:00<00:00, 918.49 examples/s]Map: 100%|██████████| 119/119 [00:00<00:00, 809.42 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 99.16ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 69/200 pick_diverse_bottles#18 frames=9466
+Map:   0%|          | 0/110 [00:00<?, ? examples/s]Map:  85%|████████▌ | 94/110 [00:00<00:00, 919.07 examples/s]Map: 100%|██████████| 110/110 [00:00<00:00, 801.52 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 101.22ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 70/200 pick_diverse_bottles#19 frames=9576
+Map:   0%|          | 0/122 [00:00<?, ? examples/s]Map:  75%|███████▌  | 92/122 [00:00<00:00, 903.03 examples/s]Map: 100%|██████████| 122/122 [00:00<00:00, 781.46 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 82.97ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 71/200 pick_diverse_bottles#20 frames=9698
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  81%|████████  | 95/117 [00:00<00:00, 922.67 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 858.05 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 108.33ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 72/200 pick_diverse_bottles#21 frames=9815
+Map:   0%|          | 0/113 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/113 [00:00<00:00, 914.46 examples/s]Map: 100%|██████████| 113/113 [00:00<00:00, 751.15 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 91.06ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 73/200 pick_diverse_bottles#22 frames=9928
+Map:   0%|          | 0/125 [00:00<?, ? examples/s]Map:  74%|███████▎  | 92/125 [00:00<00:00, 905.95 examples/s]Map: 100%|██████████| 125/125 [00:00<00:00, 801.43 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 94.85ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 74/200 pick_diverse_bottles#23 frames=10053
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  77%|███████▋  | 91/118 [00:00<00:00, 893.90 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 794.67 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 95.22ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 75/200 pick_diverse_bottles#24 frames=10171
+Map:   0%|          | 0/123 [00:00<?, ? examples/s]Map:  72%|███████▏  | 89/123 [00:00<00:00, 872.21 examples/s]Map: 100%|██████████| 123/123 [00:00<00:00, 759.52 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 90.33ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 76/200 pick_diverse_bottles#25 frames=10294
+Map:   0%|          | 0/125 [00:00<?, ? examples/s]Map:  72%|███████▏  | 90/125 [00:00<00:00, 881.98 examples/s]Map: 100%|██████████| 125/125 [00:00<00:00, 769.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 80.54ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 77/200 pick_diverse_bottles#26 frames=10419
+Map:   0%|          | 0/124 [00:00<?, ? examples/s]Map:  73%|███████▎  | 91/124 [00:00<00:00, 893.52 examples/s]Map: 100%|██████████| 124/124 [00:00<00:00, 791.87 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 96.63ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 78/200 pick_diverse_bottles#27 frames=10543
+Map:   0%|          | 0/130 [00:00<?, ? examples/s]Map:  72%|███████▏  | 93/130 [00:00<00:00, 913.93 examples/s]Map: 100%|██████████| 130/130 [00:00<00:00, 805.48 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 97.74ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 79/200 pick_diverse_bottles#28 frames=10673
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  78%|███████▊  | 94/121 [00:00<00:00, 922.90 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 859.81 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 107.63ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 80/200 pick_diverse_bottles#29 frames=10794
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  76%|███████▋  | 90/118 [00:00<00:00, 888.07 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 741.16 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 75.24ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 81/200 pick_diverse_bottles#30 frames=10912
+Map:   0%|          | 0/119 [00:00<?, ? examples/s]Map:  78%|███████▊  | 93/119 [00:00<00:00, 905.81 examples/s]Map: 100%|██████████| 119/119 [00:00<00:00, 794.69 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 100.96ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 82/200 pick_diverse_bottles#31 frames=11031
+Map:   0%|          | 0/123 [00:00<?, ? examples/s]Map:  76%|███████▌  | 93/123 [00:00<00:00, 917.56 examples/s]Map: 100%|██████████| 123/123 [00:00<00:00, 796.41 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 83.64ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 83/200 pick_diverse_bottles#32 frames=11154
+Map:   0%|          | 0/127 [00:00<?, ? examples/s]Map:  72%|███████▏  | 92/127 [00:00<00:00, 909.49 examples/s]Map: 100%|██████████| 127/127 [00:00<00:00, 802.11 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 95.40ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 84/200 pick_diverse_bottles#33 frames=11281
+Map:   0%|          | 0/122 [00:00<?, ? examples/s]Map:  76%|███████▌  | 93/122 [00:00<00:00, 909.92 examples/s]Map: 100%|██████████| 122/122 [00:00<00:00, 799.73 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 91.47ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 85/200 pick_diverse_bottles#34 frames=11403
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▊  | 92/117 [00:00<00:00, 907.21 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 797.66 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 96.28ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 86/200 pick_diverse_bottles#35 frames=11520
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/117 [00:00<00:00, 913.88 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 827.62 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 103.26ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 87/200 pick_diverse_bottles#36 frames=11637
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▊  | 92/117 [00:00<00:00, 907.11 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 761.40 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 91.55ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 88/200 pick_diverse_bottles#37 frames=11754
+Map:   0%|          | 0/122 [00:00<?, ? examples/s]Map:  75%|███████▌  | 92/122 [00:00<00:00, 908.90 examples/s]Map: 100%|██████████| 122/122 [00:00<00:00, 795.57 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 90.14ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 89/200 pick_diverse_bottles#38 frames=11876
+Map:   0%|          | 0/124 [00:00<?, ? examples/s]Map:  75%|███████▌  | 93/124 [00:00<00:00, 914.42 examples/s]Map: 100%|██████████| 124/124 [00:00<00:00, 806.06 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 106.32ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 90/200 pick_diverse_bottles#39 frames=12000
+Map:   0%|          | 0/123 [00:00<?, ? examples/s]Map:  73%|███████▎  | 90/123 [00:00<00:00, 891.11 examples/s]Map: 100%|██████████| 123/123 [00:00<00:00, 795.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 90.75ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 91/200 pick_diverse_bottles#40 frames=12123
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map:  70%|██████▉   | 88/126 [00:00<00:00, 866.46 examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 780.79 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 93.75ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 92/200 pick_diverse_bottles#41 frames=12249
+Map:   0%|          | 0/124 [00:00<?, ? examples/s]Map:  75%|███████▌  | 93/124 [00:00<00:00, 911.99 examples/s]Map: 100%|██████████| 124/124 [00:00<00:00, 845.58 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 99.67ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 93/200 pick_diverse_bottles#42 frames=12373
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  82%|████████▏ | 92/112 [00:00<00:00, 910.62 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 811.56 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 111.33ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 94/200 pick_diverse_bottles#43 frames=12485
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  76%|███████▌  | 92/121 [00:00<00:00, 908.65 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 813.37 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 101.48ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 95/200 pick_diverse_bottles#44 frames=12606
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/118 [00:00<00:00, 909.79 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 811.02 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 102.26ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 96/200 pick_diverse_bottles#45 frames=12724
+Map:   0%|          | 0/132 [00:00<?, ? examples/s]Map:  70%|██████▉   | 92/132 [00:00<00:00, 910.80 examples/s]Map: 100%|██████████| 132/132 [00:00<00:00, 759.86 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 85.20ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 97/200 pick_diverse_bottles#46 frames=12856
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map:  80%|████████  | 93/116 [00:00<00:00, 909.92 examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 797.06 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 94.40ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 98/200 pick_diverse_bottles#47 frames=12972
+Map:   0%|          | 0/122 [00:00<?, ? examples/s]Map:  75%|███████▌  | 92/122 [00:00<00:00, 906.01 examples/s]Map: 100%|██████████| 122/122 [00:00<00:00, 792.65 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 88.46ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 99/200 pick_diverse_bottles#48 frames=13094
+Map:   0%|          | 0/119 [00:00<?, ? examples/s]Map:  77%|███████▋  | 92/119 [00:00<00:00, 906.51 examples/s]Map: 100%|██████████| 119/119 [00:00<00:00, 796.22 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 88.63ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 100/200 pick_diverse_bottles#49 frames=13213
+Map:   0%|          | 0/113 [00:00<?, ? examples/s]Map:  84%|████████▍ | 95/113 [00:00<00:00, 926.07 examples/s]Map: 100%|██████████| 113/113 [00:00<00:00, 865.37 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 142.82ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 101/200 lift_pot#0 frames=13326
+Map:   0%|          | 0/113 [00:00<?, ? examples/s]Map:  84%|████████▍ | 95/113 [00:00<00:00, 925.24 examples/s]Map: 100%|██████████| 113/113 [00:00<00:00, 828.09 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 123.28ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 102/200 lift_pot#1 frames=13439
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  82%|████████▏ | 94/115 [00:00<00:00, 918.48 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 826.48 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.26ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 103/200 lift_pot#2 frames=13554
+Map:   0%|          | 0/106 [00:00<?, ? examples/s]Map:  88%|████████▊ | 93/106 [00:00<00:00, 919.12 examples/s]Map: 100%|██████████| 106/106 [00:00<00:00, 822.80 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 130.57ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 104/200 lift_pot#3 frames=13660
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  87%|████████▋ | 94/108 [00:00<00:00, 922.23 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 812.02 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 122.12ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 105/200 lift_pot#4 frames=13768
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  85%|████████▍ | 94/111 [00:00<00:00, 920.31 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 824.31 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 123.51ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 106/200 lift_pot#5 frames=13879
+Map:   0%|          | 0/110 [00:00<?, ? examples/s]Map:  85%|████████▍ | 93/110 [00:00<00:00, 921.10 examples/s]Map: 100%|██████████| 110/110 [00:00<00:00, 825.19 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 122.83ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 107/200 lift_pot#6 frames=13989
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  87%|████████▋ | 94/108 [00:00<00:00, 920.26 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 823.89 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.73ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 108/200 lift_pot#7 frames=14097
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  81%|████████▏ | 91/112 [00:00<00:00, 892.44 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 807.38 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 116.77ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 109/200 lift_pot#8 frames=14209
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  87%|████████▋ | 94/108 [00:00<00:00, 922.12 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 826.43 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 127.50ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 110/200 lift_pot#9 frames=14317
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map:  80%|████████  | 93/116 [00:00<00:00, 922.05 examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 827.56 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.44ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 111/200 lift_pot#10 frames=14433
+Map:   0%|          | 0/113 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/113 [00:00<00:00, 913.80 examples/s]Map: 100%|██████████| 113/113 [00:00<00:00, 822.53 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 125.43ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 112/200 lift_pot#11 frames=14546
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  87%|████████▋ | 93/107 [00:00<00:00, 920.25 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 825.51 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 125.92ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 113/200 lift_pot#12 frames=14653
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  86%|████████▌ | 95/111 [00:00<00:00, 930.83 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 832.85 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.62ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 114/200 lift_pot#13 frames=14764
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  82%|████████▏ | 94/115 [00:00<00:00, 923.79 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 828.58 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 124.83ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 115/200 lift_pot#14 frames=14879
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  84%|████████▍ | 93/111 [00:00<00:00, 911.87 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 818.35 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 141.00ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 116/200 lift_pot#15 frames=14990
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map:  81%|████████  | 94/116 [00:00<00:00, 924.40 examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 828.61 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 117.55ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 117/200 lift_pot#16 frames=15106
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  89%|████████▉ | 95/107 [00:00<00:00, 925.46 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 827.48 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 125.02ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 118/200 lift_pot#17 frames=15213
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/114 [00:00<00:00, 917.13 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 824.43 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 126.10ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 119/200 lift_pot#18 frames=15327
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  84%|████████▍ | 93/111 [00:00<00:00, 915.97 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 823.57 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 138.93ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 120/200 lift_pot#19 frames=15438
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  84%|████████▍ | 93/111 [00:00<00:00, 914.93 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 822.39 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 138.61ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 121/200 lift_pot#20 frames=15549
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  89%|████████▉ | 95/107 [00:00<00:00, 930.28 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 832.44 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 126.79ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 122/200 lift_pot#21 frames=15656
+Map:   0%|          | 0/109 [00:00<?, ? examples/s]Map:  87%|████████▋ | 95/109 [00:00<00:00, 924.60 examples/s]Map: 100%|██████████| 109/109 [00:00<00:00, 827.81 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 126.43ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 123/200 lift_pot#22 frames=15765
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  87%|████████▋ | 94/108 [00:00<00:00, 921.26 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 825.26 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 126.45ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 124/200 lift_pot#23 frames=15873
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  84%|████████▍ | 93/111 [00:00<00:00, 917.50 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 822.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 126.84ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 125/200 lift_pot#24 frames=15984
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  84%|████████▍ | 90/107 [00:00<00:00, 891.56 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 793.10 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.95ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 126/200 lift_pot#25 frames=16091
+Map:   0%|          | 0/109 [00:00<?, ? examples/s]Map:  81%|████████  | 88/109 [00:00<00:00, 864.59 examples/s]Map: 100%|██████████| 109/109 [00:00<00:00, 788.66 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 123.24ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 127/200 lift_pot#26 frames=16200
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  84%|████████▍ | 94/112 [00:00<00:00, 924.32 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 826.70 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 124.27ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 128/200 lift_pot#27 frames=16312
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  81%|████████  | 90/111 [00:00<00:00, 887.53 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 803.87 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 136.56ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 129/200 lift_pot#28 frames=16423
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  84%|████████▍ | 93/111 [00:00<00:00, 909.23 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 802.77 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 118.60ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 130/200 lift_pot#29 frames=16534
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  83%|████████▎ | 93/112 [00:00<00:00, 909.90 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 803.88 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 115.08ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 131/200 lift_pot#30 frames=16646
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 94/114 [00:00<00:00, 923.04 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 827.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.34ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 132/200 lift_pot#31 frames=16760
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  80%|███████▉  | 94/118 [00:00<00:00, 923.48 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 829.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.73ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 133/200 lift_pot#32 frames=16878
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 94/114 [00:00<00:00, 920.63 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 812.42 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.38ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 134/200 lift_pot#33 frames=16992
+Map:   0%|          | 0/110 [00:00<?, ? examples/s]Map:  85%|████████▍ | 93/110 [00:00<00:00, 921.12 examples/s]Map: 100%|██████████| 110/110 [00:00<00:00, 826.18 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 140.40ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 135/200 lift_pot#34 frames=17102
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  87%|████████▋ | 93/107 [00:00<00:00, 920.42 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 823.21 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 124.83ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 136/200 lift_pot#35 frames=17209
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  81%|████████  | 93/115 [00:00<00:00, 916.24 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 819.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.38ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 137/200 lift_pot#36 frames=17324
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:  85%|████████▍ | 94/111 [00:00<00:00, 919.27 examples/s]Map: 100%|██████████| 111/111 [00:00<00:00, 822.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 127.09ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 138/200 lift_pot#37 frames=17435
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  81%|████████  | 92/114 [00:00<00:00, 900.95 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 811.15 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 137.16ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 139/200 lift_pot#38 frames=17549
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  83%|████████▎ | 93/112 [00:00<00:00, 914.48 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 819.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 123.97ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 140/200 lift_pot#39 frames=17661
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  87%|████████▋ | 94/108 [00:00<00:00, 919.95 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 823.91 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 126.48ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 141/200 lift_pot#40 frames=17769
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  83%|████████▎ | 93/112 [00:00<00:00, 914.19 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 819.64 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.64ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 142/200 lift_pot#41 frames=17881
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/114 [00:00<00:00, 919.77 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 825.06 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 123.78ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 143/200 lift_pot#42 frames=17995
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  87%|████████▋ | 93/107 [00:00<00:00, 918.18 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 820.91 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 126.62ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 144/200 lift_pot#43 frames=18102
+Map:   0%|          | 0/108 [00:00<?, ? examples/s]Map:  86%|████████▌ | 93/108 [00:00<00:00, 909.29 examples/s]Map: 100%|██████████| 108/108 [00:00<00:00, 814.79 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.42ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 145/200 lift_pot#44 frames=18210
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  87%|████████▋ | 93/107 [00:00<00:00, 919.47 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 820.95 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 127.54ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 146/200 lift_pot#45 frames=18317
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  80%|████████  | 90/112 [00:00<00:00, 884.32 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 801.62 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.66ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 147/200 lift_pot#46 frames=18429
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  83%|████████▎ | 93/112 [00:00<00:00, 919.53 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 822.75 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.11ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 148/200 lift_pot#47 frames=18541
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  80%|███████▉  | 91/114 [00:00<00:00, 899.98 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 810.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.34ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 149/200 lift_pot#48 frames=18655
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  83%|████████▎ | 93/112 [00:00<00:00, 918.98 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 822.87 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.74ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 150/200 lift_pot#49 frames=18767
+Map:   0%|          | 0/251 [00:00<?, ? examples/s]Map:  38%|███▊      | 95/251 [00:00<00:00, 937.87 examples/s]Map:  77%|███████▋  | 193/251 [00:00<00:00, 956.62 examples/s]Map: 100%|██████████| 251/251 [00:00<00:00, 856.88 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 118.01ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 151/200 shake_bottle#0 frames=19018
+Map:   0%|          | 0/250 [00:00<?, ? examples/s]Map:  38%|███▊      | 95/250 [00:00<00:00, 928.91 examples/s]Map:  77%|███████▋  | 192/250 [00:00<00:00, 951.64 examples/s]Map: 100%|██████████| 250/250 [00:00<00:00, 848.73 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 110.75ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 152/200 shake_bottle#1 frames=19268
+Map:   0%|          | 0/244 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/244 [00:00<00:00, 933.47 examples/s]Map:  79%|███████▊  | 192/244 [00:00<00:00, 951.83 examples/s]Map: 100%|██████████| 244/244 [00:00<00:00, 873.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 121.54ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 153/200 shake_bottle#2 frames=19512
+Map:   0%|          | 0/245 [00:00<?, ? examples/s]Map:  38%|███▊      | 94/245 [00:00<00:00, 928.98 examples/s]Map:  79%|███████▉  | 193/245 [00:00<00:00, 955.01 examples/s]Map: 100%|██████████| 245/245 [00:00<00:00, 879.20 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 140.62ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 154/200 shake_bottle#3 frames=19757
+Map:   0%|          | 0/247 [00:00<?, ? examples/s]Map:  38%|███▊      | 95/247 [00:00<00:00, 927.54 examples/s]Map:  78%|███████▊  | 192/247 [00:00<00:00, 946.13 examples/s]Map: 100%|██████████| 247/247 [00:00<00:00, 866.71 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 117.98ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 155/200 shake_bottle#4 frames=20004
+Map:   0%|          | 0/244 [00:00<?, ? examples/s]Map:  39%|███▉      | 96/244 [00:00<00:00, 943.81 examples/s]Map:  80%|███████▉  | 195/244 [00:00<00:00, 960.72 examples/s]Map: 100%|██████████| 244/244 [00:00<00:00, 884.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 137.15ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 156/200 shake_bottle#5 frames=20248
+Map:   0%|          | 0/254 [00:00<?, ? examples/s]Map:  37%|███▋      | 93/254 [00:00<00:00, 913.46 examples/s]Map:  74%|███████▍  | 189/254 [00:00<00:00, 933.63 examples/s]Map: 100%|██████████| 254/254 [00:00<00:00, 859.85 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 130.48ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 157/200 shake_bottle#6 frames=20502
+Map:   0%|          | 0/260 [00:00<?, ? examples/s]Map:  36%|███▌      | 93/260 [00:00<00:00, 918.82 examples/s]Map:  73%|███████▎  | 190/260 [00:00<00:00, 942.51 examples/s]Map: 100%|██████████| 260/260 [00:00<00:00, 863.91 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 105.11ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 158/200 shake_bottle#7 frames=20762
+Map:   0%|          | 0/252 [00:00<?, ? examples/s]Map:  36%|███▌      | 90/252 [00:00<00:00, 892.13 examples/s]Map:  73%|███████▎  | 183/252 [00:00<00:00, 910.31 examples/s]Map: 100%|██████████| 252/252 [00:00<00:00, 843.81 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 109.83ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 159/200 shake_bottle#8 frames=21014
+Map:   0%|          | 0/243 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/243 [00:00<00:00, 937.29 examples/s]Map:  79%|███████▉  | 192/243 [00:00<00:00, 953.19 examples/s]Map: 100%|██████████| 243/243 [00:00<00:00, 862.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 111.33ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 160/200 shake_bottle#9 frames=21257
+Map:   0%|          | 0/246 [00:00<?, ? examples/s]Map:  39%|███▊      | 95/246 [00:00<00:00, 929.57 examples/s]Map:  78%|███████▊  | 192/246 [00:00<00:00, 945.20 examples/s]Map: 100%|██████████| 246/246 [00:00<00:00, 864.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 116.84ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 161/200 shake_bottle#10 frames=21503
+Map:   0%|          | 0/257 [00:00<?, ? examples/s]Map:  37%|███▋      | 95/257 [00:00<00:00, 931.24 examples/s]Map:  74%|███████▎  | 189/257 [00:00<00:00, 933.18 examples/s]Map: 100%|██████████| 257/257 [00:00<00:00, 857.66 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 118.73ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 162/200 shake_bottle#11 frames=21760
+Map:   0%|          | 0/254 [00:00<?, ? examples/s]Map:  37%|███▋      | 95/254 [00:00<00:00, 939.51 examples/s]Map:  76%|███████▌  | 192/254 [00:00<00:00, 952.21 examples/s]Map: 100%|██████████| 254/254 [00:00<00:00, 874.10 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 117.97ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 163/200 shake_bottle#12 frames=22014
+Map:   0%|          | 0/257 [00:00<?, ? examples/s]Map:  37%|███▋      | 95/257 [00:00<00:00, 930.94 examples/s]Map:  75%|███████▍  | 192/257 [00:00<00:00, 947.85 examples/s]Map: 100%|██████████| 257/257 [00:00<00:00, 874.84 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 130.00ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 164/200 shake_bottle#13 frames=22271
+Map:   0%|          | 0/260 [00:00<?, ? examples/s]Map:  37%|███▋      | 95/260 [00:00<00:00, 930.42 examples/s]Map:  73%|███████▎  | 191/260 [00:00<00:00, 940.15 examples/s]Map: 100%|██████████| 260/260 [00:00<00:00, 845.58 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 113.87ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 165/200 shake_bottle#14 frames=22531
+Map:   0%|          | 0/245 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/245 [00:00<00:00, 927.89 examples/s]Map:  78%|███████▊  | 192/245 [00:00<00:00, 944.23 examples/s]Map: 100%|██████████| 245/245 [00:00<00:00, 869.39 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 129.13ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 166/200 shake_bottle#15 frames=22776
+Map:   0%|          | 0/245 [00:00<?, ? examples/s]Map:  38%|███▊      | 92/245 [00:00<00:00, 903.37 examples/s]Map:  76%|███████▌  | 186/245 [00:00<00:00, 923.56 examples/s]Map: 100%|██████████| 245/245 [00:00<00:00, 856.62 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 134.21ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 167/200 shake_bottle#16 frames=23021
+Map:   0%|          | 0/245 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/245 [00:00<00:00, 926.24 examples/s]Map:  78%|███████▊  | 192/245 [00:00<00:00, 947.95 examples/s]Map: 100%|██████████| 245/245 [00:00<00:00, 868.05 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 133.93ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 168/200 shake_bottle#17 frames=23266
+Map:   0%|          | 0/247 [00:00<?, ? examples/s]Map:  38%|███▊      | 95/247 [00:00<00:00, 934.12 examples/s]Map:  77%|███████▋  | 191/247 [00:00<00:00, 945.59 examples/s]Map: 100%|██████████| 247/247 [00:00<00:00, 864.36 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 118.65ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 169/200 shake_bottle#18 frames=23513
+Map:   0%|          | 0/260 [00:00<?, ? examples/s]Map:  36%|███▌      | 93/260 [00:00<00:00, 908.19 examples/s]Map:  73%|███████▎  | 190/260 [00:00<00:00, 940.41 examples/s]Map: 100%|██████████| 260/260 [00:00<00:00, 858.71 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 98.04ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 170/200 shake_bottle#19 frames=23773
+Map:   0%|          | 0/259 [00:00<?, ? examples/s]Map:  37%|███▋      | 95/259 [00:00<00:00, 933.08 examples/s]Map:  74%|███████▍  | 192/259 [00:00<00:00, 947.03 examples/s]Map: 100%|██████████| 259/259 [00:00<00:00, 873.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 128.17ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 171/200 shake_bottle#20 frames=24032
+Map:   0%|          | 0/241 [00:00<?, ? examples/s]Map:  39%|███▉      | 94/241 [00:00<00:00, 923.16 examples/s]Map:  79%|███████▉  | 191/241 [00:00<00:00, 940.04 examples/s]Map: 100%|██████████| 241/241 [00:00<00:00, 843.37 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 112.09ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 172/200 shake_bottle#21 frames=24273
+Map:   0%|          | 0/255 [00:00<?, ? examples/s]Map:  35%|███▌      | 90/255 [00:00<00:00, 886.29 examples/s]Map:  72%|███████▏  | 183/255 [00:00<00:00, 901.52 examples/s]Map: 100%|██████████| 255/255 [00:00<00:00, 834.86 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 110.95ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 173/200 shake_bottle#22 frames=24528
+Map:   0%|          | 0/244 [00:00<?, ? examples/s]Map:  38%|███▊      | 93/244 [00:00<00:00, 916.70 examples/s]Map:  77%|███████▋  | 188/244 [00:00<00:00, 933.88 examples/s]Map: 100%|██████████| 244/244 [00:00<00:00, 861.70 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 133.07ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 174/200 shake_bottle#23 frames=24772
+Map:   0%|          | 0/242 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/242 [00:00<00:00, 941.66 examples/s]Map:  79%|███████▉  | 192/242 [00:00<00:00, 950.54 examples/s]Map: 100%|██████████| 242/242 [00:00<00:00, 869.29 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 124.03ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 175/200 shake_bottle#24 frames=25014
+Map:   0%|          | 0/246 [00:00<?, ? examples/s]Map:  38%|███▊      | 94/246 [00:00<00:00, 925.73 examples/s]Map:  78%|███████▊  | 191/246 [00:00<00:00, 943.66 examples/s]Map: 100%|██████████| 246/246 [00:00<00:00, 871.22 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 135.37ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 176/200 shake_bottle#25 frames=25260
+Map:   0%|          | 0/244 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/244 [00:00<00:00, 931.22 examples/s]Map:  78%|███████▊  | 191/244 [00:00<00:00, 943.86 examples/s]Map: 100%|██████████| 244/244 [00:00<00:00, 870.19 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 140.01ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 177/200 shake_bottle#26 frames=25504
+Map:   0%|          | 0/249 [00:00<?, ? examples/s]Map:  38%|███▊      | 95/249 [00:00<00:00, 930.60 examples/s]Map:  77%|███████▋  | 191/249 [00:00<00:00, 942.26 examples/s]Map: 100%|██████████| 249/249 [00:00<00:00, 857.67 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 107.81ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 178/200 shake_bottle#27 frames=25753
+Map:   0%|          | 0/242 [00:00<?, ? examples/s]Map:  38%|███▊      | 93/242 [00:00<00:00, 908.25 examples/s]Map:  78%|███████▊  | 189/242 [00:00<00:00, 932.94 examples/s]Map: 100%|██████████| 242/242 [00:00<00:00, 856.97 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 146.30ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 179/200 shake_bottle#28 frames=25995
+Map:   0%|          | 0/255 [00:00<?, ? examples/s]Map:  37%|███▋      | 95/255 [00:00<00:00, 938.66 examples/s]Map:  75%|███████▌  | 192/255 [00:00<00:00, 953.27 examples/s]Map: 100%|██████████| 255/255 [00:00<00:00, 877.70 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 130.14ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 180/200 shake_bottle#29 frames=26250
+Map:   0%|          | 0/245 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/245 [00:00<00:00, 938.28 examples/s]Map:  78%|███████▊  | 190/245 [00:00<00:00, 940.74 examples/s]Map: 100%|██████████| 245/245 [00:00<00:00, 859.01 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 125.85ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 181/200 shake_bottle#30 frames=26495
+Map:   0%|          | 0/262 [00:00<?, ? examples/s]Map:  36%|███▋      | 95/262 [00:00<00:00, 928.52 examples/s]Map:  73%|███████▎  | 190/262 [00:00<00:00, 940.31 examples/s]Map: 100%|██████████| 262/262 [00:00<00:00, 861.75 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 108.99ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 182/200 shake_bottle#31 frames=26757
+Map:   0%|          | 0/243 [00:00<?, ? examples/s]Map:  39%|███▊      | 94/243 [00:00<00:00, 921.22 examples/s]Map:  78%|███████▊  | 190/243 [00:00<00:00, 933.44 examples/s]Map: 100%|██████████| 243/243 [00:00<00:00, 851.39 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 124.89ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 183/200 shake_bottle#32 frames=27000
+Map:   0%|          | 0/244 [00:00<?, ? examples/s]Map:  38%|███▊      | 93/244 [00:00<00:00, 920.34 examples/s]Map:  77%|███████▋  | 189/244 [00:00<00:00, 937.91 examples/s]Map: 100%|██████████| 244/244 [00:00<00:00, 850.39 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 106.03ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 184/200 shake_bottle#33 frames=27244
+Map:   0%|          | 0/252 [00:00<?, ? examples/s]Map:  37%|███▋      | 93/252 [00:00<00:00, 923.65 examples/s]Map:  75%|███████▌  | 189/252 [00:00<00:00, 938.76 examples/s]Map: 100%|██████████| 252/252 [00:00<00:00, 859.34 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 123.16ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 185/200 shake_bottle#34 frames=27496
+Map:   0%|          | 0/258 [00:00<?, ? examples/s]Map:  36%|███▋      | 94/258 [00:00<00:00, 922.59 examples/s]Map:  74%|███████▎  | 190/258 [00:00<00:00, 938.50 examples/s]Map: 100%|██████████| 258/258 [00:00<00:00, 858.17 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 109.70ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 186/200 shake_bottle#35 frames=27754
+Map:   0%|          | 0/250 [00:00<?, ? examples/s]Map:  38%|███▊      | 95/250 [00:00<00:00, 928.52 examples/s]Map:  77%|███████▋  | 192/250 [00:00<00:00, 944.47 examples/s]Map: 100%|██████████| 250/250 [00:00<00:00, 865.53 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 123.49ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 187/200 shake_bottle#36 frames=28004
+Map:   0%|          | 0/244 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/244 [00:00<00:00, 935.42 examples/s]Map:  79%|███████▊  | 192/244 [00:00<00:00, 950.16 examples/s]Map: 100%|██████████| 244/244 [00:00<00:00, 866.73 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 140.46ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 188/200 shake_bottle#37 frames=28248
+Map:   0%|          | 0/241 [00:00<?, ? examples/s]Map:  38%|███▊      | 92/241 [00:00<00:00, 906.62 examples/s]Map:  78%|███████▊  | 188/241 [00:00<00:00, 931.44 examples/s]Map: 100%|██████████| 241/241 [00:00<00:00, 856.05 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 123.66ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 189/200 shake_bottle#38 frames=28489
+Map:   0%|          | 0/245 [00:00<?, ? examples/s]Map:  38%|███▊      | 93/245 [00:00<00:00, 923.34 examples/s]Map:  78%|███████▊  | 190/245 [00:00<00:00, 941.35 examples/s]Map: 100%|██████████| 245/245 [00:00<00:00, 851.93 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 110.69ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 190/200 shake_bottle#39 frames=28734
+Map:   0%|          | 0/237 [00:00<?, ? examples/s]Map:  39%|███▉      | 93/237 [00:00<00:00, 920.58 examples/s]Map:  79%|███████▉  | 188/237 [00:00<00:00, 936.17 examples/s]Map: 100%|██████████| 237/237 [00:00<00:00, 857.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 124.02ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 191/200 shake_bottle#40 frames=28971
+Map:   0%|          | 0/241 [00:00<?, ? examples/s]Map:  39%|███▉      | 94/241 [00:00<00:00, 926.29 examples/s]Map:  78%|███████▊  | 189/241 [00:00<00:00, 936.98 examples/s]Map: 100%|██████████| 241/241 [00:00<00:00, 835.25 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 102.73ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 192/200 shake_bottle#41 frames=29212
+Map:   0%|          | 0/260 [00:00<?, ? examples/s]Map:  36%|███▌      | 93/260 [00:00<00:00, 918.49 examples/s]Map:  72%|███████▏  | 187/260 [00:00<00:00, 925.58 examples/s]Map: 100%|██████████| 260/260 [00:00<00:00, 849.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 107.09ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 193/200 shake_bottle#42 frames=29472
+Map:   0%|          | 0/252 [00:00<?, ? examples/s]Map:  37%|███▋      | 93/252 [00:00<00:00, 912.72 examples/s]Map:  75%|███████▍  | 188/252 [00:00<00:00, 933.12 examples/s]Map: 100%|██████████| 252/252 [00:00<00:00, 854.80 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 118.68ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 194/200 shake_bottle#43 frames=29724
+Map:   0%|          | 0/259 [00:00<?, ? examples/s]Map:  36%|███▋      | 94/259 [00:00<00:00, 923.65 examples/s]Map:  73%|███████▎  | 190/259 [00:00<00:00, 938.68 examples/s]Map: 100%|██████████| 259/259 [00:00<00:00, 856.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 103.04ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 195/200 shake_bottle#44 frames=29983
+Map:   0%|          | 0/237 [00:00<?, ? examples/s]Map:  40%|███▉      | 94/237 [00:00<00:00, 929.42 examples/s]Map:  81%|████████  | 191/237 [00:00<00:00, 943.16 examples/s]Map: 100%|██████████| 237/237 [00:00<00:00, 862.31 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 135.36ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 196/200 shake_bottle#45 frames=30220
+Map:   0%|          | 0/248 [00:00<?, ? examples/s]Map:  38%|███▊      | 93/248 [00:00<00:00, 918.52 examples/s]Map:  76%|███████▌  | 188/248 [00:00<00:00, 932.50 examples/s]Map: 100%|██████████| 248/248 [00:00<00:00, 856.16 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 117.29ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 197/200 shake_bottle#46 frames=30468
+Map:   0%|          | 0/240 [00:00<?, ? examples/s]Map:  38%|███▊      | 91/240 [00:00<00:00, 900.22 examples/s]Map:  78%|███████▊  | 187/240 [00:00<00:00, 929.11 examples/s]Map: 100%|██████████| 240/240 [00:00<00:00, 840.41 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 114.15ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 198/200 shake_bottle#47 frames=30708
+Map:   0%|          | 0/254 [00:00<?, ? examples/s]Map:  36%|███▌      | 92/254 [00:00<00:00, 901.53 examples/s]Map:  74%|███████▍  | 188/254 [00:00<00:00, 929.62 examples/s]Map: 100%|██████████| 254/254 [00:00<00:00, 851.19 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 107.27ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 199/200 shake_bottle#48 frames=30962
+Map:   0%|          | 0/241 [00:00<?, ? examples/s]Map:  39%|███▉      | 95/241 [00:00<00:00, 928.82 examples/s]Map:  79%|███████▉  | 191/241 [00:00<00:00, 942.25 examples/s]Map: 100%|██████████| 241/241 [00:00<00:00, 860.59 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/3 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 3/3 [00:00<00:00, 120.71ba/s]
+[pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50] 200/200 shake_bottle#49 frames=31203
+[done] pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50: 31203 frames in 459.3s
+Map:   0%|          | 0/76 [00:00<?, ? examples/s]Map: 100%|██████████| 76/76 [00:00<00:00, 716.18 examples/s]Map: 100%|██████████| 76/76 [00:00<00:00, 703.15 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 93.41ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 1/200 click_alarmclock#0 frames=76
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  94%|█████████▍| 90/96 [00:00<00:00, 888.44 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 726.35 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 88.17ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 2/200 click_alarmclock#1 frames=172
+Map:   0%|          | 0/83 [00:00<?, ? examples/s]Map: 100%|██████████| 83/83 [00:00<00:00, 797.88 examples/s]Map: 100%|██████████| 83/83 [00:00<00:00, 782.92 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 99.16ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 3/200 click_alarmclock#2 frames=255
+Map:   0%|          | 0/89 [00:00<?, ? examples/s]Map: 100%|██████████| 89/89 [00:00<00:00, 830.94 examples/s]Map: 100%|██████████| 89/89 [00:00<00:00, 815.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 106.07ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 4/200 click_alarmclock#3 frames=344
+Map:   0%|          | 0/77 [00:00<?, ? examples/s]Map: 100%|██████████| 77/77 [00:00<00:00, 772.42 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 96.77ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 5/200 click_alarmclock#4 frames=421
+Map:   0%|          | 0/82 [00:00<?, ? examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 813.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 120.47ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 6/200 click_alarmclock#5 frames=503
+Map:   0%|          | 0/85 [00:00<?, ? examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 754.54 examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 744.64 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 64.82ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 7/200 click_alarmclock#6 frames=588
+Map:   0%|          | 0/78 [00:00<?, ? examples/s]Map: 100%|██████████| 78/78 [00:00<00:00, 848.00 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 115.98ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 8/200 click_alarmclock#7 frames=666
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 794.27 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 780.98 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 87.74ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 9/200 click_alarmclock#8 frames=758
+Map:   0%|          | 0/82 [00:00<?, ? examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 831.76 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 103.07ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 10/200 click_alarmclock#9 frames=840
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map:  94%|█████████▍| 91/97 [00:00<00:00, 889.17 examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 720.20 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 48.73ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 11/200 click_alarmclock#10 frames=937
+Map:   0%|          | 0/78 [00:00<?, ? examples/s]Map: 100%|██████████| 78/78 [00:00<00:00, 812.51 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 93.38ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 12/200 click_alarmclock#11 frames=1015
+Map:   0%|          | 0/79 [00:00<?, ? examples/s]Map: 100%|██████████| 79/79 [00:00<00:00, 774.61 examples/s]Map: 100%|██████████| 79/79 [00:00<00:00, 760.66 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 78.22ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 13/200 click_alarmclock#12 frames=1094
+Map:   0%|          | 0/99 [00:00<?, ? examples/s]Map:  93%|█████████▎| 92/99 [00:00<00:00, 902.39 examples/s]Map: 100%|██████████| 99/99 [00:00<00:00, 767.15 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 61.47ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 14/200 click_alarmclock#13 frames=1193
+Map:   0%|          | 0/84 [00:00<?, ? examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 742.08 examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 729.33 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 100.36ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 15/200 click_alarmclock#14 frames=1277
+Map:   0%|          | 0/81 [00:00<?, ? examples/s]Map: 100%|██████████| 81/81 [00:00<00:00, 848.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 95.74ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 16/200 click_alarmclock#15 frames=1358
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map:  91%|█████████ | 92/101 [00:00<00:00, 901.82 examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 766.84 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 112.72ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 17/200 click_alarmclock#16 frames=1459
+Map:   0%|          | 0/76 [00:00<?, ? examples/s]Map: 100%|██████████| 76/76 [00:00<00:00, 824.58 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 79.15ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 18/200 click_alarmclock#17 frames=1535
+Map:   0%|          | 0/87 [00:00<?, ? examples/s]Map: 100%|██████████| 87/87 [00:00<00:00, 745.36 examples/s]Map: 100%|██████████| 87/87 [00:00<00:00, 732.98 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 66.07ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 19/200 click_alarmclock#18 frames=1622
+Map:   0%|          | 0/102 [00:00<?, ? examples/s]Map:  88%|████████▊ | 90/102 [00:00<00:00, 884.94 examples/s]Map: 100%|██████████| 102/102 [00:00<00:00, 772.82 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 109.54ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 20/200 click_alarmclock#19 frames=1724
+Map:   0%|          | 0/81 [00:00<?, ? examples/s]Map: 100%|██████████| 81/81 [00:00<00:00, 772.02 examples/s]Map: 100%|██████████| 81/81 [00:00<00:00, 757.79 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 54.58ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 21/200 click_alarmclock#20 frames=1805
+Map:   0%|          | 0/77 [00:00<?, ? examples/s]Map: 100%|██████████| 77/77 [00:00<00:00, 843.04 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 96.34ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 22/200 click_alarmclock#21 frames=1882
+Map:   0%|          | 0/87 [00:00<?, ? examples/s]Map: 100%|██████████| 87/87 [00:00<00:00, 841.73 examples/s]Map: 100%|██████████| 87/87 [00:00<00:00, 826.14 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 104.55ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 23/200 click_alarmclock#22 frames=1969
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map:  99%|█████████▉| 92/93 [00:00<00:00, 905.32 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 790.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 74.66ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 24/200 click_alarmclock#23 frames=2062
+Map:   0%|          | 0/79 [00:00<?, ? examples/s]Map: 100%|██████████| 79/79 [00:00<00:00, 853.01 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 101.98ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 25/200 click_alarmclock#24 frames=2141
+Map:   0%|          | 0/77 [00:00<?, ? examples/s]Map: 100%|██████████| 77/77 [00:00<00:00, 826.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 115.38ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 26/200 click_alarmclock#25 frames=2218
+Map:   0%|          | 0/80 [00:00<?, ? examples/s]Map: 100%|██████████| 80/80 [00:00<00:00, 764.87 examples/s]Map: 100%|██████████| 80/80 [00:00<00:00, 751.29 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 88.10ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 27/200 click_alarmclock#26 frames=2298
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map:  97%|█████████▋| 92/95 [00:00<00:00, 908.97 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 806.89 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 92.46ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 28/200 click_alarmclock#27 frames=2393
+Map:   0%|          | 0/82 [00:00<?, ? examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 760.66 examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 750.46 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 46.03ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 29/200 click_alarmclock#28 frames=2475
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map:  99%|█████████▉| 92/93 [00:00<00:00, 899.07 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 824.96 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 80.80ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 30/200 click_alarmclock#29 frames=2568
+Map:   0%|          | 0/85 [00:00<?, ? examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 774.56 examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 760.84 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 82.57ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 31/200 click_alarmclock#30 frames=2653
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map:  93%|█████████▎| 88/95 [00:00<00:00, 868.08 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 751.27 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 44.71ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 32/200 click_alarmclock#31 frames=2748
+Map:   0%|          | 0/99 [00:00<?, ? examples/s]Map:  93%|█████████▎| 92/99 [00:00<00:00, 906.17 examples/s]Map: 100%|██████████| 99/99 [00:00<00:00, 787.56 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 71.52ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 33/200 click_alarmclock#32 frames=2847
+Map:   0%|          | 0/79 [00:00<?, ? examples/s]Map: 100%|██████████| 79/79 [00:00<00:00, 839.34 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 99.49ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 34/200 click_alarmclock#33 frames=2926
+Map:   0%|          | 0/85 [00:00<?, ? examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 783.28 examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 769.15 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 92.89ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 35/200 click_alarmclock#34 frames=3011
+Map:   0%|          | 0/83 [00:00<?, ? examples/s]Map: 100%|██████████| 83/83 [00:00<00:00, 825.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 95.23ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 36/200 click_alarmclock#35 frames=3094
+Map:   0%|          | 0/84 [00:00<?, ? examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 779.61 examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 768.38 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 70.18ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 37/200 click_alarmclock#36 frames=3178
+Map:   0%|          | 0/76 [00:00<?, ? examples/s]Map: 100%|██████████| 76/76 [00:00<00:00, 811.14 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 97.97ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 38/200 click_alarmclock#37 frames=3254
+Map:   0%|          | 0/80 [00:00<?, ? examples/s]Map: 100%|██████████| 80/80 [00:00<00:00, 808.04 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 76.59ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 39/200 click_alarmclock#38 frames=3334
+Map:   0%|          | 0/84 [00:00<?, ? examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 784.40 examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 770.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 70.36ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 40/200 click_alarmclock#39 frames=3418
+Map:   0%|          | 0/87 [00:00<?, ? examples/s]Map: 100%|██████████| 87/87 [00:00<00:00, 775.88 examples/s]Map: 100%|██████████| 87/87 [00:00<00:00, 762.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 71.26ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 41/200 click_alarmclock#40 frames=3505
+Map:   0%|          | 0/78 [00:00<?, ? examples/s]Map: 100%|██████████| 78/78 [00:00<00:00, 845.87 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 106.67ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 42/200 click_alarmclock#41 frames=3583
+Map:   0%|          | 0/81 [00:00<?, ? examples/s]Map: 100%|██████████| 81/81 [00:00<00:00, 743.72 examples/s]Map: 100%|██████████| 81/81 [00:00<00:00, 730.57 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 89.94ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 43/200 click_alarmclock#42 frames=3664
+Map:   0%|          | 0/79 [00:00<?, ? examples/s]Map: 100%|██████████| 79/79 [00:00<00:00, 826.79 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 100.17ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 44/200 click_alarmclock#43 frames=3743
+Map:   0%|          | 0/82 [00:00<?, ? examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 743.08 examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 729.94 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 53.12ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 45/200 click_alarmclock#44 frames=3825
+Map:   0%|          | 0/82 [00:00<?, ? examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 809.11 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 89.67ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 46/200 click_alarmclock#45 frames=3907
+Map:   0%|          | 0/84 [00:00<?, ? examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 805.77 examples/s]Map: 100%|██████████| 84/84 [00:00<00:00, 791.04 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 79.48ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 47/200 click_alarmclock#46 frames=3991
+Map:   0%|          | 0/94 [00:00<?, ? examples/s]Map:  99%|█████████▉| 93/94 [00:00<00:00, 912.11 examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 798.03 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 90.49ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 48/200 click_alarmclock#47 frames=4085
+Map:   0%|          | 0/85 [00:00<?, ? examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 752.77 examples/s]Map: 100%|██████████| 85/85 [00:00<00:00, 739.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 69.35ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 49/200 click_alarmclock#48 frames=4170
+Map:   0%|          | 0/82 [00:00<?, ? examples/s]Map: 100%|██████████| 82/82 [00:00<00:00, 820.34 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 105.25ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 50/200 click_alarmclock#49 frames=4252
+Map:   0%|          | 0/112 [00:00<?, ? examples/s]Map:  83%|████████▎ | 93/112 [00:00<00:00, 918.32 examples/s]Map: 100%|██████████| 112/112 [00:00<00:00, 824.30 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 157.82ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 51/200 press_stapler#0 frames=4364
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  77%|███████▋  | 93/121 [00:00<00:00, 906.64 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 772.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 103.63ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 52/200 press_stapler#1 frames=4485
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/117 [00:00<00:00, 908.47 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 813.67 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 137.57ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 53/200 press_stapler#2 frames=4602
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/118 [00:00<00:00, 915.15 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 827.08 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 131.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 54/200 press_stapler#3 frames=4720
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  76%|███████▌  | 92/121 [00:00<00:00, 904.71 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 805.83 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 130.09ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 55/200 press_stapler#4 frames=4841
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/117 [00:00<00:00, 914.53 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 810.94 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 137.56ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 56/200 press_stapler#5 frames=4958
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  46%|████▌     | 53/115 [00:00<00:00, 278.57 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 415.27 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 148.05ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 57/200 press_stapler#6 frames=5073
+Map:   0%|          | 0/125 [00:00<?, ? examples/s]Map:  74%|███████▍  | 93/125 [00:00<00:00, 909.99 examples/s]Map: 100%|██████████| 125/125 [00:00<00:00, 815.40 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 138.28ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 58/200 press_stapler#7 frames=5198
+Map:   0%|          | 0/128 [00:00<?, ? examples/s]Map:  73%|███████▎  | 93/128 [00:00<00:00, 912.35 examples/s]Map: 100%|██████████| 128/128 [00:00<00:00, 817.42 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 132.30ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 59/200 press_stapler#8 frames=5326
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/118 [00:00<00:00, 917.81 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 811.70 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 140.70ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 60/200 press_stapler#9 frames=5444
+Map:   0%|          | 0/129 [00:00<?, ? examples/s]Map:  72%|███████▏  | 93/129 [00:00<00:00, 913.65 examples/s]Map: 100%|██████████| 129/129 [00:00<00:00, 822.04 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 146.29ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 61/200 press_stapler#10 frames=5573
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/114 [00:00<00:00, 916.78 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 814.49 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 166.10ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 62/200 press_stapler#11 frames=5687
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  81%|████████  | 93/115 [00:00<00:00, 912.62 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 809.80 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 140.76ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 63/200 press_stapler#12 frames=5802
+Map:   0%|          | 0/123 [00:00<?, ? examples/s]Map:  76%|███████▌  | 93/123 [00:00<00:00, 918.68 examples/s]Map: 100%|██████████| 123/123 [00:00<00:00, 825.81 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 135.43ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 64/200 press_stapler#13 frames=5925
+Map:   0%|          | 0/123 [00:00<?, ? examples/s]Map:  76%|███████▌  | 93/123 [00:00<00:00, 918.65 examples/s]Map: 100%|██████████| 123/123 [00:00<00:00, 818.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 140.49ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 65/200 press_stapler#14 frames=6048
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map:  80%|████████  | 93/116 [00:00<00:00, 913.38 examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 803.12 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 141.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 66/200 press_stapler#15 frames=6164
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map:  74%|███████▍  | 93/126 [00:00<00:00, 914.92 examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 809.13 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 158.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 67/200 press_stapler#16 frames=6290
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/114 [00:00<00:00, 915.03 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 814.59 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 155.23ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 68/200 press_stapler#17 frames=6404
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map:  81%|████████  | 94/116 [00:00<00:00, 914.58 examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 812.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 148.73ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 69/200 press_stapler#18 frames=6520
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  81%|████████  | 95/117 [00:00<00:00, 932.39 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 833.37 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 170.39ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 70/200 press_stapler#19 frames=6637
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 94/114 [00:00<00:00, 924.00 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 811.95 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 147.49ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 71/200 press_stapler#20 frames=6751
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  82%|████████▏ | 94/115 [00:00<00:00, 923.71 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 811.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 150.38ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 72/200 press_stapler#21 frames=6866
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map:  75%|███████▍  | 94/126 [00:00<00:00, 927.72 examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 833.44 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 153.92ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 73/200 press_stapler#22 frames=6992
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/114 [00:00<00:00, 918.36 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 820.50 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 171.69ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 74/200 press_stapler#23 frames=7106
+Map:   0%|          | 0/124 [00:00<?, ? examples/s]Map:  75%|███████▌  | 93/124 [00:00<00:00, 917.79 examples/s]Map: 100%|██████████| 124/124 [00:00<00:00, 803.36 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 127.93ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 75/200 press_stapler#24 frames=7230
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  82%|████████▏ | 94/115 [00:00<00:00, 924.89 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 823.39 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 156.27ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 76/200 press_stapler#25 frames=7345
+Map:   0%|          | 0/123 [00:00<?, ? examples/s]Map:  76%|███████▌  | 93/123 [00:00<00:00, 919.42 examples/s]Map: 100%|██████████| 123/123 [00:00<00:00, 823.88 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 152.57ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 77/200 press_stapler#26 frames=7468
+Map:   0%|          | 0/113 [00:00<?, ? examples/s]Map:  83%|████████▎ | 94/113 [00:00<00:00, 927.98 examples/s]Map: 100%|██████████| 113/113 [00:00<00:00, 816.69 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 157.87ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 78/200 press_stapler#27 frames=7581
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  80%|████████  | 94/117 [00:00<00:00, 917.64 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 820.26 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 149.08ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 79/200 press_stapler#28 frames=7698
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map:  74%|███████▍  | 93/126 [00:00<00:00, 911.66 examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 814.08 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 139.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 80/200 press_stapler#29 frames=7824
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  80%|████████  | 92/115 [00:00<00:00, 909.98 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 816.80 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 171.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 81/200 press_stapler#30 frames=7939
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/118 [00:00<00:00, 916.50 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 821.37 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 149.74ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 82/200 press_stapler#31 frames=8057
+Map:   0%|          | 0/114 [00:00<?, ? examples/s]Map:  82%|████████▏ | 93/114 [00:00<00:00, 921.35 examples/s]Map: 100%|██████████| 114/114 [00:00<00:00, 824.42 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 165.73ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 83/200 press_stapler#32 frames=8171
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  80%|███████▉  | 94/118 [00:00<00:00, 922.93 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 815.46 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 149.20ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 84/200 press_stapler#33 frames=8289
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/117 [00:00<00:00, 913.29 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 817.22 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 148.97ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 85/200 press_stapler#34 frames=8406
+Map:   0%|          | 0/121 [00:00<?, ? examples/s]Map:  77%|███████▋  | 93/121 [00:00<00:00, 906.92 examples/s]Map: 100%|██████████| 121/121 [00:00<00:00, 808.37 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 172.90ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 86/200 press_stapler#35 frames=8527
+Map:   0%|          | 0/119 [00:00<?, ? examples/s]Map:  79%|███████▉  | 94/119 [00:00<00:00, 922.28 examples/s]Map: 100%|██████████| 119/119 [00:00<00:00, 826.75 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 160.57ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 87/200 press_stapler#36 frames=8646
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  81%|████████  | 95/118 [00:00<00:00, 925.19 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 821.69 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 141.40ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 88/200 press_stapler#37 frames=8764
+Map:   0%|          | 0/118 [00:00<?, ? examples/s]Map:  80%|███████▉  | 94/118 [00:00<00:00, 921.90 examples/s]Map: 100%|██████████| 118/118 [00:00<00:00, 826.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 159.96ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 89/200 press_stapler#38 frames=8882
+Map:   0%|          | 0/122 [00:00<?, ? examples/s]Map:  78%|███████▊  | 95/122 [00:00<00:00, 925.37 examples/s]Map: 100%|██████████| 122/122 [00:00<00:00, 825.98 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 150.61ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 90/200 press_stapler#39 frames=9004
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  79%|███████▉  | 93/117 [00:00<00:00, 911.03 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 800.21 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 153.60ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 91/200 press_stapler#40 frames=9121
+Map:   0%|          | 0/117 [00:00<?, ? examples/s]Map:  81%|████████  | 95/117 [00:00<00:00, 926.94 examples/s]Map: 100%|██████████| 117/117 [00:00<00:00, 828.73 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 171.64ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 92/200 press_stapler#41 frames=9238
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map:  80%|████████  | 93/116 [00:00<00:00, 907.28 examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 806.93 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 145.10ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 93/200 press_stapler#42 frames=9354
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map:  74%|███████▍  | 93/126 [00:00<00:00, 919.44 examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 804.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.27ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 94/200 press_stapler#43 frames=9480
+Map:   0%|          | 0/130 [00:00<?, ? examples/s]Map:  73%|███████▎  | 95/130 [00:00<00:00, 926.68 examples/s]Map: 100%|██████████| 130/130 [00:00<00:00, 828.55 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 118.99ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 95/200 press_stapler#44 frames=9610
+Map:   0%|          | 0/119 [00:00<?, ? examples/s]Map:  79%|███████▉  | 94/119 [00:00<00:00, 924.37 examples/s]Map: 100%|██████████| 119/119 [00:00<00:00, 819.34 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 139.19ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 96/200 press_stapler#45 frames=9729
+Map:   0%|          | 0/116 [00:00<?, ? examples/s]Map:  82%|████████▏ | 95/116 [00:00<00:00, 927.19 examples/s]Map: 100%|██████████| 116/116 [00:00<00:00, 826.76 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 153.13ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 97/200 press_stapler#46 frames=9845
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  81%|████████  | 93/115 [00:00<00:00, 915.03 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 814.99 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 144.37ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 98/200 press_stapler#47 frames=9960
+Map:   0%|          | 0/126 [00:00<?, ? examples/s]Map:  73%|███████▎  | 92/126 [00:00<00:00, 903.43 examples/s]Map: 100%|██████████| 126/126 [00:00<00:00, 804.96 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 144.82ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 99/200 press_stapler#48 frames=10086
+Map:   0%|          | 0/115 [00:00<?, ? examples/s]Map:  81%|████████  | 93/115 [00:00<00:00, 915.38 examples/s]Map: 100%|██████████| 115/115 [00:00<00:00, 813.26 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 153.47ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 100/200 press_stapler#49 frames=10201
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  68%|██████▊   | 95/139 [00:00<00:00, 929.05 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 826.57 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.39ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 101/200 stamp_seal#0 frames=10340
+Map:   0%|          | 0/150 [00:00<?, ? examples/s]Map:  62%|██████▏   | 93/150 [00:00<00:00, 923.33 examples/s]Map: 100%|██████████| 150/150 [00:00<00:00, 826.49 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 112.62ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 102/200 stamp_seal#1 frames=10490
+Map:   0%|          | 0/145 [00:00<?, ? examples/s]Map:  66%|██████▌   | 95/145 [00:00<00:00, 928.64 examples/s]Map: 100%|██████████| 145/145 [00:00<00:00, 836.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 129.90ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 103/200 stamp_seal#2 frames=10635
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  67%|██████▋   | 93/139 [00:00<00:00, 912.84 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 813.39 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 104/200 stamp_seal#3 frames=10774
+Map:   0%|          | 0/156 [00:00<?, ? examples/s]Map:  59%|█████▉    | 92/156 [00:00<00:00, 910.41 examples/s]Map: 100%|██████████| 156/156 [00:00<00:00, 827.21 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 118.05ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 105/200 stamp_seal#4 frames=10930
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map:  62%|██████▏   | 93/151 [00:00<00:00, 913.83 examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 821.18 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 117.03ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 106/200 stamp_seal#5 frames=11081
+Map:   0%|          | 0/137 [00:00<?, ? examples/s]Map:  69%|██████▊   | 94/137 [00:00<00:00, 925.32 examples/s]Map: 100%|██████████| 137/137 [00:00<00:00, 824.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 123.68ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 107/200 stamp_seal#6 frames=11218
+Map:   0%|          | 0/141 [00:00<?, ? examples/s]Map:  67%|██████▋   | 94/141 [00:00<00:00, 919.69 examples/s]Map: 100%|██████████| 141/141 [00:00<00:00, 803.04 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 111.78ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 108/200 stamp_seal#7 frames=11359
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  65%|██████▍   | 95/147 [00:00<00:00, 925.24 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 805.70 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 106.21ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 109/200 stamp_seal#8 frames=11506
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  66%|██████▌   | 95/144 [00:00<00:00, 926.14 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 828.15 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 118.69ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 110/200 stamp_seal#9 frames=11650
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  65%|██████▍   | 93/144 [00:00<00:00, 923.66 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 824.89 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 123.06ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 111/200 stamp_seal#10 frames=11794
+Map:   0%|          | 0/138 [00:00<?, ? examples/s]Map:  68%|██████▊   | 94/138 [00:00<00:00, 930.34 examples/s]Map: 100%|██████████| 138/138 [00:00<00:00, 826.83 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 124.17ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 112/200 stamp_seal#11 frames=11932
+Map:   0%|          | 0/140 [00:00<?, ? examples/s]Map:  68%|██████▊   | 95/140 [00:00<00:00, 930.45 examples/s]Map: 100%|██████████| 140/140 [00:00<00:00, 807.23 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 118.53ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 113/200 stamp_seal#12 frames=12072
+Map:   0%|          | 0/142 [00:00<?, ? examples/s]Map:  65%|██████▌   | 93/142 [00:00<00:00, 916.13 examples/s]Map: 100%|██████████| 142/142 [00:00<00:00, 820.20 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 132.67ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 114/200 stamp_seal#13 frames=12214
+Map:   0%|          | 0/145 [00:00<?, ? examples/s]Map:  64%|██████▍   | 93/145 [00:00<00:00, 918.63 examples/s]Map: 100%|██████████| 145/145 [00:00<00:00, 809.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 109.99ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 115/200 stamp_seal#14 frames=12359
+Map:   0%|          | 0/155 [00:00<?, ? examples/s]Map:  61%|██████    | 94/155 [00:00<00:00, 930.39 examples/s]Map: 100%|██████████| 155/155 [00:00<00:00, 829.54 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 119.65ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 116/200 stamp_seal#15 frames=12514
+Map:   0%|          | 0/152 [00:00<?, ? examples/s]Map:  62%|██████▏   | 94/152 [00:00<00:00, 921.45 examples/s]Map: 100%|██████████| 152/152 [00:00<00:00, 826.81 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 114.47ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 117/200 stamp_seal#16 frames=12666
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  65%|██████▍   | 93/144 [00:00<00:00, 911.24 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 814.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 109.80ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 118/200 stamp_seal#17 frames=12810
+Map:   0%|          | 0/149 [00:00<?, ? examples/s]Map:  64%|██████▍   | 95/149 [00:00<00:00, 931.39 examples/s]Map: 100%|██████████| 149/149 [00:00<00:00, 826.45 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 120.88ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 119/200 stamp_seal#18 frames=12959
+Map:   0%|          | 0/158 [00:00<?, ? examples/s]Map:  59%|█████▉    | 93/158 [00:00<00:00, 912.61 examples/s]Map: 100%|██████████| 158/158 [00:00<00:00, 823.18 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.68ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 120/200 stamp_seal#19 frames=13117
+Map:   0%|          | 0/155 [00:00<?, ? examples/s]Map:  54%|█████▎    | 83/155 [00:00<00:00, 817.32 examples/s]Map: 100%|██████████| 155/155 [00:00<00:00, 781.23 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 129.31ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 121/200 stamp_seal#20 frames=13272
+Map:   0%|          | 0/144 [00:00<?, ? examples/s]Map:  66%|██████▌   | 95/144 [00:00<00:00, 932.75 examples/s]Map: 100%|██████████| 144/144 [00:00<00:00, 804.41 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.77ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 122/200 stamp_seal#21 frames=13416
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  65%|██████▌   | 93/143 [00:00<00:00, 916.59 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 806.68 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.67ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 123/200 stamp_seal#22 frames=13559
+Map:   0%|          | 0/150 [00:00<?, ? examples/s]Map:  63%|██████▎   | 95/150 [00:00<00:00, 926.34 examples/s]Map: 100%|██████████| 150/150 [00:00<00:00, 827.99 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 134.91ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 124/200 stamp_seal#23 frames=13709
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  66%|██████▋   | 95/143 [00:00<00:00, 929.84 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 816.80 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 124.60ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 125/200 stamp_seal#24 frames=13852
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  65%|██████▌   | 91/139 [00:00<00:00, 894.50 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 812.22 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 128.42ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 126/200 stamp_seal#25 frames=13991
+Map:   0%|          | 0/154 [00:00<?, ? examples/s]Map:  61%|██████    | 94/154 [00:00<00:00, 923.89 examples/s]Map: 100%|██████████| 154/154 [00:00<00:00, 819.05 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 122.87ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 127/200 stamp_seal#26 frames=14145
+Map:   0%|          | 0/134 [00:00<?, ? examples/s]Map:  69%|██████▉   | 93/134 [00:00<00:00, 914.60 examples/s]Map: 100%|██████████| 134/134 [00:00<00:00, 809.16 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 132.98ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 128/200 stamp_seal#27 frames=14279
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map:  62%|██████▏   | 93/151 [00:00<00:00, 912.42 examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 821.87 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 140.64ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 129/200 stamp_seal#28 frames=14430
+Map:   0%|          | 0/143 [00:00<?, ? examples/s]Map:  64%|██████▎   | 91/143 [00:00<00:00, 898.01 examples/s]Map: 100%|██████████| 143/143 [00:00<00:00, 829.06 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 128.54ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 130/200 stamp_seal#29 frames=14573
+Map:   0%|          | 0/159 [00:00<?, ? examples/s]Map:  58%|█████▊    | 93/159 [00:00<00:00, 919.66 examples/s]Map: 100%|██████████| 159/159 [00:00<00:00, 826.80 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 104.73ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 131/200 stamp_seal#30 frames=14732
+Map:   0%|          | 0/134 [00:00<?, ? examples/s]Map:  69%|██████▉   | 93/134 [00:00<00:00, 917.65 examples/s]Map: 100%|██████████| 134/134 [00:00<00:00, 834.16 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 135.62ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 132/200 stamp_seal#31 frames=14866
+Map:   0%|          | 0/142 [00:00<?, ? examples/s]Map:  67%|██████▋   | 95/142 [00:00<00:00, 927.23 examples/s]Map: 100%|██████████| 142/142 [00:00<00:00, 843.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 131.09ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 133/200 stamp_seal#32 frames=15008
+Map:   0%|          | 0/140 [00:00<?, ? examples/s]Map:  66%|██████▋   | 93/140 [00:00<00:00, 920.16 examples/s]Map: 100%|██████████| 140/140 [00:00<00:00, 831.02 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 143.54ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 134/200 stamp_seal#33 frames=15148
+Map:   0%|          | 0/157 [00:00<?, ? examples/s]Map:  60%|█████▉    | 94/157 [00:00<00:00, 923.63 examples/s]Map: 100%|██████████| 157/157 [00:00<00:00, 845.59 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 116.74ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 135/200 stamp_seal#34 frames=15305
+Map:   0%|          | 0/146 [00:00<?, ? examples/s]Map:  64%|██████▎   | 93/146 [00:00<00:00, 911.45 examples/s]Map: 100%|██████████| 146/146 [00:00<00:00, 839.35 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 133.28ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 136/200 stamp_seal#35 frames=15451
+Map:   0%|          | 0/137 [00:00<?, ? examples/s]Map:  68%|██████▊   | 93/137 [00:00<00:00, 915.94 examples/s]Map: 100%|██████████| 137/137 [00:00<00:00, 843.74 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 146.16ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 137/200 stamp_seal#36 frames=15588
+Map:   0%|          | 0/146 [00:00<?, ? examples/s]Map:  64%|██████▎   | 93/146 [00:00<00:00, 911.47 examples/s]Map: 100%|██████████| 146/146 [00:00<00:00, 834.83 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 130.53ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 138/200 stamp_seal#37 frames=15734
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  66%|██████▌   | 92/139 [00:00<00:00, 904.65 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 824.94 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 142.01ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 139/200 stamp_seal#38 frames=15873
+Map:   0%|          | 0/138 [00:00<?, ? examples/s]Map:  68%|██████▊   | 94/138 [00:00<00:00, 922.92 examples/s]Map: 100%|██████████| 138/138 [00:00<00:00, 840.19 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 142.76ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 140/200 stamp_seal#39 frames=16011
+Map:   0%|          | 0/133 [00:00<?, ? examples/s]Map:  70%|██████▉   | 93/133 [00:00<00:00, 916.62 examples/s]Map: 100%|██████████| 133/133 [00:00<00:00, 836.77 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 139.36ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 141/200 stamp_seal#40 frames=16144
+Map:   0%|          | 0/135 [00:00<?, ? examples/s]Map:  70%|██████▉   | 94/135 [00:00<00:00, 923.40 examples/s]Map: 100%|██████████| 135/135 [00:00<00:00, 841.78 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 149.53ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 142/200 stamp_seal#41 frames=16279
+Map:   0%|          | 0/136 [00:00<?, ? examples/s]Map:  68%|██████▊   | 92/136 [00:00<00:00, 909.89 examples/s]Map: 100%|██████████| 136/136 [00:00<00:00, 838.61 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 147.74ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 143/200 stamp_seal#42 frames=16415
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  64%|██████▍   | 94/147 [00:00<00:00, 917.66 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 820.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 130.55ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 144/200 stamp_seal#43 frames=16562
+Map:   0%|          | 0/137 [00:00<?, ? examples/s]Map:  69%|██████▊   | 94/137 [00:00<00:00, 917.62 examples/s]Map: 100%|██████████| 137/137 [00:00<00:00, 829.73 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 152.91ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 145/200 stamp_seal#44 frames=16699
+Map:   0%|          | 0/159 [00:00<?, ? examples/s]Map:  58%|█████▊    | 93/159 [00:00<00:00, 922.86 examples/s]Map: 100%|██████████| 159/159 [00:00<00:00, 851.02 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 108.03ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 146/200 stamp_seal#45 frames=16858
+Map:   0%|          | 0/159 [00:00<?, ? examples/s]Map:  58%|█████▊    | 93/159 [00:00<00:00, 909.54 examples/s]Map: 100%|██████████| 159/159 [00:00<00:00, 838.96 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 121.49ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 147/200 stamp_seal#46 frames=17017
+Map:   0%|          | 0/139 [00:00<?, ? examples/s]Map:  68%|██████▊   | 94/139 [00:00<00:00, 925.99 examples/s]Map: 100%|██████████| 139/139 [00:00<00:00, 848.24 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 150.36ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 148/200 stamp_seal#47 frames=17156
+Map:   0%|          | 0/147 [00:00<?, ? examples/s]Map:  63%|██████▎   | 93/147 [00:00<00:00, 919.67 examples/s]Map: 100%|██████████| 147/147 [00:00<00:00, 840.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 127.98ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 149/200 stamp_seal#48 frames=17303
+Map:   0%|          | 0/156 [00:00<?, ? examples/s]Map:  60%|██████    | 94/156 [00:00<00:00, 922.28 examples/s]Map: 100%|██████████| 156/156 [00:00<00:00, 842.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 122.72ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 150/200 stamp_seal#49 frames=17459
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 862.54 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 846.07 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 117.05ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 151/200 turn_switch#0 frames=17551
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map:  97%|█████████▋| 94/97 [00:00<00:00, 922.68 examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 868.98 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 82.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 152/200 turn_switch#1 frames=17648
+Map:   0%|          | 0/91 [00:00<?, ? examples/s]Map: 100%|██████████| 91/91 [00:00<00:00, 874.00 examples/s]Map: 100%|██████████| 91/91 [00:00<00:00, 857.63 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 127.28ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 153/200 turn_switch#2 frames=17739
+Map:   0%|          | 0/99 [00:00<?, ? examples/s]Map:  94%|█████████▍| 93/99 [00:00<00:00, 913.09 examples/s]Map: 100%|██████████| 99/99 [00:00<00:00, 822.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 91.94ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 154/200 turn_switch#3 frames=17838
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 878.94 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 862.88 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 137.45ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 155/200 turn_switch#4 frames=17931
+Map:   0%|          | 0/98 [00:00<?, ? examples/s]Map:  95%|█████████▍| 93/98 [00:00<00:00, 915.96 examples/s]Map: 100%|██████████| 98/98 [00:00<00:00, 827.41 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 82.68ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 156/200 turn_switch#5 frames=18029
+Map:   0%|          | 0/107 [00:00<?, ? examples/s]Map:  87%|████████▋ | 93/107 [00:00<00:00, 915.09 examples/s]Map: 100%|██████████| 107/107 [00:00<00:00, 852.99 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 197.62ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 157/200 turn_switch#6 frames=18136
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 917.69 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 840.44 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 123.63ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 158/200 turn_switch#7 frames=18229
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map:  97%|█████████▋| 94/97 [00:00<00:00, 917.06 examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 857.50 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 95.40ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 159/200 turn_switch#8 frames=18326
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  98%|█████████▊| 94/96 [00:00<00:00, 922.63 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 828.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 118.00ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 160/200 turn_switch#9 frames=18422
+Map:   0%|          | 0/91 [00:00<?, ? examples/s]Map: 100%|██████████| 91/91 [00:00<00:00, 817.63 examples/s]Map: 100%|██████████| 91/91 [00:00<00:00, 803.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 99.19ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 161/200 turn_switch#10 frames=18513
+Map:   0%|          | 0/99 [00:00<?, ? examples/s]Map:  94%|█████████▍| 93/99 [00:00<00:00, 911.16 examples/s]Map: 100%|██████████| 99/99 [00:00<00:00, 828.20 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 82.90ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 162/200 turn_switch#11 frames=18612
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map:  93%|█████████▎| 94/101 [00:00<00:00, 919.11 examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 845.21 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 229.39ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 163/200 turn_switch#12 frames=18713
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  97%|█████████▋| 93/96 [00:00<00:00, 909.55 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 795.76 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 102.74ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 164/200 turn_switch#13 frames=18809
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map:  94%|█████████▍| 94/100 [00:00<00:00, 917.10 examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 867.29 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 119.54ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 165/200 turn_switch#14 frames=18909
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  98%|█████████▊| 94/96 [00:00<00:00, 914.01 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 852.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 108.45ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 166/200 turn_switch#15 frames=19005
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map:  98%|█████████▊| 91/93 [00:00<00:00, 896.02 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 814.60 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 111.48ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 167/200 turn_switch#16 frames=19098
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  98%|█████████▊| 94/96 [00:00<00:00, 921.16 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 839.18 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 90.02ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 168/200 turn_switch#17 frames=19194
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 862.60 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 846.88 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 123.02ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 169/200 turn_switch#18 frames=19287
+Map:   0%|          | 0/94 [00:00<?, ? examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 922.07 examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 841.11 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 109.61ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 170/200 turn_switch#19 frames=19381
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map:  99%|█████████▉| 92/93 [00:00<00:00, 905.14 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 829.99 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 103.10ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 171/200 turn_switch#20 frames=19474
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map:  99%|█████████▉| 94/95 [00:00<00:00, 918.66 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 841.69 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 102.27ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 172/200 turn_switch#21 frames=19569
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  97%|█████████▋| 93/96 [00:00<00:00, 909.70 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 787.18 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 81.84ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 173/200 turn_switch#22 frames=19665
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map:  99%|█████████▉| 94/95 [00:00<00:00, 917.41 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 865.46 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 122.69ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 174/200 turn_switch#23 frames=19760
+Map:   0%|          | 0/94 [00:00<?, ? examples/s]Map:  99%|█████████▉| 93/94 [00:00<00:00, 916.42 examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 857.57 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 128.88ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 175/200 turn_switch#24 frames=19854
+Map:   0%|          | 0/94 [00:00<?, ? examples/s]Map:  99%|█████████▉| 93/94 [00:00<00:00, 911.41 examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 813.23 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 110.47ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 176/200 turn_switch#25 frames=19948
+Map:   0%|          | 0/94 [00:00<?, ? examples/s]Map:  99%|█████████▉| 93/94 [00:00<00:00, 913.31 examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 840.95 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 103.71ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 177/200 turn_switch#26 frames=20042
+Map:   0%|          | 0/99 [00:00<?, ? examples/s]Map:  94%|█████████▍| 93/99 [00:00<00:00, 915.87 examples/s]Map: 100%|██████████| 99/99 [00:00<00:00, 831.23 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 85.94ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 178/200 turn_switch#27 frames=20141
+Map:   0%|          | 0/103 [00:00<?, ? examples/s]Map:  91%|█████████▏| 94/103 [00:00<00:00, 924.32 examples/s]Map: 100%|██████████| 103/103 [00:00<00:00, 858.26 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 165.88ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 179/200 turn_switch#28 frames=20244
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 857.19 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 841.73 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 90.02ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 180/200 turn_switch#29 frames=20336
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  98%|█████████▊| 94/96 [00:00<00:00, 917.49 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 842.47 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 108.08ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 181/200 turn_switch#30 frames=20432
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map:  98%|█████████▊| 95/97 [00:00<00:00, 926.57 examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 850.90 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 100.10ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 182/200 turn_switch#31 frames=20529
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  99%|█████████▉| 95/96 [00:00<00:00, 929.98 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 827.62 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 91.60ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 183/200 turn_switch#32 frames=20625
+Map:   0%|          | 0/90 [00:00<?, ? examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 867.14 examples/s]Map: 100%|██████████| 90/90 [00:00<00:00, 850.83 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 105.65ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 184/200 turn_switch#33 frames=20715
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  98%|█████████▊| 94/96 [00:00<00:00, 922.89 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 823.66 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 90.49ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 185/200 turn_switch#34 frames=20811
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  97%|█████████▋| 93/96 [00:00<00:00, 908.44 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 831.26 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 113.98ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 186/200 turn_switch#35 frames=20907
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 864.40 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 848.45 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 128.46ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 187/200 turn_switch#36 frames=20999
+Map:   0%|          | 0/95 [00:00<?, ? examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 926.78 examples/s]Map: 100%|██████████| 95/95 [00:00<00:00, 851.92 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 120.11ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 188/200 turn_switch#37 frames=21094
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  97%|█████████▋| 93/96 [00:00<00:00, 909.05 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 843.15 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 108.52ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 189/200 turn_switch#38 frames=21190
+Map:   0%|          | 0/105 [00:00<?, ? examples/s]Map:  89%|████████▊ | 93/105 [00:00<00:00, 916.40 examples/s]Map: 100%|██████████| 105/105 [00:00<00:00, 843.85 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 219.74ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 190/200 turn_switch#39 frames=21295
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map:  96%|█████████▌| 93/97 [00:00<00:00, 914.02 examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 818.07 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 88.68ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 191/200 turn_switch#40 frames=21392
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map:  99%|█████████▉| 92/93 [00:00<00:00, 906.47 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 837.82 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 139.81ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 192/200 turn_switch#41 frames=21485
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 853.91 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 838.45 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 125.45ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 193/200 turn_switch#42 frames=21578
+Map:   0%|          | 0/101 [00:00<?, ? examples/s]Map:  92%|█████████▏| 93/101 [00:00<00:00, 912.29 examples/s]Map: 100%|██████████| 101/101 [00:00<00:00, 798.72 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/2 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 2/2 [00:00<00:00, 178.17ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 194/200 turn_switch#43 frames=21679
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map:  96%|█████████▌| 93/97 [00:00<00:00, 915.01 examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 853.75 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 90.45ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 195/200 turn_switch#44 frames=21776
+Map:   0%|          | 0/93 [00:00<?, ? examples/s]Map:  99%|█████████▉| 92/93 [00:00<00:00, 908.40 examples/s]Map: 100%|██████████| 93/93 [00:00<00:00, 839.02 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 117.71ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 196/200 turn_switch#45 frames=21869
+Map:   0%|          | 0/94 [00:00<?, ? examples/s]Map:  99%|█████████▉| 93/94 [00:00<00:00, 912.88 examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 836.04 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 123.83ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 197/200 turn_switch#46 frames=21963
+Map:   0%|          | 0/92 [00:00<?, ? examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 908.42 examples/s]Map: 100%|██████████| 92/92 [00:00<00:00, 830.28 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 105.97ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 198/200 turn_switch#47 frames=22055
+Map:   0%|          | 0/96 [00:00<?, ? examples/s]Map:  96%|█████████▌| 92/96 [00:00<00:00, 900.99 examples/s]Map: 100%|██████████| 96/96 [00:00<00:00, 824.48 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 90.40ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 199/200 turn_switch#48 frames=22151
+Map:   0%|          | 0/94 [00:00<?, ? examples/s]Map:  97%|█████████▋| 91/94 [00:00<00:00, 891.55 examples/s]Map: 100%|██████████| 94/94 [00:00<00:00, 821.13 examples/s]
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 130.09ba/s]
+[pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50] 200/200 turn_switch#49 frames=22245
+[done] pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50: 22245 frames in 329.1s
+[skip] pi05_30_aloha_target_place_mouse_pad_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_rotate_qrcode_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_place_can_basket_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_hanging_mug_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_stack_blocks_two_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_blocks_ranking_rgb_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_pick_dual_bottles_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_scan_object_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_click_bell_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_beat_block_hammer_r0_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_place_mouse_pad_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_rotate_qrcode_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_place_can_basket_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_hanging_mug_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_stack_blocks_two_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_blocks_ranking_rgb_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_pick_dual_bottles_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_scan_object_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_click_bell_r1_n5: 5 episodes already present
+[skip] pi05_30_aloha_target_beat_block_hammer_r1_n5: 5 episodes already present

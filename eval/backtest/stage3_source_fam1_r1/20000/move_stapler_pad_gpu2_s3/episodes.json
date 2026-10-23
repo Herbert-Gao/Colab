@@ -1,0 +1,22 @@
+{
+  "task": "move_stapler_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 1,
+  "seed_schedule": [
+    500103
+  ],
+  "attempted_seeds": [
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 183,
+      "instruction": "Place the paper stapler with curved handle on the Black colored mat."
+    }
+  ]
+}

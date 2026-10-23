@@ -1,0 +1,182 @@
+{
+  "task": "blocks_ranking_rgb",
+  "task_config": "demo_clean",
+  "requested_episodes": 17,
+  "seed_schedule": [
+    105001,
+    105007,
+    105013,
+    105019,
+    105025,
+    105031,
+    105037,
+    105043,
+    105049,
+    105055,
+    105061,
+    105067,
+    105073,
+    105079,
+    105085,
+    105091,
+    105097
+  ],
+  "attempted_seeds": [
+    105001,
+    105007,
+    105013,
+    105019,
+    105025,
+    105031,
+    105037,
+    105043,
+    105049,
+    105055,
+    105061,
+    105067,
+    105073,
+    105079,
+    105085,
+    105091,
+    105097
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 105001,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right."
+    },
+    {
+      "episode": 2,
+      "seed": 105007,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Set red block on the left, then green block in the center, and finally blue block on the right."
+    },
+    {
+      "episode": 3,
+      "seed": 105013,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row."
+    },
+    {
+      "episode": 4,
+      "seed": 105019,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right."
+    },
+    {
+      "episode": 5,
+      "seed": 105025,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Arrange red block, green block, and blue block in a row with red block on the left, green block in the middle, and blue block on the right."
+    },
+    {
+      "episode": 6,
+      "seed": 105031,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block."
+    },
+    {
+      "episode": 7,
+      "seed": 105037,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Pick up red block, set it on the left. Then grab green block, position it next to red block. Finally, place blue block to the right of green block."
+    },
+    {
+      "episode": 8,
+      "seed": 105043,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block."
+    },
+    {
+      "episode": 9,
+      "seed": 105049,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Set red block, green block, and blue block in a row from left to right in the order red, green, blue."
+    },
+    {
+      "episode": 10,
+      "seed": 105055,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right."
+    },
+    {
+      "episode": 11,
+      "seed": 105061,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right."
+    },
+    {
+      "episode": 12,
+      "seed": 105067,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block."
+    },
+    {
+      "episode": 13,
+      "seed": 105073,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Arrange red block, green block, and blue block from left to right in a row."
+    },
+    {
+      "episode": 14,
+      "seed": 105079,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Start by placing red block to the left, followed by green block next to red block, and end with blue block on the far right."
+    },
+    {
+      "episode": 15,
+      "seed": 105085,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Place red block on the left, then set green block to its right and blue block next to green block."
+    },
+    {
+      "episode": 16,
+      "seed": 105091,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Use the right arm to arrange red block first, then use the right arm for green block, and finally use the left arm for blue block in a row."
+    },
+    {
+      "episode": 17,
+      "seed": 105097,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block."
+    }
+  ]
+}

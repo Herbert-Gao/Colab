@@ -1,0 +1,15 @@
+[2026-10-22T17:12:24+00:00] matrix driver waiting for the source models to reach a terminal state
+[2026-10-22T23:18:43+00:00] matrix driver waiting for the source models to reach a terminal state
+[2026-10-22T23:18:43+00:00] all source models are terminal
+stage3_source_fam1_r1: scoring the delivered weights (step 15000)
+stop
+stage3_source_fam1_r1: delivered weights scored
+stage3_source_fam2_r1: scoring the delivered weights (step 15000)
+stop
+stage3_source_fam2_r1: delivered weights scored
+stage3_source_fam3_r1: step 15000 is already scored
+[2026-10-22T23:43:44+00:00] adaptation jobs to run: 30
+[2026-10-22T23:43:45+00:00] pair 1: stage3_adapt_place_mouse_pad_r1_from_fam1 (0,1,2,3) and stage3_adapt_place_mouse_pad_r1_from_fam2 (4,5,6,7)
+[2026-10-22T23:43:45+00:00] cotrain driver starting: stage3_adapt_place_mouse_pad_r1_from_fam1 stage3_adapt_place_mouse_pad_r1_from_fam2
+[2026-10-22T23:44:05+00:00] started stage3_adapt_place_mouse_pad_r1_from_fam1 (attempt 1, pid 880574)
+[2026-10-22T23:44:35+00:00] started stage3_adapt_place_mouse_pad_r1_from_fam2 (attempt 1, pid 882132)

@@ -1,0 +1,198 @@
+{
+  "task": "rotate_qrcode",
+  "task_config": "demo_clean",
+  "requested_episodes": 17,
+  "seed_schedule": [
+    101003,
+    101009,
+    101015,
+    101021,
+    101027,
+    101033,
+    101039,
+    101045,
+    101051,
+    101057,
+    101063,
+    101069,
+    101075,
+    101081,
+    101087,
+    101093,
+    101099
+  ],
+  "attempted_seeds": [
+    101003,
+    101009,
+    101015,
+    101021,
+    101027,
+    101033,
+    101039,
+    101045,
+    101051,
+    101057,
+    101063,
+    101069,
+    101075,
+    101081,
+    101087,
+    101093,
+    101099,
+    101020,
+    101021
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 101003,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the QR code payment sign, lift it, and rotate to see the qrcode."
+    },
+    {
+      "episode": 2,
+      "seed": 101009,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the medium paymentsign with QR section and rotate it to face its QR code toward you."
+    },
+    {
+      "episode": 3,
+      "seed": 101015,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the sign for payment processing up from the table and rotate it."
+    },
+    {
+      "episode": 4,
+      "seed": 101021,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the paymentsign with angled stand, lift it, and rotate until the QR code faces you."
+    },
+    {
+      "episode": 5,
+      "seed": 101027,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Catch the black stand with angled display from the table and make it face you."
+    },
+    {
+      "episode": 5,
+      "seed": 101033,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 6,
+      "seed": 101039,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the QR code paymentsign and rotate it facing you."
+    },
+    {
+      "episode": 7,
+      "seed": 101045,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the medium paymentsign with QR section off the table using the left arm and rotate it."
+    },
+    {
+      "episode": 8,
+      "seed": 101051,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the tabletop paymentsign and rotate it facing you."
+    },
+    {
+      "episode": 8,
+      "seed": 101057,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 9,
+      "seed": 101063,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Catch the tabletop paymentsign from the table and rotate it"
+    },
+    {
+      "episode": 10,
+      "seed": 101069,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the QR code paymentsign up from the table and rotate it."
+    },
+    {
+      "episode": 11,
+      "seed": 101075,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the paymentsign with smooth base stand, lift it, and rotate until the QR code faces you."
+    },
+    {
+      "episode": 12,
+      "seed": 101081,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the paymentsign with angled support bars and rotate it facing you."
+    },
+    {
+      "episode": 13,
+      "seed": 101087,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the tabletop paymentsign, lift it, and rotate to see the qrcode."
+    },
+    {
+      "episode": 14,
+      "seed": 101093,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the paymentsign with black metal stand and rotate it facing you."
+    },
+    {
+      "episode": 15,
+      "seed": 101099,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the black stand with angled display, lift it, and rotate until the QR code faces you."
+    },
+    {
+      "episode": 16,
+      "seed": 101020,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the paymentsign with QR code and rotate it to face its QR code toward you."
+    },
+    {
+      "episode": 17,
+      "seed": 101021,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Catch the tabletop paymentsign on the table and pick it up."
+    }
+  ]
+}

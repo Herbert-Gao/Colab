@@ -1,0 +1,25 @@
+{
+  "source": "/data/szgx/xworld-gzh/cache/openpi/openpi-assets/checkpoints/pi05_base/params",
+  "work_dir_link": "/data/szgx/gaohang/pi05_30/weights/pi05_base_params",
+  "hf_repo": "openpi-assets/checkpoints/pi05_base (local cache /data/szgx/xworld-gzh/cache/openpi/openpi-assets/checkpoints/pi05_base)",
+  "revision": "本地缓存，未发起 hub 下载（离线 restore 验证通过）",
+  "offline_restore": {
+    "leaves": 51,
+    "params": 3353433872,
+    "tokenizer_assets": [
+      "RoboTwin_lerobot_v30",
+      "arx",
+      "arx_mobile",
+      "droid",
+      "fibocom_mobile",
+      "franka",
+      "trossen",
+      "trossen_mobile",
+      "ur5e",
+      "ur5e_dual"
+    ]
+  },
+  "params_bytes": 12441721931,
+  "assets_bytes": 30914,
+  "params_metadata_sha256": "250d0ad0f6540a5e4bdd70442d6864cef729724f2d23e2dd2cc669563a668d70"
+}

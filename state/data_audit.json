@@ -1,0 +1,329 @@
+{
+  "datasets": [
+    {
+      "repo_id": "pi05_30_pilot_move_pillbottle_pad",
+      "path": "/data/szgx/xworld-gzh/datasets/lerobot/robotwin_move_pillbottle_pad_demo_clean",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 50,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 50
+    },
+    {
+      "repo_id": "pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 200,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 200
+    },
+    {
+      "repo_id": "pi05_30_aloha_fam2_place_object_basket_place_cans_plasticbox_place_bread_skillet_put_object_cabinet_src50",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_fam2_place_object_basket_place_cans_plasticbox_place_bread_skillet_put_object_cabinet_src50",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 200,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 200
+    },
+    {
+      "repo_id": "pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 200,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 200
+    },
+    {
+      "repo_id": "pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_fam4_adjust_bottle_pick_diverse_bottles_lift_pot_shake_bottle_src50",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 200,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 200
+    },
+    {
+      "repo_id": "pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_fam5_click_alarmclock_press_stapler_stamp_seal_turn_switch_src50",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 200,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 200
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_place_mouse_pad_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_place_mouse_pad_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_rotate_qrcode_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_rotate_qrcode_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_place_can_basket_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_place_can_basket_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_hanging_mug_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_hanging_mug_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_stack_blocks_two_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_stack_blocks_two_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_blocks_ranking_rgb_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_blocks_ranking_rgb_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_pick_dual_bottles_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_pick_dual_bottles_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_scan_object_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_scan_object_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_click_bell_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_click_bell_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    },
+    {
+      "repo_id": "pi05_30_aloha_target_beat_block_hammer_n5",
+      "path": "/data/szgx/gaohang/pi05_30/datasets/lerobot/pi05_30_aloha_target_beat_block_hammer_n5",
+      "ok": true,
+      "robot_type": "aloha_agilex",
+      "total_episodes": 5,
+      "fps": 15,
+      "state_shape": [
+        14
+      ],
+      "action_shape": [
+        14
+      ],
+      "cameras": [
+        "observation.images.left_wrist",
+        "observation.images.right_wrist",
+        "observation.images.top"
+      ],
+      "expected_episodes": 5
+    }
+  ],
+  "raw_demo_missing": [],
+  "embodiment_required": "aloha-agilex",
+  "embodiment_violations": [],
+  "failures": [],
+  "ok": true
+}

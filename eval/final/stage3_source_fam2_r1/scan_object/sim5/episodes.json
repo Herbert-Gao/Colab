@@ -1,0 +1,468 @@
+{
+  "task": "scan_object",
+  "task_config": "demo_clean",
+  "requested_episodes": 16,
+  "seed_schedule": [
+    107005,
+    107011,
+    107017,
+    107023,
+    107029,
+    107035,
+    107041,
+    107047,
+    107053,
+    107059,
+    107065,
+    107071,
+    107077,
+    107083,
+    107089,
+    107095
+  ],
+  "attempted_seeds": [
+    107005,
+    107011,
+    107017,
+    107023,
+    107029,
+    107035,
+    107041,
+    107047,
+    107053,
+    107059,
+    107065,
+    107071,
+    107077,
+    107083,
+    107089,
+    107095,
+    107021,
+    107022,
+    107023,
+    107024,
+    107025,
+    107026,
+    107027,
+    107028,
+    107029,
+    107030,
+    107031,
+    107032,
+    107033,
+    107034,
+    107035,
+    107036,
+    107037,
+    107038,
+    107039,
+    107040,
+    107041,
+    107042,
+    107043,
+    107044,
+    107045,
+    107046,
+    107047,
+    107048,
+    107049,
+    107050,
+    107051,
+    107052,
+    107053,
+    107054,
+    107055,
+    107056,
+    107057
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 107005,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 0,
+      "seed": 107011,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 0,
+      "seed": 107017,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 107023,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Grab the red tea-box while grabbing the black scanner with ergonomic handle with the other arm, then scan."
+    },
+    {
+      "episode": 1,
+      "seed": 107029,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 107035,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 107041,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the compact tea box in one arm and the compact black barcode scanner in the other to scan the compact tea box."
+    },
+    {
+      "episode": 2,
+      "seed": 107047,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 107053,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 3,
+      "seed": 107059,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Use one arm for the box with green leafy patterns and the other for the handheld scanner, then scan."
+    },
+    {
+      "episode": 4,
+      "seed": 107065,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Use one arm for the tea-box with small handle and the other for the scanner with black tip, then scan."
+    },
+    {
+      "episode": 4,
+      "seed": 107071,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 4,
+      "seed": 107077,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 4,
+      "seed": 107083,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 5,
+      "seed": 107089,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the red tea-box with golden designs in one arm and the scanner with wide top section in the other to scan the red tea-box with golden designs."
+    },
+    {
+      "episode": 6,
+      "seed": 107095,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Pick the object the cube tea box with shiny embossed patterns and scanner the handheld scanner with blue activation trigger up together, then scan."
+    },
+    {
+      "episode": 6,
+      "seed": 107021,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 6,
+      "seed": 107022,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 7,
+      "seed": 107023,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the red tea-box in one arm and the black scanner with ergonomic handle in the other to scan the red tea-box."
+    },
+    {
+      "episode": 7,
+      "seed": 107024,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 7,
+      "seed": 107025,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 7,
+      "seed": 107026,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 7,
+      "seed": 107027,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 8,
+      "seed": 107028,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the tea box with green leaves in one arm and the black scanner with ergonomic handle in the other to scan the tea box with green leaves."
+    },
+    {
+      "episode": 8,
+      "seed": 107029,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 8,
+      "seed": 107030,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 8,
+      "seed": 107031,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 9,
+      "seed": 107032,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the small tea box in one arm and the yellow and black scanner in the other to scan the small tea box."
+    },
+    {
+      "episode": 9,
+      "seed": 107033,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 9,
+      "seed": 107034,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 9,
+      "seed": 107035,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 9,
+      "seed": 107036,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 9,
+      "seed": 107037,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 9,
+      "seed": 107038,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 10,
+      "seed": 107039,
+      "valid": true,
+      "success": true,
+      "steps": 126,
+      "instruction": "Pick the object the rectangular green box for tea and scanner the scanner with wide top section up together, then scan."
+    },
+    {
+      "episode": 10,
+      "seed": 107040,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 11,
+      "seed": 107041,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Grab the compact tea box while grabbing the compact black barcode scanner with the other arm, then scan."
+    },
+    {
+      "episode": 11,
+      "seed": 107042,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 12,
+      "seed": 107043,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the tea-box with small handle in one arm and the scanner for barcode scanning in the other to scan the tea-box with small handle."
+    },
+    {
+      "episode": 12,
+      "seed": 107044,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 12,
+      "seed": 107045,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 12,
+      "seed": 107046,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 12,
+      "seed": 107047,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 12,
+      "seed": 107048,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 12,
+      "seed": 107049,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 13,
+      "seed": 107050,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Pick up the decorative golden tea box and the compact black barcode scanner together, then scan the decorative golden tea box with the compact black barcode scanner."
+    },
+    {
+      "episode": 14,
+      "seed": 107051,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Pick the object the black tea-box with golden details and scanner the compact black barcode scanner up together, then scan."
+    },
+    {
+      "episode": 14,
+      "seed": 107052,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 14,
+      "seed": 107053,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 14,
+      "seed": 107054,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 14,
+      "seed": 107055,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 15,
+      "seed": 107056,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the small tea box in one arm and the compact black barcode scanner in the other to scan the small tea box."
+    },
+    {
+      "episode": 16,
+      "seed": 107057,
+      "valid": true,
+      "success": false,
+      "steps": 500,
+      "instruction": "Hold the glossy tea-box and the handheld scanner with blue activation trigger in separate arms and use the handheld scanner with blue activation trigger to scan the glossy tea-box."
+    }
+  ]
+}

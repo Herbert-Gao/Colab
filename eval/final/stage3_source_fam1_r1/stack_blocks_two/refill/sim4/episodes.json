@@ -1,0 +1,42 @@
+{
+  "task": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    104025,
+    104061,
+    104097
+  ],
+  "attempted_seeds": [
+    104025,
+    104061,
+    104097
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 104025,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Bring red block and green block to the center, then position green block above red block."
+    },
+    {
+      "episode": 2,
+      "seed": 104061,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Bring red block and green block to the center, then position green block above red block."
+    },
+    {
+      "episode": 3,
+      "seed": 104097,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Bring red block and green block to the center, then position green block above red block."
+    }
+  ]
+}

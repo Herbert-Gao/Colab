@@ -1,0 +1,42 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 3,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 226,
+      "instruction": "Grab the can with red body and the can with red body together, then drop them in the medium-sized smooth plasticbox."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 242,
+      "instruction": "Lift the hand-sized can with metallic finish and the cylindrical can with smooth surface, drop both into the hard plastic rectangular box."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 227,
+      "instruction": "Grab the can with shiny smooth surface and the small aluminum can simultaneously, then drop both into the smooth exterior blue plasticbox."
+    }
+  ]
+}

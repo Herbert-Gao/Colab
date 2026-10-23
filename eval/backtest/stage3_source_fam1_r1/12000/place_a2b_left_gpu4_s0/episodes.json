@@ -1,0 +1,32 @@
+{
+  "task": "place_a2b_left",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500100,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500104
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the red tea-box and place left of the brown soap"
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 147,
+      "instruction": "Use the left arm to put the mouse with scroll wheel left of the tiny pink car with four wheels."
+    }
+  ]
+}

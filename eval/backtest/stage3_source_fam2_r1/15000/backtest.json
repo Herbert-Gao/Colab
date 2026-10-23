@@ -1,0 +1,709 @@
+{
+  "job_id": "stage3_source_fam2_r1",
+  "step": 15000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_final_step15000",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "0",
+    "2"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "place_object_basket": {
+      "task": "place_object_basket",
+      "episodes": 5,
+      "successes": 2,
+      "success_rate": 0.4,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500102,
+          "success": true,
+          "steps": 256,
+          "instruction": "Pick up the toycar with rounded edges and drop in the yellow rectangular basket with dual grips."
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": false,
+          "steps": 700,
+          "instruction": "Pick up the playingcards with red packaging and drop in the oval basket with medium storage space."
+        },
+        {
+          "episode": 3,
+          "seed": 500103,
+          "success": false,
+          "steps": 700,
+          "instruction": "Grab the rectangular playingcards case with patterns and put it in the yellow basket with open slots."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 700,
+          "instruction": "Use one arm to grab the blue toycar, place it in the yellow basket with open slots."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": true,
+          "steps": 260,
+          "instruction": "Grab the small packet of playingcards, put it in the yellow rectangular basket with dual grips, move the yellow rectangular basket with dual grips."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_object_basket",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/place_object_basket_gpu0_s0/eval.log",
+          "timed_out": false,
+          "seconds": 336.9,
+          "episodes": 3,
+          "successes": 1,
+          "success_rate": 0.3333,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 256,
+              "instruction": "Pick up the toycar with rounded edges and drop in the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 700,
+              "instruction": "Pick up the playingcards with red packaging and drop in the oval basket with medium storage space."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 700,
+              "instruction": "Grab the rectangular playingcards case with patterns and put it in the yellow basket with open slots."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500100,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "place_object_basket",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/place_object_basket_gpu0_s1/eval.log",
+          "timed_out": false,
+          "seconds": 248.5,
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 700,
+              "instruction": "Use one arm to grab the blue toycar, place it in the yellow basket with open slots."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 260,
+              "instruction": "Grab the small packet of playingcards, put it in the yellow rectangular basket with dual grips, move the yellow rectangular basket with dual grips."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 500100,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    },
+    "place_cans_plasticbox": {
+      "task": "place_cans_plasticbox",
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": true,
+          "steps": 236,
+          "instruction": "Lift the red can and the red can, drop both into the portable light blue storage plasticbox."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": true,
+          "steps": 240,
+          "instruction": "Pick the cylindrical can with smooth surface and the cylindrical can with bright colors simultaneously, then place both in the smooth exterior blue plasticbox."
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": true,
+          "steps": 230,
+          "instruction": "Pick the metal can fits easily in hand and the gold and red soda can at once, then place them into the rectangular plasticbox."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 233,
+          "instruction": "Grab the small red soda can and the rounded can with smooth printed surface together, then drop them in the portable light blue storage plasticbox."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": true,
+          "steps": 240,
+          "instruction": "Pick the lightweight cylindrical metal can and the small aluminum can at once, then place them into the medium-sized smooth plasticbox."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_cans_plasticbox",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/place_cans_plasticbox_gpu2_s0/eval.log",
+          "timed_out": false,
+          "seconds": 233.1,
+          "episodes": 3,
+          "successes": 3,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": true,
+              "steps": 236,
+              "instruction": "Lift the red can and the red can, drop both into the portable light blue storage plasticbox."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": true,
+              "steps": 240,
+              "instruction": "Pick the cylindrical can with smooth surface and the cylindrical can with bright colors simultaneously, then place both in the smooth exterior blue plasticbox."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 230,
+              "instruction": "Pick the metal can fits easily in hand and the gold and red soda can at once, then place them into the rectangular plasticbox."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_cans_plasticbox",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/place_cans_plasticbox_gpu2_s1/eval.log",
+          "timed_out": false,
+          "seconds": 191.5,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 233,
+              "instruction": "Grab the small red soda can and the rounded can with smooth printed surface together, then drop them in the portable light blue storage plasticbox."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 240,
+              "instruction": "Pick the lightweight cylindrical metal can and the small aluminum can at once, then place them into the medium-sized smooth plasticbox."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    },
+    "place_bread_skillet": {
+      "task": "place_bread_skillet",
+      "episodes": 5,
+      "successes": 5,
+      "success_rate": 1.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500104,
+          "success": true,
+          "steps": 129,
+          "instruction": "Use the left arm for the dark skillet with shiny finish and the other arm for the rounded oval bread."
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": true,
+          "steps": 129,
+          "instruction": "Grab the oval bread and place it in the versatile skillet for frying and sauteing."
+        },
+        {
+          "episode": 3,
+          "seed": 500105,
+          "success": true,
+          "steps": 138,
+          "instruction": "Move the palm-sized braided golden bread from the table into the versatile skillet for frying and sauteing."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 122,
+          "instruction": "Position the oval-shaped soft bread in the lifted the versatile skillet for frying and sauteing."
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": true,
+          "steps": 116,
+          "instruction": "Move the oval bread from the table into the pan-shaped skillet with hole in handle."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_bread_skillet",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/place_bread_skillet_gpu0_s2/eval.log",
+          "timed_out": false,
+          "seconds": 129.5,
+          "episodes": 3,
+          "successes": 3,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": true,
+              "steps": 129,
+              "instruction": "Use the left arm for the dark skillet with shiny finish and the other arm for the rounded oval bread."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 129,
+              "instruction": "Grab the oval bread and place it in the versatile skillet for frying and sauteing."
+            },
+            {
+              "episode": 3,
+              "seed": 500105,
+              "success": true,
+              "steps": 138,
+              "instruction": "Move the palm-sized braided golden bread from the table into the versatile skillet for frying and sauteing."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500100,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500102,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500103,
+              "valid": false,
+              "reason": "UnStableError",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "place_bread_skillet",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/place_bread_skillet_gpu0_s3/eval.log",
+          "timed_out": false,
+          "seconds": 94.5,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 122,
+              "instruction": "Position the oval-shaped soft bread in the lifted the versatile skillet for frying and sauteing."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 116,
+              "instruction": "Move the oval bread from the table into the pan-shaped skillet with hole in handle."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 1,
+              "seed": 500103,
+              "valid": false,
+              "reason": "UnStableError",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500103,
+              "valid": false,
+              "reason": "UnStableError",
+              "success": false
+            }
+          ]
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 500100,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500102,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500103,
+          "valid": false,
+          "reason": "UnStableError",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500103,
+          "valid": false,
+          "reason": "UnStableError",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500103,
+          "valid": false,
+          "reason": "UnStableError",
+          "success": false
+        }
+      ]
+    },
+    "put_object_cabinet": {
+      "task": "put_object_cabinet",
+      "episodes": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500104,
+          "success": true,
+          "steps": 252,
+          "instruction": "Pull out the drawer of the cabinet with light wood panels and set the black stapler into it."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": true,
+          "steps": 258,
+          "instruction": "Open the slanted wooden cabinet's drawer and set the smooth soap inside with the other arm."
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": false,
+          "steps": 700,
+          "instruction": "Open the cabinet with light wood panels's drawer and set the palm-sized black stapler inside with the other arm."
+        },
+        {
+          "episode": 1,
+          "seed": 500104,
+          "success": true,
+          "steps": 268,
+          "instruction": "Open the slanted wooden cabinet's drawer and set the palm-sized black stapler inside with the other arm."
+        },
+        {
+          "episode": 2,
+          "seed": 500110,
+          "success": true,
+          "steps": 252,
+          "instruction": "Open the cabinet with light wood panels's drawer and set the bright blue soap bar inside with the other arm."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "put_object_cabinet",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/put_object_cabinet_gpu2_s2/eval.log",
+          "timed_out": false,
+          "seconds": 276.1,
+          "episodes": 3,
+          "successes": 2,
+          "success_rate": 0.6667,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": true,
+              "steps": 252,
+              "instruction": "Pull out the drawer of the cabinet with light wood panels and set the black stapler into it."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 258,
+              "instruction": "Open the slanted wooden cabinet's drawer and set the smooth soap inside with the other arm."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 700,
+              "instruction": "Open the cabinet with light wood panels's drawer and set the palm-sized black stapler inside with the other arm."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500100,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500102,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "put_object_cabinet",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/15000/put_object_cabinet_gpu2_s3/eval.log",
+          "timed_out": false,
+          "seconds": 178.7,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": true,
+              "steps": 268,
+              "instruction": "Open the slanted wooden cabinet's drawer and set the palm-sized black stapler inside with the other arm."
+            },
+            {
+              "episode": 2,
+              "seed": 500110,
+              "success": true,
+              "steps": 252,
+              "instruction": "Open the cabinet with light wood panels's drawer and set the bright blue soap bar inside with the other arm."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500101,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500105,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500106,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500107,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500108,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500109,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 500100,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500102,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500101,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500105,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500106,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500107,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500108,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500109,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 0.8,
+  "recorded": "2026-10-22T23:43:44+0000"
+}

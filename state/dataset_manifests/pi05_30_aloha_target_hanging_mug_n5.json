@@ -1,0 +1,76 @@
+{
+  "repo_id": "pi05_30_aloha_target_hanging_mug_n5",
+  "robot_type": "aloha_agilex",
+  "embodiment": "aloha-agilex",
+  "source_root": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean",
+  "episodes_total": 5,
+  "frames_total": 1668,
+  "fps": 15,
+  "image_shape": [
+    240,
+    320,
+    3
+  ],
+  "episodes_per_task": {
+    "hanging_mug": 5
+  },
+  "task_instructions": [
+    "Pick the ceramic mug with printed logo up, twist it, place it back, then hang it onto the angular rack with slanted support rod.",
+    "Take the beige mug handle on side from the table, rotate it, place it in the center, then hang it onto the smooth rack.",
+    "Take the mug for drinking liquids from the table, turn it, set it down, and attach it to the smooth dark gray rack.",
+    "Use the left arm to grab the medium mug with blue design, rotate it, place it down, and hang it onto the dark gray rack with the right arm.",
+    "Use the left arm to grab the smooth white mug with curved handle, rotate it, place it down, and hang it onto the smooth dark gray rack with the right arm."
+  ],
+  "selection": {
+    "hanging_mug": [
+      8,
+      12,
+      13,
+      14,
+      27
+    ]
+  },
+  "episode_map": [
+    {
+      "episode_index": 0,
+      "task": "hanging_mug",
+      "source_episode_id": 8,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/hanging_mug/aloha_agilex/data/episode_0000008.hdf5",
+      "frames": 332,
+      "instruction": "Take the mug for drinking liquids from the table, turn it, set it down, and attach it to the smooth dark gray rack."
+    },
+    {
+      "episode_index": 1,
+      "task": "hanging_mug",
+      "source_episode_id": 12,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/hanging_mug/aloha_agilex/data/episode_0000012.hdf5",
+      "frames": 334,
+      "instruction": "Use the left arm to grab the medium mug with blue design, rotate it, place it down, and hang it onto the dark gray rack with the right arm."
+    },
+    {
+      "episode_index": 2,
+      "task": "hanging_mug",
+      "source_episode_id": 13,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/hanging_mug/aloha_agilex/data/episode_0000013.hdf5",
+      "frames": 331,
+      "instruction": "Pick the ceramic mug with printed logo up, twist it, place it back, then hang it onto the angular rack with slanted support rod."
+    },
+    {
+      "episode_index": 3,
+      "task": "hanging_mug",
+      "source_episode_id": 14,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/hanging_mug/aloha_agilex/data/episode_0000014.hdf5",
+      "frames": 328,
+      "instruction": "Use the left arm to grab the smooth white mug with curved handle, rotate it, place it down, and hang it onto the smooth dark gray rack with the right arm."
+    },
+    {
+      "episode_index": 4,
+      "task": "hanging_mug",
+      "source_episode_id": 27,
+      "source_file": "/data/szgx/xworld-gzh/datasets/robotwin2_demo_clean/demo_clean/hanging_mug/aloha_agilex/data/episode_0000027.hdf5",
+      "frames": 343,
+      "instruction": "Take the beige mug handle on side from the table, rotate it, place it in the center, then hang it onto the smooth rack."
+    }
+  ],
+  "conversion_seconds": 21.4
+}

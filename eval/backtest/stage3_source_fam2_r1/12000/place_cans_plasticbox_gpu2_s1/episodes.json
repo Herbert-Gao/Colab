@@ -1,0 +1,32 @@
+{
+  "task": "place_cans_plasticbox",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 234,
+      "instruction": "Pick the red can and the cylindrical brown drink can with white markings simultaneously, then place both in the portable light blue storage plasticbox."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 240,
+      "instruction": "Pick the can with shiny smooth surface and the gold and red soda can simultaneously, then place both in the portable light blue storage plasticbox."
+    }
+  ]
+}

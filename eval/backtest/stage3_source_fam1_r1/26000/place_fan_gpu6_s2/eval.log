@@ -1,0 +1,2 @@
+/data/szgx/xworld-gzh/envs/robotwin/bin/python -u /data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py --config policy/ACT/deploy_policy.yml --overrides --task_name place_fan --task_config demo_clean --train_config_name 0 --seed 0 --policy_name ACT --port 45959 --robo_name robotwin --eval_video_log False --output_dir /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/26000/place_fan_gpu6_s2 --test_num 1 --seed_list [500102] --episodes_json /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam1_r1/26000/place_fan_gpu6_s2/episodes.json
+

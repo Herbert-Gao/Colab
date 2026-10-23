@@ -1,0 +1,50 @@
+{
+  "task": "place_object_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500100,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 330,
+      "instruction": "Grab the toycar with rounded edges and put it in the yellow basket with open slots."
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the playingcards with red packaging and put it into the oval basket with medium storage space."
+    },
+    {
+      "episode": 3,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 338,
+      "instruction": "Grab the rectangular playingcards pack, put it in the yellow basket with open slots, move the yellow basket with open slots."
+    }
+  ]
+}

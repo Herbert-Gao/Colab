@@ -1,0 +1,42 @@
+{
+  "task": "place_fan",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500000,
+    500002,
+    500004
+  ],
+  "attempted_seeds": [
+    500000,
+    500002,
+    500004
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500000,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the off-white fan with beige accents and set it on the Magenta mat."
+    },
+    {
+      "episode": 2,
+      "seed": 500002,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the white desk fan and set it on the Pink mat facing the robot"
+    },
+    {
+      "episode": 3,
+      "seed": 500004,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the portable curved handle fan and set it on the Indigo mat."
+    }
+  ]
+}

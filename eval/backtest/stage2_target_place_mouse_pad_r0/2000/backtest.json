@@ -1,0 +1,130 @@
+{
+  "job_id": "stage2_target_place_mouse_pad_r0",
+  "step": 2000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage2/pi05_aloha_robotwin_30/aloha_trial_adapt_place_mouse_pad_r0/2000",
+  "seeds": [
+    500000,
+    500001,
+    500002,
+    500003,
+    500004
+  ],
+  "tasks": {
+    "place_mouse_pad": {
+      "task": "place_mouse_pad",
+      "episodes": 5,
+      "successes": 1,
+      "success_rate": 0.2,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500000,
+          "success": true,
+          "steps": 126,
+          "instruction": "Pick up the hand-sized wireless mouse and set it on the Cyan mat."
+        },
+        {
+          "episode": 2,
+          "seed": 500002,
+          "success": false,
+          "steps": 400,
+          "instruction": "Lift the small rounded plastic mouse and drop it on the Yellow mat."
+        },
+        {
+          "episode": 3,
+          "seed": 500004,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick the mouse with scroll wheel and position it on the Gray colored mat."
+        },
+        {
+          "episode": 1,
+          "seed": 500001,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the dark gray computer mouse with logo and set it on the Black mat."
+        },
+        {
+          "episode": 2,
+          "seed": 500003,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the dark gray wireless mouse and position it on the Cyan mat."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_mouse_pad",
+          "seeds": [
+            500000,
+            500002,
+            500004
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage2_target_place_mouse_pad_r0/2000/place_mouse_pad_g0/eval.log",
+          "timed_out": false,
+          "seconds": 214.1,
+          "episodes": 3,
+          "successes": 1,
+          "success_rate": 0.3333,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500000,
+              "success": true,
+              "steps": 126,
+              "instruction": "Pick up the hand-sized wireless mouse and set it on the Cyan mat."
+            },
+            {
+              "episode": 2,
+              "seed": 500002,
+              "success": false,
+              "steps": 400,
+              "instruction": "Lift the small rounded plastic mouse and drop it on the Yellow mat."
+            },
+            {
+              "episode": 3,
+              "seed": 500004,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick the mouse with scroll wheel and position it on the Gray colored mat."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_mouse_pad",
+          "seeds": [
+            500001,
+            500003
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage2_target_place_mouse_pad_r0/2000/place_mouse_pad_g1/eval.log",
+          "timed_out": false,
+          "seconds": 185.8,
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500001,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the dark gray computer mouse with logo and set it on the Black mat."
+            },
+            {
+              "episode": 2,
+              "seed": 500003,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the dark gray wireless mouse and position it on the Cyan mat."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    }
+  },
+  "mean_success_rate": 0.2,
+  "recorded": "2026-10-21T10:18:35+0000"
+}

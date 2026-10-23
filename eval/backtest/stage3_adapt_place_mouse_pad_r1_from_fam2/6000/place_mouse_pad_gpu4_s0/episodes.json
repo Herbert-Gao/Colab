@@ -1,0 +1,42 @@
+{
+  "task": "place_mouse_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the small rounded plastic mouse and set it on the Cyan mat."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the mouse with scroll wheel and set it on the Gray mat."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hand-sized black-gray mouse and set it on Black mat."
+    }
+  ]
+}

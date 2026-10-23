@@ -1,0 +1,161 @@
+[2026-10-21T10:20:50+00:00] stage 3 queue: 33 jobs
+[2026-10-21T10:20:50+00:00] start stage3_source_fam1_r1
+[2026-10-21T10:20:52+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T10:20:52+00:00] trainer pid=1244581
+[2026-10-21T10:39:58+00:00] checkpoint 1500 kept as recovery point (no periodic backtest)
+[2026-10-21T10:47:53+00:00] stage 3 queue: 33 jobs
+[2026-10-21T10:47:53+00:00] start stage3_source_fam1_r1
+[2026-10-21T10:47:53+00:00] job stage3_source_fam1_r1 is already running elsewhere; skipping
+[2026-10-21T10:47:53+00:00] done stage3_source_fam1_r1 (status=pending)
+[2026-10-21T10:47:53+00:00] start stage3_source_fam2_r1
+[2026-10-21T10:47:55+00:00] === job stage3_source_fam2_r1 start: repo=pi05_30_aloha_fam2_place_object_basket_place_cans_plasticbox_place_bread_skillet_put_object_cabinet_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T10:47:55+00:00] trainer pid=1254031
+[2026-10-21T10:49:05+00:00] stage 3 queue: 33 jobs
+[2026-10-21T10:49:05+00:00] start stage3_source_fam1_r1
+[2026-10-21T10:49:07+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T10:49:07+00:00] trainer pid=1256426
+[2026-10-21T11:08:13+00:00] checkpoint 1500 kept as recovery point (no periodic backtest)
+[2026-10-21T11:17:08+00:00] stage 3 queue: 33 jobs
+[2026-10-21T11:17:08+00:00] start stage3_source_fam1_r1
+[2026-10-21T11:17:08+00:00] job stage3_source_fam1_r1 is already running elsewhere; skipping
+[2026-10-21T11:17:08+00:00] done stage3_source_fam1_r1 (status=pending)
+[2026-10-21T11:17:08+00:00] start stage3_source_fam2_r1
+[2026-10-21T11:17:10+00:00] === job stage3_source_fam2_r1 start: repo=pi05_30_aloha_fam2_place_object_basket_place_cans_plasticbox_place_bread_skillet_put_object_cabinet_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T11:17:10+00:00] trainer pid=1271277
+[2026-10-21T11:17:59+00:00] stage 3 queue: 33 jobs
+[2026-10-21T11:17:59+00:00] start stage3_source_fam1_r1
+[2026-10-21T11:18:00+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T11:18:00+00:00] trainer pid=1273548
+[2026-10-21T11:37:06+00:00] checkpoint 1500 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+Terminated
+[2026-10-21T11:42:05+00:00] backtest 1500 FAILED (see /data/szgx/gaohang/pi05_30/logs/stage3_source_fam1_r1.log)
+[2026-10-21T11:42:05+00:00] backtest 1500 done -> resume training
+[2026-10-21T11:43:05+00:00] checkpoint 1500 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+Terminated
+[2026-10-21T11:45:24+00:00] backtest 1500 FAILED (see /data/szgx/gaohang/pi05_30/logs/stage3_source_fam1_r1.log)
+[2026-10-21T11:45:24+00:00] backtest 1500 done -> resume training
+[2026-10-21T11:50:28+00:00] stage 3 queue: 33 jobs
+[2026-10-21T11:50:28+00:00] start stage3_source_fam1_r1
+[2026-10-21T11:50:29+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T11:50:29+00:00] resuming from step 1501
+[2026-10-21T11:50:29+00:00] trainer pid=1405189
+[2026-10-21T11:51:29+00:00] checkpoint 1500 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-21T11:57:00+00:00] backtest 1500 FAILED (see /data/szgx/gaohang/pi05_30/logs/stage3_source_fam1_r1.log)
+[2026-10-21T11:57:00+00:00] backtest 1500 done -> resume training
+[2026-10-21T11:58:00+00:00] checkpoint 1500 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+Terminated
+[2026-10-21T11:59:32+00:00] backtest 1500 FAILED (see /data/szgx/gaohang/pi05_30/logs/stage3_source_fam1_r1.log)
+[2026-10-21T11:59:32+00:00] backtest 1500 done -> resume training
+[2026-10-21T12:01:07+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:01:07+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:01:09+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T12:01:09+00:00] resuming from step 1501
+[2026-10-21T12:01:09+00:00] trainer pid=1422992
+[2026-10-21T12:02:09+00:00] checkpoint 1500 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-21T12:06:40+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:06:40+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:06:41+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T12:06:41+00:00] resuming from step 1501
+[2026-10-21T12:06:41+00:00] trainer pid=1427281
+[2026-10-21T12:09:36+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:09:37+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:09:38+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T12:09:38+00:00] resuming from step 1501
+[2026-10-21T12:09:38+00:00] trainer pid=1429376
+[2026-10-21T12:13:27+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:13:27+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:13:29+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T12:13:29+00:00] resuming from step 1501
+/data/szgx/gaohang/pi05_30/campaign/run_job.sh: line 92: TRAIN_GPUS: unbound variable
+[2026-10-21T12:13:29+00:00] trainer pid=1432264
+[2026-10-21T12:14:51+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:14:51+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:14:53+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T12:14:53+00:00] trainer pid=1434594
+[2026-10-21T12:44:03+00:00] checkpoint 1500 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-21T12:58:00+00:00] backtest 1500 recorded (early-stop: continue)
+[2026-10-21T12:58:00+00:00] backtest 1500 done -> resume training
+[2026-10-21T13:27:44+00:00] stage 3 queue: 33 jobs
+[2026-10-21T13:27:44+00:00] start stage3_source_fam1_r1
+[2026-10-21T13:27:46+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-21T13:27:46+00:00] resuming from step 1501
+[2026-10-21T13:27:46+00:00] trainer pid=1461898
+[2026-10-21T13:39:50+00:00] checkpoint 2000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T02:34:20+00:00] stage 3 queue: 15 jobs
+[2026-10-22T02:34:20+00:00] start stage3_source_fam1_r1
+[2026-10-22T02:34:21+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-22T02:34:21+00:00] resuming from step 2001
+[2026-10-22T02:34:22+00:00] trainer pid=89149
+[2026-10-22T02:35:22+00:00] checkpoint 2000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T02:39:40+00:00] stage 3 queue: 15 jobs
+[2026-10-22T02:39:40+00:00] start stage3_source_fam1_r1
+[2026-10-22T02:39:42+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-22T02:39:42+00:00] trainer pid=96352
+[2026-10-22T02:43:05+00:00] stage 3 queue: 15 jobs
+[2026-10-22T02:43:06+00:00] start stage3_source_fam1_r1
+[2026-10-22T02:43:07+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-22T02:43:07+00:00] trainer pid=99387
+[2026-10-22T03:08:16+00:00] checkpoint 2000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T03:21:36+00:00] backtest 2000 recorded (early-stop: continue)
+[2026-10-22T03:21:39+00:00] backtest 2000 done -> resume training
+[2026-10-22T03:44:47+00:00] checkpoint 4000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T04:00:49+00:00] stage 3 queue: 15 jobs
+[2026-10-22T04:00:50+00:00] start stage3_source_fam1_r1
+[2026-10-22T04:00:51+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-22T04:00:51+00:00] trainer pid=138264
+[2026-10-22T04:07:18+00:00] stage 3 queue: 15 jobs
+[2026-10-22T04:07:18+00:00] start stage3_source_fam1_r1
+[2026-10-22T04:07:19+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-22T04:07:20+00:00] trainer pid=142488
+[2026-10-22T04:32:28+00:00] checkpoint 2000 ready -> backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan) while training continues
+[2026-10-22T04:51:01+00:00] backtest 2000 recorded (early-stop: continue)
+[2026-10-22T04:53:23+00:00] stage 3 queue: 15 jobs
+[2026-10-22T04:53:23+00:00] start stage3_source_fam1_r1
+[2026-10-22T04:53:25+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-22T04:53:25+00:00] resuming from step 3001
+[2026-10-22T04:53:25+00:00] trainer pid=166747
+[2026-10-22T05:07:30+00:00] checkpoint 4000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T05:19:53+00:00] backtest 4000 recorded (early-stop: continue)
+[2026-10-22T05:19:56+00:00] backtest 4000 done -> resume training
+[2026-10-22T05:42:04+00:00] checkpoint 6000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+Terminated
+[2026-10-22T06:00:18+00:00] backtest 6000 FAILED (see /data/szgx/gaohang/pi05_30/logs/stage3_source_fam1_r1.log)
+[2026-10-22T06:00:18+00:00] backtest 6000 done -> resume training
+[2026-10-22T06:01:18+00:00] checkpoint 6000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T06:13:48+00:00] backtest 6000 recorded (early-stop: continue)
+[2026-10-22T06:13:53+00:00] backtest 6000 done -> resume training
+[2026-10-22T06:36:41+00:00] stage 3 queue: 15 jobs
+[2026-10-22T06:36:41+00:00] start stage3_source_fam1_r1
+[2026-10-22T06:36:43+00:00] === job stage3_source_fam1_r1 start: repo=pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50 lr=1.25e-05 horizon=10 steps=30001 seed=1 ===
+[2026-10-22T06:36:43+00:00] resuming from step 6001
+[2026-10-22T06:36:43+00:00] trainer pid=243610
+[2026-10-22T06:57:41+00:00] milestone snapshot 7500
+[2026-10-22T07:02:43+00:00] checkpoint 8000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T07:14:38+00:00] backtest 8000 recorded (early-stop: continue)
+[2026-10-22T07:14:48+00:00] backtest 8000 done -> resume training
+[2026-10-22T07:37:57+00:00] checkpoint 10000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T07:45:14+00:00] backtest 10000 recorded (early-stop: continue)
+[2026-10-22T07:45:25+00:00] backtest 10000 done -> resume training
+[2026-10-22T08:08:34+00:00] checkpoint 12000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T08:16:31+00:00] backtest 12000 recorded (early-stop: continue)
+[2026-10-22T08:16:43+00:00] backtest 12000 done -> resume training
+[2026-10-22T08:39:51+00:00] checkpoint 14000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T08:47:34+00:00] backtest 14000 recorded (early-stop: continue)
+[2026-10-22T08:47:45+00:00] backtest 14000 done -> resume training
+[2026-10-22T09:00:40+00:00] milestone snapshot 15000
+[2026-10-22T09:10:44+00:00] checkpoint 16000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T09:18:23+00:00] backtest 16000 recorded (early-stop: continue)
+[2026-10-22T09:18:34+00:00] backtest 16000 done -> resume training
+[2026-10-22T09:42:43+00:00] checkpoint 18000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T09:50:00+00:00] backtest 18000 recorded (early-stop: continue)
+[2026-10-22T09:50:11+00:00] backtest 18000 done -> resume training
+[2026-10-22T10:13:20+00:00] checkpoint 20000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T10:24:51+00:00] backtest 20000 recorded (early-stop: continue)
+[2026-10-22T10:25:03+00:00] backtest 20000 done -> resume training
+[2026-10-22T10:48:12+00:00] checkpoint 22000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T10:59:09+00:00] backtest 22000 recorded (early-stop: continue)
+[2026-10-22T10:59:21+00:00] backtest 22000 done -> resume training
+[2026-10-22T11:22:30+00:00] checkpoint 24000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume
+[2026-10-22T11:34:29+00:00] backtest 24000 recorded (early-stop: continue)
+[2026-10-22T11:34:41+00:00] backtest 24000 done -> resume training
+[2026-10-22T11:58:50+00:00] checkpoint 26000 ready -> pause trainer, backtest (tasks: move_pillbottle_pad move_stapler_pad place_a2b_left place_fan), then resume

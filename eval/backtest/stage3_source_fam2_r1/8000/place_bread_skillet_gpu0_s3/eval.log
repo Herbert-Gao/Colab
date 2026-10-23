@@ -1,0 +1,54 @@
+/data/szgx/xworld-gzh/envs/robotwin/bin/python -u /data/szgx/gaohang/pi05_30/campaign/robotwin_eval.py --config policy/ACT/deploy_policy.yml --overrides --task_name place_bread_skillet --task_config demo_clean --train_config_name 0 --seed 0 --policy_name ACT --port 58831 --robo_name robotwin --eval_video_log False --output_dir /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/8000/place_bread_skillet_gpu0_s3 --test_num 2 --seed_list [500101, 500103] --episodes_json /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/8000/place_bread_skillet_gpu0_s3/episodes.json
+
+============= Config =============
+
+[95mMessy Table:[0m False
+[95mRandom Background:[0m False
+[95mRandom Light:[0m False
+[95mRandom Table Height:[0m 0
+[95mRandom Head Camera Distance:[0m 0
+[94mHead Camera Config:[0m D435, True
+[94mWrist Camera Config:[0m D435, True
+[94mEmbodiment Config:[0m aloha-agilex
+
+==================================
+[34mTask Name: place_bread_skillet[0m
+[34mPolicy Name: ACT[0m
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+step: [92m1 / 500[0mstep: [92m2 / 500[0mstep: [92m3 / 500[0mstep: [92m4 / 500[0mstep: [92m5 / 500[0mstep: [92m6 / 500[0mstep: [92m7 / 500[0mstep: [92m8 / 500[0mstep: [92m9 / 500[0mstep: [92m10 / 500[0minfer time {'infer_ms': 9054.764549000538}
+step: [92m11 / 500[0mstep: [92m12 / 500[0mstep: [92m13 / 500[0mstep: [92m14 / 500[0mstep: [92m15 / 500[0mstep: [92m16 / 500[0mstep: [92m17 / 500[0mstep: [92m18 / 500[0mstep: [92m19 / 500[0mstep: [92m20 / 500[0minfer time {'infer_ms': 9113.504011009354, 'prev_total_ms': 50422.06548700051}
+step: [92m21 / 500[0mstep: [92m22 / 500[0mstep: [92m23 / 500[0mstep: [92m24 / 500[0mstep: [92m25 / 500[0mstep: [92m26 / 500[0mstep: [92m27 / 500[0mstep: [92m28 / 500[0mstep: [92m29 / 500[0mstep: [92m30 / 500[0minfer time {'infer_ms': 9147.123781993287, 'prev_total_ms': 10307.24455199379}
+step: [92m31 / 500[0mstep: [92m32 / 500[0mstep: [92m33 / 500[0mstep: [92m34 / 500[0mstep: [92m35 / 500[0mstep: [92m36 / 500[0mstep: [92m37 / 500[0mstep: [92m38 / 500[0mstep: [92m39 / 500[0mstep: [92m40 / 500[0minfer time {'infer_ms': 9165.052736003418, 'prev_total_ms': 10868.528521998087}
+step: [92m41 / 500[0mstep: [92m42 / 500[0mstep: [92m43 / 500[0mstep: [92m44 / 500[0mstep: [92m45 / 500[0mstep: [92m46 / 500[0mstep: [92m47 / 500[0mstep: [92m48 / 500[0mstep: [92m49 / 500[0mstep: [92m50 / 500[0minfer time {'infer_ms': 9075.354290005635, 'prev_total_ms': 10369.923559002928}
+step: [92m51 / 500[0mstep: [92m52 / 500[0mstep: [92m53 / 500[0mstep: [92m54 / 500[0mstep: [92m55 / 500[0mstep: [92m56 / 500[0mstep: [92m57 / 500[0mstep: [92m58 / 500[0mstep: [92m59 / 500[0mstep: [92m60 / 500[0minfer time {'infer_ms': 9106.622984996648, 'prev_total_ms': 10258.016224004677}
+step: [92m61 / 500[0mstep: [92m62 / 500[0mstep: [92m63 / 500[0mstep: [92m64 / 500[0mstep: [92m65 / 500[0mstep: [92m66 / 500[0mstep: [92m67 / 500[0mstep: [92m68 / 500[0mstep: [92m69 / 500[0mstep: [92m70 / 500[0minfer time {'infer_ms': 9014.087100993493, 'prev_total_ms': 10161.008729002788}
+step: [92m71 / 500[0mstep: [92m72 / 500[0mstep: [92m73 / 500[0mstep: [92m74 / 500[0mstep: [92m75 / 500[0mstep: [92m76 / 500[0mstep: [92m77 / 500[0mstep: [92m78 / 500[0mstep: [92m79 / 500[0mstep: [92m80 / 500[0minfer time {'infer_ms': 9042.252128987457, 'prev_total_ms': 9872.595663007814}
+step: [92m81 / 500[0mstep: [92m82 / 500[0mstep: [92m83 / 500[0mstep: [92m84 / 500[0mstep: [92m85 / 500[0mstep: [92m86 / 500[0mstep: [92m87 / 500[0mstep: [92m88 / 500[0mstep: [92m89 / 500[0mstep: [92m90 / 500[0minfer time {'infer_ms': 9101.095305988565, 'prev_total_ms': 9984.001140008331}
+step: [92m91 / 500[0mstep: [92m92 / 500[0mstep: [92m93 / 500[0mstep: [92m94 / 500[0mstep: [92m95 / 500[0mstep: [92m96 / 500[0mstep: [92m97 / 500[0mstep: [92m98 / 500[0mstep: [92m99 / 500[0mstep: [92m100 / 500[0minfer time {'infer_ms': 9020.745775007526, 'prev_total_ms': 10534.994610992726}
+step: [92m101 / 500[0mstep: [92m102 / 500[0mstep: [92m103 / 500[0mstep: [92m104 / 500[0mstep: [92m105 / 500[0mstep: [92m106 / 500[0mstep: [92m107 / 500[0mstep: [92m108 / 500[0mstep: [92m109 / 500[0mstep: [92m110 / 500[0minfer time {'infer_ms': 9023.894310987089, 'prev_total_ms': 10067.377115992713}
+step: [92m111 / 500[0mstep: [92m112 / 500[0mstep: [92m113 / 500[0mstep: [92m114 / 500[0mstep: [92m115 / 500[0mstep: [92m116 / 500[0mstep: [92m117 / 500[0mstep: [92m118 / 500[0mstep: [92m119 / 500[0mstep: [92m120 / 500[0minfer time {'infer_ms': 9086.069052005769, 'prev_total_ms': 10574.254699007724}
+step: [92m121 / 500[0mstep: [92m122 / 500[0mstep: [92m123 / 500[0mstep: [92m124 / 500[0mstep: [92m125 / 500[0mstep: [92m126 / 500[0mstep: [92m127 / 500[0minfer time {'infer_ms': 9098.020484001609, 'prev_total_ms': 10460.243003006326}
+[92mSuccess![0m
+[93mplace_bread_skillet[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m1/1[0m => [95m100.0%[0m, current seed: [90m500101[0m
+
+step: [92m1 / 500[0mstep: [92m2 / 500[0mstep: [92m3 / 500[0mstep: [92m4 / 500[0mstep: [92m5 / 500[0mstep: [92m6 / 500[0mstep: [92m7 / 500[0mstep: [92m8 / 500[0mstep: [92m9 / 500[0mstep: [92m10 / 500[0minfer time {'infer_ms': 9013.939961994765, 'prev_total_ms': 10428.497401007917}
+step: [92m11 / 500[0mstep: [92m12 / 500[0mstep: [92m13 / 500[0mstep: [92m14 / 500[0mstep: [92m15 / 500[0mstep: [92m16 / 500[0mstep: [92m17 / 500[0mstep: [92m18 / 500[0mstep: [92m19 / 500[0mstep: [92m20 / 500[0minfer time {'infer_ms': 8916.913920998923, 'prev_total_ms': 16543.84451599617}
+step: [92m21 / 500[0mstep: [92m22 / 500[0mstep: [92m23 / 500[0mstep: [92m24 / 500[0mstep: [92m25 / 500[0mstep: [92m26 / 500[0mstep: [92m27 / 500[0mstep: [92m28 / 500[0mstep: [92m29 / 500[0mstep: [92m30 / 500[0minfer time {'infer_ms': 9076.20062600472, 'prev_total_ms': 10111.121358990204}
+step: [92m31 / 500[0mstep: [92m32 / 500[0mstep: [92m33 / 500[0mstep: [92m34 / 500[0mstep: [92m35 / 500[0mstep: [92m36 / 500[0mstep: [92m37 / 500[0mstep: [92m38 / 500[0mstep: [92m39 / 500[0mstep: [92m40 / 500[0minfer time {'infer_ms': 9087.174447005964, 'prev_total_ms': 10803.886805995717}
+step: [92m41 / 500[0mstep: [92m42 / 500[0mstep: [92m43 / 500[0mstep: [92m44 / 500[0mstep: [92m45 / 500[0mstep: [92m46 / 500[0mstep: [92m47 / 500[0mstep: [92m48 / 500[0mstep: [92m49 / 500[0mstep: [92m50 / 500[0minfer time {'infer_ms': 9125.195483997231, 'prev_total_ms': 10429.007537008147}
+step: [92m51 / 500[0mstep: [92m52 / 500[0mstep: [92m53 / 500[0mstep: [92m54 / 500[0mstep: [92m55 / 500[0mstep: [92m56 / 500[0mstep: [92m57 / 500[0mstep: [92m58 / 500[0mstep: [92m59 / 500[0mstep: [92m60 / 500[0minfer time {'infer_ms': 9187.385163997533, 'prev_total_ms': 10055.73705099232}
+step: [92m61 / 500[0mstep: [92m62 / 500[0mstep: [92m63 / 500[0mstep: [92m64 / 500[0mstep: [92m65 / 500[0mstep: [92m66 / 500[0mstep: [92m67 / 500[0mstep: [92m68 / 500[0mstep: [92m69 / 500[0mstep: [92m70 / 500[0minfer time {'infer_ms': 9179.185550994589, 'prev_total_ms': 10230.169218993979}
+step: [92m71 / 500[0mstep: [92m72 / 500[0mstep: [92m73 / 500[0mstep: [92m74 / 500[0mstep: [92m75 / 500[0mstep: [92m76 / 500[0mstep: [92m77 / 500[0mstep: [92m78 / 500[0mstep: [92m79 / 500[0mstep: [92m80 / 500[0minfer time {'infer_ms': 9254.45318200218, 'prev_total_ms': 10377.757327994914}
+step: [92m81 / 500[0mstep: [92m82 / 500[0mstep: [92m83 / 500[0mstep: [92m84 / 500[0mstep: [92m85 / 500[0mstep: [92m86 / 500[0mstep: [92m87 / 500[0mstep: [92m88 / 500[0mstep: [92m89 / 500[0mstep: [92m90 / 500[0minfer time {'infer_ms': 9094.75509400363, 'prev_total_ms': 10051.011748000747}
+step: [92m91 / 500[0mstep: [92m92 / 500[0mstep: [92m93 / 500[0mstep: [92m94 / 500[0mstep: [92m95 / 500[0mstep: [92m96 / 500[0mstep: [92m97 / 500[0mstep: [92m98 / 500[0mstep: [92m99 / 500[0mstep: [92m100 / 500[0minfer time {'infer_ms': 8820.304702006979, 'prev_total_ms': 9899.514135991922}
+step: [92m101 / 500[0mstep: [92m102 / 500[0mstep: [92m103 / 500[0mstep: [92m104 / 500[0mstep: [92m105 / 500[0mstep: [92m106 / 500[0mstep: [92m107 / 500[0mstep: [92m108 / 500[0mstep: [92m109 / 500[0mstep: [92m110 / 500[0minfer time {'infer_ms': 9232.510871996055, 'prev_total_ms': 9868.806816011784}
+step: [92m111 / 500[0mstep: [92m112 / 500[0mstep: [92m113 / 500[0mstep: [92m114 / 500[0mstep: [92m115 / 500[0mstep: [92m116 / 500[0mstep: [92m117 / 500[0mstep: [92m118 / 500[0mstep: [92m119 / 500[0mstep: [92m120 / 500[0minfer time {'infer_ms': 9162.37939299026, 'prev_total_ms': 10699.9091040052}
+step: [92m121 / 500[0mstep: [92m122 / 500[0mstep: [92m123 / 500[0mstep: [92m124 / 500[0mstep: [92m125 / 500[0mstep: [92m126 / 500[0mstep: [92m127 / 500[0mstep: [92m128 / 500[0mstep: [92m129 / 500[0mstep: [92m130 / 500[0minfer time {'infer_ms': 9102.959547992214, 'prev_total_ms': 10530.309342997498}
+step: [92m131 / 500[0mstep: [92m132 / 500[0mstep: [92m133 / 500[0minfer time {'infer_ms': 9108.375615003752, 'prev_total_ms': 10691.88891700469}
+[92mSuccess![0m
+[93mplace_bread_skillet[0m | [94mACT[0m | [92mdemo_clean[0m | [91mNone[0m
+Success rate: [96m2/2[0m => [95m100.0%[0m, current seed: [90m500104[0m
+
+Per-episode results saved to /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/8000/place_bread_skillet_gpu0_s3/episodes.json
+Data has been saved to /data/szgx/gaohang/pi05_30/eval/backtest/stage3_source_fam2_r1/8000/place_bread_skillet_gpu0_s3/place_bread_skillet/_result.txt

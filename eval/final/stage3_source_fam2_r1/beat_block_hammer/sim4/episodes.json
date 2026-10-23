@@ -1,0 +1,220 @@
+{
+  "task": "beat_block_hammer",
+  "task_config": "demo_clean",
+  "requested_episodes": 16,
+  "seed_schedule": [
+    109004,
+    109010,
+    109016,
+    109022,
+    109028,
+    109034,
+    109040,
+    109046,
+    109052,
+    109058,
+    109064,
+    109070,
+    109076,
+    109082,
+    109088,
+    109094
+  ],
+  "attempted_seeds": [
+    109004,
+    109010,
+    109016,
+    109022,
+    109028,
+    109034,
+    109040,
+    109046,
+    109052,
+    109058,
+    109064,
+    109070,
+    109076,
+    109082,
+    109088,
+    109094,
+    109020,
+    109021,
+    109022,
+    109023,
+    109024,
+    109025
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 109004,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the silver hammer head and claw and beat the block."
+    },
+    {
+      "episode": 2,
+      "seed": 109010,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use the right arm to grab the silver hammer head and claw, beat the block."
+    },
+    {
+      "episode": 2,
+      "seed": 109016,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 3,
+      "seed": 109022,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the silver hammer head and claw and beat the block."
+    },
+    {
+      "episode": 4,
+      "seed": 109028,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the silver hammer head and claw and hit the block."
+    },
+    {
+      "episode": 5,
+      "seed": 109034,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use the left arm to grab the silver hammer head and claw then beat block"
+    },
+    {
+      "episode": 5,
+      "seed": 109040,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 6,
+      "seed": 109046,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hammer with claw and smooth head and hit the block"
+    },
+    {
+      "episode": 6,
+      "seed": 109052,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 6,
+      "seed": 109058,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 7,
+      "seed": 109064,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use the left arm to pick up the hammer with black handle."
+    },
+    {
+      "episode": 7,
+      "seed": 109070,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 8,
+      "seed": 109076,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the hammer with claw and smooth head up and hit the block"
+    },
+    {
+      "episode": 9,
+      "seed": 109082,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the silver hammer head and claw and hit the block."
+    },
+    {
+      "episode": 10,
+      "seed": 109088,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use the left arm to grab the hammer with black handle then beat block"
+    },
+    {
+      "episode": 11,
+      "seed": 109094,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use the hammer with claw and smooth head to strike the block"
+    },
+    {
+      "episode": 12,
+      "seed": 109020,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hammer with black handle and strike the block"
+    },
+    {
+      "episode": 12,
+      "seed": 109021,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 13,
+      "seed": 109022,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hammer with claw and smooth head and hit the block"
+    },
+    {
+      "episode": 14,
+      "seed": 109023,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the silver hammer head and claw and beat the block."
+    },
+    {
+      "episode": 15,
+      "seed": 109024,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hammer with black handle and hit the block"
+    },
+    {
+      "episode": 16,
+      "seed": 109025,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the hammer with black handle and beat the block."
+    }
+  ]
+}

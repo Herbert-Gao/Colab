@@ -1,0 +1,48 @@
+{
+  "task": "stack_bowls_two",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103,
+    500103,
+    500104
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 307,
+      "instruction": "Stack the light blue bowl with darkened rim on top of the small smooth brown-rimmed bowl."
+    },
+    {
+      "episode": 1,
+      "seed": 500103,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500103,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 289,
+      "instruction": "Place the smooth bowl with glossy finish onto the smooth bowl with glossy finish to form a stack."
+    }
+  ]
+}

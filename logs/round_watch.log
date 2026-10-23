@@ -1,0 +1,18 @@
+{"active": {"stage3_source_fam2_r1": {"step": 13950, "status": "running", "kind": "source"}}, "finished": 1, "gpu": "0, 79566 MiB, 0 % | 1, 65641 MiB, 100 % | 2, 60019 MiB, 100 % | 3, 60020 MiB, 100 % | 4, 1 MiB, 0 % | 5, 1 MiB, 0 % | 6, 1 MiB, 0 % | 7, 1 MiB, 0 %"}
+{
+  "finished": {
+    "stage3_source_fam3_r1": {
+      "status": "completed",
+      "kind": "source",
+      "step": 15000
+    }
+  },
+  "active": {
+    "stage3_source_fam2_r1": {
+      "step": 13950,
+      "status": "running",
+      "kind": "source"
+    }
+  },
+  "gpu": "0, 79566 MiB, 0 % | 1, 65641 MiB, 100 % | 2, 60019 MiB, 100 % | 3, 60020 MiB, 100 % | 4, 1 MiB, 0 % | 5, 1 MiB, 0 % | 6, 1 MiB, 0 % | 7, 1 MiB, 0 %"
+}

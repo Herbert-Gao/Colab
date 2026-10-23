@@ -1,0 +1,632 @@
+[2026-10-21T03:02:36+00:00] jobs marked running without a live trainer: stage1_lr0.5x_h10 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 03:02:38",
+    "message_id": "om_x100b62b6fa13951ccf9cdeefd7210a2"
+  }
+}
+[2026-10-21T03:32:39+00:00] jobs marked running without a live trainer: stage1_lr0.5x_h15 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 03:32:40",
+    "message_id": "om_x100b62b76b49190cb0e40d057195974"
+  }
+}
+[2026-10-21T04:02:41+00:00] jobs marked running without a live trainer: stage1_lr0.5x_h5 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 04:02:42",
+    "message_id": "om_x100b62b7d8eb9ca8b08771f1ad1deec"
+  }
+}
+[2026-10-21T04:37:43+00:00] jobs marked running without a live trainer: stage1_lr1x_h10 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 04:37:44",
+    "message_id": "om_x100b62b05747e0accea29c4af7da9bb"
+  }
+}
+[2026-10-21T05:07:45+00:00] jobs marked running without a live trainer: stage1_lr1x_h15 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 05:07:46",
+    "message_id": "om_x100b62b0c4e768a4cf3cbdf7e668785"
+  }
+}
+[2026-10-21T05:37:47+00:00] jobs marked running without a live trainer: stage1_lr1x_h5 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 05:37:49",
+    "message_id": "om_x100b62b0b403c4b4ce43d1d77e6a50d"
+  }
+}
+[2026-10-21T06:12:50+00:00] jobs marked running without a live trainer: stage1_lr2x_h10 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 06:12:51",
+    "message_id": "om_x100b62b130fa2ca4cf0b17a6ec0a861"
+  }
+}
+[2026-10-21T06:47:52+00:00] jobs marked running without a live trainer: stage1_lr2x_h15 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 06:47:53",
+    "message_id": "om_x100b62b24f5054bccef4907d9f9b4e5"
+  }
+}
+[2026-10-21T07:17:55+00:00] jobs marked running without a live trainer: stage1_lr2x_h5 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 07:17:56",
+    "message_id": "om_x100b62b23c8f80a0cfe408d99c1adb0"
+  }
+}
+[2026-10-21T07:47:57+00:00] driver is not running (35 pending jobs) -> restarting it
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 07:48:08",
+    "message_id": "om_x100b62b2ad4f0ceccff21d2b1699959"
+  }
+}
+[2026-10-21T08:13:09+00:00] driver is not running (35 pending jobs) -> restarting it
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 08:13:20",
+    "message_id": "om_x100b62b30ccd98bccffc06ed6d42770"
+  }
+}
+[2026-10-21T08:38:21+00:00] driver is not running (35 pending jobs) -> restarting it
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 08:38:31",
+    "message_id": "om_x100b62b3eeb09c88b09942b061b07da"
+  }
+}
+[2026-10-21T09:03:32+00:00] driver is not running (35 pending jobs) -> restarting it
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 09:03:43",
+    "message_id": "om_x100b62b3b03790a4b0e3aa8bf4b91ac"
+  }
+}
+[2026-10-21T09:43:45+00:00] jobs marked running without a live trainer: stage2_source_fam1_r0 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 09:43:46",
+    "message_id": "om_x100b62bcdbec98a8cd14858c80f8d39"
+  }
+}
+[2026-10-21T10:18:47+00:00] jobs marked running without a live trainer: stage2_target_place_mouse_pad_r0 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 10:18:53",
+    "message_id": "om_x100b62bd561a90a8b0b6371bd2fc34e"
+  }
+}
+[2026-10-21T11:17:38+00:00] driver is not running (33 pending jobs) -> restarting it
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 11:17:49",
+    "message_id": "om_x100b62bdbb034d3cb09483dff440242"
+  }
+}
+[2026-10-21T12:07:50+00:00] jobs marked running without a live trainer: stage3_source_fam1_r1 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 12:07:51",
+    "message_id": "om_x100b62beffb7cca0ce72bc53a96b0a4"
+  }
+}
+[2026-10-21T12:12:52+00:00] jobs marked running without a live trainer: stage3_source_fam1_r1 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-21 12:12:52",
+    "message_id": "om_x100b62be8a83b4a0ceb3e56202538b2"
+  }
+}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:09:06+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:14:07+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:19:07+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:24:07+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:29:07+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:34:08+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:39:08+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:44:08+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:49:09+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:54:09+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T12:59:09+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:04:09+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:09:10+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:14:10+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:19:10+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:24:11+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:29:11+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:34:11+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:39:12+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:44:12+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:49:12+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:54:12+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T13:59:13+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:04:13+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:09:13+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:14:14+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:19:14+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:24:14+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:29:14+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:34:15+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:39:15+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:44:15+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:49:16+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:54:16+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T14:59:16+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:04:17+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:09:17+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:14:17+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:19:17+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:24:18+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:29:18+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:34:19+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:39:19+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:44:19+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:49:19+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:54:20+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T15:59:20+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:04:20+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:09:21+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:14:21+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:19:21+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:24:22+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:29:22+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:34:22+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:39:22+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:44:23+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:49:23+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:54:23+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T16:59:24+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:04:24+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:09:24+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:17:50+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:22:50+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:27:50+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:32:51+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:37:51+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:42:51+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:47:51+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:52:52+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T17:57:52+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:02:52+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:07:53+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:12:53+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:17:53+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:22:53+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:27:54+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:32:54+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:37:54+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:42:55+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:47:55+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:52:55+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T18:57:56+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:02:56+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:07:56+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:12:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:17:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:22:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:27:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:32:58+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:37:58+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:42:58+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:47:59+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:52:59+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-22T19:57:59+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+[2026-10-22T22:48:09+00:00] jobs marked running without a live trainer: stage3_source_fam2_r1 -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-22 22:48:10",
+    "message_id": "om_x100b629d646778a0cf5543bbe324af8"
+  }
+}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+[2026-10-22T23:08:11+00:00] no pending jobs; watchdog idles
+[2026-10-22T23:13:11+00:00] no pending jobs; watchdog idles
+{"count": 0, "notified_count": 0}
+[2026-10-22T23:18:43+00:00] driver is not running (50 pending jobs, phase=matrix) -> restarting it
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-22 23:18:54",
+    "message_id": "om_x100b629dd32c98a0cfe02dc74ed974e"
+  }
+}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+[2026-10-22T23:58:56+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:03:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:08:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:13:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:18:57+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:23:58+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:28:58+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:33:58+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:38:59+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:43:59+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:48:59+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:54:00+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T00:59:00+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:04:00+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:09:01+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:14:01+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:19:01+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:24:01+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:29:02+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:34:02+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:39:02+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:44:03+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:49:03+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:54:03+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T01:59:04+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T02:04:04+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T02:09:04+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T02:14:04+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T02:19:05+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T02:24:05+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T02:29:05+00:00] note: 2 trainers running at once (expected during co-training)
+{"count": 0, "notified_count": 0}
+[2026-10-23T02:34:06+00:00] driver is not running (49 pending jobs, phase=source) -> restarting it
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-23 02:34:17",
+    "message_id": "om_x100b6298345dacb0cf163f730cf090b"
+  }
+}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+[2026-10-23T08:19:40+00:00] jobs marked running without a live trainer: stage3_source_fam3_r1_long -> releasing them
+{
+  "ok": true,
+  "identity": "bot",
+  "data": {
+    "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+    "create_time": "2026-10-23 08:19:41",
+    "message_id": "om_x100b6285c716b4b8cef223db6711e73"
+  }
+}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}
+{"count": 0, "notified_count": 0}

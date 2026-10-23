@@ -1,0 +1,212 @@
+{
+  "task": "hanging_mug",
+  "task_config": "demo_clean",
+  "requested_episodes": 16,
+  "seed_schedule": [
+    103005,
+    103011,
+    103017,
+    103023,
+    103029,
+    103035,
+    103041,
+    103047,
+    103053,
+    103059,
+    103065,
+    103071,
+    103077,
+    103083,
+    103089,
+    103095
+  ],
+  "attempted_seeds": [
+    103005,
+    103011,
+    103017,
+    103023,
+    103029,
+    103035,
+    103041,
+    103047,
+    103053,
+    103059,
+    103065,
+    103071,
+    103077,
+    103083,
+    103089,
+    103095,
+    103021,
+    103022,
+    103023,
+    103024,
+    103025
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 103005,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 103011,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Pick the mug beige smooth cylinder shape with the left arm, rotate, place it, then hang it on the dark gray rack with flat back."
+    },
+    {
+      "episode": 2,
+      "seed": 103017,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Lift the simple white cylindrical mug, rotate it, put it down, then attach it to the rack with straight and slanted rods."
+    },
+    {
+      "episode": 2,
+      "seed": 103023,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 3,
+      "seed": 103029,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the mug with rounded bottom and handle from the table, rotate it, and set it in the center. Then hang the mug with rounded bottom and handle on the dark gray rack with flat back."
+    },
+    {
+      "episode": 4,
+      "seed": 103035,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Pick the cylindrical mug with the left arm, rotate, place it, then hang it on the rack with straight and slanted rods."
+    },
+    {
+      "episode": 5,
+      "seed": 103041,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the beige mug from the table, rotate it, and set it in the center. Then hang the beige mug on the medium-sized rack."
+    },
+    {
+      "episode": 5,
+      "seed": 103047,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 6,
+      "seed": 103053,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Pick up the beige mug, rotate it, place it on the table, and hang it on the dark gray rack with flat back."
+    },
+    {
+      "episode": 7,
+      "seed": 103059,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Pick up the beige coffee mug, rotate it, place it on the table, and hang it on the medium-sized rack."
+    },
+    {
+      "episode": 8,
+      "seed": 103065,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Lift the medium mug for hot drinks from the table, spin it, set it down, and hang it on the medium-sized rack."
+    },
+    {
+      "episode": 9,
+      "seed": 103071,
+      "valid": true,
+      "success": true,
+      "steps": 346,
+      "instruction": "Pick the mug with smooth texture from the table, rotate it, place it in the middle, and hang it onto the medium-sized rack."
+    },
+    {
+      "episode": 10,
+      "seed": 103077,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Pick up the ceramic mug, rotate it, place it on the table, and hang it on the dark gray rack with flat back."
+    },
+    {
+      "episode": 11,
+      "seed": 103083,
+      "valid": true,
+      "success": true,
+      "steps": 256,
+      "instruction": "Lift the cylindrical mug with Starbucks logo, rotate it, put it down, then attach it to the dark gray rack with flat back."
+    },
+    {
+      "episode": 12,
+      "seed": 103089,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Pick up the cylindrical mug with Starbucks logo, rotate it, place it on the table, and hang it on the rack with straight and slanted rods."
+    },
+    {
+      "episode": 13,
+      "seed": 103095,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Lift the mug for liquids black ceramic body from the table, spin it, set it down, and hang it on the medium-sized rack."
+    },
+    {
+      "episode": 14,
+      "seed": 103021,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Pick up the white coffee mug, rotate it, place it on the table, and hang it on the rack with straight and slanted rods."
+    },
+    {
+      "episode": 14,
+      "seed": 103022,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 14,
+      "seed": 103023,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 15,
+      "seed": 103024,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the mug for liquids black ceramic body, turn it, set it on the table, then hang it on the medium-sized rack."
+    },
+    {
+      "episode": 16,
+      "seed": 103025,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Lift the beige mug from the table, spin it, set it down, and hang it on the dark gray rack with flat back."
+    }
+  ]
+}

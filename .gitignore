@@ -1,0 +1,17 @@
+# Heavy artifacts and environments - never versioned
+datasets/
+runs/
+envs/
+weights/
+*.tar
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Evaluator scratch
+tmp/
+*.tmp

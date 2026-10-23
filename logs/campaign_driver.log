@@ -1,0 +1,1031 @@
+[2026-10-21T02:25:40+00:00] stage 1: 9 job(s) pending (pass 1)
+[2026-10-21T02:25:40+00:00] waiting for the machine to be idle (queues=0
+0 trainers=0
+0)
+[2026-10-21T02:26:41+00:00] waiting for the machine to be idle (queues=0
+0 trainers=0
+0)
+[2026-10-21T02:27:32+00:00] stage 1: 9 job(s) pending (pass 1)
+[2026-10-21T02:27:53+00:00] stage 1 queue: 9 jobs
+[2026-10-21T02:27:53+00:00] start stage1_lr0.5x_h10
+[2026-10-21T02:31:08+00:00] stage 1: 9 job(s) pending (pass 1)
+[2026-10-21T02:31:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:32:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:33:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:34:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:35:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:36:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:37:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:38:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:39:09+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:40:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:41:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:42:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:43:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:44:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:45:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:46:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:47:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:48:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:49:10+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:50:11+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:51:11+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:52:11+00:00] waiting for the machine to be idle (queues=1 trainers=1)
+[2026-10-21T02:53:31+00:00] stage 1 queue: 9 jobs
+[2026-10-21T02:53:31+00:00] start stage1_lr0.5x_h10
+[2026-10-21T02:56:50+00:00] stage 1: 9 job(s) pending (pass 1)
+[2026-10-21T02:57:10+00:00] stage 1 queue: 9 jobs
+[2026-10-21T02:57:10+00:00] start stage1_lr0.5x_h10
+[2026-10-21T03:04:00+00:00] done stage1_lr0.5x_h10 (status=completed)
+[2026-10-21T03:04:00+00:00] start stage1_lr0.5x_h15
+[2026-10-21T03:11:29+00:00] stage 1: 8 job(s) pending (pass 1)
+[2026-10-21T03:11:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:12:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:13:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:14:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:15:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:16:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:17:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:18:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:19:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:20:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:21:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:22:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:23:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:24:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:25:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:26:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:27:29+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:28:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:29:30+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T03:30:30+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T03:31:30+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T03:32:30+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T03:33:30+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T03:34:30+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T03:35:30+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T03:35:37+00:00] done stage1_lr0.5x_h15 (status=completed)
+[2026-10-21T03:35:37+00:00] start stage1_lr0.5x_h5
+[2026-10-21T03:36:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:37:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:38:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:39:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:40:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:41:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:42:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:43:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:44:30+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:45:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:46:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:47:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:48:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:49:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:50:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:51:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:52:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:53:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:54:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:55:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:56:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:57:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:58:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T03:59:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:00:31+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:01:31+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:02:32+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:03:32+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:04:32+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:05:32+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:06:32+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T04:07:32+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T04:08:08+00:00] done stage1_lr0.5x_h5 (status=completed)
+[2026-10-21T04:08:09+00:00] start stage1_lr1x_h10
+[2026-10-21T04:08:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:09:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:10:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:11:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:12:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:13:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:14:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:15:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:16:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:17:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:18:32+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:19:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:20:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:21:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:22:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:23:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:24:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:25:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:26:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:27:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:28:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:29:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:30:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:31:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:32:33+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:33:33+00:00] waiting for the machine to be idle (workers=4)
+[2026-10-21T04:34:33+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:35:34+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:36:34+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:37:34+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T04:38:34+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T04:39:27+00:00] done stage1_lr1x_h10 (status=completed)
+[2026-10-21T04:39:27+00:00] start stage1_lr1x_h15
+[2026-10-21T04:39:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:40:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:41:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:42:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:43:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:44:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:45:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:46:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:47:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:48:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:49:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:50:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:51:34+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:52:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:53:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:54:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:55:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:56:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:57:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:58:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T04:59:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:00:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:01:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:02:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:03:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:04:35+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:05:35+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:06:35+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:07:35+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:08:35+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:09:35+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T05:10:38+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T05:10:51+00:00] done stage1_lr1x_h15 (status=completed)
+[2026-10-21T05:10:51+00:00] start stage1_lr1x_h5
+[2026-10-21T05:11:38+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:12:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:13:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:14:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:15:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:16:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:17:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:18:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:19:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:20:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:21:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:22:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:23:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:24:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:25:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:26:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:27:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:28:39+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:29:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:30:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:31:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:32:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:33:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:34:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:35:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:36:40+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:37:40+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:38:40+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:39:40+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:40:40+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:41:40+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:42:40+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T05:43:40+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T05:44:31+00:00] done stage1_lr1x_h5 (status=completed)
+[2026-10-21T05:44:31+00:00] start stage1_lr2x_h10
+[2026-10-21T05:44:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:45:40+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:46:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:47:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:48:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:49:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:50:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:51:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:52:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:53:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:54:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:55:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:56:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:57:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:58:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T05:59:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:00:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:01:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:02:41+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:03:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:04:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:05:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:06:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:07:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:08:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:09:42+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T06:10:42+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T06:11:42+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T06:12:42+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T06:13:42+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T06:14:42+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T06:15:42+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T06:16:07+00:00] done stage1_lr2x_h10 (status=completed)
+[2026-10-21T06:16:07+00:00] start stage1_lr2x_h15
+[2026-10-21T06:16:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:17:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:18:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:19:42+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:20:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:21:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:22:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:23:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:24:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:25:43+00:00] waiting for the machine to be idle (workers=8)
+[2026-10-21T06:26:43+00:00] waiting for the machine to be idle (workers=8)
+[2026-10-21T06:27:43+00:00] waiting for the machine to be idle (workers=8)
+[2026-10-21T06:28:43+00:00] waiting for the machine to be idle (workers=8)
+[2026-10-21T06:29:43+00:00] waiting for the machine to be idle (workers=6)
+[2026-10-21T06:30:43+00:00] waiting for the machine to be idle (workers=6)
+[2026-10-21T06:31:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:32:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:33:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:34:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:35:43+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:36:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:37:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:38:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:39:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:40:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:41:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:42:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:43:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:44:44+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T06:45:44+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T06:46:44+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T06:47:44+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T06:48:44+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T06:49:16+00:00] done stage1_lr2x_h15 (status=completed)
+[2026-10-21T06:49:16+00:00] start stage1_lr2x_h5
+[2026-10-21T06:49:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:50:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:51:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:52:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:53:44+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:54:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:55:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:56:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:57:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:58:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T06:59:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:00:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:01:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:02:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:03:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:04:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:05:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:06:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:07:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:08:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:09:45+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:10:46+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:11:46+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:12:46+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:13:46+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:14:46+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T07:15:46+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T07:16:46+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T07:17:46+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T07:18:46+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T07:19:46+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-21T07:20:46+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T07:21:46+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T07:22:26+00:00] done stage1_lr2x_h5 (status=completed)
+[2026-10-21T07:22:26+00:00] stage 1 queue finished
+[2026-10-21T07:23:06+00:00] stage 1 queue: 9 jobs
+[2026-10-21T07:23:06+00:00] skip stage1_lr0.5x_h10 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr0.5x_h15 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr0.5x_h5 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr1x_h10 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr1x_h15 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr1x_h5 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr2x_h10 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr2x_h15 (completed)
+[2026-10-21T07:23:07+00:00] skip stage1_lr2x_h5 (completed)
+[2026-10-21T07:23:07+00:00] stage 1 queue finished
+[2026-10-21T07:23:07+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T07:23:07+00:00] stage 1: re-running the GPU-bound stage-0 validations on an idle machine
+[smoke] training smoke
+[smoke] {"ok": true, "steps": 40, "trace_rows": 41, "checkpoint": "/data/szgx/gaohang/pi05_30/runs/smoke_validation/pi05_aloha_robotwin_30/aloha_smoke_validation/20"}
+[smoke] evaluation smoke
+[smoke] {"ok": true, "episodes": 2, "successes": 0, "seeds": [500000, 500001]}
+[smoke] parallel smoke (10 min)
+[smoke] {"ok": true, "minutes": 10.1, "gpu_utilisation_pct": [], "gpu_memory_mib": [], "eval_episodes": 5, "eval_successes": 0}
+[2026-10-21T07:44:50+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr1x_h10", "lr": 2.5e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.03159422889351845, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T07:44:50+00:00] stage 1 selection frozen: {
+  "peak_lr": 2.5e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T07:44:50+0000"
+}
+{"frozen": {"peak_lr": 2.5e-05, "action_horizon": 10, "decided": "2026-10-21T07:44:50+0000"}, "jobs_updated": 0}
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr0.5x_h10_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr0.5x_h15_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr0.5x_h5_final_step2000 (11.6 GiB)
+keep stage1_lr1x_h10 (selected: lr=2.5e-05, action_horizon=10)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr1x_h15_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr1x_h5_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr2x_h10_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr2x_h15_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr2x_h5_final_step2000 (11.6 GiB)
+[2026-10-21T07:44:56+00:00] campaign driver finished
+[2026-10-21T07:47:57+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T07:47:57+00:00] stage 1: re-running the GPU-bound stage-0 validations on an idle machine
+[smoke] training smoke
+[smoke] {"ok": true, "steps": 40, "trace_rows": 41, "checkpoint": "/data/szgx/gaohang/pi05_30/runs/smoke_validation/pi05_aloha_robotwin_30/aloha_smoke_validation/20"}
+[smoke] evaluation smoke
+[smoke] {"ok": true, "episodes": 2, "successes": 0, "seeds": [500000, 500001]}
+[smoke] parallel smoke (10 min)
+[smoke] {"ok": true, "minutes": 10.1, "gpu_utilisation_pct": [], "gpu_memory_mib": [], "eval_episodes": 5, "eval_successes": 0}
+[2026-10-21T08:09:41+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr1x_h10", "lr": 2.5e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.03159422889351845, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T08:09:41+00:00] stage 1 selection frozen: {
+  "peak_lr": 2.5e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T08:09:41+0000"
+}
+{"frozen": {"peak_lr": 2.5e-05, "action_horizon": 10, "decided": "2026-10-21T08:09:41+0000"}, "jobs_updated": 0}
+keep stage1_lr1x_h10 (selected: lr=2.5e-05, action_horizon=10)
+[2026-10-21T08:09:41+00:00] campaign driver finished
+[2026-10-21T08:13:09+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T08:13:09+00:00] stage 1: re-running the GPU-bound stage-0 validations on an idle machine
+[smoke] training smoke
+[smoke] {"ok": true, "steps": 40, "trace_rows": 41, "checkpoint": "/data/szgx/gaohang/pi05_30/runs/smoke_validation/pi05_aloha_robotwin_30/aloha_smoke_validation/20"}
+[smoke] evaluation smoke
+[smoke] {"ok": true, "episodes": 2, "successes": 0, "seeds": [500000, 500001]}
+[smoke] parallel smoke (10 min)
+[smoke] {"ok": true, "minutes": 10.1, "gpu_utilisation_pct": [], "gpu_memory_mib": [], "eval_episodes": 5, "eval_successes": 0}
+[2026-10-21T08:34:52+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr1x_h10", "lr": 2.5e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.03159422889351845, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T08:34:53+00:00] stage 1 selection frozen: {
+  "peak_lr": 2.5e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T08:34:53+0000"
+}
+{"frozen": {"peak_lr": 2.5e-05, "action_horizon": 10, "decided": "2026-10-21T08:34:53+0000"}, "jobs_updated": 0}
+keep stage1_lr1x_h10 (selected: lr=2.5e-05, action_horizon=10)
+[2026-10-21T08:34:53+00:00] campaign driver finished
+[2026-10-21T08:38:21+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T08:38:21+00:00] stage 1: re-running the GPU-bound stage-0 validations on an idle machine
+[smoke] training smoke
+[smoke] {"ok": true, "steps": 40, "trace_rows": 41, "checkpoint": "/data/szgx/gaohang/pi05_30/runs/smoke_validation/pi05_aloha_robotwin_30/aloha_smoke_validation/20"}
+[smoke] evaluation smoke
+[smoke] {"ok": true, "episodes": 2, "successes": 0, "seeds": [500000, 500001]}
+[smoke] parallel smoke (10 min)
+[smoke] {"ok": true, "minutes": 10.1, "gpu_utilisation_pct": [], "gpu_memory_mib": [], "eval_episodes": 5, "eval_successes": 0}
+[2026-10-21T08:59:02+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr1x_h10", "lr": 2.5e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.03159422889351845, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T08:59:03+00:00] stage 1 selection frozen: {
+  "peak_lr": 2.5e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T08:59:03+0000"
+}
+{"frozen": {"peak_lr": 2.5e-05, "action_horizon": 10, "decided": "2026-10-21T08:59:03+0000"}, "jobs_updated": 0}
+keep stage1_lr1x_h10 (selected: lr=2.5e-05, action_horizon=10)
+[2026-10-21T08:59:03+00:00] campaign driver finished
+[2026-10-21T09:03:32+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T09:03:32+00:00] stage 1: re-running the GPU-bound stage-0 validations on an idle machine
+[smoke] training smoke
+[smoke] {"ok": true, "steps": 40, "trace_rows": 41, "checkpoint": "/data/szgx/gaohang/pi05_30/runs/smoke_validation/pi05_aloha_robotwin_30/aloha_smoke_validation/20"}
+[smoke] evaluation smoke
+[2026-10-21T09:11:25+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T09:11:25+00:00] stage 1: re-running the GPU-bound stage-0 validations on an idle machine
+[2026-10-21T09:11:25+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-21T09:12:15+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T09:12:15+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T09:12:15+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T09:12:15+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T09:12:15+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T09:12:15+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+deleted /data/szgx/gaohang/pi05_30/runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr1x_h10_final_step2000 (11.6 GiB)
+[2026-10-21T09:12:16+00:00] stage 2: 2 job(s) pending (pass 1)
+[2026-10-21T09:12:16+00:00] waiting for the machine to be idle (workers=1)
+[2026-10-21T09:13:36+00:00] stage 2 queue: 2 jobs
+[2026-10-21T09:13:37+00:00] start stage2_source_fam1_r0
+[2026-10-21T09:49:32+00:00] done stage2_source_fam1_r0 (status=completed)
+[2026-10-21T09:49:32+00:00] start stage2_target_place_mouse_pad_r0
+[2026-10-21T10:20:27+00:00] done stage2_target_place_mouse_pad_r0 (status=completed)
+[2026-10-21T10:20:27+00:00] stage 2 queue finished
+[2026-10-21T10:20:27+00:00] stage 2 finished with 0 job(s) not completed
+deleted /data/szgx/gaohang/pi05_30/runs/stage2/pi05_aloha_robotwin_30/aloha_trial_adapt_place_mouse_pad_r0_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage2/pi05_aloha_robotwin_30/aloha_trial_adapt_place_mouse_pad_r0_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage2/pi05_aloha_robotwin_30/aloha_trial_fam1_r0_final_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage2/pi05_aloha_robotwin_30/aloha_trial_fam1_r0_step2000 (11.6 GiB)
+deleted /data/szgx/gaohang/pi05_30/runs/stage2/pi05_aloha_robotwin_30 (0.0 GiB)
+[2026-10-21T10:20:30+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T10:20:50+00:00] stage 3 queue: 33 jobs
+[2026-10-21T10:20:50+00:00] start stage3_source_fam1_r1
+[2026-10-21T10:47:32+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T10:47:32+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T10:47:32+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T10:47:32+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T10:47:32+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T10:47:32+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T10:47:32+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T10:47:32+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T10:47:53+00:00] stage 3 queue: 33 jobs
+[2026-10-21T10:47:53+00:00] start stage3_source_fam1_r1
+[2026-10-21T10:47:53+00:00] done stage3_source_fam1_r1 (status=pending)
+[2026-10-21T10:47:53+00:00] start stage3_source_fam2_r1
+[2026-10-21T10:48:44+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T10:48:44+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T10:48:44+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T10:48:44+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T10:48:44+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T10:48:44+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T10:48:45+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T10:48:45+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T10:49:05+00:00] stage 3 queue: 33 jobs
+[2026-10-21T10:49:05+00:00] start stage3_source_fam1_r1
+[2026-10-21T11:16:47+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T11:16:47+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T11:16:47+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T11:16:47+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T11:16:47+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T11:16:47+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T11:16:47+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T11:16:48+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T11:17:08+00:00] stage 3 queue: 33 jobs
+[2026-10-21T11:17:08+00:00] start stage3_source_fam1_r1
+[2026-10-21T11:17:08+00:00] done stage3_source_fam1_r1 (status=pending)
+[2026-10-21T11:17:08+00:00] start stage3_source_fam2_r1
+[2026-10-21T11:17:38+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T11:17:38+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T11:17:38+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T11:17:38+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T11:17:38+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T11:17:38+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T11:17:38+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T11:17:38+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T11:17:48+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T11:17:48+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T11:17:48+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T11:17:48+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T11:17:48+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T11:17:48+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T11:17:48+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T11:17:49+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T11:17:59+00:00] stage 3 queue: 33 jobs
+[2026-10-21T11:17:59+00:00] start stage3_source_fam1_r1
+[2026-10-21T11:18:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:19:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:20:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:21:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:22:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:23:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:24:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:25:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:26:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:27:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:28:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:29:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:30:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:31:09+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:32:10+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:33:10+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:34:10+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:35:10+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:36:10+00:00] waiting for the machine to be idle (workers=3)
+[2026-10-21T11:37:10+00:00] waiting for the machine to be idle (workers=12)
+[2026-10-21T11:38:10+00:00] waiting for the machine to be idle (workers=17)
+[2026-10-21T11:39:10+00:00] waiting for the machine to be idle (workers=20)
+[2026-10-21T11:40:10+00:00] waiting for the machine to be idle (workers=18)
+[2026-10-21T11:41:10+00:00] waiting for the machine to be idle (workers=18)
+[2026-10-21T11:42:10+00:00] waiting for the machine to be idle (workers=17)
+[2026-10-21T11:43:10+00:00] waiting for the machine to be idle (workers=22)
+[2026-10-21T11:44:10+00:00] waiting for the machine to be idle (workers=24)
+[2026-10-21T11:45:10+00:00] waiting for the machine to be idle (workers=26)
+[2026-10-21T11:45:45+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T11:45:45+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T11:45:45+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T11:45:45+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T11:45:45+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T11:45:45+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T11:45:46+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T11:45:46+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T11:45:46+00:00] waiting for the machine to be idle (workers=8)
+[2026-10-21T11:46:46+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T11:47:46+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T11:48:46+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-21T11:50:07+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T11:50:07+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T11:50:07+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T11:50:07+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T11:50:07+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T11:50:07+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T11:50:07+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T11:50:07+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T11:50:28+00:00] stage 3 queue: 33 jobs
+[2026-10-21T11:50:28+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:00:46+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T12:00:46+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T12:00:46+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T12:00:46+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T12:00:46+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T12:00:46+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T12:00:47+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T12:00:47+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T12:01:07+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:01:07+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:03:19+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T12:03:19+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T12:03:19+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T12:03:19+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T12:03:19+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T12:03:19+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T12:03:19+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T12:03:19+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T12:03:19+00:00] waiting for the machine to be idle (workers=1)
+[2026-10-21T12:04:19+00:00] waiting for the machine to be idle (workers=1)
+[2026-10-21T12:05:19+00:00] waiting for the machine to be idle (workers=1)
+[2026-10-21T12:06:40+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:06:40+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:09:16+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T12:09:16+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T12:09:16+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T12:09:16+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T12:09:16+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T12:09:16+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T12:09:16+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T12:09:16+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T12:09:36+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:09:37+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:13:06+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T12:13:06+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T12:13:06+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T12:13:06+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T12:13:06+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T12:13:06+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T12:13:07+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T12:13:07+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T12:13:27+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:13:27+00:00] start stage3_source_fam1_r1
+[2026-10-21T12:14:30+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T12:14:30+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T12:14:30+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T12:14:31+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T12:14:31+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T12:14:31+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T12:14:31+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T12:14:31+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T12:14:51+00:00] stage 3 queue: 33 jobs
+[2026-10-21T12:14:51+00:00] start stage3_source_fam1_r1
+[2026-10-21T13:27:23+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T13:27:23+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-21T13:27:23+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T13:27:23+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-21T13:27:23+00:00] stage 1: selecting hyper-parameters
+[2026-10-21T13:27:23+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-21T13:27:23+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T13:27:23+0000"
+}
+[2026-10-21T13:27:23+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-21T13:27:23+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-21T13:27:23+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-21T13:27:24+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T13:27:24+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-21T13:27:24+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T13:27:24+00:00] stage 3: 33 job(s) pending (pass 1)
+[2026-10-21T13:27:44+00:00] stage 3 queue: 33 jobs
+[2026-10-21T13:27:44+00:00] start stage3_source_fam1_r1
+[2026-10-22T02:33:59+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T02:33:59+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T02:33:59+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T02:33:59+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T02:33:59+00:00] stage 1: selecting hyper-parameters
+[2026-10-22T02:33:59+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-22T02:33:59+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T02:33:59+0000"
+}
+[2026-10-22T02:33:59+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T02:33:59+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-22T02:33:59+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h5 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-22T02:33:59+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T02:33:59+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T02:34:00+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T02:34:00+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T02:34:20+00:00] stage 3 queue: 15 jobs
+[2026-10-22T02:34:20+00:00] start stage3_source_fam1_r1
+[2026-10-22T02:39:19+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T02:39:19+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T02:39:19+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T02:39:19+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T02:39:19+00:00] stage 1: selecting hyper-parameters
+[2026-10-22T02:39:19+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-22T02:39:19+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T02:39:19+0000"
+}
+[2026-10-22T02:39:19+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T02:39:19+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-22T02:39:19+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h5 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-22T02:39:20+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T02:39:20+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T02:39:20+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T02:39:20+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T02:39:40+00:00] stage 3 queue: 15 jobs
+[2026-10-22T02:39:40+00:00] start stage3_source_fam1_r1
+[2026-10-22T02:42:45+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T02:42:45+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T02:42:45+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T02:42:45+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T02:42:45+00:00] stage 1: selecting hyper-parameters
+[2026-10-22T02:42:45+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-22T02:42:45+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T02:42:45+0000"
+}
+[2026-10-22T02:42:45+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T02:42:45+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-22T02:42:45+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h5 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-22T02:42:45+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T02:42:45+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T02:42:45+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T02:42:45+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T02:43:05+00:00] stage 3 queue: 15 jobs
+[2026-10-22T02:43:06+00:00] start stage3_source_fam1_r1
+[2026-10-22T04:00:29+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T04:00:29+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T04:00:29+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T04:00:29+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T04:00:29+00:00] stage 1: selecting hyper-parameters
+[2026-10-22T04:00:29+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-22T04:00:29+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T04:00:29+0000"
+}
+[2026-10-22T04:00:29+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T04:00:29+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-22T04:00:29+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h5 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-22T04:00:29+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T04:00:29+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T04:00:29+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T04:00:29+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T04:00:49+00:00] stage 3 queue: 15 jobs
+[2026-10-22T04:00:50+00:00] start stage3_source_fam1_r1
+[2026-10-22T04:06:57+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T04:06:57+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T04:06:57+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T04:06:57+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T04:06:57+00:00] stage 1: selecting hyper-parameters
+[2026-10-22T04:06:57+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-22T04:06:57+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T04:06:57+0000"
+}
+[2026-10-22T04:06:57+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T04:06:57+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-22T04:06:57+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h5 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-22T04:06:57+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T04:06:57+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T04:06:58+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T04:06:58+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T04:07:18+00:00] stage 3 queue: 15 jobs
+[2026-10-22T04:07:18+00:00] start stage3_source_fam1_r1
+[2026-10-22T04:53:02+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T04:53:02+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T04:53:02+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T04:53:02+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T04:53:02+00:00] stage 1: selecting hyper-parameters
+[2026-10-22T04:53:02+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-22T04:53:02+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T04:53:02+0000"
+}
+[2026-10-22T04:53:02+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T04:53:02+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-22T04:53:02+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h5 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-22T04:53:03+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T04:53:03+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T04:53:03+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T04:53:03+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T04:53:23+00:00] stage 3 queue: 15 jobs
+[2026-10-22T04:53:23+00:00] start stage3_source_fam1_r1
+[2026-10-22T06:36:20+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T06:36:20+00:00] stage 1 finished with 0 job(s) not completed
+[2026-10-22T06:36:20+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T06:36:20+00:00] stage 1: stage-0 GPU validations already recorded (state/smoke_validation.json)
+[2026-10-22T06:36:20+00:00] stage 1: selecting hyper-parameters
+[2026-10-22T06:36:20+00:00] stage 1: selecting hyper-parameters
+{"job_id": "stage1_lr0.5x_h10", "lr": 1.25e-05, "action_horizon": 10, "success_rate": 1.0, "loss_2000": 0.028099135780707003, "step": 2000, "per_task": {"move_pillbottle_pad": 1.0}}
+[2026-10-22T06:36:21+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T06:36:21+0000"
+}
+[2026-10-22T06:36:21+00:00] stage 1 selection frozen: {
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "decided": "2026-10-22T06:36:21+0000"
+}
+{"frozen": {"peak_lr": 1.25e-05, "action_horizon": 10, "decided": "2026-10-22T06:36:21+0000"}, "jobs_updated": 0}
+keep stage1_lr0.5x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr0.5x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr1x_h5 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h10 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h15 (selected: lr=1.25e-05, action_horizon=10)
+keep stage1_lr2x_h5 (selected: lr=1.25e-05, action_horizon=10)
+[2026-10-22T06:36:21+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T06:36:21+00:00] stage 2 finished with 0 job(s) not completed
+[2026-10-22T06:36:21+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T06:36:21+00:00] stage 3: 15 job(s) pending (pass 1)
+[2026-10-22T06:36:41+00:00] stage 3 queue: 15 jobs
+[2026-10-22T06:36:41+00:00] start stage3_source_fam1_r1
+[2026-10-22T09:45:47+00:00] campaign driver starting (stages: 1 2 4 3)
+[2026-10-22T09:45:47+00:00] stage 0: re-running the GPU-bound validations (8-card NCCL, training smoke, evaluation smoke, 10-minute parallel window)
+[2026-10-22T09:45:47+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T09:46:48+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T09:47:48+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T09:48:48+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T09:49:48+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-22T09:50:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:51:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:52:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:53:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:54:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:55:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:56:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:57:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:58:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T09:59:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:00:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:01:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:02:48+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:03:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:04:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:05:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:06:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:07:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:08:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:09:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:10:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:11:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:12:49+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:13:49+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:14:49+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:15:49+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:16:49+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:17:49+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:18:49+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:19:49+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:20:50+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:21:50+00:00] waiting for the machine to be idle (workers=9)
+[2026-10-22T10:22:50+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-22T10:23:50+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-22T10:24:50+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-22T10:25:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:26:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:27:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:28:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:29:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:30:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:31:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:32:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:33:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:34:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:35:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:36:50+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:37:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:38:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:39:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:40:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:41:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:42:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:43:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:44:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:45:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:46:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:47:51+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T10:48:51+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:49:51+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:50:51+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:51:51+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:52:51+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:53:52+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:54:52+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:55:52+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:56:52+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T10:57:52+00:00] waiting for the machine to be idle (workers=7)
+[2026-10-22T10:58:52+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-22T10:59:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:00:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:01:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:02:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:03:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:04:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:05:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:06:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:07:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:08:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:09:52+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:10:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:11:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:12:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:13:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:14:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:15:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:16:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:17:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:18:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:19:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:20:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:21:53+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:22:53+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:23:53+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:24:53+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:25:53+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:26:53+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:27:54+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:28:54+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:29:54+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:30:54+00:00] waiting for the machine to be idle (workers=11)
+[2026-10-22T11:31:54+00:00] waiting for the machine to be idle (workers=9)
+[2026-10-22T11:32:54+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-22T11:33:54+00:00] waiting for the machine to be idle (workers=5)
+[2026-10-22T11:34:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:35:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:36:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:37:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:38:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:39:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:40:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:41:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:42:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:43:54+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:44:55+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:45:55+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-22T11:46:55+00:00] waiting for the machine to be idle (workers=2)

@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "checkpoint": "runs/stage1/pi05_aloha_robotwin_30/aloha_pilot_stage1_lr0.5x_h5_step2000/params",
+  "loader": "openpi.models.model.restore_params(restore_type=np.ndarray) (CheckpointWeightLoader path)",
+  "leaves": 51,
+  "params": 3353433872,
+  "note": "params-only 交付快照可被适应作业的初始权重加载器直接读取，元素数与 base 权重一致"
+}

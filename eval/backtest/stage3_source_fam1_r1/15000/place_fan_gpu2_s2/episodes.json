@@ -1,0 +1,42 @@
+{
+  "task": "place_fan",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 3,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 119,
+      "instruction": "Place the plastic fan onto the Tan colored mat facing the robot."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 219,
+      "instruction": "Grab the beige circular blade fan and set it on the Tan mat facing the robot."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 168,
+      "instruction": "Grab the portable curved handle fan and set it on the Yellow mat facing the robot"
+    }
+  ]
+}

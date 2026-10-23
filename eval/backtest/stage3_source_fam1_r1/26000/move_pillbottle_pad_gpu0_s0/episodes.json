@@ -1,0 +1,32 @@
+{
+  "task": "move_pillbottle_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500100,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500104
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 149,
+      "instruction": "Use the right arm to grab the medium-sized bottle and place it"
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 148,
+      "instruction": "Use the left arm to pick the rounded white bottle with teal base and place it."
+    }
+  ]
+}

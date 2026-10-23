@@ -1,0 +1,39 @@
+[2026-10-23T08:17:58+00:00] evaluation finished -> refilling the lost episodes
+[2026-10-23T08:17:58+0000] stage3_source_fam1_r1 -> place_mouse_pad: 66/100 episodes, refilling 34 seeds
+[2026-10-23T09:09:31+00:00] evaluation finished -> refilling the lost episodes
+[2026-10-23T09:09:31+0000] stage3_source_fam1_r1 -> place_mouse_pad: 66/100 episodes, refilling 34 seeds
+[2026-10-23T09:17:23+0000] stage3_source_fam1_r1 -> place_mouse_pad: 32/100 = 0.320
+[2026-10-23T09:17:23+0000] stage3_source_fam1_r1 -> stack_blocks_two: 83/100 episodes, refilling 17 seeds
+[2026-10-23T09:18:04+00:00] evaluation finished -> refilling the lost episodes
+[2026-10-23T09:18:04+0000] stage3_source_fam1_r1 -> stack_blocks_two: 83/100 episodes, refilling 17 seeds
+[2026-10-23T09:29:53+0000] stage3_source_fam1_r1 -> stack_blocks_two: 1/100 = 0.010
+[2026-10-23T09:29:53+0000] stage3_source_fam2_r1 -> blocks_ranking_rgb: 84/100 episodes, refilling 16 seeds
+[2026-10-23T09:30:52+0000] stage3_source_fam1_r1 -> stack_blocks_two: 1/100 = 0.010
+[2026-10-23T09:30:52+0000] stage3_source_fam2_r1 -> blocks_ranking_rgb: 84/100 episodes, refilling 16 seeds
+[2026-10-23T09:36:43+00:00] refill done -> drawing the charts
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_task_bars.png
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_family_matrix.png
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_in_vs_cross.png
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_training_curves.png
+[2026-10-23T09:36:44+00:00] charts done -> writing the report
+report -> /data/szgx/gaohang/pi05_30/docs/eval_report.md
+pdf -> /data/szgx/gaohang/pi05_30/docs/eval_report.pdf (330 KiB)
+[2026-10-23T09:36:45+00:00] report and PDF written
+[2026-10-23T09:37:12+00:00] refilling the lost episodes (parallel over the cells)
+[2026-10-23T09:37:13+0000] stage3_source_fam2_r1 -> stack_blocks_two: 67/100 episodes, refilling 32 seeds[2026-10-23T09:37:13+0000] stage3_source_fam2_r1 -> blocks_ranking_rgb: 84/100 episodes, refilling 16 seeds
+
+[2026-10-23T09:50:29+0000] stage3_source_fam2_r1 -> blocks_ranking_rgb: 1/100 = 0.010
+[2026-10-23T09:53:27+0000] stage3_source_fam2_r1 -> stack_blocks_two: 1/99 = 0.010
+[2026-10-23T09:53:27+00:00] drawing the charts
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_task_bars.png
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_family_matrix.png
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_in_vs_cross.png
+chart -> /data/szgx/gaohang/pi05_30/docs/eval_training_curves.png
+[2026-10-23T09:53:28+00:00] writing the report
+report -> /data/szgx/gaohang/pi05_30/docs/eval_report.md
+pdf -> /data/szgx/gaohang/pi05_30/docs/eval_report.pdf (331 KiB)
+[2026-10-23T09:53:28+00:00] report and PDF written
+[2026-10-23T09:53:28+00:00] starting stage3_source_fam3_r1_long (the longer budget for the third family, eight cards)
+[2026-10-23T09:53:30+00:00] gpu layout: train=0,1,2,3,4,5,6,7 fsdp=8 policy=0,2,4,6 sim=1,3,5,7
+[2026-10-23T09:53:31+00:00] === job stage3_source_fam3_r1_long start (attempt 1): repo=pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50 lr=2.5e-05 horizon=10 steps=15001 seed=1 ===
+[2026-10-23T09:53:31+00:00] trainer pid=1328910

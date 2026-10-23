@@ -1,0 +1,43 @@
+[2026-10-23T02:31:45+0000] stage3_source_fam1_r1 -> place_mouse_pad: 100 episodes
+[2026-10-23T02:31:45+0000] stage3_source_fam2_r1 -> place_mouse_pad: 100 episodes
+[2026-10-23T02:45:54+0000] stage3_source_fam1_r1 -> place_mouse_pad: 25/66 = 0.38 (848.7 s)
+[2026-10-23T02:45:54+0000] stage3_source_fam1_r1 -> rotate_qrcode: 100 episodes
+[2026-10-23T02:53:35+0000] stage3_source_fam2_r1 -> place_mouse_pad: 1/100 = 0.01 (1310.2 s)
+[2026-10-23T02:53:35+0000] stage3_source_fam2_r1 -> rotate_qrcode: 100 episodes
+[2026-10-23T03:06:25+0000] stage3_source_fam1_r1 -> rotate_qrcode: 0/100 = 0.00 (1231.2 s)
+[2026-10-23T03:06:25+0000] stage3_source_fam1_r1 -> place_can_basket: 100 episodes
+[2026-10-23T03:15:44+0000] stage3_source_fam2_r1 -> rotate_qrcode: 0/100 = 0.00 (1329.2 s)
+[2026-10-23T03:15:44+0000] stage3_source_fam2_r1 -> place_can_basket: 100 episodes
+[2026-10-23T03:51:25+0000] stage3_source_fam1_r1 -> place_can_basket: 16/100 = 0.16 (2700.4 s)
+[2026-10-23T03:51:25+0000] stage3_source_fam1_r1 -> hanging_mug: 100 episodes
+[2026-10-23T03:55:24+0000] stage3_source_fam2_r1 -> place_can_basket: 46/100 = 0.46 (2379.8 s)
+[2026-10-23T03:55:24+0000] stage3_source_fam2_r1 -> hanging_mug: 100 episodes
+[2026-10-23T04:41:55+0000] stage3_source_fam1_r1 -> hanging_mug: 7/100 = 0.07 (3029.3 s)
+[2026-10-23T04:41:55+0000] stage3_source_fam1_r1 -> stack_blocks_two: 100 episodes
+[2026-10-23T04:48:39+0000] stage3_source_fam2_r1 -> hanging_mug: 0/100 = 0.00 (3194.4 s)
+[2026-10-23T04:48:39+0000] stage3_source_fam2_r1 -> stack_blocks_two: 100 episodes
+[2026-10-23T05:17:01+0000] stage3_source_fam1_r1 -> stack_blocks_two: 1/83 = 0.01 (2106.4 s)
+[2026-10-23T05:17:01+0000] stage3_source_fam1_r1 -> blocks_ranking_rgb: 100 episodes
+[2026-10-23T05:29:21+0000] stage3_source_fam2_r1 -> stack_blocks_two: 0/67 = 0.00 (2442.1 s)
+[2026-10-23T05:29:21+0000] stage3_source_fam2_r1 -> blocks_ranking_rgb: 100 episodes
+[2026-10-23T06:09:49+0000] stage3_source_fam1_r1 -> blocks_ranking_rgb: 0/100 = 0.00 (3167.5 s)
+[2026-10-23T06:09:49+0000] stage3_source_fam1_r1 -> pick_dual_bottles: 100 episodes
+[2026-10-23T06:32:07+0000] stage3_source_fam2_r1 -> blocks_ranking_rgb: 1/84 = 0.01 (3765.9 s)
+[2026-10-23T06:32:07+0000] stage3_source_fam2_r1 -> pick_dual_bottles: 100 episodes
+[2026-10-23T06:37:12+0000] stage3_source_fam1_r1 -> pick_dual_bottles: 0/100 = 0.00 (1643.0 s)
+[2026-10-23T06:37:12+0000] stage3_source_fam1_r1 -> scan_object: 100 episodes
+[2026-10-23T07:00:38+0000] stage3_source_fam2_r1 -> pick_dual_bottles: 0/100 = 0.00 (1711.3 s)
+[2026-10-23T07:00:38+0000] stage3_source_fam2_r1 -> scan_object: 100 episodes
+[2026-10-23T07:08:57+0000] stage3_source_fam1_r1 -> scan_object: 0/100 = 0.00 (1905.8 s)
+[2026-10-23T07:08:57+0000] stage3_source_fam1_r1 -> click_bell: 100 episodes
+[2026-10-23T07:15:27+0000] stage3_source_fam1_r1 -> click_bell: 100/100 = 1.00 (389.1 s)
+[2026-10-23T07:15:27+0000] stage3_source_fam1_r1 -> beat_block_hammer: 100 episodes
+[2026-10-23T07:35:04+0000] stage3_source_fam1_r1 -> beat_block_hammer: 1/100 = 0.01 (1177.6 s)
+[2026-10-23T07:38:06+0000] stage3_source_fam2_r1 -> scan_object: 1/100 = 0.01 (2248.1 s)
+[2026-10-23T07:38:06+0000] stage3_source_fam2_r1 -> click_bell: 100 episodes
+[2026-10-23T07:51:54+0000] stage3_source_fam2_r1 -> click_bell: 73/100 = 0.73 (827.5 s)
+[2026-10-23T07:51:54+0000] stage3_source_fam2_r1 -> beat_block_hammer: 100 episodes
+[2026-10-23T08:15:39+0000] stage3_source_fam2_r1 -> beat_block_hammer: 0/100 = 0.00 (1425.4 s)
+stage3_source_fam1_r1: 150/949 = 0.158 over 10 tasks
+stage3_source_fam2_r1: 122/951 = 0.128 over 10 tasks
+-> /data/szgx/gaohang/pi05_30/eval/final/source_models_eval.json

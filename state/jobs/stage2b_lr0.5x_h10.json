@@ -1,0 +1,49 @@
+{
+  "job_id": "stage2b_lr0.5x_h10",
+  "created": "2026-10-23T09:36:51+0000",
+  "status": "deferred",
+  "peak_lr": 1.25e-05,
+  "action_horizon": 10,
+  "batch_size": 32,
+  "max_steps": 2001,
+  "seed": 0,
+  "history": [],
+  "milestones": {},
+  "milestone_steps": [
+    2000
+  ],
+  "save_interval": 2000,
+  "no_improve_count": 0,
+  "best_success": null,
+  "processed_checkpoints": [],
+  "incidents": [],
+  "stage": 4,
+  "kind": "adapt_pilot",
+  "repeat": 0,
+  "family": "1",
+  "t": 0,
+  "task": "place_mouse_pad",
+  "repo_id": "pi05_30_aloha_target_place_mouse_pad_n5",
+  "exp_name": "aloha_stage2b_lr0.5x_h10",
+  "checkpoint_base_dir": "/data/szgx/gaohang/pi05_30/runs/stage2b",
+  "init_params": null,
+  "init_from_job": "stage2_source_fam1_r0",
+  "backtest_tasks": [
+    "place_mouse_pad"
+  ],
+  "backtest_seeds": [
+    910000,
+    910001,
+    910002,
+    910003,
+    910004
+  ],
+  "demo_ids": [
+    9,
+    24,
+    29,
+    40,
+    49
+  ],
+  "lr_factor": 0.5
+}

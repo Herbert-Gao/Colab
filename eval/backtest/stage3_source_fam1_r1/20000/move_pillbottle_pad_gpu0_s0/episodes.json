@@ -1,0 +1,32 @@
+{
+  "task": "move_pillbottle_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500100,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500104
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 158,
+      "instruction": "Pick the white bottle for storing items and set it on the pad"
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 146,
+      "instruction": "Pick the hand-sized bottle with screw cap and put it onto the pad"
+    }
+  ]
+}

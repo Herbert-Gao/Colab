@@ -1,0 +1,62 @@
+{
+  "task": "place_mouse_pad",
+  "task_config": "demo_clean",
+  "requested_episodes": 5,
+  "seed_schedule": [
+    100014,
+    100032,
+    100050,
+    100068,
+    100086
+  ],
+  "attempted_seeds": [
+    100014,
+    100032,
+    100050,
+    100068,
+    100086
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 100014,
+      "valid": true,
+      "success": true,
+      "steps": 148,
+      "instruction": "Use the right arm to pick up the dark gray computer mouse with logo and drop it on Gray mat."
+    },
+    {
+      "episode": 2,
+      "seed": 100032,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the dark gray wireless mouse and set it on the Black mat."
+    },
+    {
+      "episode": 3,
+      "seed": 100050,
+      "valid": true,
+      "success": true,
+      "steps": 176,
+      "instruction": "Pick up the hand-sized dark gray mouse and set it on the Black mat."
+    },
+    {
+      "episode": 4,
+      "seed": 100068,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the wireless mouse with left and right buttons and set it on Yellow mat."
+    },
+    {
+      "episode": 5,
+      "seed": 100086,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick the mouse with scroll wheel and position it on the Red colored mat."
+    }
+  ]
+}
