@@ -323,3 +323,32 @@ See an explanation at https://jax.readthedocs.io/en/latest/faq.html#buffer-donat
 Step 175: grad_norm=0.1545, loss=0.0117, param_norm=1805.6691
 09:56:53.170 [I] Progress on: 182it/15.0kit rate:1.5it/s remaining:2:43:47 elapsed:02:16 postfix:- (1328910:tqdm_logging.py:145)
 09:57:03.278 [I] Progress on: 197it/15.0kit rate:1.5it/s remaining:2:45:49 elapsed:02:26 postfix:- (1328910:tqdm_logging.py:145)
+Step 200: grad_norm=0.1488, loss=0.0117, param_norm=1805.6692
+09:57:13.435 [I] Progress on: 212it/15.0kit rate:1.5it/s remaining:2:46:20 elapsed:02:36 postfix:- (1328910:tqdm_logging.py:145)
+Step 225: grad_norm=0.1519, loss=0.0123, param_norm=1805.6703
+09:57:23.551 [I] Progress on: 227it/15.0kit rate:1.5it/s remaining:2:41:47 elapsed:02:46 postfix:- (1328910:tqdm_logging.py:145)
+09:57:33.622 [I] Progress on: 242it/15.0kit rate:1.5it/s remaining:2:43:51 elapsed:02:56 postfix:- (1328910:tqdm_logging.py:145)
+Step 250: grad_norm=0.1590, loss=0.0123, param_norm=1805.6704
+09:57:43.795 [I] Progress on: 257it/15.0kit rate:1.5it/s remaining:2:45:07 elapsed:03:06 postfix:- (1328910:tqdm_logging.py:145)
+09:57:53.897 [I] Progress on: 272it/15.0kit rate:1.5it/s remaining:2:46:09 elapsed:03:17 postfix:- (1328910:tqdm_logging.py:145)
+Step 275: grad_norm=0.1918, loss=0.0134, param_norm=1805.6716
+09:58:04.071 [I] Progress on: 287it/15.0kit rate:1.5it/s remaining:2:46:06 elapsed:03:27 postfix:- (1328910:tqdm_logging.py:145)
+Step 300: grad_norm=0.1805, loss=0.0145, param_norm=1805.6719
+09:58:14.205 [I] Progress on: 302it/15.0kit rate:1.5it/s remaining:2:40:42 elapsed:03:37 postfix:- (1328910:tqdm_logging.py:145)
+09:58:24.337 [I] Progress on: 317it/15.0kit rate:1.5it/s remaining:2:44:49 elapsed:03:47 postfix:- (1328910:tqdm_logging.py:145)
+Step 325: grad_norm=0.1733, loss=0.0124, param_norm=1805.6731
+09:58:34.486 [I] Progress on: 332it/15.0kit rate:1.5it/s remaining:2:45:05 elapsed:03:57 postfix:- (1328910:tqdm_logging.py:145)
+09:58:44.582 [I] Progress on: 347it/15.0kit rate:1.5it/s remaining:2:45:05 elapsed:04:07 postfix:- (1328910:tqdm_logging.py:145)
+Step 350: grad_norm=0.1964, loss=0.0122, param_norm=1805.6743
+09:58:54.718 [I] Progress on: 362it/15.0kit rate:1.5it/s remaining:2:42:47 elapsed:04:17 postfix:- (1328910:tqdm_logging.py:145)
+Step 375: grad_norm=0.1956, loss=0.0123, param_norm=1805.6755
+09:59:04.918 [I] Progress on: 377it/15.0kit rate:1.5it/s remaining:2:42:31 elapsed:04:28 postfix:- (1328910:tqdm_logging.py:145)
+09:59:15.026 [I] Progress on: 392it/15.0kit rate:1.5it/s remaining:2:44:51 elapsed:04:38 postfix:- (1328910:tqdm_logging.py:145)
+Step 400: grad_norm=0.1672, loss=0.0118, param_norm=1805.6759
+09:59:25.168 [I] Progress on: 407it/15.0kit rate:1.5it/s remaining:2:43:43 elapsed:04:48 postfix:- (1328910:tqdm_logging.py:145)
+09:59:35.226 [I] Progress on: 422it/15.0kit rate:1.5it/s remaining:2:41:19 elapsed:04:58 postfix:- (1328910:tqdm_logging.py:145)
+Step 425: grad_norm=0.1934, loss=0.0133, param_norm=1805.6781
+09:59:45.386 [I] Progress on: 437it/15.0kit rate:1.5it/s remaining:2:43:25 elapsed:05:08 postfix:- (1328910:tqdm_logging.py:145)
+Step 450: grad_norm=0.1535, loss=0.0128, param_norm=1805.6794
+09:59:55.537 [I] Progress on: 452it/15.0kit rate:1.5it/s remaining:2:41:08 elapsed:05:18 postfix:- (1328910:tqdm_logging.py:145)
+10:00:05.619 [I] Progress on: 467it/15.0kit rate:1.5it/s remaining:2:43:17 elapsed:05:28 postfix:- (1328910:tqdm_logging.py:145)

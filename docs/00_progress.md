@@ -1,11 +1,11 @@
-更新时间（带时区）: 2026-10-23T02:29:35+0000
+更新时间（带时区）: 2026-10-23T09:58:32+0000
 
 # pi0.5 / RoboTwin ALOHA 训练总览（服务器 A）
 
 - 机体: aloha-agilex（ALOHA 双臂；训练、仿真评估、归一化一致）
 - 训练卡 0,1,2,3,4,5,6,7（8 卡 FSDP），仿真卡 1，策略服务卡 ['0', '2', '4', '6']
 - 作业总数: 54
-- 状态分布: completed=2, deferred=48, pending=1, running=2, stopped=1
+- 状态分布: completed=2, deferred=48, running=1, stopped=3
 
 - 本轮范围: 阶段0/1/2/2b/3，源模型 3 个（族群 1、2、3），目标适应 30 个（10 目标 × 3 起点），本轮不执行最终评估与 0 步裸测
 - 冻结参数: 源训练 学习率 1.25e-05，chunk_size(action_horizon) 10；目标适应 未冻结
@@ -62,8 +62,8 @@
 | stage3_adapt_place_can_basket_r1_from_fam1 | deferred | 0 | - | - | - | - |
 | stage3_adapt_place_can_basket_r1_from_fam2 | deferred | 0 | - | - | - | - |
 | stage3_adapt_place_can_basket_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_place_mouse_pad_r1_from_fam1 | running | 4000 | 0.0 | 0.006744863002095372 | 2026-10-22T23:44:07+00:00 | - |
-| stage3_adapt_place_mouse_pad_r1_from_fam2 | running | 6000 | 0.0 | 0.005063593065366149 | 2026-10-22T23:44:37+00:00 | - |
+| stage3_adapt_place_mouse_pad_r1_from_fam1 | stopped | 4000 | 0.0 | 0.006744863002095372 | 2026-10-22T23:44:07+00:00 | - |
+| stage3_adapt_place_mouse_pad_r1_from_fam2 | stopped | 6000 | 0.0 | 0.005063593065366149 | 2026-10-22T23:44:37+00:00 | - |
 | stage3_adapt_place_mouse_pad_r1_from_fam3 | deferred | 0 | - | - | - | - |
 | stage3_adapt_rotate_qrcode_r1_from_fam1 | deferred | 0 | - | - | - | - |
 | stage3_adapt_rotate_qrcode_r1_from_fam2 | deferred | 0 | - | - | - | - |
@@ -77,7 +77,7 @@
 | stage3_source_fam1_r1 | stopped | 15000 | 0.8 | 0.013236459823325277 | 2026-10-22T06:36:43+00:00 | - |
 | stage3_source_fam2_r1 | completed | 15000 | 0.8 | 0.017694183138199152 | 2026-10-22T12:04:25+00:00 | 2026-10-22T23:07:06+00:00 |
 | stage3_source_fam3_r1 | completed | 15000 | 0.55 | 0.015705752642825244 | 2026-10-22T12:04:56+00:00 | 2026-10-22T20:24:22+00:00 |
-| stage3_source_fam3_r1_long | pending | 0 | - | - | - | - |
+| stage3_source_fam3_r1_long | running | 325 | - | - | 2026-10-23T09:53:31+00:00 | - |
 
 ## 总汇总
 
@@ -86,5 +86,5 @@
 - 延后作业（预实验与微调）: 48
 - 终态作业合计: 2 / 54
 - 微调模型清单: `docs/models_manifest.md`（模型ID／起点模型／目标任务／实际步数／早停／检查点路径／最近回测成功率）
-- 磁盘：卷剩余 2590 GiB
+- 磁盘：卷剩余 2558 GiB
 

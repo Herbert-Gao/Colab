@@ -605,3 +605,6 @@ stage3_source_fam3_r1: step 15000 is already scored
 [2026-10-23T09:54:33+00:00] waiting for the machine to be idle (workers=2)
 [2026-10-23T09:55:33+00:00] waiting for the machine to be idle (workers=2)
 [2026-10-23T09:56:33+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-23T09:57:33+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-23T09:58:33+00:00] waiting for the machine to be idle (workers=2)
+[2026-10-23T09:59:33+00:00] waiting for the machine to be idle (workers=2)

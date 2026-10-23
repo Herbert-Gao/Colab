@@ -266,7 +266,7 @@
     "no": 11,
     "name": "飞书通知通道（lark-bot-bridge → OMP → lark-im）",
     "passed": true,
-    "evidence": "status=sent receipt={\"ok\": true, \"identity\": \"bot\", \"data\": {\"chat_id\": \"oc_59380a2551cfa7641dc64b4982dd0405\", \"create_time\": \"2026-10-21 02:30:28\", \"message_id\": \"om_x100b62b67286",
+    "evidence": "status=sent receipt={\"ok\": true, \"identity\": \"bot\", \"data\": {\"chat_id\": \"<lark-chat-id>\", \"create_time\": \"2026-10-21 02:30:28\", \"message_id\": \"om_x100b62b67286",
     "detail": {
       "time": "2026-10-21T02:30:27+0000",
       "message": "服务器A/A800×8｜阶段0：通知通道自检消息（预检项11）。",
@@ -275,7 +275,7 @@
         "ok": true,
         "identity": "bot",
         "data": {
-          "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+          "chat_id": "<lark-chat-id>",
           "create_time": "2026-10-21 02:30:28",
           "message_id": "om_x100b62b67286a8b8cebe9dcc0250adf"
         }

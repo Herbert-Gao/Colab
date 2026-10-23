@@ -16,7 +16,7 @@
 | 8 | 评测冒烟（2 回合全链路） | 通过 | eval/smoke/move_pillbottle_pad/episodes.json：2 个有效回合（种子 500000 / 500001，该次冒烟早于回测种子口径调整），逐回合结果与指令已写入；state/smoke_validation.json 的 eval.ok=true |
 | 9 | 训练与评测并行（10 分钟无冲突） | 通过 | state/smoke_validation.json 的 parallel 段：ok=true，训练进程存活、并行窗口 10.1 分钟、评测完成 5 回合、无冲突（该次冒烟早于证据落盘改造，证据保存在 smoke_validation.json 内） |
 | 10 | 磁盘与权限 | 通过 | 剩余 3130 GiB，单作业峰值估算 258 GiB；工作目录可写=True docs=True |
-| 11 | 飞书通知通道（lark-bot-bridge → OMP → lark-im） | 通过 | status=sent receipt={"ok": true, "identity": "bot", "data": {"chat_id": "oc_59380a2551cfa7641dc64b4982dd0405", "create_time": "2026-10-21 02:30:28", "message_id": "om_x100b62b67286 |
+| 11 | 飞书通知通道（lark-bot-bridge → OMP → lark-im） | 通过 | status=sent receipt={"ok": true, "identity": "bot", "data": {"chat_id": "<lark-chat-id>", "create_time": "2026-10-21 02:30:28", "message_id": "om_x100b62b67286 |
 | 12 | 环境/配置冻结快照 | 通过 | /data/szgx/gaohang/pi05_30/snapshots/campaign_freeze.json（openpi@215abfb217，18 个脚本摘要 8e29449b0718f41d…） |
 
 ## 本轮实际使用的训练参数（运营 2026-10-22 改为 openpi 官方口径）
