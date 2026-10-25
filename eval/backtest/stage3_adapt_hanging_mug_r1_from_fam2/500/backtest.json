@@ -1,0 +1,194 @@
+{
+  "job_id": "stage3_adapt_hanging_mug_r1_from_fam2",
+  "step": 500,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam2/500",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "0",
+    "2"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "hanging_mug": {
+      "task": "hanging_mug",
+      "episodes": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 900,
+          "instruction": "Lift the mug with white logo print from the table, spin it, set it down, and hang it on the rack with straight and slanted rods."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": false,
+          "steps": 900,
+          "instruction": "Lift the beige coffee mug from the table, spin it, set it down, and hang it on the rack with straight and slanted rods."
+        },
+        {
+          "episode": 3,
+          "seed": 500103,
+          "success": false,
+          "steps": 900,
+          "instruction": "Lift the medium-sized white mug from the table, spin it, set it down, and hang it on the dark gray rack with flat back."
+        },
+        {
+          "episode": 1,
+          "seed": 500104,
+          "success": false,
+          "steps": 900,
+          "instruction": "Pick up the cylindrical mug, rotate it, place it on the table, and hang it on the rack with straight and slanted rods."
+        },
+        {
+          "episode": 2,
+          "seed": 500105,
+          "success": false,
+          "steps": 900,
+          "instruction": "Pick the mug with white logo print with the left arm, rotate, place it, then hang it on the rack with straight and slanted rods."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "hanging_mug",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_hanging_mug_r1_from_fam2/500/hanging_mug_gpu0_s0/eval.log",
+          "timed_out": false,
+          "seconds": 594.6,
+          "episodes": 3,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 900,
+              "instruction": "Lift the mug with white logo print from the table, spin it, set it down, and hang it on the rack with straight and slanted rods."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 900,
+              "instruction": "Lift the beige coffee mug from the table, spin it, set it down, and hang it on the rack with straight and slanted rods."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 900,
+              "instruction": "Lift the medium-sized white mug from the table, spin it, set it down, and hang it on the dark gray rack with flat back."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 2,
+              "seed": 500104,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "hanging_mug",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_hanging_mug_r1_from_fam2/500/hanging_mug_gpu0_s1/eval.log",
+          "timed_out": false,
+          "seconds": 323.8,
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500104,
+              "success": false,
+              "steps": 900,
+              "instruction": "Pick up the cylindrical mug, rotate it, place it on the table, and hang it on the rack with straight and slanted rods."
+            },
+            {
+              "episode": 2,
+              "seed": 500105,
+              "success": false,
+              "steps": 900,
+              "instruction": "Pick the mug with white logo print with the left arm, rotate, place it, then hang it on the rack with straight and slanted rods."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500101,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 2,
+          "seed": 500104,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500101,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 0.0,
+  "recorded": "2026-10-24T12:01:19+0000"
+}

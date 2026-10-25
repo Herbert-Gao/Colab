@@ -201,3 +201,136 @@
 | 2026-10-23T02:26:54+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/2500 | 2500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
 | 2026-10-23T02:26:57+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/3000 | 3000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
 | 2026-10-23T02:27:00+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/3500 | 3500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T00:40:11+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/4000 | 4000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T00:40:14+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/6000 | 6000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T00:40:17+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/6500 | 6500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T00:40:20+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/7000 | 7000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T00:40:23+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/7500 | 7500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T00:40:24+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T00:40:27+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/4000 | 4000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T04:49:57+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1 | -1 | 旧规格（15000 步上限）残留检查点，作业在新规格下重跑 | 0.0 |
+| 2026-10-24T04:49:57+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2 | -1 | 旧规格（15000 步上限）残留检查点，作业在新规格下重跑 | 0.0 |
+| 2026-10-24T06:01:04+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T06:07:47+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T06:15:44+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T06:16:25+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T06:16:28+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T06:22:44+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T06:23:23+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T06:23:26+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T07:12:06+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T07:13:59+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T07:26:13+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T07:26:53+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T07:26:56+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T07:28:39+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T07:29:18+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T07:29:21+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T07:43:43+0000 | /data/szgx/gaohang/pi05_30/runs/smoke_validation | -1 | 阶段0 冒烟检查点（证据已记录在 docs/01_preflight.md），为微调矩阵腾出磁盘 | 83.5 |
+| 2026-10-24T07:43:44+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_long/500 | -1 | 族③续训已暂停，仅保留最新一个恢复点（4.1） | 41.6 |
+| 2026-10-24T07:43:45+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_long/1000 | -1 | 族③续训已暂停，仅保留最新一个恢复点（4.1） | 41.6 |
+| 2026-10-24T07:43:46+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_long/1500 | -1 | 族③续训已暂停，仅保留最新一个恢复点（4.1） | 41.6 |
+| 2026-10-24T08:15:53+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T08:21:18+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T08:30:27+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T08:31:05+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T08:31:08+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T08:36:02+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T08:36:41+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T08:36:44+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T09:34:19+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T09:42:38+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T09:53:10+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T09:53:49+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T09:53:52+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T10:01:46+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T10:02:25+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T10:02:28+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T11:13:22+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T11:15:52+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T11:32:42+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T11:33:21+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T11:33:24+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T11:33:31+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T11:34:10+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T11:34:14+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T12:44:59+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T12:45:32+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T13:04:26+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T13:05:05+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T13:05:09+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T13:05:10+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T13:05:49+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T13:05:52+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T14:01:00+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T14:10:42+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T14:18:49+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T14:19:30+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T14:19:33+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T14:28:55+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T14:29:34+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T14:29:37+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T15:28:53+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T15:43:53+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T15:46:49+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T15:47:29+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T15:47:31+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T16:05:57+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T16:06:36+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T16:06:40+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T17:19:06+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T17:22:27+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T17:40:59+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T17:41:37+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T17:41:40+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T17:43:37+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T17:44:16+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T17:44:19+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T18:40:39+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T18:42:19+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T18:56:56+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T18:58:36+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T18:58:39+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T18:58:54+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T18:59:32+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T18:59:35+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T19:59:19+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T20:11:47+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T20:15:47+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T20:17:26+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T20:17:30+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T20:32:26+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T20:33:05+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T20:33:09+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T21:46:38+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T21:46:52+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T22:06:36+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T22:06:55+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T22:07:15+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T22:07:18+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T22:07:33+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T22:07:36+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T22:50:33+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T22:53:02+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T23:05:14+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T23:05:53+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-24T23:05:56+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T23:06:26+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-24T23:07:05+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T23:07:08+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-24T23:50:59+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam1/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-24T23:52:47+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-25T00:05:11+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam1/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-25T00:05:51+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam1/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-25T00:05:54+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam1/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.7 |
+| 2026-10-25T00:06:06+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-25T00:06:44+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-25T00:06:47+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-25T00:55:26+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam2/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-25T01:08:46+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam3/500 | 500 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.7 |
+| 2026-10-25T01:09:56+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam2/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-25T01:11:35+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam2/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-25T01:11:39+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam2/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-25T01:22:32+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam3/1000 | 1000 | 回测完成，仅保留最近 2 个已回测恢复点与最新恢复点 | 41.6 |
+| 2026-10-25T01:23:11+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam3/1500 | 1500 | 作业结束，最终权重已另存为 params-only | 41.6 |
+| 2026-10-25T01:23:15+0000 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam3/2000 | 2000 | 作业结束，最终权重已另存为 params-only | 41.6 |

@@ -1,0 +1,58 @@
+{
+  "task": "pick_dual_bottles",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103,
+    500104
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Raise the brown bottle and the green bottle together."
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500104,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 143,
+      "instruction": "Use separate arms to pick the bottle with red screw cap and the green bottle simultaneously."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use one arm for the plastic soda bottle and the other for the green bottle with white label."
+    }
+  ]
+}

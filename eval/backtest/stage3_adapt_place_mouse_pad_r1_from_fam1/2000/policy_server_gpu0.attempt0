@@ -1,100 +1,36 @@
 /data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
   warnings.warn(
-2026-10-23 00:32:42.877945: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 144.00MiB (rounded to 150994944)requested by op 
-2026-10-23 00:32:42.878344: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
-2026-10-23 00:32:52.914613: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 144.00MiB (rounded to 150994944)requested by op 
-2026-10-23 00:32:52.914980: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
-2026-10-23 00:33:02.934182: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 255.34MiB (rounded to 267743232)requested by op 
-2026-10-23 00:33:02.934526: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
-2026-10-23 00:33:12.953262: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 255.34MiB (rounded to 267743232)requested by op 
-2026-10-23 00:33:12.953625: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
-2026-10-23 00:33:22.971167: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 288.00MiB (rounded to 301989888)requested by op 
-2026-10-23 00:33:22.971534: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
-2026-10-23 00:33:32.974095: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1004.50MiB (rounded to 1053294592)requested by op 
-2026-10-23 00:33:32.974449: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
-2026-10-23 00:33:42.984109: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.12GiB (rounded to 1207959552)requested by op 
-2026-10-23 00:33:42.984461: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
-2026-10-23 00:33:52.994495: W external/xla/xla/tsl/framework/bfc_allocator.cc:501] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.25GiB (rounded to 2415919104)requested by op 
-2026-10-23 00:33:52.994874: W external/xla/xla/tsl/framework/bfc_allocator.cc:512] *******************************************xxx*********************xxx*******xxxxx*******xxxx*******
+INFO:websockets.server:server listening on 0.0.0.0:59003
+ERROR:websockets.server:opening handshake failed
 Traceback (most recent call last):
-  File "/data/szgx/gaohang/pi05_30/campaign/policy_server.py", line 57, in <module>
-    main()
-  File "/data/szgx/gaohang/pi05_30/campaign/policy_server.py", line 46, in main
-    policy = _policy_config.create_trained_policy(config, str(args.checkpoint_dir), default_prompt=None)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/src/openpi/policies/policy_config.py", line 57, in create_trained_policy
-    model = train_config.model.load(_model.restore_params(checkpoint_dir / "params", dtype=jnp.bfloat16))
-                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/src/openpi/models/model.py", line 317, in restore_params
-    params = ckptr.restore(
-             ^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/checkpointers/checkpointer.py", line 300, in restore
-    restored = self._restore(directory, args=ckpt_args)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/checkpointers/checkpointer.py", line 319, in _restore
-    return self._handler.restore(directory, args=args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/handlers/pytree_checkpoint_handler.py", line 796, in restore
-    return self._handler_impl.restore(directory, args=args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/handlers/base_pytree_checkpoint_handler.py", line 760, in restore
-    tree_memory_size, restored_item = asyncio_utils.run_sync(
-                                      ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/asyncio_utils.py", line 50, in run_sync
-    return asyncio.run(coro)
-           ^^^^^^^^^^^^^^^^^
-  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 190, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/handlers/base_pytree_checkpoint_handler.py", line 584, in _maybe_deserialize
-    deserialized_batches += await asyncio.gather(*deserialized_batches_ops)
-                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/type_handlers.py", line 1314, in deserialize
-    *ret, array_metadatas = await asyncio.gather(*deserialize_ops)
-                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/serialization.py", line 544, in async_deserialize
-    return await read_and_create_array(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/serialization.py", line 503, in read_and_create_array
-    dbs = sum(await asyncio.gather(*read_array_coros), [])
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/orbax/checkpoint/_src/serialization/serialization.py", line 457, in _read_array_index_and_device_put
-    result.append(jax.device_put(shard, Layout(dll, sharding)))
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/api.py", line 2376, in device_put
-    out_flat = dispatch.device_put_p.bind(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 502, in bind
-    return self._true_bind(*args, **params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 520, in _true_bind
-    return self.bind_with_trace(prev_trace, args, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 525, in bind_with_trace
-    return trace.process_primitive(self, args, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/core.py", line 1029, in process_primitive
-    return primitive.impl(*args, **params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/dispatch.py", line 566, in _batched_device_put_impl
-    shard_arg_results = pxla.shard_args(dsa_shardings, [None] * len(dsa_xs),
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/profiler.py", line 334, in wrapper
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/interpreters/pxla.py", line 134, in shard_args
-    return shard_arg_handlers[type(arg)]([arg], shardings, layouts,
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/interpreters/pxla.py", line 216, in _shard_np_array
-    results.append(batched_device_put(aval, sharding, shards, devices))
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/interpreters/pxla.py", line 243, in batched_device_put
-    return xc.batched_device_put(aval, sharding, xs, list(devices), committed)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-jaxlib.xla_extension.XlaRuntimeError: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 150994944 bytes.
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 356, in conn_handler
+    await connection.handshake(
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+INFO:websockets.server:connection open
+INFO:websockets.server:connection open
+INFO:websockets.server:connection open

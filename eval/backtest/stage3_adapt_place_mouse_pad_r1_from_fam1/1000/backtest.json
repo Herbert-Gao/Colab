@@ -1,0 +1,135 @@
+{
+  "job_id": "stage3_adapt_place_mouse_pad_r1_from_fam1",
+  "step": 1000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/1000",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "0",
+    "2"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "place_mouse_pad": {
+      "task": "place_mouse_pad",
+      "episodes": 5,
+      "successes": 1,
+      "success_rate": 0.2,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the dark gray computer mouse with logo and position it on the Cyan mat."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": true,
+          "steps": 157,
+          "instruction": "Pick the flat-bottomed mouse and position it on the Gray colored mat."
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": false,
+          "steps": 400,
+          "instruction": "Use the left arm to pick up the hand-sized black-gray mouse and drop it on Black mat."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the dark gray wireless mouse and position it on the Green mat."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick up the hand-sized dark gray mouse and set it on the Black mat."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_mouse_pad",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_mouse_pad_r1_from_fam1/1000/place_mouse_pad_gpu0_s0/eval.log",
+          "timed_out": false,
+          "seconds": 212.6,
+          "episodes": 3,
+          "successes": 1,
+          "success_rate": 0.3333,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the dark gray computer mouse with logo and position it on the Cyan mat."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": true,
+              "steps": 157,
+              "instruction": "Pick the flat-bottomed mouse and position it on the Gray colored mat."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Use the left arm to pick up the hand-sized black-gray mouse and drop it on Black mat."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "place_mouse_pad",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_mouse_pad_r1_from_fam1/1000/place_mouse_pad_gpu0_s1/eval.log",
+          "timed_out": false,
+          "seconds": 184.3,
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the dark gray wireless mouse and position it on the Green mat."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick up the hand-sized dark gray mouse and set it on the Black mat."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    }
+  },
+  "mean_success_rate": 0.2,
+  "recorded": "2026-10-24T05:45:18+0000"
+}

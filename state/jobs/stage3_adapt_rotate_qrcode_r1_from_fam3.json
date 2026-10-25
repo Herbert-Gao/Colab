@@ -1,19 +1,337 @@
 {
   "job_id": "stage3_adapt_rotate_qrcode_r1_from_fam3",
   "created": "2026-10-23T12:16:49+0000",
-  "status": "deferred",
+  "status": "completed",
   "peak_lr": 2.5e-05,
   "action_horizon": 10,
   "batch_size": 32,
   "max_steps": 2001,
   "seed": 1,
-  "history": [],
+  "history": [
+    {
+      "step": 500,
+      "mean_success_rate": 0.4,
+      "per_task": {
+        "rotate_qrcode": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the tabletop paymentsign from the table and make it face you."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the paymentsign with black metal stand from the table and make it face you."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 148,
+              "instruction": "Grab the paymentsign with smooth base stand, lift it, and rotate until the QR code faces you."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick up the black triangular stand and rotate it facing you."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 212,
+              "instruction": "Catch the tabletop paymentsign from the table and make it face you."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.14433530795760452,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 501
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/500",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam3/500/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T07:46:39+0000",
+      "early_stop": {
+        "step": 500,
+        "success_rate": 0.4,
+        "loss": {
+          "loss_mean": 0.14433530795760452,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 501
+        },
+        "stop": false,
+        "reasons": [
+          "step 500 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 1000,
+      "mean_success_rate": 0.4,
+      "per_task": {
+        "rotate_qrcode": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the paymentsign with angled stand, lift it, and turn it to face you"
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 110,
+              "instruction": "Grab the medium paymentsign with QR section, lift it, and rotate to see the qrcode."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the paymentsign with QR code on the table and pick it up."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the QR code payment sign, lift it, and rotate until the QR code faces you."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 207,
+              "instruction": "Pick up the paymentsign with QR code and rotate it facing you."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.02247509325295687,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 1001
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/1000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam3/1000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T08:00:57+0000",
+      "early_stop": {
+        "step": 1000,
+        "success_rate": 0.4,
+        "loss": {
+          "loss_mean": 0.02247509325295687,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 1001
+        },
+        "stop": false,
+        "reasons": [
+          "step 1000 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 1500,
+      "mean_success_rate": 0.2,
+      "per_task": {
+        "rotate_qrcode": {
+          "successes": 1,
+          "episodes": 5,
+          "success_rate": 0.2,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the paymentsign with angled stand from the table and make it face you."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the paymentsign with black metal stand on the table and pick it up."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick up the paymentsign with smooth base stand and rotate it facing you."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 238,
+              "instruction": "Pick up the black stand with angled display and rotate it to face its QR code toward you."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick up the paymentsign with angled stand and rotate it facing you."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.01772343909461051,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 1501
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/1500",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam3/1500/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T08:15:50+0000",
+      "early_stop": {
+        "step": 1500,
+        "success_rate": 0.2,
+        "loss": {
+          "loss_mean": 0.01772343909461051,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 1501
+        },
+        "stop": false,
+        "reasons": [
+          "step 1500 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 2000,
+      "mean_success_rate": 0.4,
+      "per_task": {
+        "rotate_qrcode": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick the paymentsign with QR code up from the table and rotate it."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the sign for payment processing, lift it, and rotate until the QR code faces you."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": true,
+              "steps": 226,
+              "instruction": "Pick the paymentsign with angled stand up from the table and rotate it."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 258,
+              "instruction": "Grab the QR code payment sign, lift it, and rotate to see the qrcode."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the paymentsign with QR code, lift it, and rotate to see the qrcode."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.013392703893594444,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 2000
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3/2000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam3/2000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T08:30:23+0000",
+      "early_stop": {
+        "step": 2000,
+        "success_rate": 0.4,
+        "loss": {
+          "loss_mean": 0.013392703893594444,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 2000
+        },
+        "stop": false,
+        "reasons": [
+          "step 2000 < 10000: baseline not set yet"
+        ]
+      }
+    }
+  ],
   "milestones": {},
   "milestone_steps": [],
   "save_interval": 500,
   "no_improve_count": 0,
   "best_success": null,
-  "processed_checkpoints": [],
+  "processed_checkpoints": [
+    500,
+    1000,
+    1500,
+    2000
+  ],
   "incidents": [],
   "stage": 3,
   "kind": "adapt",
@@ -44,5 +362,54 @@
     28,
     39,
     41
-  ]
+  ],
+  "train_gpus": "4,5,6,7",
+  "fsdp_devices": 4,
+  "policy_gpus": "4,6",
+  "sim_gpus": "5,7",
+  "mem_fraction": 0.72,
+  "updated": "2026-10-24T08:31:02+0000",
+  "attempts": 1,
+  "started": "2026-10-24T07:30:17+00:00",
+  "current_step": 2000,
+  "loss_windows": [
+    {
+      "step": 500,
+      "loss": 0.14433530795760452
+    },
+    {
+      "step": 1000,
+      "loss": 0.02247509325295687
+    },
+    {
+      "step": 1500,
+      "loss": 0.01772343909461051
+    },
+    {
+      "step": 2000,
+      "loss": 0.013392703893594444
+    }
+  ],
+  "final_checkpoints": {
+    "2000": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3_final_step2000",
+      "bytes": 12440577511,
+      "files": 35,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 35
+    }
+  },
+  "final_checkpoint": {
+    "step": 2000,
+    "params_only": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3_final_step2000",
+      "bytes": 12440577511,
+      "files": 35,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 35
+    }
+  },
+  "finished": "2026-10-24T08:31:02+00:00"
 }

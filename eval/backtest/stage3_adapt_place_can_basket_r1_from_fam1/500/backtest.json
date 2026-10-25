@@ -1,0 +1,151 @@
+{
+  "job_id": "stage3_adapt_place_can_basket_r1_from_fam1",
+  "step": 500,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam1/500",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "0",
+    "2"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "place_can_basket": {
+      "task": "place_can_basket",
+      "episodes": 5,
+      "successes": 3,
+      "success_rate": 0.6,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500102,
+          "success": false,
+          "steps": 700,
+          "instruction": "Use the left arm to pick up the can with red body, put it into the yellow basket with open slots, the other arm lifts the yellow basket with open slots."
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": false,
+          "steps": 700,
+          "instruction": "Use the left arm to place the rounded can with smooth printed surface in the medium basket with smooth texture; the other arm lifts the medium basket with smooth texture."
+        },
+        {
+          "episode": 3,
+          "seed": 500103,
+          "success": true,
+          "steps": 601,
+          "instruction": "Grab the metal can fits easily in hand, drop it in the yellow rectangular basket with dual grips, and lift the yellow rectangular basket with dual grips."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 323,
+          "instruction": "Use the left arm to put the cylindrical brown drink can with white markings in the yellow rectangular basket with dual grips; the other arm lifts the yellow rectangular basket with dual grips."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": true,
+          "steps": 352,
+          "instruction": "Grab the metal can fits easily in hand, drop it into the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips with another arm."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "place_can_basket",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_can_basket_r1_from_fam1/500/place_can_basket_gpu0_s0/eval.log",
+          "timed_out": false,
+          "seconds": 407.8,
+          "episodes": 3,
+          "successes": 1,
+          "success_rate": 0.3333,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": false,
+              "steps": 700,
+              "instruction": "Use the left arm to pick up the can with red body, put it into the yellow basket with open slots, the other arm lifts the yellow basket with open slots."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": false,
+              "steps": 700,
+              "instruction": "Use the left arm to place the rounded can with smooth printed surface in the medium basket with smooth texture; the other arm lifts the medium basket with smooth texture."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": true,
+              "steps": 601,
+              "instruction": "Grab the metal can fits easily in hand, drop it in the yellow rectangular basket with dual grips, and lift the yellow rectangular basket with dual grips."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500100,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "place_can_basket",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_can_basket_r1_from_fam1/500/place_can_basket_gpu0_s1/eval.log",
+          "timed_out": false,
+          "seconds": 175.9,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 323,
+              "instruction": "Use the left arm to put the cylindrical brown drink can with white markings in the yellow rectangular basket with dual grips; the other arm lifts the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 352,
+              "instruction": "Grab the metal can fits easily in hand, drop it into the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips with another arm."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 500100,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 0.6,
+  "recorded": "2026-10-24T08:58:16+0000"
+}

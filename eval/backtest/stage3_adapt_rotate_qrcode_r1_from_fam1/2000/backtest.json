@@ -1,0 +1,151 @@
+{
+  "job_id": "stage3_adapt_rotate_qrcode_r1_from_fam1",
+  "step": 2000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1/2000",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "4",
+    "6"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "rotate_qrcode": {
+      "task": "rotate_qrcode",
+      "episodes": 5,
+      "successes": 3,
+      "success_rate": 0.6,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 400,
+          "instruction": "Catch the tabletop paymentsign on the table and pick it up."
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "success": true,
+          "steps": 371,
+          "instruction": "Grab the paymentsign with smooth base stand, lift it, and rotate until the QR code faces you."
+        },
+        {
+          "episode": 3,
+          "seed": 500103,
+          "success": true,
+          "steps": 166,
+          "instruction": "Grab the tabletop paymentsign, lift it, and turn it to face you"
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 400,
+          "instruction": "Catch the black triangular stand from the table and rotate it"
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": true,
+          "steps": 159,
+          "instruction": "Catch the paymentsign with angled stand on the table and pick it up."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "rotate_qrcode",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam1/2000/rotate_qrcode_gpu4_s0/eval.log",
+          "timed_out": false,
+          "seconds": 176.9,
+          "episodes": 3,
+          "successes": 2,
+          "success_rate": 0.6667,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the tabletop paymentsign on the table and pick it up."
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "success": true,
+              "steps": 371,
+              "instruction": "Grab the paymentsign with smooth base stand, lift it, and rotate until the QR code faces you."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": true,
+              "steps": 166,
+              "instruction": "Grab the tabletop paymentsign, lift it, and turn it to face you"
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "rotate_qrcode",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam1/2000/rotate_qrcode_gpu4_s1/eval.log",
+          "timed_out": false,
+          "seconds": 105.1,
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the black triangular stand from the table and rotate it"
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 159,
+              "instruction": "Catch the paymentsign with angled stand on the table and pick it up."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 1,
+          "seed": 500102,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 0.6,
+  "recorded": "2026-10-24T07:26:10+0000"
+}

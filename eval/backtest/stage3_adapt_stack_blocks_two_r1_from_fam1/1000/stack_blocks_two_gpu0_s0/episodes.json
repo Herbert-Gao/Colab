@@ -1,0 +1,42 @@
+{
+  "task": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Place red block in the middle, then stack green block on it."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 290,
+      "instruction": "Grab red block, place it at the center, then stack green block on red block."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 800,
+      "instruction": "Move red block and green block to the center, then stack green block on red block."
+    }
+  ]
+}

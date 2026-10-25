@@ -1,0 +1,50 @@
+{
+  "task": "rotate_qrcode",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Grab the paymentsign with angled stand, lift it, and turn it to face you"
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 110,
+      "instruction": "Grab the medium paymentsign with QR section, lift it, and rotate to see the qrcode."
+    },
+    {
+      "episode": 3,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Catch the paymentsign with QR code on the table and pick it up."
+    }
+  ]
+}

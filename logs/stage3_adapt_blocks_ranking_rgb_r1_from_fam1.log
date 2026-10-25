@@ -1,0 +1,671 @@
+[2026-10-24T14:30:32+00:00] gpu layout: train=4,5,6,7 fsdp=4 policy=4,6 sim=5,7
+[2026-10-24T14:30:32+00:00] init weights from stage3_source_fam1_r1: /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000/params
+[2026-10-24T14:30:32+00:00] === job stage3_adapt_blocks_ranking_rgb_r1_from_fam1 start (attempt 1): repo=pi05_30_aloha_target_blocks_ranking_rgb_n5 lr=2.5e-05 horizon=10 steps=2001 seed=1 ===
+[2026-10-24T14:30:32+00:00] trainer pid=2590745
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+[job] {"job_id": "stage3_adapt_blocks_ranking_rgb_r1_from_fam1", "started": "2026-10-24T14:30:38+0000", "checkpoint_dir": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1", "repo_id": "pi05_30_aloha_target_blocks_ranking_rgb_n5", "init_params": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000/params", "peak_lr": 2.5e-05, "action_horizon": 10, "max_steps": 2001, "seed": 1, "batch_size": 32, "fsdp_devices": 4, "num_workers": 4, "resume": false, "warmup_steps": 1000, "decay_steps": 30000, "decay_lr": 2.5e-06, "save_interval": 500, "keep_period": 500, "log_interval": 25, "ema_decay": 0.99, "norm_stats": "/data/szgx/gaohang/pi05_30/assets/RoboTwin_lerobot_v30/norm_stats.json", "embodiment": "aloha-agilex", "devices": "4,5,6,7"}
+14:30:39.596 [I] Running on: szgx-c17u03-r5500g5-a800-10                                          (2590745:train.py:196)
+14:30:42.602 [I] Created BasePyTreeCheckpointHandler: use_ocdbt=True, use_zarr3=False, pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=<orbax.checkpoint._src.metadata.array_metadata_store.Store object at 0x7efcd2ad8150> (2590745:base_pytree_checkpoint_handler.py:334)
+14:30:42.603 [I] Created BasePyTreeCheckpointHandler: use_ocdbt=True, use_zarr3=False, pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=<orbax.checkpoint._src.metadata.array_metadata_store.Store object at 0x7efcd2ad8150> (2590745:base_pytree_checkpoint_handler.py:334)
+14:30:42.603 [I] [thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID. (2590745:multihost.py:390)
+14:30:42.603 [I] [process=0][thread=MainThread] CheckpointManager init: checkpointers=None, item_names=None, item_handlers={'assets': <openpi.training.checkpoints.CallbackHandler object at 0x7efb32be3850>, 'train_state': <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efcd667ed50>, 'params': <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efb31628950>}, handler_registry=None (2590745:checkpoint_manager.py:620)
+14:30:42.604 [I] Deferred registration for item: "assets". Adding handler `<openpi.training.checkpoints.CallbackHandler object at 0x7efb32be3850>` for item "assets" and save args `<class 'openpi.training.checkpoints.CallbackSave'>` and restore args `<class 'openpi.training.checkpoints.CallbackRestore'>` to `_handler_registry`. (2590745:composite_checkpoint_handler.py:234)
+14:30:42.604 [I] Deferred registration for item: "train_state". Adding handler `<orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efcd667ed50>` for item "train_state" and save args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>` to `_handler_registry`. (2590745:composite_checkpoint_handler.py:234)
+14:30:42.604 [I] Deferred registration for item: "params". Adding handler `<orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efb31628950>` for item "params" and save args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>` to `_handler_registry`. (2590745:composite_checkpoint_handler.py:234)
+14:30:42.604 [I] Deferred registration for item: "metrics". Adding handler `<orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7efb300c10d0>` for item "metrics" and save args `<class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonSaveArgs'>` and restore args `<class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonRestoreArgs'>` to `_handler_registry`. (2590745:composite_checkpoint_handler.py:234)
+14:30:42.604 [I] Initialized registry DefaultCheckpointHandlerRegistry({('assets', <class 'openpi.training.checkpoints.CallbackSave'>): <openpi.training.checkpoints.CallbackHandler object at 0x7efb32be3850>, ('assets', <class 'openpi.training.checkpoints.CallbackRestore'>): <openpi.training.checkpoints.CallbackHandler object at 0x7efb32be3850>, ('train_state', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efcd667ed50>, ('train_state', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efcd667ed50>, ('params', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeSaveArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efb31628950>, ('params', <class 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeRestoreArgs'>): <orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler object at 0x7efb31628950>, ('metrics', <class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonSaveArgs'>): <orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7efb300c10d0>, ('metrics', <class 'orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonRestoreArgs'>): <orbax.checkpoint._src.handlers.json_checkpoint_handler.JsonCheckpointHandler object at 0x7efb300c10d0>}). (2590745:composite_checkpoint_handler.py:502)
+14:30:42.605 [I] orbax-checkpoint version: 0.11.13                                                (2590745:abstract_checkpointer.py:35)
+14:30:42.605 [I] [process=0][thread=MainThread] Using barrier_sync_fn: <function get_barrier_sync_fn.<locals>.<lambda> at 0x7efb3008eac0> timeout: 7200 secs and primary_host=0 for async checkpoint writes (2590745:async_checkpointer.py:170)
+14:30:42.606 [I] Found 0 checkpoint steps in /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1 (2590745:checkpoint_manager.py:1701)
+14:30:42.606 [I] [process=0][thread=MainThread] CheckpointManager created,  primary_host=0, CheckpointManagerOptions=CheckpointManagerOptions(save_interval_steps=1, max_to_keep=None, keep_time_interval=None, keep_period=500, should_keep_fn=None, best_fn=None, best_mode='max', keep_checkpoints_without_metrics=True, step_prefix=None, step_format_fixed_length=None, step_name_format=None, create=False, cleanup_tmp_directories=False, save_on_steps=frozenset(), single_host_load_and_broadcast=False, todelete_subdir=None, enable_background_delete=False, read_only=False, enable_async_checkpointing=True, async_options=AsyncOptions(timeout_secs=7200, barrier_sync_fn=None, post_finalization_callback=None, create_directories_asynchronously=True), multiprocessing_options=MultiprocessingOptions(primary_host=0, active_processes=None, barrier_sync_key_prefix=None), should_save_fn=None, file_options=FileOptions(path_permission_mode=None), save_root_metadata=True, temporary_path_class=None, save_decision_policy=None, prevent_write_metrics=False), root_directory=/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1: <orbax.checkpoint.checkpoint_manager.CheckpointManager object at 0x7efb31fbb690> (2590745:checkpoint_manager.py:801)
+14:30:42.715 [I] Loaded norm stats from /data/szgx/gaohang/pi05_30/assets/RoboTwin_lerobot_v30    (2590745:config.py:196)
+14:30:42.716 [I] data_config: DataConfig(repo_id='pi05_30_aloha_target_blocks_ranking_rgb_n5', asset_id='RoboTwin_lerobot_v30', norm_stats={'state': NormStats(mean=array([-0.20097283,  1.05311787,  0.8013832 , -0.45339713,  0.04638946,
+       -0.00887766,  0.6909579 ,  0.25480202,  1.15158534,  0.89356214,
+       -0.4368017 ,  0.00959493, -0.04686273,  0.67055112]), std=array([0.27085215, 1.00801194, 0.81811911, 0.64459264, 0.2079529 ,
+       0.47676268, 0.44248015, 0.31992012, 1.0320642 , 0.85526419,
+       0.74874061, 0.29833683, 0.55184835, 0.45079577]), q01=array([-9.20013619e-01, -5.25739040e-07, -2.29677171e-05, -1.66733047e+00,
+       -3.24742047e-01, -1.28427247e+00,  0.00000000e+00, -9.63855778e-02,
+        0.00000000e+00, -2.81171942e-05, -1.73157930e+00, -1.02297211e+00,
+       -1.55410540e+00,  0.00000000e+00]), q99=array([0.10212437, 2.56540825, 2.50462437, 1.0270412 , 1.06204474,
+       1.27204728, 1.        , 1.23336101, 2.60488984, 2.60518061,
+       1.32036701, 1.19010341, 1.50755278, 1.        ])), 'actions': NormStats(mean=array([-1.20338507e-03,  4.99435887e-03,  3.91756743e-03, -1.91112026e-03,
+        2.51869467e-04, -6.18155755e-04,  6.89708352e-01,  1.54205400e-03,
+        5.51456865e-03,  4.24085790e-03, -1.70412171e-03,  7.73235370e-05,
+        1.13298680e-04,  6.69044316e-01]), std=array([0.00936011, 0.0280003 , 0.02583208, 0.02189066, 0.0064091 ,
+       0.01568982, 0.44345674, 0.00929591, 0.02857757, 0.02672228,
+       0.02171403, 0.006778  , 0.01595593, 0.45108426]), q01=array([-0.03820296, -0.08406028, -0.07871493, -0.06803996, -0.01582878,
+       -0.06724766,  0.        , -0.03263889, -0.08257774, -0.07971184,
+       -0.06776759, -0.02933293, -0.0574917 ,  0.        ]), q99=array([0.03290153, 0.10698839, 0.09214165, 0.06164808, 0.03128688,
+       0.04991698, 1.        , 0.03740384, 0.10866771, 0.09554707,
+       0.05932953, 0.02586752, 0.06588672, 1.        ]))}, repack_transforms=Group(inputs=[RepackTransform(structure={'images': {'cam_high': 'observation.images.top', 'cam_left_wrist': 'observation.images.left_wrist', 'cam_right_wrist': 'observation.images.right_wrist'}, 'state': 'observation.state', 'actions': 'action', 'prompt': 'task'})], outputs=()), data_transforms=Group(inputs=(AlohaInputs(adapt_to_pi=False), DeltaActions(mask=(True, True, True, True, True, True, False, True, True, True, True, True, True, False))), outputs=(AbsoluteActions(mask=(True, True, True, True, True, True, False, True, True, True, True, True, True, False)), AlohaOutputs(adapt_to_pi=False))), model_transforms=Group(inputs=[InjectDefaultPrompt(prompt=None), ResizeImages(height=224, width=224), TokenizePrompt(tokenizer=<openpi.models.tokenizer.PaligemmaTokenizer object at 0x7efb300cf3d0>, discrete_state_input=True), PadStatesAndActions(model_action_dim=32)], outputs=()), use_quantile_norm=True, action_sequence_keys=('action',), prompt_from_task=True, rlds_data_dir=None, action_space=None, datasets=()) (2590745:data_loader.py:243)
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 100 examples [00:00, 923.70 examples/s]Generating train split: 567 examples [00:00, 2216.74 examples/s]Generating train split: 1039 examples [00:00, 2568.83 examples/s]Generating train split: 1501 examples [00:00, 3139.03 examples/s]Generating train split: 1967 examples [00:00, 3312.91 examples/s]Generating train split: 2324 examples [00:00, 3220.30 examples/s]
+14:30:44.532 [I] local_batch_size: 32                                                             (2590745:data_loader.py:324)
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+14:31:09.816 [I] Initialized data loader:
+[0].images['base_0_rgb']: (32, 224, 224, 3)@float32
+[0].images['left_wrist_0_rgb']: (32, 224, 224, 3)@float32
+[0].images['right_wrist_0_rgb']: (32, 224, 224, 3)@float32
+[0].image_masks['base_0_rgb']: (32,)@bool
+[0].image_masks['left_wrist_0_rgb']: (32,)@bool
+[0].image_masks['right_wrist_0_rgb']: (32,)@bool
+[0].state: (32, 32)@float32
+[0].tokenized_prompt: (32, 200)@int32
+[0].tokenized_prompt_mask: (32, 200)@bool
+[1]: (32, 10, 32)@float32 (2590745:train.py:227)
+14:31:11.499 [I] Sharding .params['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['kernel'].value of shape (27, 1152, 4304) (510.68 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.499 [I] Sharding .params['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['kernel'].value of shape (27, 4304, 1152) (510.68 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['kernel'].value of shape (27, 16, 72, 1152) (136.69 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['img']['head']['kernel'].value of shape (1152, 2048) (9.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['llm']['embedder']['input_embedding'].value of shape (257152, 2048) (2009.00 MiB) along axis 0 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['llm']['final_norm_1']['Dense_0']['kernel'].value of shape (1024, 3072) (12.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum']['w'].value of shape (18, 8, 256, 2048) (288.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum_1']['w'].value of shape (18, 8, 256, 1024) (144.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['llm']['layers']['attn']['kv_einsum']['w'].value of shape (18, 2, 1, 2048, 256) (72.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.500 [I] Sharding .params['PaliGemma']['llm']['layers']['attn']['kv_einsum_1']['w'].value of shape (18, 2, 1, 1024, 256) (36.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['attn']['q_einsum']['w'].value of shape (18, 8, 2048, 256) (288.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['attn']['q_einsum_1']['w'].value of shape (18, 8, 1024, 256) (144.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['mlp']['gating_einsum'].value of shape (18, 2, 2048, 16384) (4608.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['mlp']['linear'].value of shape (18, 16384, 2048) (2304.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['mlp_1']['gating_einsum'].value of shape (18, 2, 1024, 4096) (576.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['mlp_1']['linear'].value of shape (18, 4096, 1024) (288.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['pre_attention_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['PaliGemma']['llm']['layers']['pre_ffw_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['time_mlp_in']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .params['time_mlp_out']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.501 [I] Sharding .opt_state[1][0].mu['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['kernel'].value of shape (27, 1152, 4304) (510.68 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['kernel'].value of shape (27, 4304, 1152) (510.68 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['kernel'].value of shape (27, 16, 72, 1152) (136.69 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['img']['head']['kernel'].value of shape (1152, 2048) (9.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['embedder']['input_embedding'].value of shape (257152, 2048) (2009.00 MiB) along axis 0 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['final_norm_1']['Dense_0']['kernel'].value of shape (1024, 3072) (12.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum']['w'].value of shape (18, 8, 256, 2048) (288.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum_1']['w'].value of shape (18, 8, 256, 1024) (144.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.502 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['attn']['kv_einsum']['w'].value of shape (18, 2, 1, 2048, 256) (72.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['attn']['kv_einsum_1']['w'].value of shape (18, 2, 1, 1024, 256) (36.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['attn']['q_einsum']['w'].value of shape (18, 8, 2048, 256) (288.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['attn']['q_einsum_1']['w'].value of shape (18, 8, 1024, 256) (144.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['mlp']['gating_einsum'].value of shape (18, 2, 2048, 16384) (4608.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['mlp']['linear'].value of shape (18, 16384, 2048) (2304.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['mlp_1']['gating_einsum'].value of shape (18, 2, 1024, 4096) (576.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['mlp_1']['linear'].value of shape (18, 4096, 1024) (288.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['pre_attention_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['PaliGemma']['llm']['layers']['pre_ffw_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['time_mlp_in']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.503 [I] Sharding .opt_state[1][0].mu['time_mlp_out']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['kernel'].value of shape (27, 1152, 4304) (510.68 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['kernel'].value of shape (27, 4304, 1152) (510.68 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['kernel'].value of shape (27, 16, 72, 1152) (136.69 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['img']['head']['kernel'].value of shape (1152, 2048) (9.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['embedder']['input_embedding'].value of shape (257152, 2048) (2009.00 MiB) along axis 0 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['final_norm_1']['Dense_0']['kernel'].value of shape (1024, 3072) (12.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum']['w'].value of shape (18, 8, 256, 2048) (288.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum_1']['w'].value of shape (18, 8, 256, 1024) (144.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.504 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['attn']['kv_einsum']['w'].value of shape (18, 2, 1, 2048, 256) (72.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['attn']['kv_einsum_1']['w'].value of shape (18, 2, 1, 1024, 256) (36.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['attn']['q_einsum']['w'].value of shape (18, 8, 2048, 256) (288.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['attn']['q_einsum_1']['w'].value of shape (18, 8, 1024, 256) (144.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['mlp']['gating_einsum'].value of shape (18, 2, 2048, 16384) (4608.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['mlp']['linear'].value of shape (18, 16384, 2048) (2304.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['mlp_1']['gating_einsum'].value of shape (18, 2, 1024, 4096) (576.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['mlp_1']['linear'].value of shape (18, 4096, 1024) (288.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['pre_attention_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['PaliGemma']['llm']['layers']['pre_ffw_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['time_mlp_in']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.505 [I] Sharding .opt_state[1][0].nu['time_mlp_out']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['kernel'].value of shape (27, 1152, 4304) (510.68 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['kernel'].value of shape (27, 4304, 1152) (510.68 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['kernel'].value of shape (27, 16, 72, 1152) (136.69 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['kernel'].value of shape (27, 1152, 16, 72) (136.69 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['img']['head']['kernel'].value of shape (1152, 2048) (9.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['llm']['embedder']['input_embedding'].value of shape (257152, 2048) (2009.00 MiB) along axis 0 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['llm']['final_norm_1']['Dense_0']['kernel'].value of shape (1024, 3072) (12.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum']['w'].value of shape (18, 8, 256, 2048) (288.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum_1']['w'].value of shape (18, 8, 256, 1024) (144.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.506 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['attn']['kv_einsum']['w'].value of shape (18, 2, 1, 2048, 256) (72.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['attn']['kv_einsum_1']['w'].value of shape (18, 2, 1, 1024, 256) (36.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['attn']['q_einsum']['w'].value of shape (18, 8, 2048, 256) (288.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['attn']['q_einsum_1']['w'].value of shape (18, 8, 1024, 256) (144.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['mlp']['gating_einsum'].value of shape (18, 2, 2048, 16384) (4608.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['mlp']['linear'].value of shape (18, 16384, 2048) (2304.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['mlp_1']['gating_einsum'].value of shape (18, 2, 1024, 4096) (576.00 MiB) along axis 3 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['mlp_1']['linear'].value of shape (18, 4096, 1024) (288.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['pre_attention_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['PaliGemma']['llm']['layers']['pre_ffw_norm_1']['Dense_0']['kernel'].value of shape (18, 1024, 3072) (216.00 MiB) along axis 2 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['time_mlp_in']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.507 [I] Sharding .ema_params['time_mlp_out']['kernel'].value of shape (1024, 1024) (4.00 MiB) along axis 1 (2590745:sharding.py:89)
+14:31:11.509 [I] Created BasePyTreeCheckpointHandler: use_ocdbt=True, use_zarr3=False, pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=<orbax.checkpoint._src.metadata.array_metadata_store.Store object at 0x7efcd2ad8150> (2590745:base_pytree_checkpoint_handler.py:334)
+14:31:11.536 [I] Restoring checkpoint from /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000/params. (2590745:checkpointer.py:298)
+14:31:15.322 [I] [process=0] /jax/checkpoint/read/bytes_per_sec: 3.3 GiB/s (total bytes: 12.5 GiB) (time elapsed: 3 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+14:31:15.323 [I] Finished restoring checkpoint in 3.79 seconds from /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam1_step15000/params. (2590745:checkpointer.py:309)
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/jax/_src/interpreters/mlir.py:1178: UserWarning: Some donated buffers were not usable: ShapedArray(float32[27,1152,4304]), ShapedArray(float32[27,4304,1152]), ShapedArray(float32[27,1152,16,72]), ShapedArray(float32[27,16,72,1152]), ShapedArray(float32[27,1152,16,72]), ShapedArray(float32[27,1152,16,72]), ShapedArray(float32[1152,2048]), ShapedArray(float32[257152,2048]), ShapedArray(float32[1024,3072]), ShapedArray(float32[18,8,256,2048]), ShapedArray(float32[18,8,256,1024]), ShapedArray(float32[18,2,1,2048,256]), ShapedArray(float32[18,2,1,1024,256]), ShapedArray(float32[18,8,2048,256]), ShapedArray(float32[18,8,1024,256]), ShapedArray(float32[18,2,2048,16384]), ShapedArray(float32[18,16384,2048]), ShapedArray(float32[18,2,1024,4096]), ShapedArray(float32[18,4096,1024]), ShapedArray(float32[18,1024,3072]), ShapedArray(float32[18,1024,3072]), ShapedArray(float32[1024,1024]), ShapedArray(float32[1024,1024]).
+See an explanation at https://jax.readthedocs.io/en/latest/faq.html#buffer-donation.
+  warnings.warn("Some donated buffers were not usable:"
+14:31:23.351 [I] Initialized train state:
+['PaliGemma']['img']['Transformer']['encoder_norm']['bias'].value: (1152,)@float32
+['PaliGemma']['img']['Transformer']['encoder_norm']['scale'].value: (1152,)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_0']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_0']['scale'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_1']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['LayerNorm_1']['scale'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['bias'].value: (27, 4304)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_0']['kernel'].value: (27, 1152, 4304)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MlpBlock_0']['Dense_1']['kernel'].value: (27, 4304, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['bias'].value: (27, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['key']['kernel'].value: (27, 1152, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['bias'].value: (27, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['out']['kernel'].value: (27, 16, 72, 1152)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['bias'].value: (27, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['query']['kernel'].value: (27, 1152, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['bias'].value: (27, 16, 72)@float32
+['PaliGemma']['img']['Transformer']['encoderblock']['MultiHeadDotProductAttention_0']['value']['kernel'].value: (27, 1152, 16, 72)@float32
+['PaliGemma']['img']['embedding']['bias'].value: (1152,)@float32
+['PaliGemma']['img']['embedding']['kernel'].value: (14, 14, 3, 1152)@float32
+['PaliGemma']['img']['head']['bias'].value: (2048,)@float32
+['PaliGemma']['img']['head']['kernel'].value: (1152, 2048)@float32
+['PaliGemma']['img']['pos_embedding'].value: (1, 256, 1152)@float32
+['PaliGemma']['llm']['embedder']['input_embedding'].value: (257152, 2048)@float32
+['PaliGemma']['llm']['final_norm']['scale'].value: (2048,)@float32
+['PaliGemma']['llm']['final_norm_1']['Dense_0']['bias'].value: (3072,)@float32
+['PaliGemma']['llm']['final_norm_1']['Dense_0']['kernel'].value: (1024, 3072)@float32
+['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum']['w'].value: (18, 8, 256, 2048)@float32
+['PaliGemma']['llm']['layers']['attn']['attn_vec_einsum_1']['w'].value: (18, 8, 256, 1024)@float32
+['PaliGemma']['llm']['layers']['attn']['kv_einsum']['w'].value: (18, 2, 1, 2048, 256)@float32
+['PaliGemma']['llm']['layers']['attn']['kv_einsum_1']['w'].value: (18, 2, 1, 1024, 256)@float32
+['PaliGemma']['llm']['layers']['attn']['q_einsum']['w'].value: (18, 8, 2048, 256)@float32
+['PaliGemma']['llm']['layers']['attn']['q_einsum_1']['w'].value: (18, 8, 1024, 256)@float32
+['PaliGemma']['llm']['layers']['mlp']['gating_einsum'].value: (18, 2, 2048, 16384)@float32
+['PaliGemma']['llm']['layers']['mlp']['linear'].value: (18, 16384, 2048)@float32
+['PaliGemma']['llm']['layers']['mlp_1']['gating_einsum'].value: (18, 2, 1024, 4096)@float32
+['PaliGemma']['llm']['layers']['mlp_1']['linear'].value: (18, 4096, 1024)@float32
+['PaliGemma']['llm']['layers']['pre_attention_norm']['scale'].value: (18, 2048)@float32
+['PaliGemma']['llm']['layers']['pre_attention_norm_1']['Dense_0']['bias'].value: (18, 3072)@float32
+['PaliGemma']['llm']['layers']['pre_attention_norm_1']['Dense_0']['kernel'].value: (18, 1024, 3072)@float32
+['PaliGemma']['llm']['layers']['pre_ffw_norm']['scale'].value: (18, 2048)@float32
+['PaliGemma']['llm']['layers']['pre_ffw_norm_1']['Dense_0']['bias'].value: (18, 3072)@float32
+['PaliGemma']['llm']['layers']['pre_ffw_norm_1']['Dense_0']['kernel'].value: (18, 1024, 3072)@float32
+['action_in_proj']['bias'].value: (1024,)@float32
+['action_in_proj']['kernel'].value: (32, 1024)@float32
+['action_out_proj']['bias'].value: (32,)@float32
+['action_out_proj']['kernel'].value: (1024, 32)@float32
+['time_mlp_in']['bias'].value: (1024,)@float32
+['time_mlp_in']['kernel'].value: (1024, 1024)@float32
+['time_mlp_out']['bias'].value: (1024,)@float32
+['time_mlp_out']['kernel'].value: (1024, 1024)@float32 (2590745:train.py:238)
+14:31:23.366 [I] Progress on: -/2001 rate:- remaining:? elapsed:00:00 postfix:-                   (2590745:tqdm_logging.py:145)
+Step 0: grad_norm=6.1448, loss=1.5405, param_norm=1803.2798
+14:31:37.508 [I] Progress on: -/2001 rate:- remaining:? elapsed:00:14 postfix:-                   (2590745:tqdm_logging.py:145)
+14:31:47.670 [I] Progress on: 11.0it/2.00kit rate:1.2s/it remaining:38:25 elapsed:00:24 postfix:- (2590745:tqdm_logging.py:145)
+14:31:58.109 [I] Progress on: 21.0it/2.00kit rate:1.0s/it remaining:34:24 elapsed:00:34 postfix:- (2590745:tqdm_logging.py:145)
+Step 25: grad_norm=3.1921, loss=0.7069, param_norm=1803.2798
+14:32:08.756 [I] Progress on: 31.0it/2.00kit rate:1.1s/it remaining:34:31 elapsed:00:45 postfix:- (2590745:tqdm_logging.py:145)
+14:32:19.248 [I] Progress on: 41.0it/2.00kit rate:1.0s/it remaining:34:07 elapsed:00:55 postfix:- (2590745:tqdm_logging.py:145)
+Step 50: grad_norm=2.9480, loss=0.5481, param_norm=1803.2798
+14:32:30.111 [I] Progress on: 50.0it/2.00kit rate:1.1s/it remaining:34:17 elapsed:01:06 postfix:- (2590745:tqdm_logging.py:145)
+14:32:40.354 [I] Progress on: 61.0it/2.00kit rate:1.0s/it remaining:33:52 elapsed:01:16 postfix:- (2590745:tqdm_logging.py:145)
+14:32:50.918 [I] Progress on: 71.0it/2.00kit rate:1.1s/it remaining:33:54 elapsed:01:27 postfix:- (2590745:tqdm_logging.py:145)
+Step 75: grad_norm=2.2260, loss=0.4079, param_norm=1803.2791
+14:33:01.782 [I] Progress on: 81.0it/2.00kit rate:1.0s/it remaining:33:30 elapsed:01:38 postfix:- (2590745:tqdm_logging.py:145)
+14:33:12.340 [I] Progress on: 91.0it/2.00kit rate:1.0s/it remaining:33:25 elapsed:01:48 postfix:- (2590745:tqdm_logging.py:145)
+Step 100: grad_norm=1.6924, loss=0.2526, param_norm=1803.2787
+14:33:23.238 [I] Progress on: 100it/2.00kit rate:1.1s/it remaining:33:36 elapsed:01:59 postfix:-  (2590745:tqdm_logging.py:145)
+14:33:33.499 [I] Progress on: 111it/2.00kit rate:1.0s/it remaining:33:02 elapsed:02:10 postfix:-  (2590745:tqdm_logging.py:145)
+14:33:44.068 [I] Progress on: 121it/2.00kit rate:1.1s/it remaining:32:55 elapsed:02:20 postfix:-  (2590745:tqdm_logging.py:145)
+Step 125: grad_norm=1.3995, loss=0.1523, param_norm=1803.2784
+14:33:54.697 [I] Progress on: 131it/2.00kit rate:1.0s/it remaining:32:39 elapsed:02:31 postfix:-  (2590745:tqdm_logging.py:145)
+14:34:05.265 [I] Progress on: 141it/2.00kit rate:1.1s/it remaining:32:33 elapsed:02:41 postfix:-  (2590745:tqdm_logging.py:145)
+Step 150: grad_norm=1.5950, loss=0.1450, param_norm=1803.2778
+14:34:16.483 [I] Progress on: 150it/2.00kit rate:1.1s/it remaining:32:38 elapsed:02:53 postfix:-  (2590745:tqdm_logging.py:145)
+14:34:26.745 [I] Progress on: 161it/2.00kit rate:1.0s/it remaining:32:07 elapsed:03:03 postfix:-  (2590745:tqdm_logging.py:145)
+14:34:37.318 [I] Progress on: 171it/2.00kit rate:1.1s/it remaining:32:08 elapsed:03:13 postfix:-  (2590745:tqdm_logging.py:145)
+Step 175: grad_norm=1.1572, loss=0.0971, param_norm=1803.2776
+14:34:47.983 [I] Progress on: 181it/2.00kit rate:1.0s/it remaining:31:45 elapsed:03:24 postfix:-  (2590745:tqdm_logging.py:145)
+14:34:58.552 [I] Progress on: 191it/2.00kit rate:1.1s/it remaining:31:43 elapsed:03:35 postfix:-  (2590745:tqdm_logging.py:145)
+Step 200: grad_norm=0.8721, loss=0.0802, param_norm=1803.2784
+14:35:09.459 [I] Progress on: 200it/2.00kit rate:1.1s/it remaining:32:09 elapsed:03:46 postfix:-  (2590745:tqdm_logging.py:145)
+14:35:19.718 [I] Progress on: 211it/2.00kit rate:1.1s/it remaining:31:24 elapsed:03:56 postfix:-  (2590745:tqdm_logging.py:145)
+14:35:30.565 [I] Progress on: 221it/2.00kit rate:1.1s/it remaining:31:38 elapsed:04:07 postfix:-  (2590745:tqdm_logging.py:145)
+Step 225: grad_norm=1.1618, loss=0.0656, param_norm=1803.2798
+14:35:41.158 [I] Progress on: 231it/2.00kit rate:1.1s/it remaining:31:00 elapsed:04:17 postfix:-  (2590745:tqdm_logging.py:145)
+14:35:51.759 [I] Progress on: 241it/2.00kit rate:1.1s/it remaining:31:08 elapsed:04:28 postfix:-  (2590745:tqdm_logging.py:145)
+Step 250: grad_norm=0.5708, loss=0.0549, param_norm=1803.2802
+14:36:02.640 [I] Progress on: 250it/2.00kit rate:1.1s/it remaining:30:40 elapsed:04:39 postfix:-  (2590745:tqdm_logging.py:145)
+14:36:12.962 [I] Progress on: 261it/2.00kit rate:1.1s/it remaining:30:47 elapsed:04:49 postfix:-  (2590745:tqdm_logging.py:145)
+14:36:23.523 [I] Progress on: 271it/2.00kit rate:1.1s/it remaining:30:28 elapsed:05:00 postfix:-  (2590745:tqdm_logging.py:145)
+Step 275: grad_norm=1.9900, loss=0.0546, param_norm=1803.2809
+14:36:34.167 [I] Progress on: 281it/2.00kit rate:1.1s/it remaining:30:22 elapsed:05:10 postfix:-  (2590745:tqdm_logging.py:145)
+14:36:44.992 [I] Progress on: 291it/2.00kit rate:1.1s/it remaining:30:33 elapsed:05:21 postfix:-  (2590745:tqdm_logging.py:145)
+Step 300: grad_norm=0.7058, loss=0.0410, param_norm=1803.2812
+14:36:55.884 [I] Progress on: 300it/2.00kit rate:1.1s/it remaining:29:57 elapsed:05:32 postfix:-  (2590745:tqdm_logging.py:145)
+14:37:06.191 [I] Progress on: 311it/2.00kit rate:1.1s/it remaining:29:49 elapsed:05:42 postfix:-  (2590745:tqdm_logging.py:145)
+14:37:16.797 [I] Progress on: 321it/2.00kit rate:1.0s/it remaining:29:23 elapsed:05:53 postfix:-  (2590745:tqdm_logging.py:145)
+Step 325: grad_norm=1.1381, loss=0.0494, param_norm=1803.2817
+14:37:27.414 [I] Progress on: 331it/2.00kit rate:1.1s/it remaining:29:17 elapsed:06:04 postfix:-  (2590745:tqdm_logging.py:145)
+14:37:37.989 [I] Progress on: 341it/2.00kit rate:1.1s/it remaining:29:14 elapsed:06:14 postfix:-  (2590745:tqdm_logging.py:145)
+Step 350: grad_norm=0.5524, loss=0.0345, param_norm=1803.2837
+14:37:48.878 [I] Progress on: 350it/2.00kit rate:1.1s/it remaining:29:01 elapsed:06:25 postfix:-  (2590745:tqdm_logging.py:145)
+14:37:59.471 [I] Progress on: 361it/2.00kit rate:1.1s/it remaining:29:50 elapsed:06:36 postfix:-  (2590745:tqdm_logging.py:145)
+14:38:10.034 [I] Progress on: 371it/2.00kit rate:1.1s/it remaining:28:48 elapsed:06:46 postfix:-  (2590745:tqdm_logging.py:145)
+Step 375: grad_norm=0.5237, loss=0.0391, param_norm=1803.2847
+14:38:20.662 [I] Progress on: 381it/2.00kit rate:1.1s/it remaining:28:32 elapsed:06:57 postfix:-  (2590745:tqdm_logging.py:145)
+14:38:31.229 [I] Progress on: 391it/2.00kit rate:1.1s/it remaining:28:26 elapsed:07:07 postfix:-  (2590745:tqdm_logging.py:145)
+Step 400: grad_norm=0.5230, loss=0.0318, param_norm=1803.2852
+14:38:42.124 [I] Progress on: 400it/2.00kit rate:1.1s/it remaining:28:12 elapsed:07:18 postfix:-  (2590745:tqdm_logging.py:145)
+14:38:52.439 [I] Progress on: 411it/2.00kit rate:1.1s/it remaining:27:59 elapsed:07:29 postfix:-  (2590745:tqdm_logging.py:145)
+14:39:03.046 [I] Progress on: 421it/2.00kit rate:1.1s/it remaining:28:02 elapsed:07:39 postfix:-  (2590745:tqdm_logging.py:145)
+Step 425: grad_norm=0.4316, loss=0.0345, param_norm=1803.2876
+14:39:13.630 [I] Progress on: 431it/2.00kit rate:1.1s/it remaining:27:32 elapsed:07:50 postfix:-  (2590745:tqdm_logging.py:145)
+14:39:24.497 [I] Progress on: 441it/2.00kit rate:1.1s/it remaining:27:44 elapsed:08:01 postfix:-  (2590745:tqdm_logging.py:145)
+Step 450: grad_norm=0.3453, loss=0.0268, param_norm=1803.2887
+14:39:35.372 [I] Progress on: 450it/2.00kit rate:1.1s/it remaining:27:09 elapsed:08:12 postfix:-  (2590745:tqdm_logging.py:145)
+14:39:45.698 [I] Progress on: 461it/2.00kit rate:1.1s/it remaining:27:16 elapsed:08:22 postfix:-  (2590745:tqdm_logging.py:145)
+14:39:56.260 [I] Progress on: 471it/2.00kit rate:1.1s/it remaining:26:59 elapsed:08:32 postfix:-  (2590745:tqdm_logging.py:145)
+Step 475: grad_norm=0.4344, loss=0.0296, param_norm=1803.2909
+14:40:06.885 [I] Progress on: 481it/2.00kit rate:1.1s/it remaining:26:42 elapsed:08:43 postfix:-  (2590745:tqdm_logging.py:145)
+14:40:17.464 [I] Progress on: 491it/2.00kit rate:1.1s/it remaining:26:39 elapsed:08:54 postfix:-  (2590745:tqdm_logging.py:145)
+Step 500: grad_norm=0.4558, loss=0.0327, param_norm=1803.2925
+14:40:28.361 [I] Progress on: 500it/2.00kit rate:1.1s/it remaining:26:26 elapsed:09:04 postfix:-  (2590745:tqdm_logging.py:145)
+14:40:28.417 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (2590745:checkpoint_manager.py:1987)
+14:40:28.417 [I] [process=0] Saving checkpoint at step 500                                        (2590745:checkpoint_manager.py:1408)
+14:40:28.418 [I] [process=0] Started async saving checkpoint to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500. (2590745:async_checkpointer.py:439)
+14:40:28.419 [I] Using ThreadSafeKeyValueSignalingClient                                          (2590745:signaling_client.py:332)
+14:40:28.435 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0 (2590745:atomicity.py:144)
+14:40:28.440 [I] Wrote Metadata={'item_handlers': None, 'metrics': {}, 'performance_metrics': {}, 'init_timestamp_nsecs': 1792852828436631607, 'commit_timestamp_nsecs': None, 'custom_metadata': {}}, json={"item_handlers": null, "metrics": {}, "performance_metrics": {}, "init_timestamp_nsecs": 1792852828436631607, "commit_timestamp_nsecs": null, "custom_metadata": {}} to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/_CHECKPOINT_METADATA (2590745:checkpoint.py:186)
+14:40:28.446 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/assets.orbax-checkpoint-tmp-1 (2590745:atomicity.py:144)
+14:40:28.447 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/train_state.orbax-checkpoint-tmp-3 (2590745:atomicity.py:144)
+14:40:28.448 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/params.orbax-checkpoint-tmp-2 (2590745:atomicity.py:144)
+14:40:28.474 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+14:40:32.826 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+14:40:32.974 [I] [process=0][thread=array_type_handler] Wrote 51 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/params.orbax-checkpoint-tmp-2/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+14:40:42.003 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 941.9 MiB/s (total bytes: 12.5 GiB) (time elapsed: 13 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+14:40:42.021 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 2.8 GiB/s (total bytes: 37.5 GiB) (time elapsed: 13 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+14:40:42.063 [I] [process=0][thread=async_save] Background save thread started.                   (2590745:async_checkpointer.py:77)
+14:40:42.064 [I] Finished blocking save in 13.65 seconds. Continuing to save asynchronously to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500. (2590745:async_checkpointer.py:548)
+14:40:42.068 [I] [process=0][thread=MainThread][step=500] Starting CheckpointManager Save Finalize thread=save_finalize (2590745:checkpoint_manager.py:1453)
+14:40:42.070 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (2590745:async_checkpointer.py:258)
+14:40:42.071 [I] {'step': 500, 'event_type': 'save', 'directory': '/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1792852828.4171348, 'wait_for_prev_duration_secs': 0.00013780593872070312, 'checkpointer_blocking_start_time': 1792852828.4178963, 'checkpointer_blocking_duration_secs': 13.649832487106323, 'get_old_steps_start_time': 1792852842.067854, 'get_old_steps_duration_secs': 1.1682510375976562e-05, 'checkpoint_manager_blocking_start_time': 1792852828.4169185, 'checkpoint_manager_blocking_duration_secs': 13.654021978378296} (2590745:standard_logger.py:34)
+14:40:42.072 [I] Progress on: 501it/2.00kit rate:5.3s/it remaining:2:11:44 elapsed:09:18 postfix:- (2590745:tqdm_logging.py:145)
+14:40:42.301 [I] [process=0][thread=array_type_handler] Wrote 156 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/train_state.orbax-checkpoint-tmp-3/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+14:40:52.390 [I] Progress on: 509it/2.00kit rate:1.4s/it remaining:34:14 elapsed:09:29 postfix:-  (2590745:tqdm_logging.py:145)
+14:40:59.169 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 416.1 MiB/s (total bytes: 12.5 GiB) (time elapsed: 30 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+14:41:00.133 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 1.2 GiB/s (total bytes: 37.5 GiB) (time elapsed: 31 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+14:41:00.133 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (2590745:async_checkpointer.py:87)
+14:41:00.134 [I] Read Metadata={'item_handlers': None, 'metrics': {}, 'performance_metrics': {}, 'init_timestamp_nsecs': 1792852828436631607, 'commit_timestamp_nsecs': None, 'custom_metadata': {}} from /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/_CHECKPOINT_METADATA (2590745:checkpoint.py:226)
+14:41:00.135 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/assets.orbax-checkpoint-tmp-1 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/assets (2590745:atomicity.py:289)
+14:41:00.137 [I] Updated Metadata={'item_handlers': {'assets': 'openpi.training.checkpoints.CallbackHandler', 'params': 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler', 'train_state': 'orbax.checkpoint._src.handlers.pytree_checkpoint_handler.PyTreeCheckpointHandler'}, 'metrics': {}, 'performance_metrics': {}, 'init_timestamp_nsecs': 1792852828436631607, 'commit_timestamp_nsecs': None, 'custom_metadata': {}} to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/_CHECKPOINT_METADATA (2590745:checkpoint.py:245)
+14:41:00.142 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+14:41:00.157 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/train_state.orbax-checkpoint-tmp-3 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/train_state (2590745:atomicity.py:289)
+14:41:00.161 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+14:41:00.167 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/params.orbax-checkpoint-tmp-2 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0/params (2590745:atomicity.py:289)
+14:41:00.168 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500.orbax-checkpoint-tmp-0 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500 (2590745:atomicity.py:289)
+14:41:00.169 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500`. (2590745:atomicity.py:573)
+14:41:00.169 [I] Finished asynchronous save (blocking + background) in 31.75 seconds to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/500 (2590745:async_checkpointer.py:412)
+14:41:00.169 [I] [process=0][thread=async_save] Background save thread done.                      (2590745:async_checkpointer.py:143)
+14:41:00.170 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (2590745:async_checkpointer.py:266)
+14:41:00.170 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (2590745:async_checkpointer.py:276)
+14:41:00.170 [I] [process=0][thread=save_finalize][step=500] CheckpointManager Save Finalize is syncing with other hosts... (2590745:checkpoint_manager.py:2095)
+14:41:00.170 [I] [process=0][thread=save_finalize][step=500] CheckpointManager Save Finalize is done on all hosts. (2590745:checkpoint_manager.py:2110)
+14:41:02.883 [I] Progress on: 519it/2.00kit rate:1.1s/it remaining:26:10 elapsed:09:39 postfix:-  (2590745:tqdm_logging.py:145)
+Step 525: grad_norm=0.3950, loss=0.0289, param_norm=1803.2949
+14:41:13.537 [I] Progress on: 529it/2.00kit rate:1.1s/it remaining:25:56 elapsed:09:50 postfix:-  (2590745:tqdm_logging.py:145)
+14:41:24.098 [I] Progress on: 539it/2.00kit rate:1.1s/it remaining:25:38 elapsed:10:00 postfix:-  (2590745:tqdm_logging.py:145)
+14:41:34.742 [I] Progress on: 549it/2.00kit rate:1.1s/it remaining:25:52 elapsed:10:11 postfix:-  (2590745:tqdm_logging.py:145)
+[2026-10-24T14:41:36+00:00] checkpoint 500 ready -> pause trainer, backtest (tasks: blocks_ranking_rgb), then resume
+{"blocks_ranking_rgb": {"successes": 0, "episodes": 5, "success_rate": 0.0}}
+[2026-10-24T14:55:36+00:00] backtest 500 recorded (early-stop: continue)
+freed_gib=0.0
+[2026-10-24T14:55:36+00:00] backtest 500 done -> resume training
+Step 550: grad_norm=0.6293, loss=0.0288, param_norm=1803.2965
+14:55:36.564 [I] Progress on: 550it/2.00kit rate:1.0s/it remaining:25:23 elapsed:24:13 postfix:-  (2590745:tqdm_logging.py:145)
+14:55:46.777 [I] Progress on: 561it/2.00kit rate:8.2s/it remaining:3:16:04 elapsed:24:23 postfix:- (2590745:tqdm_logging.py:145)
+14:55:57.175 [I] Progress on: 571it/2.00kit rate:1.2s/it remaining:29:34 elapsed:24:33 postfix:-  (2590745:tqdm_logging.py:145)
+Step 575: grad_norm=0.5087, loss=0.0316, param_norm=1803.2992
+14:56:07.256 [I] Progress on: 580it/2.00kit rate:1.1s/it remaining:25:53 elapsed:24:43 postfix:-  (2590745:tqdm_logging.py:145)
+14:56:17.759 [I] Progress on: 590it/2.00kit rate:1.1s/it remaining:24:47 elapsed:24:54 postfix:-  (2590745:tqdm_logging.py:145)
+14:56:28.278 [I] Progress on: 600it/2.00kit rate:1.1s/it remaining:24:35 elapsed:25:04 postfix:-  (2590745:tqdm_logging.py:145)
+Step 600: grad_norm=0.3460, loss=0.0274, param_norm=1803.3027
+14:56:38.840 [I] Progress on: 610it/2.00kit rate:1.1s/it remaining:24:21 elapsed:25:15 postfix:-  (2590745:tqdm_logging.py:145)
+14:56:49.378 [I] Progress on: 620it/2.00kit rate:1.1s/it remaining:24:12 elapsed:25:26 postfix:-  (2590745:tqdm_logging.py:145)
+Step 625: grad_norm=0.4479, loss=0.0308, param_norm=1803.3043
+14:56:59.990 [I] Progress on: 630it/2.00kit rate:1.1s/it remaining:24:02 elapsed:25:36 postfix:-  (2590745:tqdm_logging.py:145)
+14:57:10.533 [I] Progress on: 640it/2.00kit rate:1.1s/it remaining:23:53 elapsed:25:47 postfix:-  (2590745:tqdm_logging.py:145)
+14:57:21.357 [I] Progress on: 650it/2.00kit rate:1.1s/it remaining:24:08 elapsed:25:57 postfix:-  (2590745:tqdm_logging.py:145)
+Step 650: grad_norm=0.4773, loss=0.0336, param_norm=1803.3081
+14:57:31.996 [I] Progress on: 660it/2.00kit rate:1.1s/it remaining:23:38 elapsed:26:08 postfix:-  (2590745:tqdm_logging.py:145)
+14:57:42.543 [I] Progress on: 670it/2.00kit rate:1.0s/it remaining:23:16 elapsed:26:19 postfix:-  (2590745:tqdm_logging.py:145)
+Step 675: grad_norm=0.3167, loss=0.0291, param_norm=1803.3119
+14:57:53.185 [I] Progress on: 680it/2.00kit rate:1.1s/it remaining:23:10 elapsed:26:29 postfix:-  (2590745:tqdm_logging.py:145)
+14:58:03.735 [I] Progress on: 690it/2.00kit rate:1.1s/it remaining:22:57 elapsed:26:40 postfix:-  (2590745:tqdm_logging.py:145)
+14:58:14.325 [I] Progress on: 700it/2.00kit rate:1.1s/it remaining:22:54 elapsed:26:50 postfix:-  (2590745:tqdm_logging.py:145)
+Step 700: grad_norm=0.3490, loss=0.0289, param_norm=1803.3151
+14:58:24.939 [I] Progress on: 710it/2.00kit rate:1.0s/it remaining:22:34 elapsed:27:01 postfix:-  (2590745:tqdm_logging.py:145)
+14:58:36.171 [I] Progress on: 720it/2.00kit rate:1.2s/it remaining:26:41 elapsed:27:12 postfix:-  (2590745:tqdm_logging.py:145)
+Step 725: grad_norm=0.4022, loss=0.0333, param_norm=1803.3186
+14:58:46.436 [I] Progress on: 730it/2.00kit rate:1.0s/it remaining:22:06 elapsed:27:23 postfix:-  (2590745:tqdm_logging.py:145)
+14:58:57.086 [I] Progress on: 740it/2.00kit rate:1.1s/it remaining:22:36 elapsed:27:33 postfix:-  (2590745:tqdm_logging.py:145)
+14:59:07.591 [I] Progress on: 750it/2.00kit rate:1.1s/it remaining:21:54 elapsed:27:44 postfix:-  (2590745:tqdm_logging.py:145)
+Step 750: grad_norm=0.3694, loss=0.0292, param_norm=1803.3228
+14:59:18.248 [I] Progress on: 760it/2.00kit rate:1.1s/it remaining:22:07 elapsed:27:54 postfix:-  (2590745:tqdm_logging.py:145)
+14:59:28.773 [I] Progress on: 770it/2.00kit rate:1.1s/it remaining:21:33 elapsed:28:05 postfix:-  (2590745:tqdm_logging.py:145)
+Step 775: grad_norm=0.4460, loss=0.0260, param_norm=1803.3270
+14:59:39.479 [I] Progress on: 780it/2.00kit rate:1.1s/it remaining:21:44 elapsed:28:16 postfix:-  (2590745:tqdm_logging.py:145)
+14:59:49.988 [I] Progress on: 790it/2.00kit rate:1.1s/it remaining:21:12 elapsed:28:26 postfix:-  (2590745:tqdm_logging.py:145)
+15:00:00.937 [I] Progress on: 800it/2.00kit rate:1.1s/it remaining:21:29 elapsed:28:37 postfix:-  (2590745:tqdm_logging.py:145)
+Step 800: grad_norm=0.3541, loss=0.0338, param_norm=1803.3311
+15:00:11.502 [I] Progress on: 810it/2.00kit rate:1.0s/it remaining:20:49 elapsed:28:48 postfix:-  (2590745:tqdm_logging.py:145)
+15:00:22.108 [I] Progress on: 820it/2.00kit rate:1.1s/it remaining:20:57 elapsed:28:58 postfix:-  (2590745:tqdm_logging.py:145)
+Step 825: grad_norm=0.3569, loss=0.0313, param_norm=1803.3350
+15:00:32.666 [I] Progress on: 830it/2.00kit rate:1.0s/it remaining:20:19 elapsed:29:09 postfix:-  (2590745:tqdm_logging.py:145)
+15:00:43.274 [I] Progress on: 840it/2.00kit rate:1.1s/it remaining:20:35 elapsed:29:19 postfix:-  (2590745:tqdm_logging.py:145)
+15:00:53.800 [I] Progress on: 850it/2.00kit rate:1.0s/it remaining:20:07 elapsed:29:30 postfix:-  (2590745:tqdm_logging.py:145)
+Step 850: grad_norm=0.3218, loss=0.0277, param_norm=1803.3401
+15:01:04.421 [I] Progress on: 860it/2.00kit rate:1.1s/it remaining:20:09 elapsed:29:41 postfix:-  (2590745:tqdm_logging.py:145)
+15:01:15.254 [I] Progress on: 870it/2.00kit rate:1.1s/it remaining:19:54 elapsed:29:51 postfix:-  (2590745:tqdm_logging.py:145)
+Step 875: grad_norm=0.3045, loss=0.0277, param_norm=1803.3457
+15:01:25.996 [I] Progress on: 880it/2.00kit rate:1.1s/it remaining:20:06 elapsed:30:02 postfix:-  (2590745:tqdm_logging.py:145)
+15:01:36.480 [I] Progress on: 890it/2.00kit rate:1.1s/it remaining:19:27 elapsed:30:13 postfix:-  (2590745:tqdm_logging.py:145)
+15:01:47.113 [I] Progress on: 900it/2.00kit rate:1.1s/it remaining:19:42 elapsed:30:23 postfix:-  (2590745:tqdm_logging.py:145)
+Step 900: grad_norm=0.3740, loss=0.0264, param_norm=1803.3517
+15:01:57.633 [I] Progress on: 910it/2.00kit rate:1.0s/it remaining:19:03 elapsed:30:34 postfix:-  (2590745:tqdm_logging.py:145)
+15:02:08.271 [I] Progress on: 920it/2.00kit rate:1.1s/it remaining:19:23 elapsed:30:44 postfix:-  (2590745:tqdm_logging.py:145)
+Step 925: grad_norm=0.3600, loss=0.0281, param_norm=1803.3579
+15:02:18.784 [I] Progress on: 930it/2.00kit rate:1.0s/it remaining:18:36 elapsed:30:55 postfix:-  (2590745:tqdm_logging.py:145)
+15:02:29.760 [I] Progress on: 940it/2.00kit rate:1.1s/it remaining:19:13 elapsed:31:06 postfix:-  (2590745:tqdm_logging.py:145)
+15:02:40.262 [I] Progress on: 950it/2.00kit rate:1.1s/it remaining:18:28 elapsed:31:16 postfix:-  (2590745:tqdm_logging.py:145)
+Step 950: grad_norm=0.2719, loss=0.0249, param_norm=1803.3650
+15:02:50.930 [I] Progress on: 960it/2.00kit rate:1.1s/it remaining:18:41 elapsed:31:27 postfix:-  (2590745:tqdm_logging.py:145)
+15:03:01.431 [I] Progress on: 970it/2.00kit rate:1.1s/it remaining:18:09 elapsed:31:38 postfix:-  (2590745:tqdm_logging.py:145)
+Step 975: grad_norm=0.5530, loss=0.0423, param_norm=1803.3700
+15:03:12.115 [I] Progress on: 980it/2.00kit rate:1.1s/it remaining:18:09 elapsed:31:48 postfix:-  (2590745:tqdm_logging.py:145)
+15:03:22.639 [I] Progress on: 990it/2.00kit rate:1.1s/it remaining:17:47 elapsed:31:59 postfix:-  (2590745:tqdm_logging.py:145)
+15:03:33.240 [I] Progress on: 1.00kit/2.00kit rate:1.1s/it remaining:17:49 elapsed:32:09 postfix:- (2590745:tqdm_logging.py:145)
+Step 1000: grad_norm=0.3218, loss=0.0313, param_norm=1803.3778
+15:03:34.611 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (2590745:checkpoint_manager.py:1987)
+15:03:34.612 [I] [process=0] Saving checkpoint at step 1000                                       (2590745:checkpoint_manager.py:1408)
+15:03:34.613 [I] [process=0] Started async saving checkpoint to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000. (2590745:async_checkpointer.py:439)
+15:03:34.629 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4 (2590745:atomicity.py:144)
+15:03:34.647 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/assets.orbax-checkpoint-tmp-5 (2590745:atomicity.py:144)
+15:03:34.648 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/params.orbax-checkpoint-tmp-6 (2590745:atomicity.py:144)
+15:03:34.648 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/train_state.orbax-checkpoint-tmp-7 (2590745:atomicity.py:144)
+15:03:34.661 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+15:03:35.845 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+15:03:35.930 [I] [process=0][thread=array_type_handler] Wrote 51 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/params.orbax-checkpoint-tmp-6/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+15:03:42.924 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.5 GiB/s (total bytes: 12.5 GiB) (time elapsed: 8 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:03:42.952 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 4.5 GiB/s (total bytes: 37.5 GiB) (time elapsed: 8 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:03:43.035 [I] [process=0][thread=async_save] Background save thread started.                   (2590745:async_checkpointer.py:77)
+15:03:43.036 [I] Finished blocking save in 8.42 seconds. Continuing to save asynchronously to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000. (2590745:async_checkpointer.py:548)
+15:03:43.038 [I] [process=0][thread=MainThread][step=1000] Starting CheckpointManager Save Finalize thread=save_finalize (2590745:checkpoint_manager.py:1453)
+15:03:43.041 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (2590745:async_checkpointer.py:258)
+15:03:43.050 [I] {'step': 1000, 'event_type': 'save', 'directory': '/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1792854214.6109612, 'wait_for_prev_duration_secs': 0.0002512931823730469, 'checkpointer_blocking_start_time': 1792854214.6121583, 'checkpointer_blocking_duration_secs': 8.425323247909546, 'get_old_steps_start_time': 1792854223.03794, 'get_old_steps_duration_secs': 9.226799011230469e-05, 'checkpoint_manager_blocking_start_time': 1792854214.6106443, 'checkpoint_manager_blocking_duration_secs': 8.44008469581604} (2590745:standard_logger.py:34)
+15:03:43.221 [I] [process=0][thread=array_type_handler] Wrote 156 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/train_state.orbax-checkpoint-tmp-7/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+15:03:46.791 [I] Progress on: 1.00kit/2.00kit rate:3.7s/it remaining:1:01:39 elapsed:32:23 postfix:- (2590745:tqdm_logging.py:145)
+15:03:57.817 [I] Progress on: 1.01kit/2.00kit rate:1.2s/it remaining:19:24 elapsed:32:34 postfix:- (2590745:tqdm_logging.py:145)
+15:03:59.952 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 504.9 MiB/s (total bytes: 12.5 GiB) (time elapsed: 25 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:04:00.921 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 1.4 GiB/s (total bytes: 37.5 GiB) (time elapsed: 26 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:04:00.922 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (2590745:async_checkpointer.py:87)
+15:04:00.924 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/assets.orbax-checkpoint-tmp-5 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/assets (2590745:atomicity.py:289)
+15:04:00.931 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+15:04:00.959 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/train_state.orbax-checkpoint-tmp-7 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/train_state (2590745:atomicity.py:289)
+15:04:00.964 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+15:04:00.981 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/params.orbax-checkpoint-tmp-6 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4/params (2590745:atomicity.py:289)
+15:04:00.983 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000.orbax-checkpoint-tmp-4 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000 (2590745:atomicity.py:289)
+15:04:00.985 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000`. (2590745:atomicity.py:573)
+15:04:00.985 [I] Finished asynchronous save (blocking + background) in 26.37 seconds to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1000 (2590745:async_checkpointer.py:412)
+15:04:00.985 [I] [process=0][thread=async_save] Background save thread done.                      (2590745:async_checkpointer.py:143)
+15:04:00.986 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (2590745:async_checkpointer.py:266)
+15:04:00.986 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (2590745:async_checkpointer.py:276)
+15:04:00.986 [I] [process=0][thread=save_finalize][step=1000] CheckpointManager Save Finalize is syncing with other hosts... (2590745:checkpoint_manager.py:2095)
+15:04:00.986 [I] [process=0][thread=save_finalize][step=1000] CheckpointManager Save Finalize is done on all hosts. (2590745:checkpoint_manager.py:2110)
+15:04:08.328 [I] Progress on: 1.02kit/2.00kit rate:1.1s/it remaining:17:10 elapsed:32:44 postfix:- (2590745:tqdm_logging.py:145)
+Step 1025: grad_norm=0.3769, loss=0.0327, param_norm=1803.3839
+15:04:19.028 [I] Progress on: 1.03kit/2.00kit rate:1.1s/it remaining:17:07 elapsed:32:55 postfix:- (2590745:tqdm_logging.py:145)
+15:04:29.501 [I] Progress on: 1.04kit/2.00kit rate:1.1s/it remaining:16:47 elapsed:33:06 postfix:- (2590745:tqdm_logging.py:145)
+Step 1050: grad_norm=0.3842, loss=0.0331, param_norm=1803.3914
+[2026-10-24T15:04:39+00:00] checkpoint 1000 ready -> pause trainer, backtest (tasks: blocks_ranking_rgb), then resume
+{"blocks_ranking_rgb": {"successes": 0, "episodes": 5, "success_rate": 0.0}}
+[2026-10-24T15:21:13+00:00] backtest 1000 recorded (early-stop: continue)
+freed_gib=0.0
+[2026-10-24T15:21:13+00:00] backtest 1000 done -> resume training
+15:21:14.016 [I] Progress on: 1.05kit/2.00kit rate:299.2s/it remaining:78:52:25 elapsed:49:50 postfix:- (2590745:tqdm_logging.py:145)
+15:21:24.196 [I] Progress on: 1.06kit/2.00kit rate:9.5s/it remaining:2:28:01 elapsed:50:00 postfix:- (2590745:tqdm_logging.py:145)
+15:21:34.760 [I] Progress on: 1.07kit/2.00kit rate:1.3s/it remaining:20:13 elapsed:50:11 postfix:- (2590745:tqdm_logging.py:145)
+Step 1075: grad_norm=0.2771, loss=0.0260, param_norm=1803.3979
+15:21:45.625 [I] Progress on: 1.08kit/2.00kit rate:1.1s/it remaining:16:37 elapsed:50:22 postfix:- (2590745:tqdm_logging.py:145)
+15:21:56.137 [I] Progress on: 1.09kit/2.00kit rate:1.1s/it remaining:16:00 elapsed:50:32 postfix:- (2590745:tqdm_logging.py:145)
+Step 1100: grad_norm=0.3040, loss=0.0275, param_norm=1803.4043
+15:22:06.734 [I] Progress on: 1.10kit/2.00kit rate:1.0s/it remaining:15:35 elapsed:50:43 postfix:- (2590745:tqdm_logging.py:145)
+15:22:17.263 [I] Progress on: 1.11kit/2.00kit rate:1.1s/it remaining:15:37 elapsed:50:53 postfix:- (2590745:tqdm_logging.py:145)
+15:22:27.838 [I] Progress on: 1.12kit/2.00kit rate:1.1s/it remaining:15:32 elapsed:51:04 postfix:- (2590745:tqdm_logging.py:145)
+Step 1125: grad_norm=0.4603, loss=0.0279, param_norm=1803.4115
+15:22:38.435 [I] Progress on: 1.13kit/2.00kit rate:1.1s/it remaining:15:15 elapsed:51:15 postfix:- (2590745:tqdm_logging.py:145)
+15:22:49.014 [I] Progress on: 1.14kit/2.00kit rate:1.1s/it remaining:15:11 elapsed:51:25 postfix:- (2590745:tqdm_logging.py:145)
+Step 1150: grad_norm=0.3869, loss=0.0262, param_norm=1803.4186
+15:23:00.161 [I] Progress on: 1.15kit/2.00kit rate:1.2s/it remaining:17:04 elapsed:51:36 postfix:- (2590745:tqdm_logging.py:145)
+15:23:10.412 [I] Progress on: 1.16kit/2.00kit rate:1.1s/it remaining:14:47 elapsed:51:47 postfix:- (2590745:tqdm_logging.py:145)
+15:23:20.978 [I] Progress on: 1.17kit/2.00kit rate:1.1s/it remaining:14:35 elapsed:51:57 postfix:- (2590745:tqdm_logging.py:145)
+Step 1175: grad_norm=0.3088, loss=0.0257, param_norm=1803.4265
+15:23:31.598 [I] Progress on: 1.18kit/2.00kit rate:1.1s/it remaining:14:25 elapsed:52:08 postfix:- (2590745:tqdm_logging.py:145)
+15:23:42.150 [I] Progress on: 1.19kit/2.00kit rate:1.1s/it remaining:14:14 elapsed:52:18 postfix:- (2590745:tqdm_logging.py:145)
+Step 1200: grad_norm=0.3593, loss=0.0263, param_norm=1803.4325
+15:23:52.756 [I] Progress on: 1.20kit/2.00kit rate:1.0s/it remaining:13:48 elapsed:52:29 postfix:- (2590745:tqdm_logging.py:145)
+15:24:03.330 [I] Progress on: 1.21kit/2.00kit rate:1.1s/it remaining:13:54 elapsed:52:39 postfix:- (2590745:tqdm_logging.py:145)
+15:24:13.899 [I] Progress on: 1.22kit/2.00kit rate:1.1s/it remaining:13:43 elapsed:52:50 postfix:- (2590745:tqdm_logging.py:145)
+Step 1225: grad_norm=0.3424, loss=0.0301, param_norm=1803.4395
+15:24:24.768 [I] Progress on: 1.23kit/2.00kit rate:1.1s/it remaining:13:32 elapsed:53:01 postfix:- (2590745:tqdm_logging.py:145)
+15:24:35.326 [I] Progress on: 1.24kit/2.00kit rate:1.1s/it remaining:13:18 elapsed:53:11 postfix:- (2590745:tqdm_logging.py:145)
+Step 1250: grad_norm=0.3880, loss=0.0313, param_norm=1803.4473
+15:24:45.963 [I] Progress on: 1.25kit/2.00kit rate:1.0s/it remaining:12:58 elapsed:53:22 postfix:- (2590745:tqdm_logging.py:145)
+15:24:56.517 [I] Progress on: 1.26kit/2.00kit rate:1.1s/it remaining:12:57 elapsed:53:33 postfix:- (2590745:tqdm_logging.py:145)
+15:25:07.110 [I] Progress on: 1.27kit/2.00kit rate:1.1s/it remaining:12:51 elapsed:53:43 postfix:- (2590745:tqdm_logging.py:145)
+Step 1275: grad_norm=0.3076, loss=0.0260, param_norm=1803.4545
+15:25:17.713 [I] Progress on: 1.28kit/2.00kit rate:1.0s/it remaining:12:34 elapsed:53:54 postfix:- (2590745:tqdm_logging.py:145)
+15:25:28.312 [I] Progress on: 1.29kit/2.00kit rate:1.1s/it remaining:12:30 elapsed:54:04 postfix:- (2590745:tqdm_logging.py:145)
+Step 1300: grad_norm=0.2880, loss=0.0260, param_norm=1803.4612
+15:25:38.453 [I] Progress on: 1.30kit/2.00kit rate:1.1s/it remaining:12:35 elapsed:54:15 postfix:- (2590745:tqdm_logging.py:145)
+15:25:48.760 [I] Progress on: 1.31kit/2.00kit rate:1.1s/it remaining:12:05 elapsed:54:25 postfix:- (2590745:tqdm_logging.py:145)
+15:25:59.389 [I] Progress on: 1.32kit/2.00kit rate:1.1s/it remaining:12:03 elapsed:54:36 postfix:- (2590745:tqdm_logging.py:145)
+Step 1325: grad_norm=0.3037, loss=0.0253, param_norm=1803.4673
+15:26:09.973 [I] Progress on: 1.33kit/2.00kit rate:1.0s/it remaining:11:42 elapsed:54:46 postfix:- (2590745:tqdm_logging.py:145)
+15:26:20.593 [I] Progress on: 1.34kit/2.00kit rate:1.1s/it remaining:11:41 elapsed:54:57 postfix:- (2590745:tqdm_logging.py:145)
+Step 1350: grad_norm=0.3046, loss=0.0248, param_norm=1803.4739
+15:26:31.480 [I] Progress on: 1.35kit/2.00kit rate:1.1s/it remaining:11:27 elapsed:55:08 postfix:- (2590745:tqdm_logging.py:145)
+15:26:41.791 [I] Progress on: 1.36kit/2.00kit rate:1.1s/it remaining:11:20 elapsed:55:18 postfix:- (2590745:tqdm_logging.py:145)
+15:26:52.648 [I] Progress on: 1.37kit/2.00kit rate:1.1s/it remaining:11:16 elapsed:55:29 postfix:- (2590745:tqdm_logging.py:145)
+Step 1375: grad_norm=0.3013, loss=0.0268, param_norm=1803.4819
+15:27:03.299 [I] Progress on: 1.38kit/2.00kit rate:1.1s/it remaining:10:51 elapsed:55:39 postfix:- (2590745:tqdm_logging.py:145)
+15:27:13.884 [I] Progress on: 1.39kit/2.00kit rate:1.0s/it remaining:10:40 elapsed:55:50 postfix:- (2590745:tqdm_logging.py:145)
+Step 1400: grad_norm=0.3326, loss=0.0287, param_norm=1803.4894
+15:27:24.806 [I] Progress on: 1.40kit/2.00kit rate:1.1s/it remaining:10:44 elapsed:56:01 postfix:- (2590745:tqdm_logging.py:145)
+15:27:35.079 [I] Progress on: 1.41kit/2.00kit rate:1.1s/it remaining:10:20 elapsed:56:11 postfix:- (2590745:tqdm_logging.py:145)
+15:27:45.660 [I] Progress on: 1.42kit/2.00kit rate:1.1s/it remaining:10:09 elapsed:56:22 postfix:- (2590745:tqdm_logging.py:145)
+Step 1425: grad_norm=0.3021, loss=0.0262, param_norm=1803.4978
+15:27:56.296 [I] Progress on: 1.43kit/2.00kit rate:1.0s/it remaining:09:57 elapsed:56:32 postfix:- (2590745:tqdm_logging.py:145)
+15:28:06.400 [I] Progress on: 1.44kit/2.00kit rate:1.2s/it remaining:11:30 elapsed:56:43 postfix:- (2590745:tqdm_logging.py:145)
+15:28:16.639 [I] Progress on: 1.45kit/2.00kit rate:1.1s/it remaining:09:40 elapsed:56:53 postfix:- (2590745:tqdm_logging.py:145)
+Step 1450: grad_norm=0.2823, loss=0.0238, param_norm=1803.5056
+15:28:27.260 [I] Progress on: 1.46kit/2.00kit rate:1.1s/it remaining:09:31 elapsed:57:03 postfix:- (2590745:tqdm_logging.py:145)
+15:28:37.832 [I] Progress on: 1.47kit/2.00kit rate:1.1s/it remaining:09:21 elapsed:57:14 postfix:- (2590745:tqdm_logging.py:145)
+Step 1475: grad_norm=0.3454, loss=0.0245, param_norm=1803.5134
+15:28:48.455 [I] Progress on: 1.48kit/2.00kit rate:1.0s/it remaining:09:06 elapsed:57:25 postfix:- (2590745:tqdm_logging.py:145)
+15:28:59.032 [I] Progress on: 1.49kit/2.00kit rate:1.1s/it remaining:09:00 elapsed:57:35 postfix:- (2590745:tqdm_logging.py:145)
+15:29:09.603 [I] Progress on: 1.50kit/2.00kit rate:1.1s/it remaining:08:49 elapsed:57:46 postfix:- (2590745:tqdm_logging.py:145)
+Step 1500: grad_norm=0.3604, loss=0.0278, param_norm=1803.5215
+15:29:11.019 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (2590745:checkpoint_manager.py:1987)
+15:29:11.019 [I] [process=0] Saving checkpoint at step 1500                                       (2590745:checkpoint_manager.py:1408)
+15:29:11.020 [I] [process=0] Started async saving checkpoint to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500. (2590745:async_checkpointer.py:439)
+15:29:11.041 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8 (2590745:atomicity.py:144)
+15:29:11.058 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/assets.orbax-checkpoint-tmp-9 (2590745:atomicity.py:144)
+15:29:11.059 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/params.orbax-checkpoint-tmp-10 (2590745:atomicity.py:144)
+15:29:11.060 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/train_state.orbax-checkpoint-tmp-11 (2590745:atomicity.py:144)
+15:29:11.073 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+15:29:12.277 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+15:29:12.430 [I] [process=0][thread=array_type_handler] Wrote 51 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/params.orbax-checkpoint-tmp-10/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+15:29:20.055 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.4 GiB/s (total bytes: 12.5 GiB) (time elapsed: 9 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:29:20.073 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 4.1 GiB/s (total bytes: 37.5 GiB) (time elapsed: 9 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:29:20.082 [I] [process=0][thread=async_save] Background save thread started.                   (2590745:async_checkpointer.py:77)
+15:29:20.083 [I] Finished blocking save in 9.06 seconds. Continuing to save asynchronously to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500. (2590745:async_checkpointer.py:548)
+15:29:20.092 [I] [process=0][thread=MainThread][step=1500] Starting CheckpointManager Save Finalize thread=save_finalize (2590745:checkpoint_manager.py:1453)
+15:29:20.095 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (2590745:async_checkpointer.py:258)
+15:29:20.098 [I] {'step': 1500, 'event_type': 'save', 'directory': '/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1792855751.0189593, 'wait_for_prev_duration_secs': 0.00018525123596191406, 'checkpointer_blocking_start_time': 1792855751.0197382, 'checkpointer_blocking_duration_secs': 9.072744369506836, 'get_old_steps_start_time': 1792855760.0925848, 'get_old_steps_duration_secs': 1.52587890625e-05, 'checkpoint_manager_blocking_start_time': 1792855751.0187507, 'checkpoint_manager_blocking_duration_secs': 9.079752206802368} (2590745:standard_logger.py:34)
+15:29:20.100 [I] Progress on: 1.50kit/2.00kit rate:3.9s/it remaining:32:24 elapsed:57:56 postfix:- (2590745:tqdm_logging.py:145)
+15:29:20.375 [I] [process=0][thread=array_type_handler] Wrote 156 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/train_state.orbax-checkpoint-tmp-11/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+15:29:30.542 [I] Progress on: 1.51kit/2.00kit rate:1.3s/it remaining:10:24 elapsed:58:07 postfix:- (2590745:tqdm_logging.py:145)
+15:29:38.415 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 467.1 MiB/s (total bytes: 12.5 GiB) (time elapsed: 27 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:29:38.465 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 1.4 GiB/s (total bytes: 37.5 GiB) (time elapsed: 27 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:29:38.465 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (2590745:async_checkpointer.py:87)
+15:29:38.467 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/assets.orbax-checkpoint-tmp-9 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/assets (2590745:atomicity.py:289)
+15:29:38.474 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+15:29:38.488 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/train_state.orbax-checkpoint-tmp-11 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/train_state (2590745:atomicity.py:289)
+15:29:38.495 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+15:29:38.504 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/params.orbax-checkpoint-tmp-10 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8/params (2590745:atomicity.py:289)
+15:29:38.507 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500.orbax-checkpoint-tmp-8 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500 (2590745:atomicity.py:289)
+15:29:38.510 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500`. (2590745:atomicity.py:573)
+15:29:38.510 [I] Finished asynchronous save (blocking + background) in 27.49 seconds to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/1500 (2590745:async_checkpointer.py:412)
+15:29:38.510 [I] [process=0][thread=async_save] Background save thread done.                      (2590745:async_checkpointer.py:143)
+15:29:38.511 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (2590745:async_checkpointer.py:266)
+15:29:38.511 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (2590745:async_checkpointer.py:276)
+15:29:38.512 [I] [process=0][thread=save_finalize][step=1500] CheckpointManager Save Finalize is syncing with other hosts... (2590745:checkpoint_manager.py:2095)
+15:29:38.515 [I] [process=0][thread=save_finalize][step=1500] CheckpointManager Save Finalize is done on all hosts. (2590745:checkpoint_manager.py:2110)
+15:29:41.384 [I] Progress on: 1.52kit/2.00kit rate:1.0s/it remaining:08:24 elapsed:58:18 postfix:- (2590745:tqdm_logging.py:145)
+Step 1525: grad_norm=0.2976, loss=0.0248, param_norm=1803.5287
+15:29:52.029 [I] Progress on: 1.53kit/2.00kit rate:1.1s/it remaining:08:19 elapsed:58:28 postfix:- (2590745:tqdm_logging.py:145)
+15:30:02.524 [I] Progress on: 1.54kit/2.00kit rate:1.0s/it remaining:08:04 elapsed:58:39 postfix:- (2590745:tqdm_logging.py:145)
+15:30:13.161 [I] Progress on: 1.55kit/2.00kit rate:1.1s/it remaining:08:04 elapsed:58:49 postfix:- (2590745:tqdm_logging.py:145)
+Step 1550: grad_norm=0.2669, loss=0.0232, param_norm=1803.5363
+[2026-10-24T15:30:17+00:00] checkpoint 1500 ready -> pause trainer, backtest (tasks: blocks_ranking_rgb), then resume
+{"blocks_ranking_rgb": {"successes": 0, "episodes": 5, "success_rate": 0.0}}
+[2026-10-24T15:43:50+00:00] backtest 1500 recorded (early-stop: continue)
+freed_gib=41.7
+[2026-10-24T15:43:53+00:00] backtest 1500 done -> resume training
+15:43:54.719 [I] Progress on: 1.55kit/2.00kit rate:245.9s/it remaining:30:32:12 elapsed:1:12:31 postfix:- (2590745:tqdm_logging.py:145)
+15:44:05.179 [I] Progress on: 1.56kit/2.00kit rate:8.0s/it remaining:57:59 elapsed:1:12:41 postfix:- (2590745:tqdm_logging.py:145)
+15:44:15.626 [I] Progress on: 1.57kit/2.00kit rate:1.2s/it remaining:08:46 elapsed:1:12:52 postfix:- (2590745:tqdm_logging.py:145)
+Step 1575: grad_norm=0.2609, loss=0.0220, param_norm=1803.5427
+15:44:26.749 [I] Progress on: 1.58kit/2.00kit rate:1.2s/it remaining:08:32 elapsed:1:13:03 postfix:- (2590745:tqdm_logging.py:145)
+15:44:36.934 [I] Progress on: 1.59kit/2.00kit rate:1.0s/it remaining:07:07 elapsed:1:13:13 postfix:- (2590745:tqdm_logging.py:145)
+Step 1600: grad_norm=0.3289, loss=0.0249, param_norm=1803.5494
+15:44:47.490 [I] Progress on: 1.60kit/2.00kit rate:1.0s/it remaining:06:53 elapsed:1:13:24 postfix:- (2590745:tqdm_logging.py:145)
+15:44:58.023 [I] Progress on: 1.61kit/2.00kit rate:1.1s/it remaining:06:47 elapsed:1:13:34 postfix:- (2590745:tqdm_logging.py:145)
+15:45:08.568 [I] Progress on: 1.62kit/2.00kit rate:1.1s/it remaining:06:37 elapsed:1:13:45 postfix:- (2590745:tqdm_logging.py:145)
+Step 1625: grad_norm=0.2505, loss=0.0234, param_norm=1803.5565
+15:45:19.158 [I] Progress on: 1.63kit/2.00kit rate:1.1s/it remaining:06:26 elapsed:1:13:55 postfix:- (2590745:tqdm_logging.py:145)
+15:45:29.701 [I] Progress on: 1.64kit/2.00kit rate:1.1s/it remaining:06:16 elapsed:1:14:06 postfix:- (2590745:tqdm_logging.py:145)
+Step 1650: grad_norm=0.3195, loss=0.0273, param_norm=1803.5640
+15:45:40.301 [I] Progress on: 1.65kit/2.00kit rate:1.0s/it remaining:06:03 elapsed:1:14:16 postfix:- (2590745:tqdm_logging.py:145)
+15:45:51.133 [I] Progress on: 1.66kit/2.00kit rate:1.1s/it remaining:05:56 elapsed:1:14:27 postfix:- (2590745:tqdm_logging.py:145)
+15:46:01.686 [I] Progress on: 1.67kit/2.00kit rate:1.0s/it remaining:05:42 elapsed:1:14:38 postfix:- (2590745:tqdm_logging.py:145)
+Step 1675: grad_norm=0.2591, loss=0.0232, param_norm=1803.5714
+15:46:12.311 [I] Progress on: 1.68kit/2.00kit rate:1.1s/it remaining:05:34 elapsed:1:14:48 postfix:- (2590745:tqdm_logging.py:145)
+15:46:22.856 [I] Progress on: 1.69kit/2.00kit rate:1.0s/it remaining:05:20 elapsed:1:14:59 postfix:- (2590745:tqdm_logging.py:145)
+Step 1700: grad_norm=0.3088, loss=0.0232, param_norm=1803.5786
+15:46:33.535 [I] Progress on: 1.70kit/2.00kit rate:1.1s/it remaining:05:13 elapsed:1:15:10 postfix:- (2590745:tqdm_logging.py:145)
+15:46:44.084 [I] Progress on: 1.71kit/2.00kit rate:1.0s/it remaining:05:00 elapsed:1:15:20 postfix:- (2590745:tqdm_logging.py:145)
+15:46:54.671 [I] Progress on: 1.72kit/2.00kit rate:1.1s/it remaining:04:52 elapsed:1:15:31 postfix:- (2590745:tqdm_logging.py:145)
+Step 1725: grad_norm=0.3496, loss=0.0273, param_norm=1803.5859
+15:47:05.528 [I] Progress on: 1.73kit/2.00kit rate:1.1s/it remaining:04:40 elapsed:1:15:42 postfix:- (2590745:tqdm_logging.py:145)
+15:47:16.149 [I] Progress on: 1.74kit/2.00kit rate:1.1s/it remaining:04:34 elapsed:1:15:52 postfix:- (2590745:tqdm_logging.py:145)
+Step 1750: grad_norm=0.2496, loss=0.0242, param_norm=1803.5946
+15:47:26.702 [I] Progress on: 1.75kit/2.00kit rate:1.0s/it remaining:04:16 elapsed:1:16:03 postfix:- (2590745:tqdm_logging.py:145)
+15:47:37.305 [I] Progress on: 1.76kit/2.00kit rate:1.1s/it remaining:04:11 elapsed:1:16:13 postfix:- (2590745:tqdm_logging.py:145)
+15:47:47.859 [I] Progress on: 1.77kit/2.00kit rate:1.0s/it remaining:03:58 elapsed:1:16:24 postfix:- (2590745:tqdm_logging.py:145)
+Step 1775: grad_norm=0.2733, loss=0.0224, param_norm=1803.6024
+15:47:58.540 [I] Progress on: 1.78kit/2.00kit rate:1.1s/it remaining:03:51 elapsed:1:16:35 postfix:- (2590745:tqdm_logging.py:145)
+15:48:09.075 [I] Progress on: 1.79kit/2.00kit rate:1.0s/it remaining:03:37 elapsed:1:16:45 postfix:- (2590745:tqdm_logging.py:145)
+Step 1800: grad_norm=0.2697, loss=0.0221, param_norm=1803.6089
+15:48:20.028 [I] Progress on: 1.80kit/2.00kit rate:1.1s/it remaining:03:30 elapsed:1:16:56 postfix:- (2590745:tqdm_logging.py:145)
+15:48:30.578 [I] Progress on: 1.81kit/2.00kit rate:1.0s/it remaining:03:16 elapsed:1:17:07 postfix:- (2590745:tqdm_logging.py:145)
+15:48:41.189 [I] Progress on: 1.82kit/2.00kit rate:1.1s/it remaining:03:08 elapsed:1:17:17 postfix:- (2590745:tqdm_logging.py:145)
+Step 1825: grad_norm=0.2502, loss=0.0211, param_norm=1803.6152
+15:48:51.758 [I] Progress on: 1.83kit/2.00kit rate:1.0s/it remaining:02:54 elapsed:1:17:28 postfix:- (2590745:tqdm_logging.py:145)
+15:49:02.373 [I] Progress on: 1.84kit/2.00kit rate:1.1s/it remaining:02:47 elapsed:1:17:39 postfix:- (2590745:tqdm_logging.py:145)
+Step 1850: grad_norm=0.2186, loss=0.0188, param_norm=1803.6208
+15:49:12.934 [I] Progress on: 1.85kit/2.00kit rate:1.0s/it remaining:02:32 elapsed:1:17:49 postfix:- (2590745:tqdm_logging.py:145)
+15:49:23.547 [I] Progress on: 1.86kit/2.00kit rate:1.1s/it remaining:02:25 elapsed:1:18:00 postfix:- (2590745:tqdm_logging.py:145)
+15:49:34.336 [I] Progress on: 1.87kit/2.00kit rate:1.1s/it remaining:02:15 elapsed:1:18:10 postfix:- (2590745:tqdm_logging.py:145)
+Step 1875: grad_norm=0.2635, loss=0.0227, param_norm=1803.6274
+15:49:44.981 [I] Progress on: 1.88kit/2.00kit rate:1.1s/it remaining:02:03 elapsed:1:18:21 postfix:- (2590745:tqdm_logging.py:145)
+15:49:55.542 [I] Progress on: 1.89kit/2.00kit rate:1.0s/it remaining:01:52 elapsed:1:18:32 postfix:- (2590745:tqdm_logging.py:145)
+Step 1900: grad_norm=0.3069, loss=0.0204, param_norm=1803.6356
+15:50:06.269 [I] Progress on: 1.90kit/2.00kit rate:1.1s/it remaining:01:43 elapsed:1:18:42 postfix:- (2590745:tqdm_logging.py:145)
+15:50:16.822 [I] Progress on: 1.91kit/2.00kit rate:1.0s/it remaining:01:31 elapsed:1:18:53 postfix:- (2590745:tqdm_logging.py:145)
+15:50:27.457 [I] Progress on: 1.92kit/2.00kit rate:1.1s/it remaining:01:22 elapsed:1:19:04 postfix:- (2590745:tqdm_logging.py:145)
+Step 1925: grad_norm=0.2463, loss=0.0201, param_norm=1803.6426
+15:50:38.022 [I] Progress on: 1.93kit/2.00kit rate:1.0s/it remaining:01:10 elapsed:1:19:14 postfix:- (2590745:tqdm_logging.py:145)
+15:50:49.263 [I] Progress on: 1.94kit/2.00kit rate:1.3s/it remaining:01:11 elapsed:1:19:25 postfix:- (2590745:tqdm_logging.py:145)
+Step 1950: grad_norm=0.2334, loss=0.0206, param_norm=1803.6489
+15:50:59.563 [I] Progress on: 1.95kit/2.00kit rate:1.1s/it remaining:00:49 elapsed:1:19:36 postfix:- (2590745:tqdm_logging.py:145)
+15:51:10.128 [I] Progress on: 1.96kit/2.00kit rate:1.1s/it remaining:00:39 elapsed:1:19:46 postfix:- (2590745:tqdm_logging.py:145)
+15:51:20.722 [I] Progress on: 1.97kit/2.00kit rate:1.1s/it remaining:00:28 elapsed:1:19:57 postfix:- (2590745:tqdm_logging.py:145)
+Step 1975: grad_norm=0.3040, loss=0.0212, param_norm=1803.6558
+15:51:31.339 [I] Progress on: 1.98kit/2.00kit rate:1.1s/it remaining:00:17 elapsed:1:20:07 postfix:- (2590745:tqdm_logging.py:145)
+15:51:41.912 [I] Progress on: 1.99kit/2.00kit rate:1.1s/it remaining:00:07 elapsed:1:20:18 postfix:- (2590745:tqdm_logging.py:145)
+Step 2000: grad_norm=0.2304, loss=0.0188, param_norm=1803.6632
+15:51:49.684 [I] [process=0][thread=MainThread][wait_until_finished] No Save Finalize thread to wait for. Returning. (2590745:checkpoint_manager.py:1987)
+15:51:49.685 [I] [process=0] Saving checkpoint at step 2000                                       (2590745:checkpoint_manager.py:1408)
+15:51:49.685 [I] [process=0] Started async saving checkpoint to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000. (2590745:async_checkpointer.py:439)
+15:51:49.698 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12 (2590745:atomicity.py:144)
+15:51:49.711 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/assets.orbax-checkpoint-tmp-13 (2590745:atomicity.py:144)
+15:51:49.712 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/params.orbax-checkpoint-tmp-14 (2590745:atomicity.py:144)
+15:51:49.716 [I] Creating tmp directory /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/train_state.orbax-checkpoint-tmp-15 (2590745:atomicity.py:144)
+15:51:49.729 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+15:51:50.891 [I] Transferring arrays to host memory with options: use_replica_parallel=True, enable_pinned_host_transfer=False (2590745:replica_slices.py:341)
+15:51:50.982 [I] [process=0][thread=array_type_handler] Wrote 51 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/params.orbax-checkpoint-tmp-14/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+15:51:57.540 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 1.6 GiB/s (total bytes: 12.5 GiB) (time elapsed: 7 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:51:57.562 [I] [process=0] /jax/checkpoint/write/blocking_bytes_per_sec: 4.8 GiB/s (total bytes: 37.5 GiB) (time elapsed: 7 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:51:57.577 [I] [process=0][thread=async_save] Background save thread started.                   (2590745:async_checkpointer.py:77)
+15:51:57.578 [I] Finished blocking save in 7.89 seconds. Continuing to save asynchronously to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000. (2590745:async_checkpointer.py:548)
+15:51:57.618 [I] [process=0][thread=MainThread][step=2000] Starting CheckpointManager Save Finalize thread=save_finalize (2590745:checkpoint_manager.py:1453)
+15:51:57.635 [I] [process=0][thread=save_finalize] Waiting for background save thread=async_save. (2590745:async_checkpointer.py:258)
+15:51:57.637 [I] {'step': 2000, 'event_type': 'save', 'directory': '/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1', 'reached_preemption': False, 'preemption_received_at': None, 'synchronous': False, 'wait_for_prev_start_time': 1792857109.6842978, 'wait_for_prev_duration_secs': 0.00022459030151367188, 'checkpointer_blocking_start_time': 1792857109.6850424, 'checkpointer_blocking_duration_secs': 7.932984828948975, 'get_old_steps_start_time': 1792857117.6181474, 'get_old_steps_duration_secs': 2.7418136596679688e-05, 'checkpoint_manager_blocking_start_time': 1792857109.684103, 'checkpoint_manager_blocking_duration_secs': 7.952749013900757} (2590745:standard_logger.py:34)
+15:51:57.644 [I] Progress on: 2.00kit/2.00kit rate:3.6s/it remaining:00:00 elapsed:1:20:34 postfix:- (2590745:tqdm_logging.py:145)
+15:51:57.645 [I] Progress on: 2.00kit/2.00kit rate:3.6s/it remaining:00:00 elapsed:1:20:34 postfix:- (2590745:tqdm_logging.py:145)
+15:51:57.646 [I] Waiting for checkpoint manager to finish                                         (2590745:train.py:335)
+15:51:57.646 [I] [process=0][thread=MainThread][step=2000][wait_until_finished] Waiting for Save Finalize thread (save_finalize) to complete. (2590745:checkpoint_manager.py:1998)
+15:51:58.317 [I] [process=0][thread=array_type_handler] Wrote 156 array_metadata.ArrayMetadata to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/train_state.orbax-checkpoint-tmp-15/array_metadatas/process_0 (2590745:array_metadata_store.py:198)
+15:52:10.462 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 615.8 MiB/s (total bytes: 12.5 GiB) (time elapsed: 20 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:52:11.592 [I] [process=0] /jax/checkpoint/write/bytes_per_sec: 1.7 GiB/s (total bytes: 37.5 GiB) (time elapsed: 21 seconds) (per-host) (2590745:base_pytree_checkpoint_handler.py:114)
+15:52:11.592 [I] [process=0][thread=async_save] 5 Handler Commit operations completed.            (2590745:async_checkpointer.py:87)
+15:52:11.593 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/assets.orbax-checkpoint-tmp-13 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/assets (2590745:atomicity.py:289)
+15:52:11.600 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+15:52:11.619 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/train_state.orbax-checkpoint-tmp-15 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/train_state (2590745:atomicity.py:289)
+15:52:11.623 [I] [process=0][thread=async_save] Skipped cross-host ArrayMetadata validation because only one process is found: process_index=0. (2590745:array_metadata_store.py:362)
+15:52:11.629 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/params.orbax-checkpoint-tmp-14 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12/params (2590745:atomicity.py:289)
+15:52:11.629 [I] Renaming /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000.orbax-checkpoint-tmp-12 to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000 (2590745:atomicity.py:289)
+15:52:11.631 [I] [process=0][thread=async_save] Finished saving checkpoint (finalized tmp dir) to `/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000`. (2590745:atomicity.py:573)
+15:52:11.631 [I] Finished asynchronous save (blocking + background) in 21.95 seconds to /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1/2000 (2590745:async_checkpointer.py:412)
+15:52:11.631 [I] [process=0][thread=async_save] Background save thread done.                      (2590745:async_checkpointer.py:143)
+15:52:11.631 [I] [process=0][thread=save_finalize] Done with waiting for background save thread=async_save. (2590745:async_checkpointer.py:266)
+15:52:11.632 [I] [process=0][thread=save_finalize] No errors found in background save thread=async_save. (2590745:async_checkpointer.py:276)
+15:52:11.632 [I] [process=0][thread=save_finalize][step=2000] CheckpointManager Save Finalize is syncing with other hosts... (2590745:checkpoint_manager.py:2095)
+15:52:11.632 [I] [process=0][thread=save_finalize][step=2000] CheckpointManager Save Finalize is done on all hosts. (2590745:checkpoint_manager.py:2110)
+15:52:11.632 [I] [process=0][thread=MainThread][step=2000][wait_until_finished] Done waiting for Save Finalize thread (save_finalize) running at step=2000. (2590745:checkpoint_manager.py:2010)
+[2026-10-24T15:52:57+00:00] checkpoint 2000 ready -> pause trainer, backtest (tasks: blocks_ranking_rgb), then resume
+{"blocks_ranking_rgb": {"successes": 0, "episodes": 5, "success_rate": 0.0}}
+[2026-10-24T16:05:54+00:00] backtest 2000 recorded (early-stop: continue)
+freed_gib=41.7
+[2026-10-24T16:05:57+00:00] backtest 2000 done -> resume training
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+{"path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1_final_step2000", "bytes": 12440766812, "files": 41, "restored_leaves": 51, "verified": true, "source_files": 41}
+[2026-10-24T16:06:33+00:00] job stage3_adapt_blocks_ranking_rgb_r1_from_fam1 completed at 2000 (train rc=0)
+freed_gib=83.3
+[2026-10-24T16:06:40+00:00] === job stage3_adapt_blocks_ranking_rgb_r1_from_fam1 end ===

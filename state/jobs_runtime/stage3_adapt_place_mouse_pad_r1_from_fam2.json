@@ -1,12 +1,12 @@
 {
   "job_id": "stage3_adapt_place_mouse_pad_r1_from_fam2",
-  "started": "2026-10-22T23:44:42+0000",
+  "started": "2026-10-24T05:12:28+0000",
   "checkpoint_dir": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2",
   "repo_id": "pi05_30_aloha_target_place_mouse_pad_n5",
   "init_params": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_final_step15000/params",
   "peak_lr": 2.5e-05,
   "action_horizon": 10,
-  "max_steps": 15001,
+  "max_steps": 2001,
   "seed": 1,
   "batch_size": 32,
   "fsdp_devices": 4,
@@ -22,5 +22,6 @@
   "norm_stats": "/data/szgx/gaohang/pi05_30/assets/RoboTwin_lerobot_v30/norm_stats.json",
   "embodiment": "aloha-agilex",
   "devices": "4,5,6,7",
-  "status": "running"
+  "status": "completed",
+  "finished": "2026-10-24T06:16:19+0000"
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T23:07:28+0000",
+  "generated": "2026-10-25T01:26:32+0000",
   "embodiment": "aloha-agilex",
   "campaign_root": "/data/szgx/gaohang/pi05_30",
   "seeds": {
@@ -630,13 +630,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 1.0,
+          "per_task": {
+            "beat_block_hammer": 1.0
+          },
+          "loss_500": 0.037077678316272795,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 1.0,
+          "per_task": {
+            "beat_block_hammer": 1.0
+          },
+          "loss_500": 0.01222111646272242,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "beat_block_hammer": 0.8
+          },
+          "loss_500": 0.011387488308362663,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "beat_block_hammer": 0.4
+          },
+          "loss_500": 0.009235127956140786,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam1_final_step2000",
+          "bytes": 12440587786,
+          "files": 24,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 24
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -659,13 +730,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "beat_block_hammer": 0.2
+          },
+          "loss_500": 0.051751502121798694,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "beat_block_hammer": 0.4
+          },
+          "loss_500": 0.011809697090182453,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "beat_block_hammer": 0.8
+          },
+          "loss_500": 0.010443068755790591,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "beat_block_hammer": 0.4
+          },
+          "loss_500": 0.008414353688247502,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam2_final_step2000",
+          "bytes": 12440726574,
+          "files": 46,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 46
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -688,13 +830,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "beat_block_hammer": 0.6
+          },
+          "loss_500": 0.07355163654312491,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "beat_block_hammer": 0.4
+          },
+          "loss_500": 0.012177106942981481,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "beat_block_hammer": 0.8
+          },
+          "loss_500": 0.010353865850716829,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "beat_block_hammer": 0.6
+          },
+          "loss_500": 0.00842808397905901,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_beat_block_hammer_from_fam3_final_step2000",
+          "bytes": 12440503542,
+          "files": 27,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 27
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -717,13 +930,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.14423016705550254,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.030092703031376004,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.027384177319705487,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.022580788500607015,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam1_final_step2000",
+          "bytes": 12440766812,
+          "files": 41,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 41
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -746,13 +1030,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.1144176391709245,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.0251681302273646,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.021331761968322097,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.018091016869992017,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam2_final_step2000",
+          "bytes": 12440750721,
+          "files": 50,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 50
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -775,13 +1130,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.031199581938831208,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.01643032269785181,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.017131813107058406,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "blocks_ranking_rgb": 0.0
+          },
+          "loss_500": 0.015441426320932806,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_blocks_ranking_rgb_from_fam3_final_step2000",
+          "bytes": 12440602690,
+          "files": 38,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 38
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -804,13 +1230,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "click_bell": 0.8
+          },
+          "loss_500": 0.014279646734707057,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "click_bell": 0.6
+          },
+          "loss_500": 0.007374540417920798,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "click_bell": 0.4
+          },
+          "loss_500": 0.007704788466915489,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "click_bell": 0.4
+          },
+          "loss_500": 0.005985452296677977,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam1_final_step2000",
+          "bytes": 12440592993,
+          "files": 25,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 25
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -833,13 +1330,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "click_bell": 0.6
+          },
+          "loss_500": 0.012675383267458528,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 1.0,
+          "per_task": {
+            "click_bell": 1.0
+          },
+          "loss_500": 0.00667381492536515,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 1.0,
+          "per_task": {
+            "click_bell": 1.0
+          },
+          "loss_500": 0.006610660051461309,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 1.0,
+          "per_task": {
+            "click_bell": 1.0
+          },
+          "loss_500": 0.005330442176666111,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam2_final_step2000",
+          "bytes": 12440624584,
+          "files": 34,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 34
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -862,13 +1430,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "click_bell": 0.8
+          },
+          "loss_500": 0.014439480646513403,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "click_bell": 0.8
+          },
+          "loss_500": 0.006399221610510722,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "click_bell": 0.8
+          },
+          "loss_500": 0.006493900636676699,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "click_bell": 0.8
+          },
+          "loss_500": 0.005123536184662953,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam3_final_step2000",
+          "bytes": 12440619488,
+          "files": 34,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 34
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -891,13 +1530,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "hanging_mug": 0.2
+          },
+          "loss_500": 0.2695900421962142,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "hanging_mug": 0.2
+          },
+          "loss_500": 0.049217855032533404,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.038346629716455936,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.03234991986118257,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam1_final_step2000",
+          "bytes": 12440557442,
+          "files": 28,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 28
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -920,13 +1630,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.19189288749365147,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.036684135431423785,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.02882726634480059,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.02520696119219065,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam2_final_step2000",
+          "bytes": 12440418316,
+          "files": 24,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 24
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -949,13 +1730,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.2325137601774186,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.03997822877205908,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "hanging_mug": 0.0
+          },
+          "loss_500": 0.03349384058639407,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "hanging_mug": 0.2
+          },
+          "loss_500": 0.027325438669882716,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam3_final_step2000",
+          "bytes": 12440589737,
+          "files": 41,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 41
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -978,13 +1830,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "pick_dual_bottles": 0.4
+          },
+          "loss_500": 0.28869475876912476,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "pick_dual_bottles": 0.4
+          },
+          "loss_500": 0.03447928484529257,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "pick_dual_bottles": 0.2
+          },
+          "loss_500": 0.027143997186794878,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "pick_dual_bottles": 0.2
+          },
+          "loss_500": 0.019417443138547243,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1_final_step2000",
+          "bytes": 12440858748,
+          "files": 43,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 43
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1007,13 +1930,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "pick_dual_bottles": 0.4
+          },
+          "loss_500": 0.266817664783448,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "pick_dual_bottles": 0.2
+          },
+          "loss_500": 0.02749464568309486,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "pick_dual_bottles": 0.4
+          },
+          "loss_500": 0.021685293580405413,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "pick_dual_bottles": 0.0
+          },
+          "loss_500": 0.01586780836060643,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam2_final_step2000",
+          "bytes": 12440538755,
+          "files": 38,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 38
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1036,13 +2030,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "pick_dual_bottles": 0.2
+          },
+          "loss_500": 0.3399040797688067,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "pick_dual_bottles": 0.0
+          },
+          "loss_500": 0.03072026782669127,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "pick_dual_bottles": 0.0
+          },
+          "loss_500": 0.023996814899146558,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "pick_dual_bottles": 0.0
+          },
+          "loss_500": 0.018683595077134667,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam3_final_step2000",
+          "bytes": 12440509432,
+          "files": 32,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 32
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1065,13 +2130,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "place_can_basket": 0.6
+          },
+          "loss_500": 0.2593464238087615,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "place_can_basket": 0.6
+          },
+          "loss_500": 0.031274215664714576,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "place_can_basket": 0.6
+          },
+          "loss_500": 0.027788921548984945,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "place_can_basket": 0.4
+          },
+          "loss_500": 0.022878102600574494,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam1_final_step2000",
+          "bytes": 12440832987,
+          "files": 45,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 45
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1094,13 +2230,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "place_can_basket": 0.8
+          },
+          "loss_500": 0.03993089176248759,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "place_can_basket": 0.8
+          },
+          "loss_500": 0.017172094239853324,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "place_can_basket": 0.4
+          },
+          "loss_500": 0.017748471627011896,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "place_can_basket": 0.2
+          },
+          "loss_500": 0.015655783304944635,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2_final_step2000",
+          "bytes": 12440732418,
+          "files": 44,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 44
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1123,13 +2330,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_can_basket": 0.0
+          },
+          "loss_500": 0.2615709127755836,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "place_can_basket": 0.4
+          },
+          "loss_500": 0.02709581190533936,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "place_can_basket": 0.2
+          },
+          "loss_500": 0.02364880539290607,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "place_can_basket": 0.8
+          },
+          "loss_500": 0.018755971987731754,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam3_final_step2000",
+          "bytes": 12440628279,
+          "files": 36,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 36
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1152,13 +2430,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "place_mouse_pad": 0.2
+          },
+          "loss_500": 0.027985865755472333,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "place_mouse_pad": 0.2
+          },
+          "loss_500": 0.015191417851485312,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "place_mouse_pad": 0.2
+          },
+          "loss_500": 0.01477989527862519,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "place_mouse_pad": 0.2
+          },
+          "loss_500": 0.011346869803965091,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1_final_step2000",
+          "bytes": 12440741832,
+          "files": 32,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 32
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1181,13 +2530,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "place_mouse_pad": 0.2
+          },
+          "loss_500": 0.043327608711285916,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_mouse_pad": 0.0
+          },
+          "loss_500": 0.0137261273721233,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_mouse_pad": 0.0
+          },
+          "loss_500": 0.013841920025646687,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_mouse_pad": 0.0
+          },
+          "loss_500": 0.010282026106026024,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam2_final_step2000",
+          "bytes": 12440651368,
+          "files": 47,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 47
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1210,13 +2630,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_mouse_pad": 0.0
+          },
+          "loss_500": 0.055708939046598974,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_mouse_pad": 0.0
+          },
+          "loss_500": 0.01396377128176391,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_mouse_pad": 0.0
+          },
+          "loss_500": 0.01362376373913139,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "place_mouse_pad": 0.0
+          },
+          "loss_500": 0.010346955521497876,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam3_final_step2000",
+          "bytes": 12440661122,
+          "files": 37,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 37
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1239,13 +2730,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "rotate_qrcode": 0.2
+          },
+          "loss_500": 0.07348313186503946,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "rotate_qrcode": 0.4
+          },
+          "loss_500": 0.02027121982164681,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "rotate_qrcode": 0.2
+          },
+          "loss_500": 0.018855629589408635,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "rotate_qrcode": 0.6
+          },
+          "loss_500": 0.015308767864480615,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1_final_step2000",
+          "bytes": 12440885050,
+          "files": 46,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 46
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1268,13 +2830,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "rotate_qrcode": 0.0
+          },
+          "loss_500": 0.13461707646399737,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "rotate_qrcode": 0.2
+          },
+          "loss_500": 0.01952831179462373,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "rotate_qrcode": 0.0
+          },
+          "loss_500": 0.016057814156636596,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "rotate_qrcode": 0.2
+          },
+          "loss_500": 0.012871586731635035,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam2_final_step2000",
+          "bytes": 12440680195,
+          "files": 49,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 49
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1297,13 +2930,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "rotate_qrcode": 0.4
+          },
+          "loss_500": 0.14433530795760452,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "rotate_qrcode": 0.4
+          },
+          "loss_500": 0.02247509325295687,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "rotate_qrcode": 0.2
+          },
+          "loss_500": 0.01772343909461051,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "rotate_qrcode": 0.4
+          },
+          "loss_500": 0.013392703893594444,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam3_final_step2000",
+          "bytes": 12440577511,
+          "files": 35,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 35
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1326,13 +3030,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "scan_object": 0.2
+          },
+          "loss_500": 0.3919535614810884,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "scan_object": 0.2
+          },
+          "loss_500": 0.06080838830582797,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "scan_object": 0.2
+          },
+          "loss_500": 0.0481044993288815,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "scan_object": 0.0
+          },
+          "loss_500": 0.038049945606850086,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam1_final_step2000",
+          "bytes": 12440839545,
+          "files": 46,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 46
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1355,13 +3130,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "scan_object": 0.0
+          },
+          "loss_500": 0.2067378027960658,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "scan_object": 0.0
+          },
+          "loss_500": 0.03784007642231882,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "scan_object": 0.2
+          },
+          "loss_500": 0.033277754813432696,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "scan_object": 0.0
+          },
+          "loss_500": 0.027192694705910982,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam2_final_step2000",
+          "bytes": 12440638829,
+          "files": 39,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 39
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1384,13 +3230,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "scan_object": 0.2
+          },
+          "loss_500": 0.43907439954206345,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "scan_object": 0.2
+          },
+          "loss_500": 0.05240794853493571,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "scan_object": 0.0
+          },
+          "loss_500": 0.04294134075194597,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "scan_object": 0.0
+          },
+          "loss_500": 0.032976289808750156,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam3_final_step2000",
+          "bytes": 12440606661,
+          "files": 35,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 35
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1413,13 +3330,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "stack_blocks_two": 0.4
+          },
+          "loss_500": 0.08390230351686477,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.4,
+          "per_task": {
+            "stack_blocks_two": 0.4
+          },
+          "loss_500": 0.02144400939065963,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.6,
+          "per_task": {
+            "stack_blocks_two": 0.6
+          },
+          "loss_500": 0.020426535995677113,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.2,
+          "per_task": {
+            "stack_blocks_two": 0.2
+          },
+          "loss_500": 0.01840924019459635,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam1_final_step2000",
+          "bytes": 12440846725,
+          "files": 46,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 46
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1442,13 +3430,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.07081627785706035,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.018332810124382377,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.016802773313596843,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.014890197185799479,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam2_final_step2000",
+          "bytes": 12440521659,
+          "files": 31,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 31
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1471,13 +3530,84 @@
       "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
-      "status": "deferred",
-      "current_step": 0,
+      "max_steps": 2001,
+      "status": "completed",
+      "current_step": 2000,
       "early_stop": null,
-      "backtests": [],
+      "backtests": [
+        {
+          "step": 500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.01078387980073138,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.012398892141878604,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 1500,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.013389650234952569,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        },
+        {
+          "step": 2000,
+          "mean_success_rate": 0.0,
+          "per_task": {
+            "stack_blocks_two": 0.0
+          },
+          "loss_500": 0.011996836350765079,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
+        }
+      ],
       "milestones": {},
-      "final_checkpoint": null,
+      "final_checkpoint": {
+        "step": 2000,
+        "params_only": {
+          "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam3_final_step2000",
+          "bytes": 12440609740,
+          "files": 38,
+          "restored_leaves": 51,
+          "verified": true,
+          "source_files": 38
+        }
+      },
       "final_evals": [],
       "incidents": []
     },
@@ -1491,10 +3621,10 @@
       "repo_id": "pi05_30_aloha_fam1_move_pillbottle_pad_move_stapler_pad_place_a2b_left_place_fan_src50",
       "demo_ids": null,
       "init_params": "/data/szgx/xworld-gzh/cache/openpi/openpi-assets/checkpoints/pi05_base/params",
-      "peak_lr": 1.25e-05,
+      "peak_lr": 2.5e-05,
       "action_horizon": 10,
       "seed": 1,
-      "max_steps": 30001,
+      "max_steps": 15001,
       "status": "stopped",
       "current_step": 26000,
       "early_stop": null,
@@ -1714,6 +3844,24 @@
             500103,
             500104
           ]
+        },
+        {
+          "step": 15000,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "move_pillbottle_pad": 0.6,
+            "move_stapler_pad": 0.8,
+            "place_a2b_left": 0.8,
+            "place_fan": 1.0
+          },
+          "loss_500": 0.013236459823325277,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
         }
       ],
       "milestones": {
@@ -1745,7 +3893,10 @@
           "source_files": 24
         }
       },
-      "final_evals": [],
+      "final_evals": [
+        "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/place_mouse_pad/refill/final_eval.json",
+        "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam1_r1/stack_blocks_two/refill/final_eval.json"
+      ],
       "incidents": []
     },
     {
@@ -1891,6 +4042,24 @@
             500103,
             500104
           ]
+        },
+        {
+          "step": 15000,
+          "mean_success_rate": 0.8,
+          "per_task": {
+            "place_object_basket": 0.4,
+            "place_cans_plasticbox": 1.0,
+            "place_bread_skillet": 1.0,
+            "put_object_cabinet": 0.8
+          },
+          "loss_500": 0.017694183138199152,
+          "seeds": [
+            500100,
+            500101,
+            500102,
+            500103,
+            500104
+          ]
         }
       ],
       "milestones": {
@@ -1914,7 +4083,10 @@
           "source_files": 42
         }
       },
-      "final_evals": [],
+      "final_evals": [
+        "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/blocks_ranking_rgb/refill/final_eval.json",
+        "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/final_eval.json"
+      ],
       "incidents": []
     },
     {
@@ -2109,6 +4281,29 @@
           "source_files": 36
         }
       },
+      "final_evals": [],
+      "incidents": []
+    },
+    {
+      "job_id": "stage3_source_fam3_r1_long",
+      "stage": 3,
+      "kind": "source",
+      "repeat": 1,
+      "family": "3",
+      "task": null,
+      "repo_id": "pi05_30_aloha_fam3_blocks_ranking_size_stack_blocks_three_stack_bowls_two_stack_bowls_three_src50",
+      "demo_ids": null,
+      "init_params": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam3_final_step15000/params",
+      "peak_lr": 2.5e-05,
+      "action_horizon": 10,
+      "seed": 1,
+      "max_steps": 15001,
+      "status": "stopped",
+      "current_step": 2000,
+      "early_stop": null,
+      "backtests": [],
+      "milestones": {},
+      "final_checkpoint": null,
       "final_evals": [],
       "incidents": []
     }

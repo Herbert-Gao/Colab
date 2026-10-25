@@ -1,0 +1,32 @@
+{
+  "task": "blocks_ranking_rgb",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Place red block, green block, and blue block sequentially in a row, starting with red block."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 1200,
+      "instruction": "Arrange red block, green block, and blue block side by side, starting with red block on the left."
+    }
+  ]
+}

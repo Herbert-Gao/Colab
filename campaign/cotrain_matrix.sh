@@ -181,11 +181,60 @@ while [[ ${#QUEUE[@]} -gt 0 ]]; do
       "train_gpus=$TRAIN_B" "fsdp_devices=4" "policy_gpus=$POLICY_B" "sim_gpus=$SIM_B" \
       "mem_fraction=$MEM_FRACTION" >> "$LOG" 2>&1
   fi
+  # A job whose specification changed must not resume from the checkpoints of
+  # the old specification: the trainer would exit at once (start step beyond the
+  # new step cap) and the job would look "completed" without training.
+  $PY - "$JOB_A" ${JOB_B:+"$JOB_B"} <<'PYEOF' >> "$LOG" 2>&1
+import json, pathlib, shutil, sys
+sys.path.insert(0, "/data/szgx/gaohang/pi05_30/campaign")
+import config as C
+import jobctl
+root = pathlib.Path("/data/szgx/gaohang/pi05_30/state/jobs")
+cap = C.ADAPT_MAX_STEPS
+for job_id in sys.argv[1:]:
+    path = root / f"{job_id}.json"
+    job = json.loads(path.read_text())
+    steps = [int(entry["step"]) for entry in job.get("history") or [] if entry.get("step")]
+    reached = max(steps + [int(job.get("current_step") or 0)])
+    stale = (job.get("max_steps") != cap + 1
+             or reached > cap
+             or job.get("backtest_interval") != C.ADAPT_SAVE_INTERVAL)
+    if not stale:
+        continue
+    run = pathlib.Path(job["checkpoint_base_dir"]) / C.CONFIG_NAME / job["exp_name"]
+    if run.is_dir():
+        size = sum(f.stat().st_size for f in run.rglob("*") if f.is_file())
+        shutil.rmtree(run, ignore_errors=True)
+        jobctl.log_cleanup(run, -1, "训练规格变更（步数上限/回测节奏），旧检查点作废", size)
+        print(f"{job_id}: removed the checkpoints of the old specification ({size / 1024**3:.1f} GiB)")
+    job["history"] = []
+    job["processed_checkpoints"] = []
+    job["milestones"] = {}
+    job["final_checkpoint"] = None
+    job["current_step"] = 0
+    job["status"] = "pending"
+    path.write_text(json.dumps(job, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"{job_id}: reset for the new specification (cap {cap} steps)")
+PYEOF
+  $PY "$CAMPAIGN/jobctl.py" set "$JOB_A" "max_steps=2001" "backtest_interval=500" "save_interval=500" >> "$LOG" 2>&1
+  if [[ -n "$JOB_B" ]]; then
+    $PY "$CAMPAIGN/jobctl.py" set "$JOB_B" "max_steps=2001" "backtest_interval=500" "save_interval=500" >> "$LOG" 2>&1
+  fi
   say "pair $((INDEX / 2 + 1)): $JOB_A (${TRAIN_A}) ${JOB_B:+and $JOB_B (${TRAIN_B})}"
   wait_for_free_cards
 
   if [[ -n "$JOB_B" ]]; then
     PI05_COTRAIN_NOTIFY=0 bash "$CAMPAIGN/cotrain.sh" "$JOB_A" "$JOB_B" >> "$LOG" 2>&1
+    # A pair that did not reach a terminal state (for example because the cards
+    # stayed busy) goes back to the front of the queue instead of being dropped.
+    LEFT_A=$($PY "$CAMPAIGN/jobctl.py" field "$JOB_A" status 2>/dev/null)
+    LEFT_B=$($PY "$CAMPAIGN/jobctl.py" field "$JOB_B" status 2>/dev/null)
+    if [[ "$LEFT_A" == "pending" || "$LEFT_B" == "pending" ]]; then
+      say "pair $JOB_A/$JOB_B is still pending ($LEFT_A/$LEFT_B) -> back to the queue"
+      QUEUE=("$JOB_A" "$JOB_B" "${QUEUE[@]:2}")
+      sleep 120
+      continue
+    fi
     QUEUE=("${QUEUE[@]:2}")
   else
     PI05_COTRAIN_NOTIFY=0 bash "$CAMPAIGN/cotrain.sh" "$JOB_A" >> "$LOG" 2>&1

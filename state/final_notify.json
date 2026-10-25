@@ -1,0 +1,19 @@
+{
+  "message": "服务器A/A800×8｜阶段3：全部完成。微调模型 30/30 个（每作业 ≤2000 步，每 500 步回测打分），源模型 3 个，清单见 docs/models_manifest.md。",
+  "record": {
+    "time": "2026-10-25T01:26:32+0000",
+    "message": "服务器A/A800×8｜阶段3：全部完成。微调模型 30/30 个（每作业 ≤2000 步，每 500 步回测打分），源模型 3 个，清单见 docs/models_manifest.md。",
+    "returncode": 0,
+    "receipt": {
+      "ok": true,
+      "identity": "bot",
+      "data": {
+        "chat_id": "oc_59380a2551cfa7641dc64b4982dd0405",
+        "create_time": "2026-10-25 01:26:33",
+        "message_id": "om_x100b62e1e25840a0cd10595f83542fd"
+      }
+    },
+    "stderr": "",
+    "status": "sent"
+  }
+}

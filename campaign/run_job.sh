@@ -120,7 +120,9 @@ export TRAIN_GPUS="$TRAIN_GPUS"
 # cards stay busy for an hour the job gives up and stays pending instead of
 # starting on top of another workload.
 GPUS_READY=0
-GPU_WAIT_ITER=${PI05_GPU_WAIT_ITER:-1800}
+# The machine can carry another workload for hours; a job waits for the
+# cards instead of giving up (48 h by default).
+GPU_WAIT_ITER=${PI05_GPU_WAIT_ITER:-8640}
 for _ in $(seq 1 $GPU_WAIT_ITER); do
   BUSY=$(nvidia-smi --query-gpu=memory.used --format=csv,noheader,nounits \
          -i "$TRAIN_GPUS" 2>/dev/null | awk -F', ' '{s+=$1} END {print s+0}')

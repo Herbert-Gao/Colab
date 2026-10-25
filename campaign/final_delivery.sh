@@ -44,6 +44,9 @@ say "writing the model manifest, the progress summary and the deliverable table"
 "$PY" -u "$CAMPAIGN/deliverables.py" >> "$LOG" 2>&1
 "$PY" -u "$CAMPAIGN/write_docs.py" >> "$LOG" 2>&1
 
+say "auditing the delivery against the run book"
+"$PY" -u "$CAMPAIGN/verify_delivery.py" >> "$LOG" 2>&1
+
 say "sending the completion notice"
 "$PY" -u - <<'PYEOF' >> "$LOG" 2>&1
 import json, pathlib, sys

@@ -1,0 +1,32 @@
+{
+  "task": "place_can_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the light brown cylindrical can, put it in the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 223,
+      "instruction": "Pick up the can with shiny smooth surface, place it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture."
+    }
+  ]
+}

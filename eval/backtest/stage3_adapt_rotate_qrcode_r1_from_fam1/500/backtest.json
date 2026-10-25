@@ -1,0 +1,135 @@
+{
+  "job_id": "stage3_adapt_rotate_qrcode_r1_from_fam1",
+  "step": 500,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1/500",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "4",
+    "6"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "rotate_qrcode": {
+      "task": "rotate_qrcode",
+      "episodes": 5,
+      "successes": 1,
+      "success_rate": 0.2,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 400,
+          "instruction": "Catch the paymentsign with angled stand from the table and make it face you."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick the paymentsign with angled support bars off the table using the right arm and rotate it."
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": false,
+          "steps": 400,
+          "instruction": "Catch the sign for payment processing from the table and make it face you."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 400,
+          "instruction": "Catch the black triangular stand from the table and make it face you."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": true,
+          "steps": 129,
+          "instruction": "Catch the paymentsign with QR code from the table and rotate it"
+        }
+      ],
+      "per_group": [
+        {
+          "task": "rotate_qrcode",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam1/500/rotate_qrcode_gpu4_s0/eval.log",
+          "timed_out": false,
+          "seconds": 283.1,
+          "episodes": 3,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the paymentsign with angled stand from the table and make it face you."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick the paymentsign with angled support bars off the table using the right arm and rotate it."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the sign for payment processing from the table and make it face you."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "rotate_qrcode",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam1/500/rotate_qrcode_gpu4_s1/eval.log",
+          "timed_out": false,
+          "seconds": 143.4,
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the black triangular stand from the table and make it face you."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 129,
+              "instruction": "Catch the paymentsign with QR code from the table and rotate it"
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    }
+  },
+  "mean_success_rate": 0.2,
+  "recorded": "2026-10-24T06:42:51+0000"
+}

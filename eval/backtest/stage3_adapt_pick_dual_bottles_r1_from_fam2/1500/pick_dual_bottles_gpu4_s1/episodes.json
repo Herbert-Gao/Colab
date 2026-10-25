@@ -1,0 +1,32 @@
+{
+  "task": "pick_dual_bottles",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Use one arm for the brown bottle and the other for the green bottle with white label."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 124,
+      "instruction": "Use separate arms to pick the plastic soda bottle and the green bottle simultaneously."
+    }
+  ]
+}

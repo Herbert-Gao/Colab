@@ -1,0 +1,50 @@
+{
+  "task": "place_can_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": true,
+      "steps": 261,
+      "instruction": "Grab the can with red body, drop it in the medium basket with smooth texture, and lift the medium basket with smooth texture."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 285,
+      "instruction": "Grab the can with red body and put it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture."
+    },
+    {
+      "episode": 2,
+      "seed": 500104,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 3,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Use the left arm to pick up the lightweight cylindrical metal can, put it into the medium-sized basket with perforated texture, the other arm lifts the medium-sized basket with perforated texture."
+    }
+  ]
+}

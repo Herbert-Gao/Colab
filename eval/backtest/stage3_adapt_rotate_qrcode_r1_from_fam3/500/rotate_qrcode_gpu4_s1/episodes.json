@@ -1,0 +1,32 @@
+{
+  "task": "rotate_qrcode",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the black triangular stand and rotate it facing you."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 212,
+      "instruction": "Catch the tabletop paymentsign from the table and make it face you."
+    }
+  ]
+}

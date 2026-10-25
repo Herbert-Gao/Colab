@@ -1,0 +1,29 @@
+/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/data/szgx/gaohang/pi05_30/campaign/policy_server.py", line 57, in <module>
+    main()
+  File "/data/szgx/gaohang/pi05_30/campaign/policy_server.py", line 53, in main
+    server.serve_forever()
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/src/openpi/serving/websocket_policy_server.py", line 35, in serve_forever
+    asyncio.run(self.run())
+  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/src/openpi/serving/websocket_policy_server.py", line 38, in run
+    async with _server.serve(
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 813, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "/data/szgx/xworld-gzh/third_party/external/openpi/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 831, in __await_impl__
+    server = await self.create_server
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/szgx/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 1536, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 60981): address already in use

@@ -1,0 +1,58 @@
+{
+  "task": "place_can_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103,
+    500104
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500100,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": true,
+      "success": true,
+      "steps": 215,
+      "instruction": "Pick up the red can, place it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+    },
+    {
+      "episode": 1,
+      "seed": 500104,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the metal can fits easily in hand and put it in the yellow basket with open slots, then lift the yellow basket with open slots."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Pick the rounded can with smooth printed surface, put it in the medium basket with smooth texture, then lift the medium basket with smooth texture."
+    }
+  ]
+}

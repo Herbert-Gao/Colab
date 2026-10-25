@@ -1,9 +1,9 @@
 {
   "task": "stack_blocks_two",
   "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_final_step15000",
-  "episodes": 99,
+  "episodes": 100,
   "successes": 1,
-  "success_rate": 0.0101,
+  "success_rate": 0.01,
   "seeds": [
     104000,
     104001,
@@ -1106,43 +1106,42 @@
         }
       ],
       "skipped": []
+    },
+    {
+      "task": "stack_blocks_two",
+      "seeds": [
+        104006
+      ],
+      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/sim0/eval.log",
+      "timed_out": false,
+      "seconds": 163.5,
+      "episodes": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 104007,
+          "success": false,
+          "steps": 800,
+          "instruction": "Place red block in the center, then stack green block on it."
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 0,
+          "seed": 104006,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
     }
   ],
   "seconds": 2442.1,
   "recorded": "2026-10-23T05:29:21+0000",
-  "refilled_at": "2026-10-23T09:53:27+0000",
+  "refilled_at": "2026-10-25T01:26:30+0000",
   "refilled_seeds": [
-    104001,
-    104005,
-    104007,
-    104011,
-    104013,
-    104019,
-    104023,
-    104025,
-    104029,
-    104031,
-    104035,
-    104037,
-    104041,
-    104043,
-    104047,
-    104049,
-    104053,
-    104055,
-    104059,
-    104061,
-    104065,
-    104067,
-    104071,
-    104073,
-    104077,
-    104079,
-    104083,
-    104085,
-    104089,
-    104091,
-    104095,
-    104097
+    104006
   ]
 }

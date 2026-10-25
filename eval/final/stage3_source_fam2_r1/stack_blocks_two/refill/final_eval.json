@@ -1,386 +1,45 @@
 {
   "task": "stack_blocks_two",
   "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_source_fam2_final_step15000",
-  "episodes": 32,
-  "successes": 1,
-  "success_rate": 0.0312,
+  "episodes": 1,
+  "successes": 0,
+  "success_rate": 0.0,
   "seeds": [
-    104001,
-    104005,
-    104007,
-    104011,
-    104013,
-    104019,
-    104023,
-    104025,
-    104029,
-    104031,
-    104035,
-    104037,
-    104041,
-    104043,
-    104047,
-    104049,
-    104053,
-    104055,
-    104059,
-    104061,
-    104065,
-    104067,
-    104071,
-    104073,
-    104077,
-    104079,
-    104083,
-    104085,
-    104089,
-    104091,
-    104095,
-    104097
+    104006
   ],
   "sims": 6,
   "per_chunk": [
     {
       "task": "stack_blocks_two",
       "seeds": [
-        104001,
-        104023,
-        104041,
-        104059,
-        104077,
-        104095
+        104006
       ],
       "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/sim0/eval.log",
       "timed_out": false,
-      "seconds": 955.3,
-      "episodes": 6,
+      "seconds": 163.5,
+      "episodes": 1,
       "successes": 0,
       "success_rate": 0.0,
-      "per_episode": [
-        {
-          "episode": 1,
-          "seed": 104001,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the center, then stack green block on red block."
-        },
-        {
-          "episode": 2,
-          "seed": 104023,
-          "success": false,
-          "steps": 800,
-          "instruction": "Grab red block, place it at the center, then stack green block on red block."
-        },
-        {
-          "episode": 3,
-          "seed": 104041,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block to the center, then put green block on top."
-        },
-        {
-          "episode": 4,
-          "seed": 104059,
-          "success": false,
-          "steps": 800,
-          "instruction": "Bring red block and green block to the center, then position green block above red block."
-        },
-        {
-          "episode": 5,
-          "seed": 104077,
-          "success": false,
-          "steps": 800,
-          "instruction": "Take red block and green block, move them to the table's center, then stack green block on red block."
-        },
-        {
-          "episode": 6,
-          "seed": 104095,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block to the center, then put green block on top."
-        }
-      ],
-      "skipped": []
-    },
-    {
-      "task": "stack_blocks_two",
-      "seeds": [
-        104005,
-        104025,
-        104043,
-        104061,
-        104079,
-        104097
-      ],
-      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/sim1/eval.log",
-      "timed_out": false,
-      "seconds": 941.9,
-      "episodes": 6,
-      "successes": 0,
-      "success_rate": 0.0,
-      "per_episode": [
-        {
-          "episode": 1,
-          "seed": 104005,
-          "success": false,
-          "steps": 800,
-          "instruction": "Bring red block and green block to the center, then position green block above red block."
-        },
-        {
-          "episode": 2,
-          "seed": 104025,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the center, then stack green block on red block."
-        },
-        {
-          "episode": 3,
-          "seed": 104043,
-          "success": false,
-          "steps": 800,
-          "instruction": "Take red block and green block, move them to the table's center, then stack green block on red block."
-        },
-        {
-          "episode": 4,
-          "seed": 104061,
-          "success": false,
-          "steps": 800,
-          "instruction": "Place red block in the center, then stack green block on it."
-        },
-        {
-          "episode": 5,
-          "seed": 104079,
-          "success": false,
-          "steps": 800,
-          "instruction": "Place red block in the middle, then stack green block on it."
-        },
-        {
-          "episode": 6,
-          "seed": 104097,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the center, then stack green block on red block."
-        }
-      ],
-      "skipped": []
-    },
-    {
-      "task": "stack_blocks_two",
-      "seeds": [
-        104007,
-        104029,
-        104047,
-        104065,
-        104083
-      ],
-      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/sim2/eval.log",
-      "timed_out": false,
-      "seconds": 690.7,
-      "episodes": 5,
-      "successes": 1,
-      "success_rate": 0.2,
       "per_episode": [
         {
           "episode": 1,
           "seed": 104007,
           "success": false,
           "steps": 800,
-          "instruction": "Place red block in the middle, then stack green block on it."
-        },
-        {
-          "episode": 2,
-          "seed": 104029,
-          "success": true,
-          "steps": 162,
-          "instruction": "Use the left arm to move red block to the center, then set the left arm and stack green block on red block."
-        },
-        {
-          "episode": 3,
-          "seed": 104047,
-          "success": false,
-          "steps": 800,
-          "instruction": "Use the right arm to move red block to the center, then set the left arm and stack green block on red block."
-        },
-        {
-          "episode": 4,
-          "seed": 104065,
-          "success": false,
-          "steps": 800,
           "instruction": "Place red block in the center, then stack green block on it."
-        },
-        {
-          "episode": 5,
-          "seed": 104083,
-          "success": false,
-          "steps": 800,
-          "instruction": "Place red block in the middle, then stack green block on it."
         }
       ],
-      "skipped": []
-    },
-    {
-      "task": "stack_blocks_two",
-      "seeds": [
-        104011,
-        104031,
-        104049,
-        104067,
-        104085
-      ],
-      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/sim3/eval.log",
-      "timed_out": false,
-      "seconds": 782.2,
-      "episodes": 5,
-      "successes": 0,
-      "success_rate": 0.0,
-      "per_episode": [
+      "skipped": [
         {
-          "episode": 1,
-          "seed": 104011,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the table's center, then stack green block on red block."
-        },
-        {
-          "episode": 2,
-          "seed": 104031,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block to the center, then put green block on top."
-        },
-        {
-          "episode": 3,
-          "seed": 104049,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the center, then stack green block on red block."
-        },
-        {
-          "episode": 4,
-          "seed": 104067,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the center and place green block atop red block."
-        },
-        {
-          "episode": 5,
-          "seed": 104085,
-          "success": false,
-          "steps": 800,
-          "instruction": "Bring red block and green block to the center, then position green block above red block."
+          "episode": 0,
+          "seed": 104006,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
         }
-      ],
-      "skipped": []
-    },
-    {
-      "task": "stack_blocks_two",
-      "seeds": [
-        104013,
-        104035,
-        104053,
-        104071,
-        104089
-      ],
-      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/sim4/eval.log",
-      "timed_out": false,
-      "seconds": 839.2,
-      "episodes": 5,
-      "successes": 0,
-      "success_rate": 0.0,
-      "per_episode": [
-        {
-          "episode": 1,
-          "seed": 104013,
-          "success": false,
-          "steps": 800,
-          "instruction": "Place red block in the middle, then stack green block on it."
-        },
-        {
-          "episode": 2,
-          "seed": 104035,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the center and place green block atop red block."
-        },
-        {
-          "episode": 3,
-          "seed": 104053,
-          "success": false,
-          "steps": 800,
-          "instruction": "Place red block in the center, then stack green block on it."
-        },
-        {
-          "episode": 4,
-          "seed": 104071,
-          "success": false,
-          "steps": 800,
-          "instruction": "Bring red block and green block to the center, then position green block above red block."
-        },
-        {
-          "episode": 5,
-          "seed": 104089,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the center and place green block atop red block."
-        }
-      ],
-      "skipped": []
-    },
-    {
-      "task": "stack_blocks_two",
-      "seeds": [
-        104019,
-        104037,
-        104055,
-        104073,
-        104091
-      ],
-      "log": "/data/szgx/gaohang/pi05_30/eval/final/stage3_source_fam2_r1/stack_blocks_two/refill/sim5/eval.log",
-      "timed_out": false,
-      "seconds": 835.4,
-      "episodes": 5,
-      "successes": 0,
-      "success_rate": 0.0,
-      "per_episode": [
-        {
-          "episode": 1,
-          "seed": 104019,
-          "success": false,
-          "steps": 800,
-          "instruction": "Bring red block and green block to the center, then position green block above red block."
-        },
-        {
-          "episode": 2,
-          "seed": 104037,
-          "success": false,
-          "steps": 800,
-          "instruction": "Place red block in the center, then stack green block on it."
-        },
-        {
-          "episode": 3,
-          "seed": 104055,
-          "success": false,
-          "steps": 800,
-          "instruction": "Grab red block, place it at the center, then stack green block on red block."
-        },
-        {
-          "episode": 4,
-          "seed": 104073,
-          "success": false,
-          "steps": 800,
-          "instruction": "Move red block and green block to the table's center, then stack green block on red block."
-        },
-        {
-          "episode": 5,
-          "seed": 104091,
-          "success": false,
-          "steps": 800,
-          "instruction": "Grab red block, place it at the center, then stack green block on red block."
-        }
-      ],
-      "skipped": []
+      ]
     }
   ],
-  "seconds": 974.0,
-  "recorded": "2026-10-23T09:53:27+0000"
+  "seconds": 182.3,
+  "recorded": "2026-10-25T01:26:30+0000"
 }

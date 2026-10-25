@@ -1,0 +1,151 @@
+{
+  "job_id": "stage3_adapt_hanging_mug_r1_from_fam3",
+  "step": 500,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_hanging_mug_from_fam3/500",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "4",
+    "6"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "hanging_mug": {
+      "task": "hanging_mug",
+      "episodes": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 900,
+          "instruction": "Grab the cylindrical mug with Starbucks logo, turn it, set it on the table, then hang it on the rack with straight and slanted rods."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": false,
+          "steps": 900,
+          "instruction": "Grab the beige coffee mug, turn it, set it on the table, then hang it on the rack with straight and slanted rods."
+        },
+        {
+          "episode": 3,
+          "seed": 500103,
+          "success": false,
+          "steps": 900,
+          "instruction": "Pick the mug with rounded bottom and handle with the left arm, rotate, place it, then hang it on the dark gray rack with flat back."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 900,
+          "instruction": "Lift the white coffee mug, rotate it, put it down, then attach it to the rack with straight and slanted rods."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": false,
+          "steps": 900,
+          "instruction": "Pick the mug with rounded bottom and handle from the table, rotate it, place it in the middle, and hang it onto the medium-sized rack."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "hanging_mug",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_hanging_mug_r1_from_fam3/500/hanging_mug_gpu4_s0/eval.log",
+          "timed_out": false,
+          "seconds": 520.7,
+          "episodes": 3,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 900,
+              "instruction": "Grab the cylindrical mug with Starbucks logo, turn it, set it on the table, then hang it on the rack with straight and slanted rods."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 900,
+              "instruction": "Grab the beige coffee mug, turn it, set it on the table, then hang it on the rack with straight and slanted rods."
+            },
+            {
+              "episode": 3,
+              "seed": 500103,
+              "success": false,
+              "steps": 900,
+              "instruction": "Pick the mug with rounded bottom and handle with the left arm, rotate, place it, then hang it on the dark gray rack with flat back."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 2,
+              "seed": 500104,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "hanging_mug",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_hanging_mug_r1_from_fam3/500/hanging_mug_gpu4_s1/eval.log",
+          "timed_out": false,
+          "seconds": 272.6,
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 900,
+              "instruction": "Lift the white coffee mug, rotate it, put it down, then attach it to the rack with straight and slanted rods."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 900,
+              "instruction": "Pick the mug with rounded bottom and handle from the table, rotate it, place it in the middle, and hang it onto the medium-sized rack."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 2,
+          "seed": 500104,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 0.0,
+  "recorded": "2026-10-24T11:59:45+0000"
+}

@@ -1,0 +1,32 @@
+{
+  "task": "place_can_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the rounded can with smooth printed surface, put it in the yellow basket with open slots, lift the yellow basket with open slots."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 700,
+      "instruction": "Grab the can with shiny smooth surface and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+    }
+  ]
+}

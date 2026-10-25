@@ -115,18 +115,20 @@ def main() -> int:
     lines, missing = build(jobs)
     sources = [job for job in jobs if job.get("kind") == "source"]
     adapts = [job for job in jobs if job.get("kind") == "adapt"]
-    delivered = [job for job in sources
-                 if job.get("status") in ("completed", "early_stopped")]
+    delivered = [job for job in sources if kept_paths(job)]
     trained = [job for job in sources if job.get("status") in ("completed", "early_stopped", "stopped")]
+    done = [job for job in adapts if job.get("status") in ("completed", "early_stopped")]
 
     doc = [
         f"更新时间（带时区）: {now()}", "",
         "# 模型清单（服务器 A，aloha-agilex）", "",
-        f"本轮范围（运营 2026-10-22 决定）：只训练源模型，用 openpi 官方超参"
-        f"（peak_lr {C.OFFICIAL_PEAK_LR}、action_horizon {C.OFFICIAL_ACTION_HORIZON}、batch {C.BATCH_SIZE}）"
-        f"训 {C.SOURCE_MAX_STEPS} 步；微调矩阵（{len(C.TARGET_TASKS)} 目标 × "
-        f"{len(C.ADAPT_SOURCE_FAMILIES)} 起点 = {len(adapts)} 个）**延后**，作业状态为 `deferred`。",
-        f"本轮不含最终评估（100 回合）与 0 步裸测。",
+        f"本轮范围：{len(adapts)} 个微调模型（{len(C.TARGET_TASKS)} 目标 × "
+        f"{len(C.ADAPT_SOURCE_FAMILIES)} 起点，每作业 ≤{C.ADAPT_MAX_STEPS} 步、每 {C.ADAPT_SAVE_INTERVAL} 步"
+        f"存一次 .ckpt 并回测 5 回合）+ {len(sources)} 个源模型（openpi 官方超参 "
+        f"peak_lr {C.OFFICIAL_PEAK_LR}、action_horizon {C.OFFICIAL_ACTION_HORIZON}、batch {C.BATCH_SIZE}，"
+        f"{C.SOURCE_MAX_STEPS} 步）。",
+        "按运营指示本轮不做 0 步裸测；源模型在 10 个目标任务上的 100 回合泛化测试为运营追加的评测，"
+        "结果见 `docs/eval_report.md`。",
         "",
     ] + lines + [
         "",
@@ -143,8 +145,10 @@ def main() -> int:
     if args.notify:
         import notify_channel
         message = (f"服务器A/A800×8｜阶段3：全部完成。"
-                   f"本轮交付 {len(delivered)}/{len(sources)} 个源模型"
-                   f"（微调矩阵已按运营指示延后），清单见 docs/models_manifest.md。")
+                   f"本轮交付 {len(done)} 个微调模型（{len(C.TARGET_TASKS)} 目标 × "
+                   f"{len(C.ADAPT_SOURCE_FAMILIES)} 起点，每作业 ≤{C.ADAPT_MAX_STEPS} 步、"
+                   f"每 {C.ADAPT_SAVE_INTERVAL} 步回测打分）+ {len(delivered)} 个源模型，"
+                   f"清单见 docs/models_manifest.md。")
         record = notify_channel.send(message)
         C.json_dump(C.STATE / "final_notify.json", {
             "sent_at": now(), "message": message, "record": record})

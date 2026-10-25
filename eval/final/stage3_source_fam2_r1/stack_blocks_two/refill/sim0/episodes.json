@@ -1,72 +1,30 @@
 {
   "task": "stack_blocks_two",
   "task_config": "demo_clean",
-  "requested_episodes": 6,
+  "requested_episodes": 1,
   "seed_schedule": [
-    104001,
-    104023,
-    104041,
-    104059,
-    104077,
-    104095
+    104006
   ],
   "attempted_seeds": [
-    104001,
-    104023,
-    104041,
-    104059,
-    104077,
-    104095
+    104006,
+    104007
   ],
   "successes": 0,
   "episodes": [
     {
+      "episode": 0,
+      "seed": 104006,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
       "episode": 1,
-      "seed": 104001,
+      "seed": 104007,
       "valid": true,
       "success": false,
       "steps": 800,
-      "instruction": "Move red block and green block to the center, then stack green block on red block."
-    },
-    {
-      "episode": 2,
-      "seed": 104023,
-      "valid": true,
-      "success": false,
-      "steps": 800,
-      "instruction": "Grab red block, place it at the center, then stack green block on red block."
-    },
-    {
-      "episode": 3,
-      "seed": 104041,
-      "valid": true,
-      "success": false,
-      "steps": 800,
-      "instruction": "Move red block to the center, then put green block on top."
-    },
-    {
-      "episode": 4,
-      "seed": 104059,
-      "valid": true,
-      "success": false,
-      "steps": 800,
-      "instruction": "Bring red block and green block to the center, then position green block above red block."
-    },
-    {
-      "episode": 5,
-      "seed": 104077,
-      "valid": true,
-      "success": false,
-      "steps": 800,
-      "instruction": "Take red block and green block, move them to the table's center, then stack green block on red block."
-    },
-    {
-      "episode": 6,
-      "seed": 104095,
-      "valid": true,
-      "success": false,
-      "steps": 800,
-      "instruction": "Move red block to the center, then put green block on top."
+      "instruction": "Place red block in the center, then stack green block on it."
     }
   ]
 }

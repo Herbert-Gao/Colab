@@ -50,14 +50,37 @@ def own_family_score(job_id: str) -> tuple[float, str]:
     return scored[0]["mean_success_rate"], per
 
 
+def load_results() -> dict:
+    """Read the per-task result files (they are the authoritative source).
+
+    The aggregate file is only a convenience copy; the per-task files also hold
+    the episodes that a refill added afterwards.
+    """
+    results: dict[str, list[dict]] = {}
+    for model_dir in sorted((C.EVAL / "final").glob("stage3_source_*")):
+        if not model_dir.is_dir():
+            continue
+        rows = []
+        for task_dir in sorted(model_dir.iterdir()):
+            if not task_dir.is_dir():
+                continue
+            payload = task_dir / "final_eval.json"
+            if not payload.is_file():
+                continue
+            row = json.loads(payload.read_text())
+            row["target_index"] = C.TARGET_TASKS.index(task_dir.name) if task_dir.name in C.TARGET_TASKS else row.get("target_index", 0)
+            row["model"] = model_dir.name
+            rows.append(row)
+        if rows:
+            results[model_dir.name] = rows
+    return results
+
+
 def main() -> int:
-    if not RESULTS.is_file():
-        print(f"{RESULTS} missing - run campaign/eval_sources.py first")
-        return 2
-    payload = json.loads(RESULTS.read_text())
-    results = payload.get("results") or {}
+    results = load_results()
     if not results:
-        print("no results in the evaluation file")
+        print(f"{RESULTS} missing or empty - run campaign/eval_sources.py first")
+        return 2
         return 2
 
     models = list(results)
@@ -67,13 +90,40 @@ def main() -> int:
         "## 测试设置", "",
         f"- 模型: {', '.join(MODEL_NAMES.get(m, m) for m in models)}（各自训练于 4 个源任务 × 50 条示范，官方超参、15000 步）",
         f"- 任务: 10 个目标测试任务（族群①–⑤ 各 2 个）",
-        f"- 回合: 每模型每任务 {payload.get('episodes_per_task', C.FINAL_EPISODES)} 回合，共 "
-        f"{len(models)} × {len(C.TARGET_TASKS)} × {payload.get('episodes_per_task', C.FINAL_EPISODES)} = "
-        f"{len(models) * len(C.TARGET_TASKS) * payload.get('episodes_per_task', C.FINAL_EPISODES)} 回合",
-        f"- 场景种子: `{payload.get('seeds')}`（同一目标对所有模型使用同一组种子，构成配对比较）",
+        f"- 回合: 每模型每任务 {C.FINAL_EPISODES} 回合，共 "
+        f"{len(models)} × {len(C.TARGET_TASKS)} × {C.FINAL_EPISODES} = "
+        f"{len(models) * len(C.TARGET_TASKS) * C.FINAL_EPISODES} 回合",
+        f"- 场景种子: `100000 + 1000*t + i`（同一目标对所有模型使用同一组种子，构成配对比较）",
         "- 评测配置: RoboTwin aloha-agilex 仿真环境，与训练一致的相机/动作定义与控制频率；每回合独立重置",
-        "- 说明: 本轮不做最终评估的 0 步裸测；微调矩阵已按运营指示在保存权重后停止", "",
+        "- 说明: 按运营指示本轮不做 0 步裸测；源模型在 10 个目标任务上的 100 回合泛化测试为运营追加的评测，"
+        "微调矩阵已按 ≤2000 步、每 500 步回测的规格跑完 30 个模型", "",
     ]
+
+    # --- the fine-tuned models of this round ---------------------------------
+    adapt_rows: dict[str, dict[str, float]] = {}
+    for path in sorted((C.STATE / "jobs").glob("stage3_adapt_*.json")):
+        job = json.loads(path.read_text())
+        history = job.get("history") or []
+        last = history[-1] if history else {}
+        adapt_rows.setdefault(job.get("task", ""), {})[job.get("family", "")] = \
+            last.get("mean_success_rate", 0.0)
+    if adapt_rows:
+        families = [f for f in C.ADAPT_SOURCE_FAMILIES if any(f in r for r in adapt_rows.values())]
+        lines += ["## 微调矩阵（30 个模型：目标任务 × 起点源模型，每格 5 回合回测）", "",
+                  "| 目标任务 | " + " | ".join(f"←S{f}" for f in families) + " | 行均值 |",
+                  "|---|" + "---:|" * (len(families) + 1)]
+        column_means = {f: [] for f in families}
+        for task in C.TARGET_TASKS:
+            row = adapt_rows.get(task, {})
+            values = [row.get(f, 0.0) for f in families]
+            for f, value in zip(families, values):
+                column_means[f].append(value)
+            lines.append(f"| `{task}` | " + " | ".join(f"{v * 100:.0f}%" for v in values)
+                         + f" | {sum(values) / max(len(values), 1) * 100:.1f}% |")
+        all_values = [v for row in adapt_rows.values() for v in row.values()]
+        lines.append("| **总体** | " + " | ".join(
+            f"**{sum(column_means[f]) / max(len(column_means[f]), 1) * 100:.1f}%**" for f in families)
+            + f" | **{sum(all_values) / max(len(all_values), 1) * 100:.1f}%** |")
 
     # --- per task table -----------------------------------------------------
     lines += ["## 逐任务成功率", "",

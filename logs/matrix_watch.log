@@ -1,0 +1,345 @@
+{"t": "06:15:09", "summary": "terminal=0/30 running={'stage3_adapt_place_mouse_pad_r1_from_fam1': 1975, 'stage3_adapt_place_mouse_pad_r1_from_fam2': 1925} mean_success=0.133 over 6 backtests"}
+{"t": "06:45:11", "summary": "terminal=2/30 running={'stage3_adapt_rotate_qrcode_r1_from_fam1': 650, 'stage3_adapt_place_mouse_pad_r1_from_fam3': 750} mean_success=0.120 over 10 backtests"}
+{"t": "07:15:12", "summary": "terminal=2/30 running={'stage3_adapt_rotate_qrcode_r1_from_fam1': 1700, 'stage3_adapt_place_mouse_pad_r1_from_fam3': 1575} mean_success=0.129 over 14 backtests"}
+{"t": "07:45:13", "summary": "terminal=4/30 running={'stage3_adapt_rotate_qrcode_r1_from_fam3': 500, 'stage3_adapt_rotate_qrcode_r1_from_fam2': 500} mean_success=0.150 over 16 backtests"}
+{"t": "08:15:14", "summary": "terminal=4/30 running={'stage3_adapt_rotate_qrcode_r1_from_fam3': 1475, 'stage3_adapt_rotate_qrcode_r1_from_fam2': 1475} mean_success=0.170 over 20 backtests"}
+{"t": "08:45:16", "summary": "terminal=6/30 running={'stage3_adapt_place_can_basket_r1_from_fam2': 325, 'stage3_adapt_place_can_basket_r1_from_fam1': 375} mean_success=0.175 over 24 backtests"}
+{"t": "09:15:17", "summary": "terminal=6/30 running={'stage3_adapt_place_can_basket_r1_from_fam2': 1000, 'stage3_adapt_place_can_basket_r1_from_fam1': 975} mean_success=0.215 over 26 backtests"}
+{"t": "09:45:18", "summary": "terminal=6/30 running={'stage3_adapt_place_can_basket_r1_from_fam2': 1650, 'stage3_adapt_place_can_basket_r1_from_fam1': 1975} mean_success=0.267 over 30 backtests"}
+{"t": "10:15:19", "summary": "terminal=8/30 running={'stage3_adapt_place_can_basket_r1_from_fam3': 500, 'stage3_adapt_hanging_mug_r1_from_fam1': 500} mean_success=0.269 over 32 backtests"}
+{"t": "10:45:21", "summary": "terminal=8/30 running={'stage3_adapt_place_can_basket_r1_from_fam3': 975, 'stage3_adapt_hanging_mug_r1_from_fam1': 1000} mean_success=0.259 over 34 backtests"}
+{"t": "11:15:22", "summary": "terminal=8/30 running={'stage3_adapt_place_can_basket_r1_from_fam3': 1475, 'stage3_adapt_hanging_mug_r1_from_fam1': 1600} mean_success=0.254 over 37 backtests"}
+{"t": "11:45:24", "summary": "terminal=10/30 running={'stage3_adapt_hanging_mug_r1_from_fam2': 500, 'stage3_adapt_hanging_mug_r1_from_fam3': 500} mean_success=0.260 over 40 backtests"}
+{"t": "12:15:25", "summary": "terminal=10/30 running={'stage3_adapt_hanging_mug_r1_from_fam2': 975, 'stage3_adapt_hanging_mug_r1_from_fam3': 1000} mean_success=0.248 over 42 backtests"}
+{"t": "12:45:26", "summary": "terminal=10/30 running={'stage3_adapt_hanging_mug_r1_from_fam2': 1475, 'stage3_adapt_hanging_mug_r1_from_fam3': 1550} mean_success=0.231 over 45 backtests"}
+{"t": "13:15:27", "summary": "terminal=12/30 running={'stage3_adapt_stack_blocks_two_r1_from_fam1': 425, 'stage3_adapt_stack_blocks_two_r1_from_fam2': 375} mean_success=0.221 over 48 backtests"}
+{"t": "13:45:28", "summary": "terminal=12/30 running={'stage3_adapt_stack_blocks_two_r1_from_fam1': 1150, 'stage3_adapt_stack_blocks_two_r1_from_fam2': 1000} mean_success=0.224 over 51 backtests"}
+{"t": "14:15:30", "summary": "terminal=12/30 running={'stage3_adapt_stack_blocks_two_r1_from_fam1': 1975, 'stage3_adapt_stack_blocks_two_r1_from_fam2': 1775} mean_success=0.222 over 54 backtests"}
+{"t": "14:45:31", "summary": "terminal=14/30 running={'stage3_adapt_blocks_ranking_rgb_r1_from_fam1': 500, 'stage3_adapt_stack_blocks_two_r1_from_fam3': 500} mean_success=0.218 over 56 backtests"}
+{"t": "15:15:32", "summary": "terminal=14/30 running={'stage3_adapt_blocks_ranking_rgb_r1_from_fam1': 1000, 'stage3_adapt_stack_blocks_two_r1_from_fam3': 1250} mean_success=0.207 over 59 backtests"}
+{"t": "15:45:34", "summary": "terminal=14/30 running={'stage3_adapt_blocks_ranking_rgb_r1_from_fam1': 1600, 'stage3_adapt_stack_blocks_two_r1_from_fam3': 1975} mean_success=0.197 over 62 backtests"}
+{"t": "16:15:35", "summary": "terminal=16/30 running={'stage3_adapt_blocks_ranking_rgb_r1_from_fam2': 375, 'stage3_adapt_blocks_ranking_rgb_r1_from_fam3': 325} mean_success=0.191 over 64 backtests"}
+{"t": "16:45:36", "summary": "terminal=16/30 running={'stage3_adapt_blocks_ranking_rgb_r1_from_fam2': 1000, 'stage3_adapt_blocks_ranking_rgb_r1_from_fam3': 1000} mean_success=0.185 over 66 backtests"}
+{"t": "17:15:38", "summary": "terminal=16/30 running={'stage3_adapt_blocks_ranking_rgb_r1_from_fam2': 1500, 'stage3_adapt_blocks_ranking_rgb_r1_from_fam3': 1500} mean_success=0.179 over 68 backtests"}
+{"t": "17:45:40", "summary": "terminal=18/30 running={'stage3_adapt_pick_dual_bottles_r1_from_fam1': None, 'stage3_adapt_pick_dual_bottles_r1_from_fam2': None} mean_success=0.169 over 72 backtests"}
+{"t": "18:15:41", "summary": "terminal=18/30 running={'stage3_adapt_pick_dual_bottles_r1_from_fam1': 975, 'stage3_adapt_pick_dual_bottles_r1_from_fam2': 975} mean_success=0.176 over 74 backtests"}
+{"t": "18:45:42", "summary": "terminal=18/30 running={'stage3_adapt_pick_dual_bottles_r1_from_fam1': 1800, 'stage3_adapt_pick_dual_bottles_r1_from_fam2': 1700} mean_success=0.182 over 78 backtests"}
+{"t": "19:15:43", "summary": "terminal=20/30 running={'stage3_adapt_scan_object_r1_from_fam1': 500, 'stage3_adapt_pick_dual_bottles_r1_from_fam3': 500} mean_success=0.180 over 80 backtests"}
+{"t": "19:45:45", "summary": "terminal=20/30 running={'stage3_adapt_scan_object_r1_from_fam1': 975, 'stage3_adapt_pick_dual_bottles_r1_from_fam3': 1350} mean_success=0.178 over 83 backtests"}
+{"t": "20:15:46", "summary": "terminal=20/30 running={'stage3_adapt_scan_object_r1_from_fam1': 1700, 'stage3_adapt_pick_dual_bottles_r1_from_fam3': 1975} mean_success=0.175 over 87 backtests"}
+{"t": "20:45:47", "summary": "terminal=22/30 running={'stage3_adapt_scan_object_r1_from_fam2': 500, 'stage3_adapt_scan_object_r1_from_fam3': 500} mean_success=0.173 over 88 backtests"}
+{"t": "21:15:49", "summary": "terminal=22/30 running={'stage3_adapt_scan_object_r1_from_fam2': 975, 'stage3_adapt_scan_object_r1_from_fam3': 975} mean_success=0.171 over 90 backtests"}
+{"t": "21:45:50", "summary": "terminal=22/30 running={'stage3_adapt_scan_object_r1_from_fam2': 1475, 'stage3_adapt_scan_object_r1_from_fam3': 1475} mean_success=0.170 over 92 backtests"}
+{"t": "22:15:52", "summary": "terminal=24/30 running={'stage3_adapt_click_bell_r1_from_fam1': 325, 'stage3_adapt_click_bell_r1_from_fam2': 325} mean_success=0.165 over 96 backtests"}
+{"t": "22:45:53", "summary": "terminal=24/30 running={'stage3_adapt_click_bell_r1_from_fam1': 1450, 'stage3_adapt_click_bell_r1_from_fam2': 1475} mean_success=0.188 over 100 backtests"}
+{"t": "23:15:54", "summary": "terminal=26/30 running={'stage3_adapt_click_bell_r1_from_fam3': 375, 'stage3_adapt_beat_block_hammer_r1_from_fam1': 325} mean_success=0.208 over 104 backtests"}
+{"t": "23:45:55", "summary": "terminal=26/30 running={'stage3_adapt_click_bell_r1_from_fam3': 1450, 'stage3_adapt_beat_block_hammer_r1_from_fam1': 1475} mean_success=0.233 over 108 backtests"}
+{"t": "00:15:57", "summary": "terminal=28/30 running={'stage3_adapt_beat_block_hammer_r1_from_fam2': 375, 'stage3_adapt_beat_block_hammer_r1_from_fam3': 375} mean_success=0.250 over 112 backtests"}
+{"t": "00:45:58", "summary": "terminal=28/30 running={'stage3_adapt_beat_block_hammer_r1_from_fam2': 1300, 'stage3_adapt_beat_block_hammer_r1_from_fam3': 1300} mean_success=0.255 over 116 backtests"}
+{"t": "01:16:00", "summary": "terminal=29/30 running={'stage3_adapt_beat_block_hammer_r1_from_fam3': 1900} mean_success=0.266 over 119 backtests"}
+{
+  "done": true,
+  "summary": "terminal=30/30 running={} mean_success=0.268 over 120 backtests",
+  "jobs": {
+    "stage3_adapt_rotate_qrcode_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.4,
+        0.4,
+        0.2,
+        0.4
+      ]
+    },
+    "stage3_adapt_blocks_ranking_rgb_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_scan_object_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.2,
+        0.2,
+        0.0
+      ]
+    },
+    "stage3_adapt_place_mouse_pad_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    "stage3_adapt_scan_object_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.2,
+        0.0
+      ]
+    },
+    "stage3_adapt_place_can_basket_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.4,
+        0.2,
+        0.8
+      ]
+    },
+    "stage3_adapt_pick_dual_bottles_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.4,
+        0.4,
+        0.2,
+        0.2
+      ]
+    },
+    "stage3_adapt_rotate_qrcode_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.4,
+        0.2,
+        0.6
+      ]
+    },
+    "stage3_adapt_click_bell_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.8,
+        0.6,
+        0.4,
+        0.4
+      ]
+    },
+    "stage3_adapt_scan_object_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.2,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_place_mouse_pad_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_hanging_mug_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.2,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_pick_dual_bottles_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.4,
+        0.2,
+        0.4,
+        0.0
+      ]
+    },
+    "stage3_adapt_place_can_basket_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.8,
+        0.8,
+        0.4,
+        0.2
+      ]
+    },
+    "stage3_adapt_place_can_basket_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.6,
+        0.6,
+        0.6,
+        0.4
+      ]
+    },
+    "stage3_adapt_blocks_ranking_rgb_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_hanging_mug_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_hanging_mug_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.2
+      ]
+    },
+    "stage3_adapt_pick_dual_bottles_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_place_mouse_pad_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_stack_blocks_two_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.4,
+        0.4,
+        0.6,
+        0.2
+      ]
+    },
+    "stage3_adapt_click_bell_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.6,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "stage3_adapt_stack_blocks_two_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_rotate_qrcode_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.2,
+        0.0,
+        0.2
+      ]
+    },
+    "stage3_adapt_stack_blocks_two_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_blocks_ranking_rgb_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "stage3_adapt_click_bell_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "stage3_adapt_beat_block_hammer_r1_from_fam1": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        1.0,
+        1.0,
+        0.8,
+        0.4
+      ]
+    },
+    "stage3_adapt_beat_block_hammer_r1_from_fam2": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.2,
+        0.4,
+        0.8,
+        0.4
+      ]
+    },
+    "stage3_adapt_beat_block_hammer_r1_from_fam3": {
+      "status": "completed",
+      "step": 2000,
+      "scores": [
+        0.6,
+        0.4,
+        0.8,
+        0.6
+      ]
+    }
+  }
+}

@@ -12,7 +12,7 @@
     500102,
     500104
   ],
-  "successes": 0,
+  "successes": 1,
   "episodes": [
     {
       "episode": 1,
@@ -20,15 +20,15 @@
       "valid": true,
       "success": false,
       "steps": 400,
-      "instruction": "Grab the small rounded plastic mouse and set it on the Cyan mat."
+      "instruction": "Pick up the dark gray computer mouse with logo with the right arm and drop it onto the Cyan mat."
     },
     {
       "episode": 2,
       "seed": 500102,
       "valid": true,
-      "success": false,
-      "steps": 400,
-      "instruction": "Pick the mouse with scroll wheel and position it on the Gray colored mat."
+      "success": true,
+      "steps": 180,
+      "instruction": "Pick the hand-sized wireless mouse and position it on the Gray colored mat."
     },
     {
       "episode": 3,
@@ -36,7 +36,7 @@
       "valid": true,
       "success": false,
       "steps": 400,
-      "instruction": "Grab the wireless mouse with left and right buttons and set it on Black mat."
+      "instruction": "Grab the dark gray wireless mouse and set it on Black mat."
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "task": "hanging_mug",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103,
+    500103
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 500101,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the mug shaped like a cylinder, turn it, set it on the table, then hang it on the medium-sized rack."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the mug shaped like a cylinder on the table, rotate it, set it down in the middle, then hang it onto the dark gray rack with flat back."
+    }
+  ]
+}

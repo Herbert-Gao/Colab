@@ -26,35 +26,35 @@
           "seed": 500100,
           "success": false,
           "steps": 400,
-          "instruction": "Grab the hand-sized dark gray mouse and set it on the Cyan mat."
+          "instruction": "Lift the hand-sized dark gray mouse and drop it on the Cyan mat."
         },
         {
           "episode": 2,
           "seed": 500102,
           "success": false,
           "steps": 400,
-          "instruction": "Grab the hand-sized wireless mouse and set it on Gray mat."
+          "instruction": "Pick up the mouse with scroll wheel and set it on the Gray mat."
         },
         {
           "episode": 3,
           "seed": 500104,
           "success": false,
           "steps": 400,
-          "instruction": "Pick up the dark gray wireless mouse and set it on the Black mat."
+          "instruction": "Grab the dark gray wireless mouse and set it on Black mat."
         },
         {
           "episode": 1,
           "seed": 500101,
           "success": false,
           "steps": 400,
-          "instruction": "Grab the dark gray wireless mouse and set it on the Green mat."
+          "instruction": "Grab the wireless mouse with left and right buttons and set it on the Green mat."
         },
         {
           "episode": 2,
           "seed": 500103,
           "success": false,
           "steps": 400,
-          "instruction": "Pick the hand-sized dark gray mouse and position it on the Black colored mat."
+          "instruction": "Grab the small rounded plastic mouse and set it on Black mat."
         }
       ],
       "per_group": [
@@ -67,7 +67,7 @@
           ],
           "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_mouse_pad_r1_from_fam2/2000/place_mouse_pad_gpu4_s0/eval.log",
           "timed_out": false,
-          "seconds": 211.0,
+          "seconds": 190.9,
           "episodes": 3,
           "successes": 0,
           "success_rate": 0.0,
@@ -77,21 +77,21 @@
               "seed": 500100,
               "success": false,
               "steps": 400,
-              "instruction": "Grab the hand-sized dark gray mouse and set it on the Cyan mat."
+              "instruction": "Lift the hand-sized dark gray mouse and drop it on the Cyan mat."
             },
             {
               "episode": 2,
               "seed": 500102,
               "success": false,
               "steps": 400,
-              "instruction": "Grab the hand-sized wireless mouse and set it on Gray mat."
+              "instruction": "Pick up the mouse with scroll wheel and set it on the Gray mat."
             },
             {
               "episode": 3,
               "seed": 500104,
               "success": false,
               "steps": 400,
-              "instruction": "Pick up the dark gray wireless mouse and set it on the Black mat."
+              "instruction": "Grab the dark gray wireless mouse and set it on Black mat."
             }
           ],
           "skipped": []
@@ -104,7 +104,7 @@
           ],
           "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_mouse_pad_r1_from_fam2/2000/place_mouse_pad_gpu4_s1/eval.log",
           "timed_out": false,
-          "seconds": 148.3,
+          "seconds": 139.8,
           "episodes": 2,
           "successes": 0,
           "success_rate": 0.0,
@@ -114,14 +114,14 @@
               "seed": 500101,
               "success": false,
               "steps": 400,
-              "instruction": "Grab the dark gray wireless mouse and set it on the Green mat."
+              "instruction": "Grab the wireless mouse with left and right buttons and set it on the Green mat."
             },
             {
               "episode": 2,
               "seed": 500103,
               "success": false,
               "steps": 400,
-              "instruction": "Pick the hand-sized dark gray mouse and position it on the Black colored mat."
+              "instruction": "Grab the small rounded plastic mouse and set it on Black mat."
             }
           ],
           "skipped": []
@@ -131,5 +131,5 @@
     }
   },
   "mean_success_rate": 0.0,
-  "recorded": "2026-10-23T00:29:10+0000"
+  "recorded": "2026-10-24T06:22:40+0000"
 }

@@ -1,0 +1,58 @@
+{
+  "task": "pick_dual_bottles",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104,
+    500103,
+    500104
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Take hold of the bottle with red screw cap and the green plastic bottle with ridged bottom at once."
+    },
+    {
+      "episode": 1,
+      "seed": 500102,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 1,
+      "seed": 500104,
+      "valid": false,
+      "reason": "expert_check_failed",
+      "success": false
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Hold the plastic soda bottle in one arm and the green plastic bottle with ridged bottom in the other."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": true,
+      "steps": 75,
+      "instruction": "Hold the plastic soda bottle in one arm and the green bottle with white label in the other."
+    }
+  ]
+}

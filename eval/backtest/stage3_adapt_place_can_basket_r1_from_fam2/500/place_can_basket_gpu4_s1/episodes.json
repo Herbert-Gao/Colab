@@ -1,0 +1,32 @@
+{
+  "task": "place_can_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 201,
+      "instruction": "Grab the cylindrical brown drink can with white markings and put it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 213,
+      "instruction": "Use the left arm to put the metal can fits easily in hand in the yellow basket with open slots; the other arm lifts the yellow basket with open slots."
+    }
+  ]
+}

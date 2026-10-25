@@ -1,0 +1,32 @@
+{
+  "task": "place_can_basket",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 2,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": true,
+      "steps": 323,
+      "instruction": "Use the left arm to put the cylindrical brown drink can with white markings in the yellow rectangular basket with dual grips; the other arm lifts the yellow rectangular basket with dual grips."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 352,
+      "instruction": "Grab the metal can fits easily in hand, drop it into the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips with another arm."
+    }
+  ]
+}

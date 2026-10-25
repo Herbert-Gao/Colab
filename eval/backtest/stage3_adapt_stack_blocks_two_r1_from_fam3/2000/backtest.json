@@ -1,0 +1,135 @@
+{
+  "job_id": "stage3_adapt_stack_blocks_two_r1_from_fam3",
+  "step": 2000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_stack_blocks_two_from_fam3/2000",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "0",
+    "2"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "stack_blocks_two": {
+      "task": "stack_blocks_two",
+      "episodes": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 800,
+          "instruction": "Bring red block and green block to the center, then position green block above red block."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": false,
+          "steps": 800,
+          "instruction": "Move red block and green block to the center and place green block atop red block."
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": false,
+          "steps": 800,
+          "instruction": "Move red block and green block to the table's center, then stack green block on red block."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": false,
+          "steps": 800,
+          "instruction": "Move red block to the center, then put green block on top."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": false,
+          "steps": 800,
+          "instruction": "Move red block and green block to the table's center, then stack green block on red block."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "stack_blocks_two",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_stack_blocks_two_r1_from_fam3/2000/stack_blocks_two_gpu0_s0/eval.log",
+          "timed_out": false,
+          "seconds": 312.8,
+          "episodes": 3,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 800,
+              "instruction": "Bring red block and green block to the center, then position green block above red block."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 800,
+              "instruction": "Move red block and green block to the center and place green block atop red block."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 800,
+              "instruction": "Move red block and green block to the table's center, then stack green block on red block."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "stack_blocks_two",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_stack_blocks_two_r1_from_fam3/2000/stack_blocks_two_gpu0_s1/eval.log",
+          "timed_out": false,
+          "seconds": 197.1,
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 800,
+              "instruction": "Move red block to the center, then put green block on top."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 800,
+              "instruction": "Move red block and green block to the table's center, then stack green block on red block."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    }
+  },
+  "mean_success_rate": 0.0,
+  "recorded": "2026-10-24T15:46:45+0000"
+}

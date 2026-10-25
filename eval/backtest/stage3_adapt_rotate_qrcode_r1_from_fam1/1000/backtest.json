@@ -1,0 +1,135 @@
+{
+  "job_id": "stage3_adapt_rotate_qrcode_r1_from_fam1",
+  "step": 1000,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_rotate_qrcode_from_fam1/1000",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "4",
+    "6"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "rotate_qrcode": {
+      "task": "rotate_qrcode",
+      "episodes": 5,
+      "successes": 2,
+      "success_rate": 0.4,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 400,
+          "instruction": "Grab the paymentsign with angled stand, lift it, and turn it to face you"
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": false,
+          "steps": 400,
+          "instruction": "Catch the QR code paymentsign from the table and rotate it"
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": false,
+          "steps": 400,
+          "instruction": "Pick the sign for payment processing up from the table and rotate it."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 175,
+          "instruction": "Catch the QR code payment sign from the table and make it face you."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": true,
+          "steps": 155,
+          "instruction": "Catch the tabletop paymentsign on the table and pick it up."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "rotate_qrcode",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam1/1000/rotate_qrcode_gpu4_s0/eval.log",
+          "timed_out": false,
+          "seconds": 225.2,
+          "episodes": 3,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the paymentsign with angled stand, lift it, and turn it to face you"
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 400,
+              "instruction": "Catch the QR code paymentsign from the table and rotate it"
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick the sign for payment processing up from the table and rotate it."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "rotate_qrcode",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_rotate_qrcode_r1_from_fam1/1000/rotate_qrcode_gpu4_s1/eval.log",
+          "timed_out": false,
+          "seconds": 94.6,
+          "episodes": 2,
+          "successes": 2,
+          "success_rate": 1.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 175,
+              "instruction": "Catch the QR code payment sign from the table and make it face you."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 155,
+              "instruction": "Catch the tabletop paymentsign on the table and pick it up."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    }
+  },
+  "mean_success_rate": 0.4,
+  "recorded": "2026-10-24T06:57:30+0000"
+}

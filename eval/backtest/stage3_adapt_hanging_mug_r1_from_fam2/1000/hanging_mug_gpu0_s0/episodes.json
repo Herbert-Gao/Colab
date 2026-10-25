@@ -1,0 +1,42 @@
+{
+  "task": "hanging_mug",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the mug with white logo print on the table, rotate it, set it down in the middle, then hang it onto the rack with straight and slanted rods."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the beige coffee mug from the table, rotate it, and set it in the center. Then hang the beige coffee mug on the dark gray rack with flat back."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Grab the smooth ceramic mug from the table, rotate it, and set it in the center. Then hang the smooth ceramic mug on the medium-sized rack."
+    }
+  ]
+}

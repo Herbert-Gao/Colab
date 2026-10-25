@@ -1,4 +1,4 @@
-更新时间（带时区）: 2026-10-23T10:03:29+0000
+更新时间（带时区）: 2026-10-24T06:16:28+0000
 
 # stage3_adapt_place_mouse_pad_r1_from_fam1
 
@@ -6,14 +6,16 @@
 - 源族: 1 / 目标任务: place_mouse_pad
 - 数据: pi05_30_aloha_target_place_mouse_pad_n5 / 示范编号 [9, 24, 29, 40, 49]
 - 初始权重: stage3_source_fam1_r1
-- 步数上限: 8001；训练种子: 1
+- 步数上限: 2001；训练种子: 1
 - 学习率: 2.5e-05；chunk_size(action_horizon): 10
 - 回测任务: place_mouse_pad；回测种子: [500100, 500101, 500102, 500103, 500104]
-- 状态: stopped
+- 状态: completed
 
 | 步数 | loss(500步均值) | 各任务成功数/回合 | 平均成功率 | 检查点 | 早停判断 |
 |---:|---:|---|---:|---|---|
-| 2000 | 0.01139001308893785 | place_mouse_pad:0/5 | 0.0 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/2000 | 未提升0/3 loss未达标 |
-| 4000 | 0.006744863002095372 | place_mouse_pad:0/5 | 0.0 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/4000 | 未提升0/3 loss未达标 |
+| 500 | 0.027985865755472333 | place_mouse_pad:1/5 | 0.2 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/500 | 未提升0/3 loss未达标 |
+| 1000 | 0.015191417851485312 | place_mouse_pad:1/5 | 0.2 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/1000 | 未提升0/3 loss未达标 |
+| 1500 | 0.01477989527862519 | place_mouse_pad:1/5 | 0.2 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/1500 | 未提升0/3 loss未达标 |
+| 2000 | 0.011346869803965091 | place_mouse_pad:1/5 | 0.2 | /data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1/2000 | 未提升0/3 loss未达标 |
 
-最终检查点: {"step": 4000, "params_only": {"path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1_final_step4000", "bytes": 12440692556, "files": 33, "restored_leaves": 51, "verified": true, "source_files": 33}}
+最终检查点: {"step": 2000, "params_only": {"path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_mouse_pad_from_fam1_final_step2000", "bytes": 12440741832, "files": 32, "restored_leaves": 51, "verified": true, "source_files": 32}}

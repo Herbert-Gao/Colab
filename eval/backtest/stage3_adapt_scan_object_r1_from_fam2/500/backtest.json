@@ -1,0 +1,754 @@
+{
+  "job_id": "stage3_adapt_scan_object_r1_from_fam2",
+  "step": 500,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_scan_object_from_fam2/500",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "0",
+    "2"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "scan_object": {
+      "task": "scan_object",
+      "episodes": 5,
+      "successes": 0,
+      "success_rate": 0.0,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 500,
+          "instruction": "Hold the small tea-box in one arm and the handheld scanner with blue activation trigger in the other to scan the small tea-box."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": false,
+          "steps": 500,
+          "instruction": "Pick the object the tea box with green leaves and scanner the black scanner with ergonomic handle up together, then scan."
+        },
+        {
+          "episode": 3,
+          "seed": 500121,
+          "success": false,
+          "steps": 500,
+          "instruction": "Hold the decorative golden tea box in one arm and the black scanner with ergonomic handle in the other to scan the decorative golden tea box."
+        },
+        {
+          "episode": 1,
+          "seed": 500121,
+          "success": false,
+          "steps": 500,
+          "instruction": "Secure both items simultaneously, holding the small scanner fits in hand near the small tea box for scanning."
+        },
+        {
+          "episode": 2,
+          "seed": 500127,
+          "success": false,
+          "steps": 500,
+          "instruction": "Secure both items simultaneously, holding the black scanner with ergonomic handle near the tea-box with smooth glossy finish for scanning."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "scan_object",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_scan_object_r1_from_fam2/500/scan_object_gpu0_s0/eval.log",
+          "timed_out": false,
+          "seconds": 638.1,
+          "episodes": 3,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 500,
+              "instruction": "Hold the small tea-box in one arm and the handheld scanner with blue activation trigger in the other to scan the small tea-box."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": false,
+              "steps": 500,
+              "instruction": "Pick the object the tea box with green leaves and scanner the black scanner with ergonomic handle up together, then scan."
+            },
+            {
+              "episode": 3,
+              "seed": 500121,
+              "success": false,
+              "steps": 500,
+              "instruction": "Hold the decorative golden tea box in one arm and the black scanner with ergonomic handle in the other to scan the decorative golden tea box."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 2,
+              "seed": 500104,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500104,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500105,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500106,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500107,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500108,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500109,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500110,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500111,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500112,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500113,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500114,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500115,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500116,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500117,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500118,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500119,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 2,
+              "seed": 500120,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        },
+        {
+          "task": "scan_object",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_scan_object_r1_from_fam2/500/scan_object_gpu0_s1/eval.log",
+          "timed_out": false,
+          "seconds": 667.4,
+          "episodes": 2,
+          "successes": 0,
+          "success_rate": 0.0,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500121,
+              "success": false,
+              "steps": 500,
+              "instruction": "Secure both items simultaneously, holding the small scanner fits in hand near the small tea box for scanning."
+            },
+            {
+              "episode": 2,
+              "seed": 500127,
+              "success": false,
+              "steps": 500,
+              "instruction": "Secure both items simultaneously, holding the black scanner with ergonomic handle near the tea-box with smooth glossy finish for scanning."
+            }
+          ],
+          "skipped": [
+            {
+              "episode": 0,
+              "seed": 500101,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500103,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500104,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500105,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500106,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500107,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500108,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500109,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500110,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500111,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500112,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500113,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500114,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500115,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500116,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500117,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500118,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500119,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 0,
+              "seed": 500120,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500122,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500123,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500124,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500125,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            },
+            {
+              "episode": 1,
+              "seed": 500126,
+              "valid": false,
+              "reason": "expert_check_failed",
+              "success": false
+            }
+          ]
+        }
+      ],
+      "skipped": [
+        {
+          "episode": 2,
+          "seed": 500104,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500104,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500105,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500106,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500107,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500108,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500109,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500110,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500111,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500112,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500113,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500114,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500115,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500116,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500117,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500118,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500119,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 2,
+          "seed": 500120,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500101,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500103,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500104,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500105,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500106,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500107,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500108,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500109,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500110,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500111,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500112,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500113,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500114,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500115,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500116,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500117,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500118,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500119,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 0,
+          "seed": 500120,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500122,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500123,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500124,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500125,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        },
+        {
+          "episode": 1,
+          "seed": 500126,
+          "valid": false,
+          "reason": "expert_check_failed",
+          "success": false
+        }
+      ]
+    }
+  },
+  "mean_success_rate": 0.0,
+  "recorded": "2026-10-24T21:06:39+0000"
+}

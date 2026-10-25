@@ -1,1 +1,8 @@
 [2026-10-23T13:54:25+00:00] waiting for the fine-tuning matrix to finish
+[2026-10-25T01:23:27+00:00] the matrix is done -> final delivery
+[2026-10-25T01:23:27+00:00] filling the episodes the first evaluation round is short
+[2026-10-25T01:26:30+00:00] redrawing the charts and rewriting the report
+[2026-10-25T01:26:32+00:00] writing the model manifest, the progress summary and the deliverable table
+[2026-10-25T01:26:32+00:00] auditing the delivery against the run book
+[2026-10-25T01:26:32+00:00] sending the completion notice
+[2026-10-25T01:26:33+00:00] final delivery done

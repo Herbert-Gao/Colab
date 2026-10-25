@@ -1,19 +1,337 @@
 {
   "job_id": "stage3_adapt_place_can_basket_r1_from_fam2",
   "created": "2026-10-23T12:16:49+0000",
-  "status": "deferred",
+  "status": "completed",
   "peak_lr": 2.5e-05,
   "action_horizon": 10,
   "batch_size": 32,
   "max_steps": 2001,
   "seed": 1,
-  "history": [],
+  "history": [
+    {
+      "step": 500,
+      "mean_success_rate": 0.8,
+      "per_task": {
+        "place_can_basket": {
+          "successes": 4,
+          "episodes": 5,
+          "success_rate": 0.8,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 204,
+              "instruction": "Grab the can with red body and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 228,
+              "instruction": "Use the left arm to set the can with shiny smooth surface in the yellow rectangular basket with dual grips; another arm lifts the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 700,
+              "instruction": "Grab the rounded can with smooth printed surface and put it in the oval basket with medium storage space, then lift the oval basket with medium storage space."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 201,
+              "instruction": "Grab the cylindrical brown drink can with white markings and put it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 213,
+              "instruction": "Use the left arm to put the metal can fits easily in hand in the yellow basket with open slots; the other arm lifts the yellow basket with open slots."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.03993089176248759,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 500
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/500",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_can_basket_r1_from_fam2/500/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T08:59:36+0000",
+      "early_stop": {
+        "step": 500,
+        "success_rate": 0.8,
+        "loss": {
+          "loss_mean": 0.03993089176248759,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 500
+        },
+        "stop": false,
+        "reasons": [
+          "step 500 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 1000,
+      "mean_success_rate": 0.8,
+      "per_task": {
+        "place_can_basket": {
+          "successes": 4,
+          "episodes": 5,
+          "success_rate": 0.8,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 211,
+              "instruction": "Use the left arm to pick up the red can, put it into the yellow rectangular basket with dual grips, the other arm lifts the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 218,
+              "instruction": "Grab the lightweight cylindrical metal can, drop it into the yellow rectangular basket with dual grips, lift the yellow rectangular basket with dual grips with another arm."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 193,
+              "instruction": "Use the left arm to put the rounded can with smooth printed surface in the oval basket with medium storage space; the other arm lifts the oval basket with medium storage space."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 700,
+              "instruction": "Use the left arm to place the cylindrical brown drink can with white markings in the yellow rectangular basket with dual grips; the other arm lifts the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 223,
+              "instruction": "Pick up the lightweight cylindrical metal can, place it in the medium-sized basket with perforated texture, then lift the medium-sized basket with perforated texture."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.017172094239853324,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 998
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/1000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_can_basket_r1_from_fam2/1000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T09:19:45+0000",
+      "early_stop": {
+        "step": 1000,
+        "success_rate": 0.8,
+        "loss": {
+          "loss_mean": 0.017172094239853324,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 998
+        },
+        "stop": false,
+        "reasons": [
+          "step 1000 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 1500,
+      "mean_success_rate": 0.4,
+      "per_task": {
+        "place_can_basket": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500102,
+              "success": true,
+              "steps": 215,
+              "instruction": "Pick up the red can, place it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 700,
+              "instruction": "Grab the metal can fits easily in hand and put it in the yellow basket with open slots, then lift the yellow basket with open slots."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 700,
+              "instruction": "Pick the rounded can with smooth printed surface, put it in the medium basket with smooth texture, then lift the medium basket with smooth texture."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 700,
+              "instruction": "Use the left arm to place the light brown cylindrical can in the yellow rectangular basket with dual grips; the other arm lifts the yellow rectangular basket with dual grips."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 269,
+              "instruction": "Use the left arm to set the lightweight cylindrical metal can in the medium-sized basket with perforated texture; another arm lifts the medium-sized basket with perforated texture."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.017748471627011896,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 1497
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/1500",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_can_basket_r1_from_fam2/1500/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T09:42:34+0000",
+      "early_stop": {
+        "step": 1500,
+        "success_rate": 0.4,
+        "loss": {
+          "loss_mean": 0.017748471627011896,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 1497
+        },
+        "stop": false,
+        "reasons": [
+          "step 1500 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 2000,
+      "mean_success_rate": 0.2,
+      "per_task": {
+        "place_can_basket": {
+          "successes": 1,
+          "episodes": 5,
+          "success_rate": 0.2,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 700,
+              "instruction": "Grab the red can, drop it in the basket with rounded edges, and lift the basket with rounded edges."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": true,
+              "steps": 220,
+              "instruction": "Use the left arm to set the red can with white top in the medium-sized basket with perforated texture; another arm lifts the medium-sized basket with perforated texture."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 700,
+              "instruction": "Use the left arm to place the rounded can with smooth printed surface in the basket with rounded edges; the other arm lifts the basket with rounded edges."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 700,
+              "instruction": "Grab the rounded can with smooth printed surface, put it in the yellow basket with open slots, lift the yellow basket with open slots."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 700,
+              "instruction": "Grab the lightweight cylindrical metal can and put it in the yellow rectangular basket with dual grips, then lift the yellow rectangular basket with dual grips."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.015655783304944635,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 1997
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2/2000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_place_can_basket_r1_from_fam2/2000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T10:01:43+0000",
+      "early_stop": {
+        "step": 2000,
+        "success_rate": 0.2,
+        "loss": {
+          "loss_mean": 0.015655783304944635,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 1997
+        },
+        "stop": false,
+        "reasons": [
+          "step 2000 < 10000: baseline not set yet"
+        ]
+      }
+    }
+  ],
   "milestones": {},
   "milestone_steps": [],
   "save_interval": 500,
   "no_improve_count": 0,
   "best_success": null,
-  "processed_checkpoints": [],
+  "processed_checkpoints": [
+    500,
+    1000,
+    1500,
+    2000
+  ],
   "incidents": [],
   "stage": 3,
   "kind": "adapt",
@@ -44,5 +362,55 @@
     37,
     44,
     48
-  ]
+  ],
+  "train_gpus": "4,5,6,7",
+  "fsdp_devices": 4,
+  "policy_gpus": "4,6",
+  "sim_gpus": "5,7",
+  "mem_fraction": 0.72,
+  "updated": "2026-10-24T10:02:22+0000",
+  "attempts": 1,
+  "started": "2026-10-24T08:37:40+00:00",
+  "current_step": 2000,
+  "loss_windows": [
+    {
+      "step": 500,
+      "loss": 0.03993089176248759
+    },
+    {
+      "step": 1000,
+      "loss": 0.017172094239853324
+    },
+    {
+      "step": 1500,
+      "loss": 0.017748471627011896
+    },
+    {
+      "step": 2000,
+      "loss": 0.015655783304944635
+    }
+  ],
+  "released_by": "watchdog",
+  "final_checkpoints": {
+    "2000": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2_final_step2000",
+      "bytes": 12440732418,
+      "files": 44,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 44
+    }
+  },
+  "final_checkpoint": {
+    "step": 2000,
+    "params_only": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_place_can_basket_from_fam2_final_step2000",
+      "bytes": 12440732418,
+      "files": 44,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 44
+    }
+  },
+  "finished": "2026-10-24T10:02:22+00:00"
 }

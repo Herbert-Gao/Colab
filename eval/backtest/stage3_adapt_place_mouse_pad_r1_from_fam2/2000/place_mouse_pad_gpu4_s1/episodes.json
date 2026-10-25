@@ -18,7 +18,7 @@
       "valid": true,
       "success": false,
       "steps": 400,
-      "instruction": "Grab the dark gray wireless mouse and set it on the Green mat."
+      "instruction": "Grab the wireless mouse with left and right buttons and set it on the Green mat."
     },
     {
       "episode": 2,
@@ -26,7 +26,7 @@
       "valid": true,
       "success": false,
       "steps": 400,
-      "instruction": "Pick the hand-sized dark gray mouse and position it on the Black colored mat."
+      "instruction": "Grab the small rounded plastic mouse and set it on Black mat."
     }
   ]
 }

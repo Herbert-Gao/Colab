@@ -1,0 +1,32 @@
+{
+  "task": "hanging_mug",
+  "task_config": "demo_clean",
+  "requested_episodes": 2,
+  "seed_schedule": [
+    500101,
+    500103
+  ],
+  "attempted_seeds": [
+    500101,
+    500103
+  ],
+  "successes": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500101,
+      "valid": true,
+      "success": false,
+      "steps": 900,
+      "instruction": "Lift the white coffee mug, rotate it, put it down, then attach it to the dark gray rack with flat back."
+    },
+    {
+      "episode": 2,
+      "seed": 500103,
+      "valid": true,
+      "success": true,
+      "steps": 356,
+      "instruction": "Pick the medium-sized white mug from the table, rotate it, place it in the middle, and hang it onto the rack with straight and slanted rods."
+    }
+  ]
+}

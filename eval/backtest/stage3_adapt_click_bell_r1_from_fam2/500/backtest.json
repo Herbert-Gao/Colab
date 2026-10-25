@@ -1,0 +1,135 @@
+{
+  "job_id": "stage3_adapt_click_bell_r1_from_fam2",
+  "step": 500,
+  "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_click_bell_from_fam2/500",
+  "seeds": [
+    500100,
+    500101,
+    500102,
+    500103,
+    500104
+  ],
+  "policy_gpus": [
+    "4",
+    "6"
+  ],
+  "sim_gpu": "1",
+  "tasks": {
+    "click_bell": {
+      "task": "click_bell",
+      "episodes": 5,
+      "successes": 3,
+      "success_rate": 0.6,
+      "per_episode": [
+        {
+          "episode": 1,
+          "seed": 500100,
+          "success": false,
+          "steps": 400,
+          "instruction": "Direct the right arm to click the blue bell with glossy finish's top."
+        },
+        {
+          "episode": 2,
+          "seed": 500102,
+          "success": true,
+          "steps": 81,
+          "instruction": "Use the right arm to press the bell with raised round top's top center."
+        },
+        {
+          "episode": 3,
+          "seed": 500104,
+          "success": true,
+          "steps": 103,
+          "instruction": "Use the left arm to press the palm-sized bell's top center."
+        },
+        {
+          "episode": 1,
+          "seed": 500101,
+          "success": true,
+          "steps": 90,
+          "instruction": "Click the top center of the medium-sized bell."
+        },
+        {
+          "episode": 2,
+          "seed": 500103,
+          "success": false,
+          "steps": 400,
+          "instruction": "Use the left arm to press the bell with raised round top's top center."
+        }
+      ],
+      "per_group": [
+        {
+          "task": "click_bell",
+          "seeds": [
+            500100,
+            500102,
+            500104
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_click_bell_r1_from_fam2/500/click_bell_gpu4_s0/eval.log",
+          "timed_out": false,
+          "seconds": 179.8,
+          "episodes": 3,
+          "successes": 2,
+          "success_rate": 0.6667,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Direct the right arm to click the blue bell with glossy finish's top."
+            },
+            {
+              "episode": 2,
+              "seed": 500102,
+              "success": true,
+              "steps": 81,
+              "instruction": "Use the right arm to press the bell with raised round top's top center."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": true,
+              "steps": 103,
+              "instruction": "Use the left arm to press the palm-sized bell's top center."
+            }
+          ],
+          "skipped": []
+        },
+        {
+          "task": "click_bell",
+          "seeds": [
+            500101,
+            500103
+          ],
+          "log": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_click_bell_r1_from_fam2/500/click_bell_gpu4_s1/eval.log",
+          "timed_out": false,
+          "seconds": 111.5,
+          "episodes": 2,
+          "successes": 1,
+          "success_rate": 0.5,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 90,
+              "instruction": "Click the top center of the medium-sized bell."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Use the left arm to press the bell with raised round top's top center."
+            }
+          ],
+          "skipped": []
+        }
+      ],
+      "skipped": []
+    }
+  },
+  "mean_success_rate": 0.6,
+  "recorded": "2026-10-24T22:24:46+0000"
+}

@@ -1,19 +1,337 @@
 {
   "job_id": "stage3_adapt_pick_dual_bottles_r1_from_fam1",
   "created": "2026-10-23T12:16:49+0000",
-  "status": "deferred",
+  "status": "completed",
   "peak_lr": 2.5e-05,
   "action_horizon": 10,
   "batch_size": 32,
   "max_steps": 2001,
   "seed": 1,
-  "history": [],
+  "history": [
+    {
+      "step": 500,
+      "mean_success_rate": 0.4,
+      "per_task": {
+        "pick_dual_bottles": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Use separate arms to pick the brown bottle and the green plastic bottle with ridged bottom simultaneously."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick both the brown bottle and the green bottle with white label up in parallel."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the bottle with red screw cap and the green bottle with white label together with both arms."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": true,
+              "steps": 130,
+              "instruction": "Use separate arms to pick the brown bottle and the green bottle simultaneously."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 109,
+              "instruction": "Raise the bottle with red screw cap and the green plastic bottle with ridged bottom together."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.28869475876912476,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 500
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/500",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_pick_dual_bottles_r1_from_fam1/500/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T18:02:16+0000",
+      "early_stop": {
+        "step": 500,
+        "success_rate": 0.4,
+        "loss": {
+          "loss_mean": 0.28869475876912476,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 500
+        },
+        "stop": false,
+        "reasons": [
+          "step 500 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 1000,
+      "mean_success_rate": 0.4,
+      "per_task": {
+        "pick_dual_bottles": {
+          "successes": 2,
+          "episodes": 5,
+          "success_rate": 0.4,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick both the brown bottle and the green bottle up in parallel."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 124,
+              "instruction": "Grab the bottle with red screw cap and the green plastic bottle with ridged bottom together with both arms."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Pick up the plastic soda bottle and the green bottle simultaneously."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the brown bottle and the green bottle together with both arms."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 108,
+              "instruction": "Pick both the bottle with red screw cap and the green plastic bottle with ridged bottom up in parallel."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.03447928484529257,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 1000
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/1000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_pick_dual_bottles_r1_from_fam1/1000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T18:21:11+0000",
+      "early_stop": {
+        "step": 1000,
+        "success_rate": 0.4,
+        "loss": {
+          "loss_mean": 0.03447928484529257,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 1000
+        },
+        "stop": false,
+        "reasons": [
+          "step 1000 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 1500,
+      "mean_success_rate": 0.2,
+      "per_task": {
+        "pick_dual_bottles": {
+          "successes": 1,
+          "episodes": 5,
+          "success_rate": 0.2,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Lift the brown bottle and the green bottle with white label at the same time."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 136,
+              "instruction": "Lift the plastic soda bottle and the green bottle at the same time."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Take hold of the brown bottle and the green bottle with white label at once."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Use separate arms to pick the bottle with red screw cap and the green bottle simultaneously."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Hold the brown bottle in one arm and the green plastic bottle with ridged bottom in the other."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.027143997186794878,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 1500
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/1500",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_pick_dual_bottles_r1_from_fam1/1500/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T18:40:36+0000",
+      "early_stop": {
+        "step": 1500,
+        "success_rate": 0.2,
+        "loss": {
+          "loss_mean": 0.027143997186794878,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 1500
+        },
+        "stop": false,
+        "reasons": [
+          "step 1500 < 10000: baseline not set yet"
+        ]
+      }
+    },
+    {
+      "step": 2000,
+      "mean_success_rate": 0.2,
+      "per_task": {
+        "pick_dual_bottles": {
+          "successes": 1,
+          "episodes": 5,
+          "success_rate": 0.2,
+          "per_episode": [
+            {
+              "episode": 1,
+              "seed": 500100,
+              "success": false,
+              "steps": 400,
+              "instruction": "Raise the brown bottle and the green bottle together."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": true,
+              "steps": 143,
+              "instruction": "Use separate arms to pick the bottle with red screw cap and the green bottle simultaneously."
+            },
+            {
+              "episode": 3,
+              "seed": 500104,
+              "success": false,
+              "steps": 400,
+              "instruction": "Use one arm for the plastic soda bottle and the other for the green bottle with white label."
+            },
+            {
+              "episode": 1,
+              "seed": 500101,
+              "success": false,
+              "steps": 400,
+              "instruction": "Grab the brown bottle and the green bottle with white label together with both arms."
+            },
+            {
+              "episode": 2,
+              "seed": 500103,
+              "success": false,
+              "steps": 400,
+              "instruction": "Use separate arms to pick the plastic soda bottle and the green plastic bottle with ridged bottom simultaneously."
+            }
+          ]
+        }
+      },
+      "loss": {
+        "loss_mean": 0.019417443138547243,
+        "n": 500,
+        "sufficient": true,
+        "total_updates": 2000
+      },
+      "checkpoint": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1/2000",
+      "backtest": "/data/szgx/gaohang/pi05_30/eval/backtest/stage3_adapt_pick_dual_bottles_r1_from_fam1/2000/backtest.json",
+      "seeds": [
+        500100,
+        500101,
+        500102,
+        500103,
+        500104
+      ],
+      "time": "2026-10-24T18:56:53+0000",
+      "early_stop": {
+        "step": 2000,
+        "success_rate": 0.2,
+        "loss": {
+          "loss_mean": 0.019417443138547243,
+          "n": 500,
+          "sufficient": true,
+          "total_updates": 2000
+        },
+        "stop": false,
+        "reasons": [
+          "step 2000 < 10000: baseline not set yet"
+        ]
+      }
+    }
+  ],
   "milestones": {},
   "milestone_steps": [],
   "save_interval": 500,
   "no_improve_count": 0,
   "best_success": null,
-  "processed_checkpoints": [],
+  "processed_checkpoints": [
+    500,
+    1000,
+    1500,
+    2000
+  ],
   "incidents": [],
   "stage": 3,
   "kind": "adapt",
@@ -44,5 +362,54 @@
     23,
     29,
     34
-  ]
+  ],
+  "train_gpus": "0,1,2,3",
+  "fsdp_devices": 4,
+  "policy_gpus": "0,2",
+  "sim_gpus": "1,3",
+  "mem_fraction": 0.72,
+  "updated": "2026-10-24T18:58:33+0000",
+  "attempts": 1,
+  "started": "2026-10-24T17:44:44+00:00",
+  "current_step": 2000,
+  "loss_windows": [
+    {
+      "step": 500,
+      "loss": 0.28869475876912476
+    },
+    {
+      "step": 1000,
+      "loss": 0.03447928484529257
+    },
+    {
+      "step": 1500,
+      "loss": 0.027143997186794878
+    },
+    {
+      "step": 2000,
+      "loss": 0.019417443138547243
+    }
+  ],
+  "final_checkpoints": {
+    "2000": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1_final_step2000",
+      "bytes": 12440858748,
+      "files": 43,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 43
+    }
+  },
+  "final_checkpoint": {
+    "step": 2000,
+    "params_only": {
+      "path": "/data/szgx/gaohang/pi05_30/runs/stage3/pi05_aloha_robotwin_30/aloha_r1_adapt_pick_dual_bottles_from_fam1_final_step2000",
+      "bytes": 12440858748,
+      "files": 43,
+      "restored_leaves": 51,
+      "verified": true,
+      "source_files": 43
+    }
+  },
+  "finished": "2026-10-24T18:58:32+00:00"
 }

@@ -1,0 +1,42 @@
+{
+  "task": "rotate_qrcode",
+  "task_config": "demo_clean",
+  "requested_episodes": 3,
+  "seed_schedule": [
+    500100,
+    500102,
+    500104
+  ],
+  "attempted_seeds": [
+    500100,
+    500102,
+    500104
+  ],
+  "successes": 0,
+  "episodes": [
+    {
+      "episode": 1,
+      "seed": 500100,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Catch the paymentsign with angled stand from the table and make it face you."
+    },
+    {
+      "episode": 2,
+      "seed": 500102,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Catch the paymentsign with black metal stand on the table and pick it up."
+    },
+    {
+      "episode": 3,
+      "seed": 500104,
+      "valid": true,
+      "success": false,
+      "steps": 400,
+      "instruction": "Pick up the paymentsign with smooth base stand and rotate it facing you."
+    }
+  ]
+}

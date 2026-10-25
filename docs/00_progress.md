@@ -1,11 +1,11 @@
-更新时间（带时区）: 2026-10-23T10:57:17+0000
+更新时间（带时区）: 2026-10-25T01:26:32+0000
 
 # pi0.5 / RoboTwin ALOHA 训练总览（服务器 A）
 
 - 机体: aloha-agilex（ALOHA 双臂；训练、仿真评估、归一化一致）
 - 训练卡 0,1,2,3,4,5,6,7（8 卡 FSDP），仿真卡 1，策略服务卡 ['0', '2', '4', '6']
 - 作业总数: 54
-- 状态分布: completed=2, deferred=48, pending=2, stopped=2
+- 状态分布: completed=32, deferred=20, stopped=2
 
 - 本轮范围: 阶段0/1/2/2b/3，源模型 3 个（族群 1、2、3），目标适应 30 个（10 目标 × 3 起点），本轮不执行最终评估与 0 步裸测
 - 冻结参数: 源训练 学习率 1.25e-05，chunk_size(action_horizon) 10；目标适应 未冻结
@@ -44,36 +44,36 @@
 | stage2b_lr2x_h10 | deferred | 0 | - | - | - | - |
 | stage2b_lr2x_h15 | deferred | 0 | - | - | - | - |
 | stage2b_lr2x_h5 | deferred | 0 | - | - | - | - |
-| stage3_adapt_beat_block_hammer_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_beat_block_hammer_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_beat_block_hammer_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_blocks_ranking_rgb_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_blocks_ranking_rgb_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_blocks_ranking_rgb_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_click_bell_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_click_bell_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_click_bell_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_hanging_mug_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_hanging_mug_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_hanging_mug_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_pick_dual_bottles_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_pick_dual_bottles_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_pick_dual_bottles_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_place_can_basket_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_place_can_basket_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_place_can_basket_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_place_mouse_pad_r1_from_fam1 | pending | 4000 | 0.0 | 0.006744863002095372 | 2026-10-23T10:30:54+00:00 | - |
-| stage3_adapt_place_mouse_pad_r1_from_fam2 | pending | 6000 | 0.0 | 0.005063593065366149 | 2026-10-23T10:31:24+00:00 | - |
-| stage3_adapt_place_mouse_pad_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_rotate_qrcode_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_rotate_qrcode_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_rotate_qrcode_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_scan_object_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_scan_object_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_scan_object_r1_from_fam3 | deferred | 0 | - | - | - | - |
-| stage3_adapt_stack_blocks_two_r1_from_fam1 | deferred | 0 | - | - | - | - |
-| stage3_adapt_stack_blocks_two_r1_from_fam2 | deferred | 0 | - | - | - | - |
-| stage3_adapt_stack_blocks_two_r1_from_fam3 | deferred | 0 | - | - | - | - |
+| stage3_adapt_beat_block_hammer_r1_from_fam1 | completed | 2000 | 0.4 | 0.009235127956140786 | 2026-10-24T23:08:03+00:00 | 2026-10-25T00:05:47+00:00 |
+| stage3_adapt_beat_block_hammer_r1_from_fam2 | completed | 2000 | 0.4 | 0.008414353688247502 | 2026-10-25T00:07:12+00:00 | 2026-10-25T01:11:32+00:00 |
+| stage3_adapt_beat_block_hammer_r1_from_fam3 | completed | 2000 | 0.6 | 0.00842808397905901 | 2026-10-25T00:07:43+00:00 | 2026-10-25T01:23:08+00:00 |
+| stage3_adapt_blocks_ranking_rgb_r1_from_fam1 | completed | 2000 | 0.0 | 0.022580788500607015 | 2026-10-24T14:30:32+00:00 | 2026-10-24T16:06:33+00:00 |
+| stage3_adapt_blocks_ranking_rgb_r1_from_fam2 | completed | 2000 | 0.0 | 0.018091016869992017 | 2026-10-24T16:07:05+00:00 | 2026-10-24T17:41:34+00:00 |
+| stage3_adapt_blocks_ranking_rgb_r1_from_fam3 | completed | 2000 | 0.0 | 0.015441426320932806 | 2026-10-24T16:07:35+00:00 | 2026-10-24T17:44:13+00:00 |
+| stage3_adapt_click_bell_r1_from_fam1 | completed | 2000 | 0.4 | 0.005985452296677977 | 2026-10-24T22:08:01+00:00 | 2026-10-24T23:05:50+00:00 |
+| stage3_adapt_click_bell_r1_from_fam2 | completed | 2000 | 1.0 | 0.005330442176666111 | 2026-10-24T22:08:32+00:00 | 2026-10-24T23:07:01+00:00 |
+| stage3_adapt_click_bell_r1_from_fam3 | completed | 2000 | 0.8 | 0.005123536184662953 | 2026-10-24T23:07:32+00:00 | 2026-10-25T00:06:41+00:00 |
+| stage3_adapt_hanging_mug_r1_from_fam1 | completed | 2000 | 0.0 | 0.03234991986118257 | 2026-10-24T10:03:23+00:00 | 2026-10-24T11:34:07+00:00 |
+| stage3_adapt_hanging_mug_r1_from_fam2 | completed | 2000 | 0.0 | 0.02520696119219065 | 2026-10-24T11:34:38+00:00 | 2026-10-24T13:05:45+00:00 |
+| stage3_adapt_hanging_mug_r1_from_fam3 | completed | 2000 | 0.2 | 0.027325438669882716 | 2026-10-24T11:35:09+00:00 | 2026-10-24T13:05:02+00:00 |
+| stage3_adapt_pick_dual_bottles_r1_from_fam1 | completed | 2000 | 0.2 | 0.019417443138547243 | 2026-10-24T17:44:44+00:00 | 2026-10-24T18:58:32+00:00 |
+| stage3_adapt_pick_dual_bottles_r1_from_fam2 | completed | 2000 | 0.0 | 0.01586780836060643 | 2026-10-24T17:45:15+00:00 | 2026-10-24T18:59:29+00:00 |
+| stage3_adapt_pick_dual_bottles_r1_from_fam3 | completed | 2000 | 0.0 | 0.018683595077134667 | 2026-10-24T18:59:59+00:00 | 2026-10-24T20:17:23+00:00 |
+| stage3_adapt_place_can_basket_r1_from_fam1 | completed | 2000 | 0.4 | 0.022878102600574494 | 2026-10-24T08:37:09+00:00 | 2026-10-24T09:53:46+00:00 |
+| stage3_adapt_place_can_basket_r1_from_fam2 | completed | 2000 | 0.2 | 0.015655783304944635 | 2026-10-24T08:37:40+00:00 | 2026-10-24T10:02:22+00:00 |
+| stage3_adapt_place_can_basket_r1_from_fam3 | completed | 2000 | 0.8 | 0.018755971987731754 | 2026-10-24T10:02:52+00:00 | 2026-10-24T11:33:18+00:00 |
+| stage3_adapt_place_mouse_pad_r1_from_fam1 | completed | 2000 | 0.2 | 0.011346869803965091 | 2026-10-24T05:11:52+00:00 | 2026-10-24T06:16:21+00:00 |
+| stage3_adapt_place_mouse_pad_r1_from_fam2 | completed | 2000 | 0.0 | 0.010282026106026024 | 2026-10-24T05:12:22+00:00 | 2026-10-24T06:23:19+00:00 |
+| stage3_adapt_place_mouse_pad_r1_from_fam3 | completed | 2000 | 0.0 | 0.010346955521497876 | 2026-10-24T06:23:51+00:00 | 2026-10-24T07:29:15+00:00 |
+| stage3_adapt_rotate_qrcode_r1_from_fam1 | completed | 2000 | 0.6 | 0.015308767864480615 | 2026-10-24T06:24:21+00:00 | 2026-10-24T07:26:49+00:00 |
+| stage3_adapt_rotate_qrcode_r1_from_fam2 | completed | 2000 | 0.2 | 0.012871586731635035 | 2026-10-24T07:29:46+00:00 | 2026-10-24T08:36:38+00:00 |
+| stage3_adapt_rotate_qrcode_r1_from_fam3 | completed | 2000 | 0.4 | 0.013392703893594444 | 2026-10-24T07:30:17+00:00 | 2026-10-24T08:31:02+00:00 |
+| stage3_adapt_scan_object_r1_from_fam1 | completed | 2000 | 0.0 | 0.038049945606850086 | 2026-10-24T19:00:30+00:00 | 2026-10-24T20:33:02+00:00 |
+| stage3_adapt_scan_object_r1_from_fam2 | completed | 2000 | 0.0 | 0.027192694705910982 | 2026-10-24T20:33:33+00:00 | 2026-10-24T22:07:12+00:00 |
+| stage3_adapt_scan_object_r1_from_fam3 | completed | 2000 | 0.0 | 0.032976289808750156 | 2026-10-24T20:34:04+00:00 | 2026-10-24T22:07:30+00:00 |
+| stage3_adapt_stack_blocks_two_r1_from_fam1 | completed | 2000 | 0.2 | 0.01840924019459635 | 2026-10-24T13:06:16+00:00 | 2026-10-24T14:19:27+00:00 |
+| stage3_adapt_stack_blocks_two_r1_from_fam2 | completed | 2000 | 0.0 | 0.014890197185799479 | 2026-10-24T13:06:47+00:00 | 2026-10-24T14:29:31+00:00 |
+| stage3_adapt_stack_blocks_two_r1_from_fam3 | completed | 2000 | 0.0 | 0.011996836350765079 | 2026-10-24T14:30:02+00:00 | 2026-10-24T15:47:25+00:00 |
 | stage3_source_fam1_r1 | stopped | 15000 | 0.8 | 0.013236459823325277 | 2026-10-22T06:36:43+00:00 | - |
 | stage3_source_fam2_r1 | completed | 15000 | 0.8 | 0.017694183138199152 | 2026-10-22T12:04:25+00:00 | 2026-10-22T23:07:06+00:00 |
 | stage3_source_fam3_r1 | completed | 15000 | 0.55 | 0.015705752642825244 | 2026-10-22T12:04:56+00:00 | 2026-10-22T20:24:22+00:00 |
@@ -82,9 +82,9 @@
 ## 总汇总
 
 - 源模型: 4 个（完成 2）
-- 微调模型（目标适应）: 30 个（完成 0，延后 28）
-- 延后作业（预实验与微调）: 48
-- 终态作业合计: 2 / 54
+- 微调模型（目标适应）: 30 个（完成 30，延后 0）
+- 延后作业（预实验与微调）: 20
+- 终态作业合计: 32 / 54
 - 微调模型清单: `docs/models_manifest.md`（模型ID／起点模型／目标任务／实际步数／早停／检查点路径／最近回测成功率）
-- 磁盘：卷剩余 2391 GiB
+- 磁盘：卷剩余 985 GiB
 
